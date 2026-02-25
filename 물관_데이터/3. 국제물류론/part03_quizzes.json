@@ -1,0 +1,362 @@
+{
+  "chapter": "PART 03 국제항공운송",
+  "subject": "국제물류론",
+  "quizzes": [
+    {
+      "id": "q3-03-01",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "AWB의 법적 성격",
+      "question": "항공화물운송장(AWB)은 선하증권(B/L)과 마찬가지로 유가증권이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "AWB는 유가증권이 아닌 비유통증권(Non-negotiable)이다. B/L은 유가증권으로 배서·양도가 가능하지만, AWB는 양도·배서에 의한 소유권 이전이 불가능하다. 이것이 AWB와 B/L의 가장 핵심적인 차이점이다.",
+      "relatedConcept": "AWB vs B/L 비교",
+      "examTip": "거의 매년 출제되는 최빈출 포인트. 'AWB는 유가증권이다'는 무조건 틀린 보기!"
+    },
+    {
+      "id": "q3-03-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "AWB의 특성",
+      "question": "항공화물운송장(AWB)에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. AWB는 운송계약의 증거서류이다",
+        "B. AWB는 화물수취증의 기능을 한다",
+        "C. AWB는 배서에 의하여 양도가 가능한 유통증권이다",
+        "D. AWB 원본은 3통으로 발행된다",
+        "E. MAWB는 항공사가, HAWB는 혼재업자가 발행한다"
+      ],
+      "answer": "C",
+      "explanation": "AWB는 비유통증권(Non-negotiable)으로 배서에 의한 양도가 불가능하다. A(운송계약 증거), B(화물수취증), D(원본 3통), E(MAWB-항공사, HAWB-혼재업자) 모두 옳은 설명이다.",
+      "relatedConcept": "AWB의 기능과 특성",
+      "examTip": "AWB의 유가증권 여부는 반복 출제. '유통가능', '배서양도', '유가증권'이 AWB와 연결되면 틀린 보기"
+    },
+    {
+      "id": "q3-03-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TACT 운임 계산",
+      "question": "화물의 크기가 100cm × 80cm × 50cm이고 실제중량이 45kg일 때, 항공운임 산정을 위한 적용중량(Chargeable Weight)은?",
+      "options": [
+        "A. 45kg",
+        "B. 50kg",
+        "C. 66.7kg",
+        "D. 80kg",
+        "E. 400kg"
+      ],
+      "answer": "C",
+      "explanation": "용적중량 = 100×80×50 ÷ 6,000 = 400,000 ÷ 6,000 = 66.67kg ≒ 66.7kg. 실제중량 45kg < 용적중량 66.7kg이므로, 큰 값인 66.7kg이 적용중량(Chargeable Weight)이 된다.",
+      "relatedConcept": "Chargeable Weight 계산",
+      "examTip": "용적중량 공식 ÷6,000 필수 암기. 실제중량과 용적중량 중 큰 것 적용 원칙!"
+    },
+    {
+      "id": "q3-03-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "As If 원칙",
+      "question": "항공화물 40kg을 운송할 때 요율이 다음과 같다면, As If 원칙을 적용한 최종 운임은?\n\n- N요율(45kg 미만): $6/kg\n- 45kg 이상: $5/kg\n- 100kg 이상: $4/kg",
+      "options": [
+        "A. $160",
+        "B. $200",
+        "C. $225",
+        "D. $240",
+        "E. $400"
+      ],
+      "answer": "C",
+      "explanation": "방법1: 40kg × $6 = $240(N요율 적용)\n방법2: 45kg × $5 = $225(45kg 구간으로 As If 적용)\n방법3: 100kg × $4 = $400(100kg 구간은 오히려 비쌈)\n가장 저렴한 $225(45kg 간주중량) 적용. As If 원칙은 상위 중량구간 '최소중량'을 적용하는 것이 핵심.",
+      "relatedConcept": "As If 원칙(간주중량)",
+      "examTip": "모든 상위 구간을 다 비교해야 함. 100kg 구간이 더 비싸지는 경우도 있으므로 무조건 높은 구간이 유리한 것은 아님!"
+    },
+    {
+      "id": "q3-03-05",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "ICAO와 IATA",
+      "question": "국제항공화물 운임표인 TACT(The Air Cargo Tariff)를 발행하는 기관은?",
+      "options": [
+        "A. ICAO",
+        "B. IATA",
+        "C. IMO",
+        "D. WCO",
+        "E. UNCTAD"
+      ],
+      "answer": "B",
+      "explanation": "TACT는 IATA(국제항공운송협회)가 발행하는 국제항공화물 운임표이다. ICAO는 정부간 기구로 표준·규칙을 제정하고, IATA는 항공사 간 민간기구로 운임 조정·TACT 발행 등 상업적 기능을 담당한다.",
+      "relatedConcept": "ICAO vs IATA",
+      "examTip": "TACT=IATA, 보안표준(Annex)=ICAO. 기능별로 구분 암기!"
+    },
+    {
+      "id": "q3-03-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공동맹",
+      "question": "대한항공이 소속된 항공동맹(Airline Alliance)은?",
+      "options": [
+        "A. Star Alliance",
+        "B. SkyTeam",
+        "C. Oneworld",
+        "D. Wings Alliance",
+        "E. Value Alliance"
+      ],
+      "answer": "B",
+      "explanation": "대한항공은 SkyTeam의 창립 멤버이다. 아시아나항공은 Star Alliance 소속이다. Oneworld에는 한국 항공사가 가입되어 있지 않다(주요 회원: 아메리칸항공, 영국항공, 캐세이퍼시픽, JAL 등).",
+      "relatedConcept": "3대 항공동맹",
+      "examTip": "'대한항공=SkyTeam, 아시아나=Star Alliance' 필수 암기. 바꿔서 출제하는 함정 주의!"
+    },
+    {
+      "id": "q3-03-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "하늘의 자유",
+      "question": "하늘의 자유(Freedoms of the Air) 중 A국 항공사가 B국을 경유하여 C국까지 여객·화물을 운송할 수 있는 권리는?",
+      "options": [
+        "A. 제1자유(영공통과권)",
+        "B. 제2자유(기술착륙권)",
+        "C. 제3자유(운수권-양하)",
+        "D. 제5자유(이원권)",
+        "E. 제7자유(독립운수권)"
+      ],
+      "answer": "D",
+      "explanation": "제5자유(이원권, Fifth Freedom)는 자국 항공사가 상대국(B국)을 경유하여 제3국(C국)까지 여객·화물을 운송하는 권리이다. 제1자유=영공통과, 제2자유=기술착륙, 제3자유=자국→상대국 운송, 제7자유=타국 간 자국 무관 운항.",
+      "relatedConcept": "하늘의 자유(Freedoms of the Air)",
+      "examTip": "제5자유(이원권)가 가장 빈출. '경유하여 제3국까지' = 제5자유로 바로 연결!"
+    },
+    {
+      "id": "q3-03-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "몬트리올협약",
+      "question": "몬트리올협약(1999)상 항공화물 멸실·손상 시 운송인의 배상한도는?",
+      "options": [
+        "A. 1kg당 2SDR",
+        "B. 1kg당 17SDR",
+        "C. 1kg당 22SDR",
+        "D. 포장당 666.67SDR",
+        "E. 1kg당 8.33SDR"
+      ],
+      "answer": "C",
+      "explanation": "몬트리올협약상 항공화물의 배상한도는 1kg당 22SDR이다. A(2SDR/kg)는 헤이그-비스비규칙의 중량기준, D(666.67SDR/포장)는 헤이그-비스비규칙의 포장기준, E(8.33SDR/kg)는 함부르크규칙이다.",
+      "relatedConcept": "몬트리올협약 배상한도",
+      "examTip": "각 협약별 배상한도 숫자 혼동 주의! 항공=22SDR/kg(몬트리올), 해상=666.67SDR/포장 or 2SDR/kg(헤이그비스비)"
+    },
+    {
+      "id": "q3-03-09",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "몬트리올협약",
+      "question": "몬트리올협약은 바르샤바협약을 현대화·통합한 것으로, 전자항공운송장(e-AWB)을 최초로 공식 인정하였다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "몬트리올협약(1999)은 바르샤바체제(바르샤바협약 및 다수 의정서)를 현대화·통합한 협약으로, 전자항공운송장(e-AWB)의 법적 효력을 최초로 인정하였다. 이는 IATA의 e-freight 프로젝트 추진의 법적 기반이 되었다.",
+      "relatedConcept": "몬트리올협약 특징",
+      "examTip": "몬트리올협약 = 바르샤바 현대화 + e-AWB 인정. 두 키워드 연결!"
+    },
+    {
+      "id": "q3-03-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공운임 종류",
+      "question": "IATA 항공운임 체계에서 특정 품목에 대해 일반화물요율(GCR)보다 할인된 요율을 적용하는 것은?",
+      "options": [
+        "A. BUC(Bulk Unitization Charge)",
+        "B. SCR(Specific Commodity Rate)",
+        "C. CCR(Commodity Classification Rate)",
+        "D. Minimum Charge",
+        "E. SOR(Special Open Rate)"
+      ],
+      "answer": "B",
+      "explanation": "SCR(특정품목요율)은 특정 품목에 대해 GCR보다 할인된 요율을 적용하는 것이다. 해당 품목이 SCR 적용 대상이면 GCR보다 우선 적용된다. CCR은 품목분류에 따른 가산/할인, BUC은 ULD 단위 대량 할인이다.",
+      "relatedConcept": "TACT 운임체계",
+      "examTip": "운임 우선순위: SCR(특정품목) > CCR(품목분류) > GCR(일반). SCR이 있으면 GCR 적용 안 됨!"
+    },
+    {
+      "id": "q3-03-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공보안",
+      "question": "ICAO 부속서(Annex) 중 국제민간항공 보안(Security)에 관한 표준을 규정하고 있는 것은?",
+      "options": [
+        "A. Annex 9",
+        "B. Annex 14",
+        "C. Annex 17",
+        "D. Annex 18",
+        "E. Annex 19"
+      ],
+      "answer": "C",
+      "explanation": "Annex 17은 국제민간항공 보안(Security)에 관한 표준을 규정한다. Annex 9=출입국간소화, Annex 14=비행장, Annex 18=위험물항공운송, Annex 19=안전관리(Safety Management)이다.",
+      "relatedConcept": "ICAO Annex 17",
+      "examTip": "Annex 17=보안(Security), Annex 19=안전(Safety). Security와 Safety 구분이 핵심!"
+    },
+    {
+      "id": "q3-03-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공화물 보안제도",
+      "question": "항공화물 보안 체계에서 항공사에 신원이 확인되어 보안검색이 간소화되는 화주를 무엇이라 하는가?",
+      "options": [
+        "A. Regulated Agent",
+        "B. Known Shipper",
+        "C. Known Consignor",
+        "D. ACC3 Carrier",
+        "E. AEO Operator"
+      ],
+      "answer": "B",
+      "explanation": "Known Shipper(공지화주)는 항공사 또는 관련 당국에 신원이 확인된 화주로, 일반 화주보다 보안검색이 간소화된다. Regulated Agent는 보안검색 능력이 인가된 포워더/대리점이며, Known Consignor는 EU의 인가화주 제도이다.",
+      "relatedConcept": "항공화물 보안제도",
+      "examTip": "Known Shipper=화주 측, Regulated Agent=포워더 측. 역할 주체가 다름!"
+    },
+    {
+      "id": "q3-03-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "AWB 세부사항",
+      "question": "항공화물운송장(AWB) 원본 3통의 색상과 용도가 올바르게 연결된 것은?",
+      "options": [
+        "A. 1번-분홍색(항공사용), 2번-녹색(수하인용), 3번-청색(송하인용)",
+        "B. 1번-녹색(항공사용), 2번-분홍색(수하인용), 3번-청색(송하인용)",
+        "C. 1번-청색(송하인용), 2번-분홍색(수하인용), 3번-녹색(항공사용)",
+        "D. 1번-녹색(송하인용), 2번-청색(항공사용), 3번-분홍색(수하인용)",
+        "E. 1번-분홍색(수하인용), 2번-녹색(항공사용), 3번-청색(송하인용)"
+      ],
+      "answer": "B",
+      "explanation": "AWB 원본 3통: 1번-녹색(항공사용/운송인 보관), 2번-분홍색(수하인용/화물과 함께 이동), 3번-청색(송하인용/화물수취증으로 송하인 보관). '녹분청(녹색-분홍-청색)'으로 암기.",
+      "relatedConcept": "AWB 발행",
+      "examTip": "색상과 용도 매칭이 출제 포인트. '녹분청' + '항수송' 순서 암기!"
+    },
+    {
+      "id": "q3-03-14",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "오픈스카이",
+      "question": "시카고협약(1944)은 국제항공운송의 완전한 자유화(오픈스카이)를 규정하고 있다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "시카고협약은 양자주의(국가 간 1:1 항공협정)를 기본으로 하며, 영공주권을 인정하고 있다. 오픈스카이(항공자유화)는 시카고 체제의 규제를 완화하여 노선·운항횟수·운임 등을 자유화하는 별도의 양자 또는 다자간 협정이다. 시카고협약 자체가 오픈스카이를 규정하는 것은 아니다.",
+      "relatedConcept": "시카고협약과 오픈스카이",
+      "examTip": "시카고협약=양자주의·영공주권, 오픈스카이=자유화. 둘은 다른 개념!"
+    },
+    {
+      "id": "q3-03-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "몬트리올협약 책임체계",
+      "question": "몬트리올협약의 여객 사망·상해에 대한 운송인 책임체계로 옳은 것은?",
+      "options": [
+        "A. 전액 무과실책임",
+        "B. 전액 과실추정책임",
+        "C. 113,100SDR까지 무과실책임, 초과분 과실추정책임(이중책임체계)",
+        "D. 250,000SDR까지 무과실책임, 초과분 무책임",
+        "E. 과실책임(피해자가 과실 입증)"
+      ],
+      "answer": "C",
+      "explanation": "몬트리올협약은 여객 사망·상해에 대해 이중책임체계(2-tier system)를 채택한다. 1단계: 113,100SDR까지 무과실책임(운송인이 과실 유무와 관계없이 배상). 2단계: 113,100SDR 초과분은 과실추정책임(운송인이 무과실을 입증하면 면책).",
+      "relatedConcept": "몬트리올협약 이중책임체계",
+      "examTip": "화물=과실추정책임(22SDR/kg), 여객=이중책임(113,100SDR 기준). 화물과 여객의 책임체계가 다름!"
+    },
+    {
+      "id": "q3-03-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "용적중량 계산",
+      "question": "3개의 항공화물 상자(각각 60cm×40cm×30cm, 개당 실제중량 8kg)를 운송할 때, 전체 적용중량(Chargeable Weight)은?",
+      "options": [
+        "A. 24kg",
+        "B. 12kg",
+        "C. 36kg",
+        "D. 30kg",
+        "E. 48kg"
+      ],
+      "answer": "C",
+      "explanation": "개당 용적중량 = 60×40×30 ÷ 6,000 = 72,000 ÷ 6,000 = 12kg. 3개 용적중량 합계 = 12×3 = 36kg. 실제중량 합계 = 8×3 = 24kg. 용적중량(36kg) > 실제중량(24kg)이므로 적용중량 = 36kg.",
+      "relatedConcept": "Chargeable Weight 계산",
+      "examTip": "복수 상자는 각각 용적중량을 계산한 후 합산. 전체 합산 후 실제중량과 비교!"
+    },
+    {
+      "id": "q3-03-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공동맹",
+      "question": "다음 중 SkyTeam 항공동맹의 회원 항공사가 아닌 것은?",
+      "options": [
+        "A. 대한항공",
+        "B. 델타항공",
+        "C. 에어프랑스",
+        "D. 루프트한자",
+        "E. 중국남방항공"
+      ],
+      "answer": "D",
+      "explanation": "루프트한자는 Star Alliance의 창립 멤버이다. 대한항공, 델타항공, 에어프랑스-KLM, 중국남방항공은 모두 SkyTeam 소속이다. Star Alliance에는 루프트한자, 아시아나항공, 유나이티드, ANA, 싱가포르항공 등이 소속되어 있다.",
+      "relatedConcept": "3대 항공동맹 구성",
+      "examTip": "루프트한자=Star Alliance, 대한항공=SkyTeam. 주요 항공사별 소속 동맹 암기 필수!"
+    },
+    {
+      "id": "q3-03-18",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "AWB 처분권",
+      "question": "항공화물운송에서 송하인은 수하인에게 화물이 인도되기 전까지 화물에 대한 처분권을 갖는다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "항공운송에서 송하인은 수하인에게 화물이 인도되기 전까지 화물 처분권(Right of Disposition)을 보유한다. 처분권에는 화물 반환, 목적지 변경, 수하인 변경 등이 포함된다. 이는 B/L의 경우 소지인이 권리를 보유하는 것과 대비된다.",
+      "relatedConcept": "AWB와 송하인 처분권",
+      "examTip": "AWB=송하인이 처분권, B/L=소지인이 권리. 처분권 주체가 다른 것이 함정 포인트!"
+    },
+    {
+      "id": "q3-03-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "종합 - 항공운송 협약 비교",
+      "question": "국제항공운송 관련 협약에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 바르샤바협약(1929)은 최초의 국제항공운송 책임협약이다",
+        "B. 몬트리올협약(1999)은 바르샤바체제를 통합·현대화하였다",
+        "C. 몬트리올협약의 화물배상한도는 1kg당 22SDR이다",
+        "D. 시카고협약(1944)은 IATA의 설립 근거가 되었다",
+        "E. 몬트리올협약은 전자항공운송장(e-AWB)을 인정하였다"
+      ],
+      "answer": "D",
+      "explanation": "시카고협약(1944)은 ICAO(국제민간항공기구)의 설립 근거이다. IATA는 1945년 하바나에서 항공사들의 자율적 협력기구로 설립된 것이며, 시카고협약과 직접적인 관련이 없다. A, B, C, E는 모두 옳은 설명이다.",
+      "relatedConcept": "국제항공운송 협약 체계",
+      "examTip": "시카고협약=ICAO, IATA는 별도 설립. ICAO와 IATA를 바꿔서 출제하는 최빈출 함정!"
+    },
+    {
+      "id": "q3-03-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "항공운임 계산 종합",
+      "question": "화물 크기 150cm×100cm×80cm, 실제중량 180kg일 때, 다음 요율표를 적용한 최종 운임은?\n\n- N요율(~99kg): $8/kg\n- 100kg 이상: $7/kg\n- 300kg 이상: $5.5/kg",
+      "options": [
+        "A. $1,200",
+        "B. $1,400",
+        "C. $1,440",
+        "D. $1,600",
+        "E. $1,650"
+      ],
+      "answer": "B",
+      "explanation": "1단계: 용적중량 = 150×100×80 ÷ 6,000 = 1,200,000 ÷ 6,000 = 200kg. 실제중량 180kg < 용적중량 200kg → 적용중량 = 200kg.\n2단계 As If 비교: 방법1: 200kg × $7 = $1,400(100kg구간), 방법2: 300kg × $5.5 = $1,650(300kg구간). 방법1이 저렴하므로 최종 운임 = $1,400.",
+      "relatedConcept": "Chargeable Weight + As If 원칙 종합",
+      "examTip": "용적중량 산출 → 적용중량 결정 → As If 비교 → 최저운임 선택. 이 4단계를 순서대로!"
+    }
+  ]
+}

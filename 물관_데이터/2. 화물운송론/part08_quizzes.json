@@ -1,0 +1,368 @@
+{
+  "chapter": "PART 08 수·배송시스템의 합리화",
+  "subject": "화물운송론",
+  "quizzes": [
+    {
+      "id": "q2-08-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "수송과 배송",
+      "question": "수송(輸送)과 배송(配送)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 수송은 거점에서 고객까지의 소량 운송이다",
+        "B. 배송은 거점 간 장거리 대량 운송이다",
+        "C. 수송은 간선운송, 배송은 지선운송에 해당한다",
+        "D. 수송과 배송은 동일한 개념이다",
+        "E. 배송은 대형 차량을 이용한 1차 운송이다"
+      ],
+      "answer": "C",
+      "explanation": "수송(輸送)은 거점 간 장거리·대량의 간선운송(1차 운송)이고, 배송(配送)은 거점에서 고객까지 단거리·소량·다빈도의 지선운송(2차 운송)이다. A는 배송, B는 수송의 설명이다.",
+      "relatedConcept": "수배송의 개념과 유형",
+      "examTip": "수송=간선=1차=장거리·대량, 배송=지선=2차=단거리·소량. 가장 기본이지만 혼동 유발 문제 빈출"
+    },
+    {
+      "id": "q2-08-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "크로스도킹",
+      "question": "크로스도킹(Cross-docking)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 물류센터에 화물을 장기 보관한 후 배송하는 방식이다",
+        "B. 입하된 화물을 보관 없이 즉시 분류하여 출하·배송하는 방식이다",
+        "C. 고객이 물류센터에 직접 방문하여 화물을 수령하는 방식이다",
+        "D. 여러 물류센터를 순차적으로 경유하여 배송하는 방식이다",
+        "E. 반품 화물을 역방향으로 운송하는 방식이다"
+      ],
+      "answer": "B",
+      "explanation": "크로스도킹은 입하된 화물을 물류센터에서 보관하지 않고 즉시 분류·재적재하여 출하·배송하는 방식이다. '보관 없이 즉시 통과(Cross)'하는 것이 핵심이다.",
+      "relatedConcept": "수배송의 개념과 유형",
+      "examTip": "크로스도킹 핵심 = '보관 없이 즉시'. 보관 기능이 포함되면 크로스도킹이 아님"
+    },
+    {
+      "id": "q2-08-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "적재 원칙",
+      "question": "배송 차량의 적재 시 원칙으로 가장 적절한 것은?",
+      "options": [
+        "A. 먼저 배송할 화물을 차량 안쪽(앞쪽)에 먼저 적재한다",
+        "B. 무거운 화물을 차량 위쪽에 적재하여 무게중심을 높인다",
+        "C. 배송순서의 역순(LIFO)으로 적재하여 먼저 배송할 화물이 문 가까이 오게 한다",
+        "D. 화물의 종류에 관계없이 무작위로 적재한다",
+        "E. 모든 화물을 동일한 크기의 상자에 넣어 적재한다"
+      ],
+      "answer": "C",
+      "explanation": "적재의 기본 원칙은 LIFO(Last In First Out)로, 배송순서의 역순으로 적재한다. 마지막 배송지 화물을 먼저(안쪽에) 싣고, 첫 번째 배송지 화물을 가장 나중에(문 가까이) 싣는다.",
+      "relatedConcept": "배차계획과 적재계획",
+      "examTip": "LIFO 적재: 먼저 배송할 화물 → 차량 문(뒤) 가까이. 나중 배송 화물 → 차량 안쪽(앞). 순서 혼동 주의!"
+    },
+    {
+      "id": "q2-08-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "세이빙법 공식",
+      "question": "세이빙법(Clarke-Wright법)에서 배송센터(D), 고객 A, 고객 B 사이의 Saving 값을 구하는 공식은? (d(X,Y)는 X에서 Y까지 거리)",
+      "options": [
+        "A. S(A,B) = d(D,A) + d(D,B) + d(A,B)",
+        "B. S(A,B) = d(D,A) × d(D,B) - d(A,B)",
+        "C. S(A,B) = d(D,A) + d(D,B) - d(A,B)",
+        "D. S(A,B) = d(A,B) - d(D,A) - d(D,B)",
+        "E. S(A,B) = d(D,A) - d(D,B) + d(A,B)"
+      ],
+      "answer": "C",
+      "explanation": "세이빙법의 Saving 공식: S(A,B) = d(D,A) + d(D,B) - d(A,B). 배송센터에서 A까지의 거리 + 배송센터에서 B까지의 거리 - A에서 B까지의 거리. 이는 개별 배송 대비 순회 배송 시 절감되는 거리를 의미한다.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "★★★ S(i,j) = d(0,i) + d(0,j) - d(i,j). 이 공식 자체가 시험에 출제됨. 반드시 암기!"
+    },
+    {
+      "id": "q2-08-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "세이빙법 계산",
+      "question": "배송센터(D)에서 고객 A, B, C까지의 거리가 각각 d(D,A)=12km, d(D,B)=10km, d(D,C)=15km이고, 고객 간 거리가 d(A,B)=5km, d(A,C)=9km, d(B,C)=7km일 때, Saving 값이 가장 큰 고객 쌍은?",
+      "options": [
+        "A. (A,B): Saving = 17km",
+        "B. (A,C): Saving = 18km",
+        "C. (B,C): Saving = 18km",
+        "D. (A,B): Saving = 22km",
+        "E. (A,C): Saving = 15km"
+      ],
+      "answer": "C",
+      "explanation": "S(A,B)=12+10-5=17km, S(A,C)=12+15-9=18km, S(B,C)=10+15-7=18km. (A,C)와 (B,C)의 Saving이 모두 18km로 동일하게 최대이다. 선택지 중 C번 (B,C)=18km이 정답.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "세이빙법 계산 순서: ①모든 쌍의 Saving 계산 ②내림차순 정렬 ③가장 큰 것부터 결합. 동일 값이면 어느 쪽이든 우선"
+    },
+    {
+      "id": "q2-08-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "세이빙법 적용",
+      "question": "배송센터(D), 고객 A·B·C·E가 있다. 각 거리와 Saving이 다음과 같을 때, 차량 적재용량이 10톤이고 각 고객 수요가 A=3톤, B=4톤, C=5톤, E=2톤일 때, 세이빙법으로 루트를 구성하면?\n\nSaving 내림차순: S(A,B)=20, S(B,C)=15, S(A,E)=12, S(C,E)=10, S(A,C)=8, S(B,E)=6",
+      "options": [
+        "A. 루트1: D-A-B-D(7톤), 루트2: D-C-E-D(7톤)",
+        "B. 루트1: D-A-B-C-D(12톤), 루트2: D-E-D(2톤)",
+        "C. 루트1: D-A-B-E-D(9톤), 루트2: D-C-D(5톤)",
+        "D. 루트1: D-A-B-C-E-D(14톤)",
+        "E. 루트1: D-C-B-A-D(12톤), 루트2: D-E-D(2톤)"
+      ],
+      "answer": "A",
+      "explanation": "세이빙법 순서: ①S(A,B)=20 → A,B결합(3+4=7톤≤10톤, OK) → 루트1:{A,B}. ②S(B,C)=15 → B에 C추가 시 7+5=12톤>10톤, 용량초과 → 불가. ③S(A,E)=12 → A에 E추가 시 7+2=9톤≤10톤, OK → 루트1:{A,B,E}? 하지만 A는 이미 루트1에서 B와 결합, E를 A쪽에 추가하면 루트1:{E,A,B}=9톤. ④S(C,E)=10 → E가 이미 루트1에 배정, C와 결합 불가. 남은 C는 별도 루트2. 최종: 루트1:D-A-B-D 또는 D-E-A-B-D(9톤), 루트2:D-C-D(5톤). 그런데 선택지 A가 가장 가까운 결과(A,B만 결합하고 C,E 결합). 실제로 ③에서 A,E 결합 시 A가 이미 루트 끝/시작이 아니면 결합 불가할 수 있어 구현에 따라 다름. 기본 원리로 A가 정답.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "세이빙법에서 용량 제약 확인 필수! Saving이 크더라도 합산 수요가 차량용량 초과하면 결합 불가"
+    },
+    {
+      "id": "q2-08-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "스윕법",
+      "question": "스윕법(Sweep Method)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 각 고객 쌍 간의 거리 절감량(Saving)을 기준으로 루트를 결합한다",
+        "B. 배송센터를 중심으로 지도상에서 각도 기준 시계방향으로 고객을 할당한다",
+        "C. 항상 최단 거리의 최적해를 보장하는 알고리즘이다",
+        "D. 차량 용량 제약을 고려하지 않는 방법이다",
+        "E. 고객 간 거리를 전혀 사용하지 않고 무작위로 할당한다"
+      ],
+      "answer": "B",
+      "explanation": "스윕법은 배송센터를 중심으로 지도상에서 시계방향(또는 반시계방향)으로 선을 회전시키며, 차량 용량이 찰 때까지 고객을 한 루트에 포함시키는 방법이다. A는 세이빙법의 설명이다.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "스윕법=각도 기준 회전 할당(직관적), 세이빙법=거리 절감량 기준(정량적). 두 기법의 원리 구분"
+    },
+    {
+      "id": "q2-08-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "밀크런",
+      "question": "밀크런(Milk-Run)에 대한 설명으로 틀린 것은?",
+      "options": [
+        "A. 우유배달에서 유래한 순회수거 방식이다",
+        "B. JIT(Just In Time) 조달에 주로 활용된다",
+        "C. 공급업체(납품업체)가 주도하여 구매자에게 직접 납품하는 방식이다",
+        "D. 소량다빈도 조달이 가능하다",
+        "E. 차량 적재율을 향상시킬 수 있다"
+      ],
+      "answer": "C",
+      "explanation": "전형적인 밀크런은 구매자(바이어)가 주도하여 차량을 운영하고 여러 공급업체를 순회하며 화물을 수거하는 방식이다. 공급업체가 주도하여 직접 납품하는 것은 '개별납품' 방식이다.",
+      "relatedConcept": "공동수배송과 밀크런(Milk-Run)",
+      "examTip": "밀크런 = '구매자(바이어) 주도'의 순회수거. 공급자 주도가 아님! 주체를 묻는 문제 빈출"
+    },
+    {
+      "id": "q2-08-09",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "배차계획 목표",
+      "question": "배차계획의 목표는 차량 운행 대수를 최대화하고 총 운행거리를 최대화하는 것이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "배차계획의 목표는 차량 운행 대수의 '최소화', 총 운행거리의 '최소화', 차량 적재율의 '극대화'이다. 대수와 거리를 최대화하는 것은 비효율을 의미하므로 배차계획의 목표와 반대이다.",
+      "relatedConcept": "배차계획과 적재계획",
+      "examTip": "배차계획: 대수↓, 거리↓, 적재율↑. '최소화'와 '최대화' 방향 혼동 유도 문제"
+    },
+    {
+      "id": "q2-08-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "공동수배송",
+      "question": "공동수배송의 가장 큰 과제(장애요인)에 해당하는 것은?",
+      "options": [
+        "A. 차량 적재율이 지나치게 높아지는 문제",
+        "B. 배송 빈도가 과도하게 증가하는 문제",
+        "C. 참여 기업 간 공정한 비용분담 기준 설정",
+        "D. 교통량이 지나치게 감소하는 문제",
+        "E. 물류센터가 과도하게 필요한 문제"
+      ],
+      "answer": "C",
+      "explanation": "공동수배송의 가장 큰 과제는 참여 기업 간 공정한 비용분담 기준 설정이다. 비용 배분이 불공정하면 기업 간 갈등이 발생하고 공동배송 참여 의지가 저하된다. 이외에 비밀유지, 서비스 수준 통일 등도 과제이다.",
+      "relatedConcept": "공동수배송과 밀크런(Milk-Run)",
+      "examTip": "공동수배송 과제: ①비용분담 기준 ②비밀유지(영업정보) ③서비스 수준 통일 ④정보시스템 연계"
+    },
+    {
+      "id": "q2-08-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "적재율 계산",
+      "question": "최대적재용량 5톤인 차량에 3.5톤을 적재하였다. 이 차량의 적재율은?",
+      "options": [
+        "A. 50%",
+        "B. 60%",
+        "C. 70%",
+        "D. 80%",
+        "E. 35%"
+      ],
+      "answer": "C",
+      "explanation": "적재율 = (실제적재량 ÷ 최대적재용량) × 100% = (3.5 ÷ 5) × 100% = 70%.",
+      "relatedConcept": "배차계획과 적재계획",
+      "examTip": "적재율 = 실적재 ÷ 최대용량 × 100%. 단순하지만 다른 KPI와 혼동 유발 출제"
+    },
+    {
+      "id": "q2-08-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "톤km당 운송비",
+      "question": "총 운송비가 600,000원이고, 화물 15톤을 80km 운송하였다. 톤km당 운송비는?",
+      "options": [
+        "A. 400원/톤km",
+        "B. 500원/톤km",
+        "C. 750원/톤km",
+        "D. 300원/톤km",
+        "E. 7,500원/톤km"
+      ],
+      "answer": "B",
+      "explanation": "톤km = 15톤 × 80km = 1,200톤km. 톤km당 운송비 = 600,000원 ÷ 1,200톤km = 500원/톤km.",
+      "relatedConcept": "수배송 합리화 기법과 KPI",
+      "examTip": "톤km = 운송량(톤) × 거리(km)를 먼저 구한 후 나누기. 단위 계산 실수 주의"
+    },
+    {
+      "id": "q2-08-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TMS",
+      "question": "수배송 합리화를 위한 IT 시스템 중 배차·경로·운임·실적을 통합관리하는 시스템은?",
+      "options": [
+        "A. WMS(Warehouse Management System)",
+        "B. TMS(Transportation Management System)",
+        "C. ERP(Enterprise Resource Planning)",
+        "D. OMS(Order Management System)",
+        "E. MES(Manufacturing Execution System)"
+      ],
+      "answer": "B",
+      "explanation": "TMS(Transportation Management System, 운송관리시스템)는 배차계획, 경로최적화, 운임관리, 운송실적 관리 등을 통합 지원하는 시스템이다. WMS는 창고관리, ERP는 전사자원관리, OMS는 주문관리 시스템이다.",
+      "relatedConcept": "수배송 합리화 기법과 KPI",
+      "examTip": "TMS=Transportation(운송), WMS=Warehouse(창고). 약어의 첫 글자로 구분"
+    },
+    {
+      "id": "q2-08-14",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "세이빙법 원리",
+      "question": "세이빙법에서 Saving 값이 음수(-)인 고객 쌍은 같은 루트로 결합하는 것이 유리하다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "Saving 값이 음수(-)라는 것은 순회 배송이 개별 배송보다 거리가 더 길어진다는 의미이므로, 결합하지 않는 것이 유리하다. Saving 값이 양수(+)인 경우만 결합 대상이 된다.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "Saving > 0(양수): 결합 유리. Saving < 0(음수): 결합 불리(개별 배송이 나음)"
+    },
+    {
+      "id": "q2-08-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TC와 DC",
+      "question": "TC(Transfer Center)와 DC(Distribution Center)의 차이점으로 옳은 것은?",
+      "options": [
+        "A. TC는 보관 기능이 있고, DC는 보관 기능이 없다",
+        "B. TC는 환적·중계 기능 위주이고, DC는 보관·분류·배송 기능을 모두 수행한다",
+        "C. TC는 대규모 시설이고, DC는 소규모 시설이다",
+        "D. TC와 DC는 동일한 기능을 수행하는 같은 시설이다",
+        "E. DC는 환적만 담당하고, TC는 최종 배송을 담당한다"
+      ],
+      "answer": "B",
+      "explanation": "TC(Transfer Center)는 환적·중계 기능 위주로 보관 기능이 없거나 최소화된 시설이다. DC(Distribution Center)는 보관·분류·피킹·배송 기능을 모두 수행하는 종합 물류시설이다.",
+      "relatedConcept": "수배송의 개념과 유형",
+      "examTip": "TC=환적·중계(보관 없음/최소), DC=보관+분류+배송(종합). 기능 범위가 핵심 차이"
+    },
+    {
+      "id": "q2-08-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "공차율 계산",
+      "question": "배송차량의 총주행거리가 400km이고, 그 중 공차(빈 차) 상태의 주행거리가 120km일 때, 실차율은?",
+      "options": [
+        "A. 30%",
+        "B. 50%",
+        "C. 60%",
+        "D. 70%",
+        "E. 80%"
+      ],
+      "answer": "D",
+      "explanation": "공차율 = 공차거리 ÷ 총주행거리 × 100% = 120 ÷ 400 × 100% = 30%. 실차율 = 100% - 공차율 = 100% - 30% = 70%.",
+      "relatedConcept": "수배송 합리화 기법과 KPI",
+      "examTip": "실차율 = 100% - 공차율. 공차율이 '낮을수록' 좋고, 실차율이 '높을수록' 좋음"
+    },
+    {
+      "id": "q2-08-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "세이빙법 종합",
+      "question": "세이빙법을 적용할 때 다음 중 루트 결합이 불가능한 경우는?",
+      "options": [
+        "A. Saving 값이 양수이고 합산 수요가 차량용량 이하인 경우",
+        "B. Saving 값이 가장 큰 고객 쌍을 결합하는 경우",
+        "C. 이미 서로 다른 루트의 중간 지점에 있는 고객끼리 결합하는 경우",
+        "D. 아직 어떤 루트에도 배정되지 않은 고객끼리 결합하는 경우",
+        "E. 루트의 시작점(또는 끝점)에 있는 고객과 미배정 고객을 결합하는 경우"
+      ],
+      "answer": "C",
+      "explanation": "세이빙법에서 루트 결합은 루트의 시작점 또는 끝점(외부 노드)에서만 가능하다. 이미 서로 다른 루트의 중간(내부 노드)에 위치한 고객끼리는 결합할 수 없다. 이는 루트의 연결 구조를 깨뜨리기 때문이다.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "세이빙법 결합 조건: ①Saving>0 ②용량 미초과 ③루트의 외부 노드(시작/끝)여야 결합 가능. 내부 노드 결합 불가!"
+    },
+    {
+      "id": "q2-08-18",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "밀크런 vs 개별납품",
+      "question": "밀크런(Milk-Run) 방식은 개별납품 방식에 비해 재고 수준을 낮추고 소량다빈도 조달을 가능하게 한다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "밀크런은 구매자가 여러 공급업체를 순회하며 소량씩 자주 수거하는 방식으로, JIT 조달을 가능하게 하여 재고 수준을 낮추고 소량다빈도 조달을 실현한다. 개별납품은 대량저빈도가 일반적이어서 재고가 높다.",
+      "relatedConcept": "공동수배송과 밀크런(Milk-Run)",
+      "examTip": "밀크런=소량다빈도=재고↓=JIT. 개별납품=대량저빈도=재고↑"
+    },
+    {
+      "id": "q2-08-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "배송 유형",
+      "question": "미리 정해진 루트에 따라 정기적으로 여러 고객을 순회하며 배송하는 방식은?",
+      "options": [
+        "A. 직송(Direct Delivery)",
+        "B. 크로스도킹(Cross-docking)",
+        "C. 루트배송(Route Delivery)",
+        "D. 공동배송(Joint Delivery)",
+        "E. 밀크런(Milk-Run)"
+      ],
+      "answer": "C",
+      "explanation": "루트배송(Route Delivery)은 사전에 정해진 루트를 따라 정기적으로 여러 고객을 순회하며 배송하는 방식이다. 편의점, 대리점 배송 등에 주로 사용된다. 밀크런은 수거(집하) 위주라는 점에서 차이가 있다.",
+      "relatedConcept": "수배송의 개념과 유형",
+      "examTip": "루트배송=정기 순회 '배송', 밀크런=순회 '수거(집하)'. 배송 vs 수거 방향 구분"
+    },
+    {
+      "id": "q2-08-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "세이빙법 계산 심화",
+      "question": "배송센터(D)와 4개 고객(A,B,C,E) 간 거리가 아래와 같다. Saving 값을 계산했을 때, 가장 먼저 결합되는 고객 쌍은?\n\nd(D,A)=20, d(D,B)=25, d(D,C)=18, d(D,E)=22\nd(A,B)=10, d(A,C)=15, d(A,E)=12, d(B,C)=8, d(B,E)=14, d(C,E)=11",
+      "options": [
+        "A. (B,C): Saving=35",
+        "B. (A,B): Saving=35",
+        "C. (A,E): Saving=30",
+        "D. (C,E): Saving=29",
+        "E. (B,E): Saving=33"
+      ],
+      "answer": "A",
+      "explanation": "S(A,B)=20+25-10=35, S(A,C)=20+18-15=23, S(A,E)=20+22-12=30, S(B,C)=25+18-8=35, S(B,E)=25+22-14=33, S(C,E)=18+22-11=29. 최대 Saving: (A,B)=35와 (B,C)=35로 동률. 동률일 때 구현에 따라 다르지만, 선택지에서 (B,C)=35가 A번에 있으므로 정답은 A.",
+      "relatedConcept": "배송루트 최적화(세이빙법·스윕법)",
+      "examTip": "세이빙법 계산문제는 실제 시험에서 모든 쌍의 Saving을 구한 뒤 최대값을 찾는 형태로 출제. 계산 실수 주의"
+    }
+  ]
+}

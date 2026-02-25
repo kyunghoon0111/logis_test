@@ -1,0 +1,187 @@
+/* ==========================================
+   base.css - 디자인 토큰, 리셋, 다크모드
+   ========================================== */
+
+:root {
+  /* === Brand Colors === */
+  --color-primary:       #3B82F6;
+  --color-primary-dark:  #1D4ED8;
+  --color-primary-soft:  #EFF6FF;
+  --color-secondary:     #8B5CF6;
+  --color-success:       #10B981;
+  --color-warning:       #F59E0B;
+  --color-danger:        #EF4444;
+  --color-info:          #06B6D4;
+
+  /* === 난이도 색상 === */
+  --diff-1:        #10B981;
+  --diff-2:        #F59E0B;
+  --diff-3:        #EF4444;
+
+  /* === 팁 타입 색상 (라이트) === */
+  --tip-warning-bg:      #FFF7ED;
+  --tip-warning-border:  #F59E0B;
+  --tip-compare-bg:      #EFF6FF;
+  --tip-compare-border:  #3B82F6;
+  --tip-memory-bg:       #F0FDF4;
+  --tip-memory-border:   #10B981;
+  --tip-trick-bg:        #FAF5FF;
+  --tip-trick-border:    #8B5CF6;
+
+  /* === 중립 색상 (라이트) === */
+  --bg-primary:      #FFFFFF;
+  --bg-secondary:    #F8FAFC;
+  --bg-tertiary:     #F1F5F9;
+  --text-primary:    #0F172A;
+  --text-secondary:  #475569;
+  --text-muted:      #94A3B8;
+  --border-color:    #E2E8F0;
+  --card-shadow:     0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --card-shadow-lg:  0 4px 16px rgba(0,0,0,0.10);
+
+  /* === 과목 색상 === */
+  --s1-color: #3B82F6;  /* 물류관리론 */
+  --s2-color: #8B5CF6;  /* 화물운송론 */
+  --s3-color: #06B6D4;  /* 국제물류론 */
+  --s4-color: #10B981;  /* 보관하역론 */
+  --s5-color: #F59E0B;  /* 물류관련법규 */
+
+  /* === 타이포그래피 === */
+  --font-family:  -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  --font-mono:    'SF Mono', ui-monospace, 'Menlo', monospace;
+  --text-xs:      11px;
+  --text-sm:      13px;
+  --text-base:    15px;
+  --text-md:      16px;
+  --text-lg:      18px;
+  --text-xl:      20px;
+  --text-2xl:     24px;
+  --text-3xl:     28px;
+  --lh-tight:     1.3;
+  --lh-normal:    1.6;
+  --lh-relaxed:   1.75;
+
+  /* === 간격 (8px 그리드) === */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+
+  /* === 라운드 === */
+  --r-sm:   8px;
+  --r-md:   12px;
+  --r-lg:   16px;
+  --r-xl:   20px;
+  --r-full: 9999px;
+
+  /* === iOS 전용 === */
+  --tap-min:       44px;
+  --safe-top:      env(safe-area-inset-top, 0px);
+  --safe-bottom:   env(safe-area-inset-bottom, 0px);
+  --safe-left:     env(safe-area-inset-left, 0px);
+  --safe-right:    env(safe-area-inset-right, 0px);
+  --nav-height:    56px;
+  --header-height: 52px;
+
+  /* === 트랜지션 === */
+  --t-fast:   150ms ease;
+  --t-normal: 250ms ease;
+  --t-slow:   380ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== 다크 모드 ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary:      #0F172A;
+    --bg-secondary:    #1E293B;
+    --bg-tertiary:     #334155;
+    --text-primary:    #F1F5F9;
+    --text-secondary:  #CBD5E1;
+    --text-muted:      #64748B;
+    --border-color:    #334155;
+    --card-shadow:     0 1px 3px rgba(0,0,0,0.35);
+    --card-shadow-lg:  0 4px 16px rgba(0,0,0,0.45);
+    --color-primary-soft: #1e3a5f;
+    --tip-warning-bg:  rgba(245,158,11,0.12);
+    --tip-compare-bg:  rgba(59,130,246,0.12);
+    --tip-memory-bg:   rgba(16,185,129,0.12);
+    --tip-trick-bg:    rgba(139,92,246,0.12);
+  }
+}
+
+/* 수동 다크모드 오버라이드 */
+html.dark {
+  --bg-primary:      #0F172A;
+  --bg-secondary:    #1E293B;
+  --bg-tertiary:     #334155;
+  --text-primary:    #F1F5F9;
+  --text-secondary:  #CBD5E1;
+  --text-muted:      #64748B;
+  --border-color:    #334155;
+  --card-shadow:     0 1px 3px rgba(0,0,0,0.35);
+  --card-shadow-lg:  0 4px 16px rgba(0,0,0,0.45);
+  --color-primary-soft: #1e3a5f;
+  --tip-warning-bg:  rgba(245,158,11,0.12);
+  --tip-compare-bg:  rgba(59,130,246,0.12);
+  --tip-memory-bg:   rgba(16,185,129,0.12);
+  --tip-trick-bg:    rgba(139,92,246,0.12);
+}
+
+html.light {
+  --bg-primary:      #FFFFFF;
+  --bg-secondary:    #F8FAFC;
+  --bg-tertiary:     #F1F5F9;
+  --text-primary:    #0F172A;
+  --text-secondary:  #475569;
+  --text-muted:      #94A3B8;
+  --border-color:    #E2E8F0;
+}
+
+/* ===== 리셋 ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--font-family);
+  font-size: var(--text-base);
+  line-height: var(--lh-normal);
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+
+a { color: var(--color-primary); text-decoration: none; }
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+input, select, textarea {
+  font-family: inherit;
+  font-size: var(--text-md); /* 16px - iOS 줌 방지 */
+  border: none;
+  background: none;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+input:focus, textarea:focus { outline: none; }
+img { display: block; max-width: 100%; }
+ul, ol { list-style: none; }

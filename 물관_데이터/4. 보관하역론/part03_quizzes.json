@@ -1,0 +1,368 @@
+{
+  "chapter": "PART 03 보관설비와 하역장비",
+  "subject": "보관하역론",
+  "quizzes": [
+    {
+      "id": "q4-03-01",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "랙 유형별 입출고 방식",
+      "question": "다음 중 선입선출(FIFO) 방식이 자동으로 보장되는 랙은?",
+      "options": [
+        "A. 셀렉티브 랙",
+        "B. 드라이브인 랙",
+        "C. 푸시백 랙",
+        "D. 유동랙(플로우랙)",
+        "E. 적층랙(스태킹랙)"
+      ],
+      "answer": "D",
+      "explanation": "유동랙(플로우랙)은 경사진 롤러/휠 위에 파레트를 투입하면 중력에 의해 출하측으로 이동하여 FIFO가 자동 보장된다. 셀렉티브 랙은 FIFO/LIFO 모두 가능하나 '자동 보장'은 아니며, 드라이브인과 푸시백은 LIFO 방식이다.",
+      "relatedConcept": "3-1",
+      "examTip": "FIFO '자동 보장'이라는 키워드에 주목. 유동랙은 중력 이동으로 선입선출이 구조적으로 보장되는 유일한 랙이다."
+    },
+    {
+      "id": "q4-03-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "드라이브인 vs 드라이브스루 랙",
+      "question": "드라이브인 랙과 드라이브스루 랙에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 드라이브인 랙은 한쪽에만 입출구가 있어 LIFO 방식이다",
+        "B. 드라이브스루 랙은 양쪽에 입출구가 있어 FIFO가 가능하다",
+        "C. 두 유형 모두 지게차가 랙 내부로 진입하여 작업한다",
+        "D. 드라이브인 랙은 다품종 소량 보관에 가장 적합하다",
+        "E. 두 유형 모두 셀렉티브 랙 대비 공간효율이 높다"
+      ],
+      "answer": "D",
+      "explanation": "드라이브인 랙은 소품종 대량 보관에 적합하다. 한쪽 입출구만 있어 LIFO 방식이므로 품목 수가 적고 유통기한이 중요하지 않은 화물에 사용한다. 다품종 소량 보관에는 모든 파레트에 직접 접근 가능한 셀렉티브 랙이 적합하다.",
+      "relatedConcept": "3-1",
+      "examTip": "드라이브인/드라이브스루 랙은 '소품종 대량'이 키워드. '다품종 소량'이 보이면 셀렉티브 랙을 떠올릴 것."
+    },
+    {
+      "id": "q4-03-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "이동랙(모빌랙) 특성",
+      "question": "이동랙(모빌랙)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 랙 사이에 항상 통로가 확보되어 있어 접근성이 좋다",
+        "B. 공간이용률이 가장 낮은 랙 유형이다",
+        "C. 레일 위에서 랙이 좌우로 이동하며 필요 시에만 통로를 생성한다",
+        "D. 입출고 빈도가 높은 화물에 가장 적합하다",
+        "E. 지게차가 랙 내부로 진입하는 구조이다"
+      ],
+      "answer": "C",
+      "explanation": "이동랙(모빌랙)은 레일 위에서 랙 전체가 좌우로 이동하여, 필요한 통로만 생성하고 나머지는 밀착시켜 공간이용률을 최대(80% 이상)로 높인다. 통로가 항상 확보되는 것이 아니라 필요 시에만 생성되므로, 입출고 빈도가 낮은 품목(문서·보존물·냉동창고)에 적합하다.",
+      "relatedConcept": "3-1",
+      "examTip": "이동랙은 '공간효율 최고 + 입출고 속도 느림'의 조합. 냉동/냉장 창고에서 많이 사용된다는 점도 기억."
+    },
+    {
+      "id": "q4-03-04",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "푸시백 랙 입출고 방식",
+      "question": "푸시백 랙은 유동랙과 마찬가지로 FIFO(선입선출) 방식이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "푸시백 랙은 LIFO(후입선출) 방식이다. 카트 위에 파레트를 올려 앞에서 뒤로 밀어넣는 구조로, 마지막에 넣은 것을 먼저 꺼낸다. 유동랙은 중력에 의해 투입측→출하측으로 이동하므로 FIFO이다. 둘 다 깊이 방향 저장이지만 입출고 방식이 정반대이다.",
+      "relatedConcept": "3-1",
+      "examTip": "푸시백=LIFO(밀어넣기), 유동랙=FIFO(중력흐름). 깊이 방향 저장 랙의 FIFO/LIFO 구분은 매년 출제되는 단골 주제."
+    },
+    {
+      "id": "q4-03-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "지게차 유형별 특성",
+      "question": "VNA(Very Narrow Aisle) 창고에서 사용하기에 가장 적합한 지게차는?",
+      "options": [
+        "A. 카운터밸런스형 지게차",
+        "B. 리치형 지게차",
+        "C. 터릿형(스윙리치) 지게차",
+        "D. 스트래들형 지게차",
+        "E. 사이드로더"
+      ],
+      "answer": "C",
+      "explanation": "터릿형(스윙리치) 지게차는 포크가 좌우 90° 회전하여 차체 방향 전환 없이 양쪽 랙에 접근할 수 있어, 통로폭 1.5~1.8m의 VNA 창고에 최적이다. 카운터밸런스는 3.5~4m, 리치형은 2.5~3m의 통로가 필요하여 VNA에는 부적합하다.",
+      "relatedConcept": "3-2",
+      "examTip": "VNA = 터릿형. 통로폭 순서 암기: 카운터밸런스(3.5~4m) > 리치(2.5~3m) > 터릿(1.5~1.8m). VNA 문제는 거의 매년 출제."
+    },
+    {
+      "id": "q4-03-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "지게차 사용환경",
+      "question": "냉동창고에서 사용하는 지게차의 동력원으로 가장 적합한 것은?",
+      "options": [
+        "A. 디젤 엔진",
+        "B. LPG 엔진",
+        "C. 가솔린 엔진",
+        "D. 전동(배터리)",
+        "E. CNG 엔진"
+      ],
+      "answer": "D",
+      "explanation": "냉동창고는 밀폐 환경이므로 배기가스를 배출하는 엔진식(디젤·LPG·가솔린)은 사용이 불가능하다. 전동(배터리)식은 배기가스가 없고 소음이 적어 실내·냉동·냉장 환경에 필수적이다. 엔진식은 결로 문제도 발생한다.",
+      "relatedConcept": "3-2",
+      "examTip": "실내/밀폐/냉동 환경 = 무조건 전동식. 엔진식은 배기가스·결로·소음 문제로 실내 부적합."
+    },
+    {
+      "id": "q4-03-07",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "지게차 유형 구분",
+      "question": "작업자가 포크 플랫폼과 함께 상승하여 고층 랙에서 낱개 피킹 작업을 수행하는 지게차는?",
+      "options": [
+        "A. 카운터밸런스형",
+        "B. 리치형",
+        "C. 오더피커",
+        "D. 터릿형",
+        "E. 스트래들형"
+      ],
+      "answer": "C",
+      "explanation": "오더피커(Order Picker)는 작업자가 포크 플랫폼 위에 탑승하여 포크와 함께 상승, 고층 랙에서 직접 낱개(케이스/피스) 단위로 피킹하는 지게차이다. 다른 지게차는 포크만 상승하고 작업자는 지상에 있다.",
+      "relatedConcept": "3-2",
+      "examTip": "'작업자가 함께 상승' = 오더피커. 다른 지게차와의 핵심 차이점이므로 이 키워드만 나오면 오더피커 선택."
+    },
+    {
+      "id": "q4-03-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨베이어 유형 구분",
+      "question": "분체(粉體)나 곡물 등 산물(散物)을 수평 또는 경사 방향으로 밀폐 운반하기에 가장 적합한 컨베이어는?",
+      "options": [
+        "A. 벨트 컨베이어",
+        "B. 롤러 컨베이어",
+        "C. 체인 컨베이어",
+        "D. 스크류 컨베이어",
+        "E. 슬랫 컨베이어"
+      ],
+      "answer": "D",
+      "explanation": "스크류 컨베이어는 스크류(오거)의 회전으로 분체·곡물·사료 등 산물을 수평/경사 방향으로 이송하며, 밀폐 운반이 가능하여 먼지·누출을 방지한다. 벨트 컨베이어도 밀폐형이 있으나, 분체·곡물 전용 수평/경사 이송에는 스크류가 더 적합하다.",
+      "relatedConcept": "3-3",
+      "examTip": "분체·곡물+밀폐+수평/경사 = 스크류. 수직 운반이면 버킷 엘리베이터. 방향(수평 vs 수직)으로 구분하는 문제 주의."
+    },
+    {
+      "id": "q4-03-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "소터 유형 비교",
+      "question": "택배 허브터미널에서 시간당 10,000건 이상의 고속 분류 처리에 가장 적합한 소터(Sorter)는?",
+      "options": [
+        "A. 푸셔 소터",
+        "B. 팝업휠 소터",
+        "C. 슬라이딩슈 소터",
+        "D. 틸트트레이 소터",
+        "E. 크로스벨트 소터"
+      ],
+      "answer": "E",
+      "explanation": "크로스벨트 소터는 각 캐리어에 소형 벨트가 장착되어 직각 방향으로 부드럽게 배출하며, 시간당 10,000~20,000건의 초고속 분류가 가능하다. 다양한 형상의 화물을 충격 없이 처리할 수 있어 대형 택배 허브터미널의 주력 설비이다.",
+      "relatedConcept": "3-3",
+      "examTip": "택배 허브터미널 + 고속 분류 = 크로스벨트 소터. 소터 중 가장 고속·고정밀·고가라는 특징 기억."
+    },
+    {
+      "id": "q4-03-10",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "버킷 엘리베이터",
+      "question": "버킷 엘리베이터는 곡물이나 시멘트 등 산물(散物)을 수평 방향으로 대량 운반하는 장치이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "버킷 엘리베이터는 버킷(양동이)에 화물을 담아 '수직' 방향으로 운반하는 장치이다. 수평/경사 방향의 산물 이송은 스크류 컨베이어 또는 벨트 컨베이어가 담당한다.",
+      "relatedConcept": "3-3",
+      "examTip": "버킷=수직, 스크류=수평/경사. 운반 방향 혼동 함정 주의."
+    },
+    {
+      "id": "q4-03-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "AS/RS 유형 구분",
+      "question": "전자부품, 의약품 등 소물(小物) 다품종을 토트(Tote) 단위로 보관·입출고하는 자동창고 유형은?",
+      "options": [
+        "A. 유닛로드형 AS/RS",
+        "B. 미니로드형 AS/RS",
+        "C. 수직회전형 AS/RS",
+        "D. 셔틀형 AS/RS",
+        "E. 큐브형 AS/RS"
+      ],
+      "answer": "B",
+      "explanation": "미니로드형 AS/RS는 소형 컨테이너/토트(Tote) 단위로 소물 다품종을 고밀도 보관하고, 소형 스태커크레인이 토트를 작업자 스테이션으로 반출하는 시스템이다. 유닛로드형은 파레트 단위이므로 소물에 부적합하다.",
+      "relatedConcept": "3-4",
+      "examTip": "소물+토트/빈 단위 = 미니로드. 파레트 단위 = 유닛로드. 보관 단위로 구분하는 문제 빈출."
+    },
+    {
+      "id": "q4-03-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "AS/RS 반송장비",
+      "question": "AS/RS에서 스태커크레인과 비교한 STV(Sorting Transfer Vehicle)의 특징으로 옳은 것은?",
+      "options": [
+        "A. 1대가 1통로만 전담한다",
+        "B. 수직 이동과 수평 이동을 동시에 수행한다",
+        "C. 여러 통로를 담당할 수 있어 유연성이 높다",
+        "D. 양정(揚程)이 높아 40m 이상 고층에 적합하다",
+        "E. 유도선을 따라 자율주행한다"
+      ],
+      "answer": "C",
+      "explanation": "STV는 레일 위에서 수평으로 주행하며 여러 통로를 담당할 수 있어, 1대가 1통로만 전담하는 스태커크레인보다 유연성이 높고 대기시간이 적다. 스태커크레인이 수평+수직 동시 이동과 고층 양정에 강점이 있는 반면, STV는 수평 이동 위주이다.",
+      "relatedConcept": "3-4",
+      "examTip": "스태커크레인=1통로 전담(수직+수평), STV=여러 통로 담당(수평 위주, 유연성↑). 대비 포인트 정리."
+    },
+    {
+      "id": "q4-03-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "DPS vs DAS 구분",
+      "question": "보관 랙의 각 로케이션에 디지털 표시기를 부착하여, 작업자가 표시된 위치에서 지정 수량을 꺼내는 피킹 시스템은?",
+      "options": [
+        "A. DAS(Digital Assortment System)",
+        "B. DPS(Digital Picking System)",
+        "C. WMS(Warehouse Management System)",
+        "D. TMS(Transportation Management System)",
+        "E. OMS(Order Management System)"
+      ],
+      "answer": "B",
+      "explanation": "DPS(Digital Picking System)는 보관 로케이션에 표시기를 부착하여 피킹할 위치와 수량을 알려주는 적취(摘取) 방식의 시스템이다. DAS는 분배처에 표시기를 부착하여 물품을 투입하는 종취(種取) 방식이다.",
+      "relatedConcept": "3-5",
+      "examTip": "보관위치에서 '꺼냄'=DPS(Pick), 분배처에 '넣음'=DAS(Assort). 방향(꺼내기 vs 넣기)으로 구분."
+    },
+    {
+      "id": "q4-03-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "DPS/DAS 적합 상황",
+      "question": "편의점 본사 물류센터에서 300개 점포에 동일 신상품을 동시에 배분하는 작업에 가장 적합한 시스템은?",
+      "options": [
+        "A. DPS(Digital Picking System)",
+        "B. DAS(Digital Assortment System)",
+        "C. 크로스벨트 소터",
+        "D. AGV(Automated Guided Vehicle)",
+        "E. 유닛로드형 AS/RS"
+      ],
+      "answer": "B",
+      "explanation": "DAS(Digital Assortment System)는 1품목을 여러 거래처(점포)에 분배하는 종취(파종) 방식으로, 동일 상품을 다수 점포에 동시 배분하는 편의점·마트 배송센터에 최적이다. DPS는 다품종 소량 주문(1주문 기준 여러 SKU 피킹)에 적합하다.",
+      "relatedConcept": "3-5",
+      "examTip": "동일 품목→다거래처 분배 = DAS(종취). 다품종→1주문 피킹 = DPS(적취). 상황 설명으로 구분하는 문제 빈출."
+    },
+    {
+      "id": "q4-03-15",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "DPS/DAS 작업방식",
+      "question": "DPS의 작업방식은 종취(種取)이고, DAS의 작업방식은 적취(摘取)이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "반대이다. DPS=적취(摘取, 따는 방식, Pick), DAS=종취(種取, 뿌리는 방식, Assort/Seed). DPS는 보관위치에서 꺼내는 것이고, DAS는 분배처에 투입하는 것이다.",
+      "relatedConcept": "3-5",
+      "examTip": "DPS/DAS의 적취/종취를 뒤바꿔 놓는 함정 보기가 매우 빈번. P=Pick=적취, A=Assort=종취 확실히 암기."
+    },
+    {
+      "id": "q4-03-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "AGV vs AMR 차이",
+      "question": "AGV와 AMR에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. AGV는 바닥의 유도선(자기테이프·QR코드 등)을 따라 주행한다",
+        "B. AMR은 SLAM·LiDAR 등으로 자율주행하며 유도선이 불필요하다",
+        "C. AGV는 경로 변경 시 유도선 재설치가 필요하여 유연성이 낮다",
+        "D. AMR은 장애물을 자율 감지하고 우회 경로를 설정할 수 있다",
+        "E. AGV가 AMR보다 로봇 자체 가격이 더 비싸다"
+      ],
+      "answer": "E",
+      "explanation": "일반적으로 AGV는 로봇 자체 가격이 AMR보다 저렴하다. AMR은 SLAM·AI·센서 등 첨단 기술이 탑재되어 로봇 자체는 고가이지만, 유도선 등 인프라 설치 비용이 낮아 총 도입비용은 환경에 따라 다르다. 나머지 설명은 모두 올바르다.",
+      "relatedConcept": "3-6",
+      "examTip": "AGV=유도선 필요·저가·고정경로, AMR=자율주행·고가·유연경로. 가격 비교 함정에 주의(로봇 자체 vs 인프라 포함 총비용 구분)."
+    },
+    {
+      "id": "q4-03-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "오토스토어(AutoStore)와 큐브형 AS/RS",
+      "question": "오토스토어(AutoStore)에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 격자(Grid) 구조 위에서 로봇이 주행한다",
+        "B. 로봇이 빈(Bin)을 수직으로 꺼내 작업자에게 전달한다",
+        "C. 통로가 필요 없어 공간효율이 매우 높다",
+        "D. 스태커크레인이 핵심 반송장비로 사용된다",
+        "E. GTP(Goods-to-Person) 방식의 자동창고이다"
+      ],
+      "answer": "D",
+      "explanation": "오토스토어는 스태커크레인을 사용하지 않는다. 격자(Grid) 구조 위에서 로봇이 주행하며, 격자 아래 빈(Bin)을 수직으로 꺼내 작업자 스테이션(포트)으로 전달한다. 스태커크레인은 유닛로드형/미니로드형 AS/RS의 반송장비이다.",
+      "relatedConcept": "3-6",
+      "examTip": "오토스토어=격자+로봇+빈(Bin). 스태커크레인과는 무관! 최신 기술이므로 개념을 정확히 구분해야 함."
+    },
+    {
+      "id": "q4-03-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "GTP 시스템 이해",
+      "question": "GTP(Goods-to-Person) 시스템에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 작업자가 보관 랙을 돌며 물품을 피킹하는 방식이다",
+        "B. Person-to-Goods 방식보다 작업자 이동거리가 증가한다",
+        "C. 물품이 자동으로 작업자에게 이동해 오는 방식이다",
+        "D. 반드시 AGV를 사용해야만 구현할 수 있다",
+        "E. 소품종 대량 보관에만 적합하다"
+      ],
+      "answer": "C",
+      "explanation": "GTP는 Goods-to-Person, 즉 물품이 작업자에게 이동해 오는 방식이다. 작업자는 고정 위치에서 피킹하므로 이동거리가 최소화되고 생산성이 2~4배 향상된다. AGV 외에도 AMR·회전랙·미니로드·셔틀형·큐브형 AS/RS 등 다양한 방식으로 구현 가능하며, 다품종에도 적합하다.",
+      "relatedConcept": "3-6",
+      "examTip": "GTP 핵심 = '물품→작업자 이동'. AGV만이 GTP가 아님! 회전랙·미니로드·오토스토어 등 다양한 구현 방식 존재."
+    },
+    {
+      "id": "q4-03-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "최신 물류 자동화 기술 종합",
+      "question": "다음 중 물류 자동화 설비와 그 설명의 연결이 옳지 않은 것은?",
+      "options": [
+        "A. 크로스벨트 소터 — 각 캐리어의 벨트가 직각 배출하는 고속 자동분류 장치",
+        "B. 멀티셔틀 — 각 층마다 셔틀이 배치되어 동시 다층 작업이 가능한 AS/RS",
+        "C. AMR — 바닥 유도선을 따라 정해진 경로로 주행하는 무인운반차",
+        "D. 오토스토어 — 격자 위 로봇이 빈을 수직으로 꺼내는 큐브형 AS/RS",
+        "E. DAS — 분배처에 표시기를 부착하여 종취(파종) 방식으로 물품을 분배하는 시스템"
+      ],
+      "answer": "C",
+      "explanation": "C의 설명은 AGV에 해당한다. AMR(Autonomous Mobile Robot)은 유도선 없이 SLAM·센서·AI로 자율주행하며 경로를 스스로 결정하는 로봇이다. 바닥 유도선을 따라 정해진 경로로 주행하는 것은 AGV(Automated Guided Vehicle)이다.",
+      "relatedConcept": "3-6",
+      "examTip": "AGV=유도선(고정경로), AMR=자율주행(유연경로). 둘을 뒤바꿔 설명하는 함정은 최신 출제 트렌드의 핵심."
+    },
+    {
+      "id": "q4-03-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "보관설비·하역장비 종합",
+      "question": "다음 보기 중 FIFO(선입선출)가 보장되지 않는 보관설비/랙 유형을 모두 고른 것은?\n\n  ㄱ. 드라이브인 랙\n  ㄴ. 유동랙(플로우랙)\n  ㄷ. 푸시백 랙\n  ㄹ. 드라이브스루 랙",
+      "options": [
+        "A. ㄱ, ㄴ",
+        "B. ㄱ, ㄷ",
+        "C. ㄴ, ㄹ",
+        "D. ㄱ, ㄷ, ㄹ",
+        "E. ㄱ, ㄴ, ㄷ"
+      ],
+      "answer": "B",
+      "explanation": "ㄱ. 드라이브인 랙은 한쪽 입출구만 있어 LIFO 방식이다(FIFO 불가). ㄴ. 유동랙은 중력 이동으로 FIFO가 자동 보장된다. ㄷ. 푸시백 랙은 밀어넣기 방식으로 LIFO이다(FIFO 불가). ㄹ. 드라이브스루 랙은 양쪽 입출구가 있어 FIFO가 가능하다. 따라서 FIFO가 보장되지 않는 것은 ㄱ(드라이브인)과 ㄷ(푸시백)이다.",
+      "relatedConcept": "3-1",
+      "examTip": "FIFO 가능 랙: 셀렉티브, 드라이브스루, 유동랙, 이동랙. LIFO 전용 랙: 드라이브인, 푸시백. 복합 선택형 문제에서 정확한 분류 필수."
+    }
+  ]
+}

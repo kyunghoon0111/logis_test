@@ -1,0 +1,507 @@
+/* ==========================================
+   components.css - 재사용 UI 컴포넌트
+   ========================================== */
+
+/* ===== 카드 ===== */
+.card {
+  background: var(--bg-primary);
+  border-radius: var(--r-lg);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+.card-body { padding: var(--sp-4); }
+.card-body-lg { padding: var(--sp-5) var(--sp-5); }
+
+/* ===== 섹션 타이틀 ===== */
+.section-title {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--sp-3);
+}
+
+/* ===== 배지 / 칩 ===== */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: var(--r-full);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+.chip-blue    { background: rgba(59,130,246,0.15);  color: #2563EB; }
+.chip-violet  { background: rgba(139,92,246,0.15);  color: #7C3AED; }
+.chip-cyan    { background: rgba(6,182,212,0.15);   color: #0891B2; }
+.chip-green   { background: rgba(16,185,129,0.15);  color: #059669; }
+.chip-amber   { background: rgba(245,158,11,0.15);  color: #D97706; }
+.chip-red     { background: rgba(239,68,68,0.15);   color: #DC2626; }
+.chip-gray    { background: var(--bg-tertiary);     color: var(--text-secondary); }
+
+.chip-diff-1 { background: rgba(16,185,129,0.15);  color: #059669; }
+.chip-diff-2 { background: rgba(245,158,11,0.15);  color: #D97706; }
+.chip-diff-3 { background: rgba(239,68,68,0.15);   color: #DC2626; }
+
+/* ===== 버튼 ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: var(--tap-min);
+  padding: 0 var(--sp-5);
+  border-radius: var(--r-full);
+  font-size: var(--text-base);
+  font-weight: 600;
+  transition: transform var(--t-fast), opacity var(--t-fast);
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.btn:active { transform: scale(0.96); }
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.3);
+}
+.btn-primary:active { background: var(--color-primary-dark); }
+
+.btn-secondary {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.btn-danger {
+  background: rgba(239,68,68,0.1);
+  color: var(--color-danger);
+}
+
+.btn-full { width: 100%; }
+
+.btn:disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* ===== 진도 바 ===== */
+.progress-bar {
+  height: 6px;
+  background: var(--bg-tertiary);
+  border-radius: var(--r-full);
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: var(--r-full);
+  background: var(--color-primary);
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.progress-bar-fill.success { background: var(--color-success); }
+.progress-bar-fill.warning { background: var(--color-warning); }
+.progress-bar-fill.danger  { background: var(--color-danger); }
+
+/* ===== 팁 박스 ===== */
+.tip-box {
+  border-left: 3px solid;
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  padding: var(--sp-3) var(--sp-4);
+  margin: var(--sp-3) 0;
+  font-size: var(--text-sm);
+  line-height: var(--lh-relaxed);
+}
+.tip-box .tip-icon {
+  font-size: 14px;
+  margin-right: 4px;
+}
+.tip-box.warning {
+  border-color: var(--tip-warning-border);
+  background: var(--tip-warning-bg);
+  color: var(--text-primary);
+}
+.tip-box.compare {
+  border-color: var(--tip-compare-border);
+  background: var(--tip-compare-bg);
+}
+.tip-box.memory {
+  border-color: var(--tip-memory-border);
+  background: var(--tip-memory-bg);
+}
+.tip-box.trick {
+  border-color: var(--tip-trick-border);
+  background: var(--tip-trick-bg);
+}
+
+/* ===== SQL 코드 블록 ===== */
+.sql-block {
+  background: #1E293B;
+  border-radius: var(--r-md);
+  padding: var(--sp-4);
+  margin: var(--sp-3) 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #334155;
+}
+html.light .sql-block,
+:root .sql-block { background: #1E293B; } /* 항상 다크 */
+
+.sql-block pre {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: 1.7;
+  color: #E2E8F0;
+  white-space: pre;
+  tab-size: 2;
+}
+.sql-block .sql-desc {
+  font-size: var(--text-xs);
+  color: #94A3B8;
+  margin-bottom: var(--sp-2);
+  font-family: var(--font-family);
+  font-style: italic;
+}
+
+/* SQL 키워드 하이라이팅 */
+.sql-kw     { color: #60A5FA; font-weight: 600; } /* SELECT, FROM 등 */
+.sql-fn     { color: #34D399; }                   /* SUM, COUNT 등 */
+.sql-str    { color: #FCA5A5; }                   /* 문자열 */
+.sql-num    { color: #FBBF24; }                   /* 숫자 */
+.sql-op     { color: #C084FC; }                   /* 연산자 */
+.sql-cmt    { color: #64748B; font-style: italic; }/* 주석 */
+
+/* ===== 수식/공식 블록 ===== */
+.formula-block {
+  background: var(--bg-tertiary);
+  border-radius: var(--r-md);
+  padding: var(--sp-4);
+  margin: var(--sp-3) 0;
+  border-left: 4px solid var(--color-primary);
+}
+.formula-text {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: var(--lh-relaxed);
+  margin-bottom: var(--sp-2);
+}
+.formula-desc {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  line-height: var(--lh-relaxed);
+}
+
+/* ===== 테이블 ===== */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: var(--sp-3) 0;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border-color);
+}
+.concept-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+  white-space: nowrap;
+}
+.concept-table th {
+  background: var(--bg-tertiary);
+  padding: var(--sp-2) var(--sp-3);
+  text-align: left;
+  font-weight: 700;
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+  border-bottom: 1px solid var(--border-color);
+}
+.concept-table td {
+  padding: var(--sp-2) var(--sp-3);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-primary);
+  vertical-align: top;
+  white-space: normal;
+  min-width: 80px;
+}
+.concept-table tr:last-child td { border-bottom: none; }
+.concept-table tr:nth-child(even) td { background: var(--bg-secondary); }
+
+/* ===== 퀴즈 옵션 버튼 ===== */
+.quiz-option {
+  width: 100%;
+  min-height: 54px;
+  padding: var(--sp-3) var(--sp-4);
+  border: 2px solid var(--border-color);
+  border-radius: var(--r-md);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: var(--text-base);
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-3);
+  transition: border-color var(--t-fast), background var(--t-fast), transform var(--t-fast);
+  line-height: var(--lh-normal);
+}
+.quiz-option:active { transform: scale(0.985); }
+
+.quiz-option .opt-label {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--r-full);
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  transition: all var(--t-fast);
+  margin-top: 1px;
+}
+.quiz-option .opt-text {
+  flex: 1;
+}
+
+.quiz-option.selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+.quiz-option.selected .opt-label {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: white;
+}
+.quiz-option.correct {
+  border-color: var(--color-success);
+  background: rgba(16,185,129,0.1);
+}
+.quiz-option.correct .opt-label {
+  border-color: var(--color-success);
+  background: var(--color-success);
+  color: white;
+}
+.quiz-option.incorrect {
+  border-color: var(--color-danger);
+  background: rgba(239,68,68,0.1);
+}
+.quiz-option.incorrect .opt-label {
+  border-color: var(--color-danger);
+  background: var(--color-danger);
+  color: white;
+}
+.quiz-option.revealed {
+  border-color: var(--color-success);
+  background: rgba(16,185,129,0.08);
+}
+.quiz-option.revealed .opt-label {
+  border-color: var(--color-success);
+  background: var(--color-success);
+  color: white;
+}
+.quiz-option.dimmed {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* OX 버튼 */
+.ox-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-4);
+  margin: var(--sp-5) 0;
+}
+.ox-btn {
+  min-height: 80px;
+  border: 3px solid var(--border-color);
+  border-radius: var(--r-lg);
+  background: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  font-size: 32px;
+  font-weight: 700;
+  transition: all var(--t-fast);
+}
+.ox-btn:active { transform: scale(0.96); }
+.ox-btn.ox-o { color: var(--color-success); }
+.ox-btn.ox-x { color: var(--color-danger); }
+.ox-btn.ox-o.selected, .ox-btn.ox-o.correct,
+.ox-btn.ox-x.correct {
+  border-color: var(--color-success);
+  background: rgba(16,185,129,0.1);
+}
+.ox-btn.ox-x.selected, .ox-btn.ox-x.incorrect,
+.ox-btn.ox-o.incorrect {
+  border-color: var(--color-danger);
+  background: rgba(239,68,68,0.1);
+}
+.ox-btn-label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+/* ===== 해설 박스 ===== */
+.explanation-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--r-lg);
+  padding: var(--sp-4);
+  margin-top: var(--sp-4);
+}
+.explanation-result {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin-bottom: var(--sp-3);
+}
+.explanation-result.correct { color: var(--color-success); }
+.explanation-result.incorrect { color: var(--color-danger); }
+
+.explanation-text {
+  font-size: var(--text-sm);
+  line-height: var(--lh-relaxed);
+  color: var(--text-secondary);
+  margin-bottom: var(--sp-3);
+}
+.exam-tip-box {
+  background: var(--tip-warning-bg);
+  border-left: 3px solid var(--color-warning);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  padding: var(--sp-3) var(--sp-3);
+  font-size: var(--text-xs);
+  color: var(--text-primary);
+  line-height: var(--lh-relaxed);
+}
+
+/* ===== 토스트 ===== */
+.toast {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  padding: var(--sp-3) var(--sp-5);
+  border-radius: var(--r-full);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  box-shadow: var(--card-shadow-lg);
+  animation: toastIn 0.25s ease forwards;
+  pointer-events: auto;
+  max-width: 280px;
+  text-align: center;
+}
+.toast.success { background: var(--color-success); color: white; }
+.toast.error   { background: var(--color-danger);  color: white; }
+.toast.out { animation: toastOut 0.2s ease forwards; }
+
+@keyframes toastIn  { from { opacity:0; transform: scale(0.85) translateY(8px); } to { opacity:1; transform: scale(1) translateY(0); } }
+@keyframes toastOut { from { opacity:1; transform: scale(1); } to { opacity:0; transform: scale(0.85) translateY(8px); } }
+
+/* ===== SVG 원형 진도 ===== */
+.progress-ring-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-2);
+}
+.progress-ring-label {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ===== 빈 상태 ===== */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-4);
+  padding: var(--sp-12) var(--sp-6);
+  text-align: center;
+  color: var(--text-muted);
+}
+.empty-icon { font-size: 48px; }
+.empty-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+.empty-desc { font-size: var(--text-sm); line-height: var(--lh-relaxed); }
+
+/* ===== 스켈레톤 로더 ===== */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-tertiary) 25%,
+    var(--border-color) 50%,
+    var(--bg-tertiary) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+  border-radius: var(--r-sm);
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+/* ===== 구분선 ===== */
+.divider {
+  height: 1px;
+  background: var(--border-color);
+  margin: var(--sp-4) 0;
+}
+
+/* ===== 토글 칩 (멀티 선택) ===== */
+.toggle-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--r-full);
+  border: 1.5px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  min-height: 36px;
+  transition: all var(--t-fast);
+  touch-action: manipulation;
+}
+.toggle-chip.active {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.toggle-chip:active { transform: scale(0.94); }
+
+/* ===== 스와이프 삭제 래퍼 ===== */
+.swipe-item {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-item-content {
+  position: relative;
+  z-index: 1;
+  background: var(--bg-primary);
+  transition: transform var(--t-normal);
+}
+.swipe-item-action {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background: var(--color-danger);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--text-xs);
+  font-weight: 700;
+}

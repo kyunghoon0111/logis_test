@@ -1,0 +1,279 @@
+{
+  "chapter": "PART 07 유닛로드시스템(ULS)",
+  "subject": "화물운송론",
+  "quizzes": [
+    {
+      "id": "q2-07-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "ULS 개념",
+      "question": "유닛로드시스템(ULS)의 효과로 가장 거리가 먼 것은?",
+      "options": [
+        "A. 하역 횟수 감소",
+        "B. 화물 파손율 저하",
+        "C. 포장비 절감",
+        "D. 운송수단의 속도 향상",
+        "E. 하역시간 단축"
+      ],
+      "answer": "D",
+      "explanation": "유닛로드시스템은 하역 효율화가 핵심 목적으로, 하역횟수 감소·하역시간 단축·파손율 저하·포장비 절감 등의 효과가 있다. 운송수단 자체의 속도 향상은 ULS의 효과가 아니다.",
+      "relatedConcept": "유닛로드시스템(ULS)의 개념",
+      "examTip": "ULS는 '하역 효율화'가 핵심. 운송 속도·운임과는 직접 관련 없음"
+    },
+    {
+      "id": "q2-07-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "한국 표준 팔레트",
+      "question": "한국의 표준 팔레트 규격(T-11형)의 치수는?",
+      "options": [
+        "A. 1,200mm × 1,000mm",
+        "B. 1,200mm × 800mm",
+        "C. 1,100mm × 1,100mm",
+        "D. 1,067mm × 1,067mm",
+        "E. 1,219mm × 1,016mm"
+      ],
+      "answer": "C",
+      "explanation": "한국 표준 팔레트 T-11형은 1,100mm × 1,100mm의 정사각형 규격이다. A는 유럽형, B는 유로팔레트, D는 호주·북미형, E는 미국 GMA 팔레트이다.",
+      "relatedConcept": "팔레트(Pallet)",
+      "examTip": "T-11형 = 1,100 × 1,100mm. 가장 자주 출제되는 규격. '11×11'로 암기"
+    },
+    {
+      "id": "q2-07-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨테이너 규격",
+      "question": "ISO 표준 20피트 컨테이너(TEU)의 외부 치수로 올바른 것은?",
+      "options": [
+        "A. 길이 20' × 폭 8' × 높이 8'",
+        "B. 길이 20' × 폭 8' × 높이 8'6\"",
+        "C. 길이 20' × 폭 8'6\" × 높이 8'6\"",
+        "D. 길이 20' × 폭 10' × 높이 8'6\"",
+        "E. 길이 20' × 폭 8' × 높이 9'6\""
+      ],
+      "answer": "B",
+      "explanation": "ISO 표준 20피트 컨테이너의 외부 치수는 길이 20피트 × 폭 8피트 × 높이 8피트 6인치이다. 폭 8피트, 높이 8'6\"는 20ft와 40ft 모두 동일하며, 길이만 다르다. E는 하이큐브(9'6\")의 높이이다.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "20ft/40ft 공통: 폭 8', 높이 8'6\". 하이큐브만 높이 9'6\". 폭이나 높이를 다르게 제시하면 오답"
+    },
+    {
+      "id": "q2-07-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨테이너 종류",
+      "question": "지붕이 개방되어 있어 천막(Tarpaulin)으로 덮는 방식의 컨테이너로, 대형 기계·목재 등 높이가 높은 화물에 적합한 것은?",
+      "options": [
+        "A. 드라이 컨테이너(Dry Container)",
+        "B. 냉동 컨테이너(Reefer Container)",
+        "C. 오픈탑 컨테이너(Open Top Container)",
+        "D. 플랫랙 컨테이너(Flat Rack Container)",
+        "E. 탱크 컨테이너(Tank Container)"
+      ],
+      "answer": "C",
+      "explanation": "오픈탑 컨테이너(Open Top Container)는 지붕이 개방되어 천막으로 덮는 방식으로, 크레인을 이용한 상부 적재가 가능하여 대형 기계·목재 등 높이가 높은 화물에 적합하다.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "오픈탑=지붕 개방(상부 적재), 플랫랙=측벽·지붕 없음(초대형). 개방 부위로 구분"
+    },
+    {
+      "id": "q2-07-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CY와 CFS",
+      "question": "CFS(Container Freight Station)에서 수행되는 주요 작업으로 옳은 것은?",
+      "options": [
+        "A. FCL 컨테이너의 장치·보관",
+        "B. 컨테이너 선박의 접안",
+        "C. LCL 화물의 적입(Stuffing)과 적출(Stripping)",
+        "D. 컨테이너의 반출입 검사",
+        "E. 갠트리 크레인에 의한 양·적하"
+      ],
+      "answer": "C",
+      "explanation": "CFS(Container Freight Station)는 LCL(소량 화물)의 적입(Stuffing: 컨테이너에 넣기)과 적출(Stripping: 컨테이너에서 꺼내기)을 수행하는 장소이다. A는 CY, D는 게이트, E는 에이프런의 기능이다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "CFS=LCL 화물의 Stuffing/Stripping, CY=FCL 컨테이너 보관. 절대 혼동하지 말 것"
+    },
+    {
+      "id": "q2-07-06",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "TEU와 FEU",
+      "question": "40피트 컨테이너 1개는 2TEU에 해당한다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "TEU(Twenty-foot Equivalent Unit)는 20피트 컨테이너 1개를 기준 단위로 한다. 40피트 컨테이너(FEU) 1개는 20피트의 2배이므로 2TEU에 해당한다.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "1FEU = 2TEU. 선박 용량 계산 시 40ft를 2TEU로 환산"
+    },
+    {
+      "id": "q2-07-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "일관파레티제이션",
+      "question": "일관파레티제이션(Through Palletization)의 실현 조건에 해당하지 않는 것은?",
+      "options": [
+        "A. 팔레트 규격의 표준화",
+        "B. 운송수단의 팔레트 적재 호환성",
+        "C. 하역장비의 표준화",
+        "D. 모든 화물의 컨테이너화",
+        "E. 보관시설(랙)의 팔레트 규격 호환"
+      ],
+      "answer": "D",
+      "explanation": "일관파레티제이션은 팔레트 단위의 일관 운송으로, 컨테이너화와는 다른 개념이다. 실현 조건은 팔레트 규격 표준화, 운송수단·하역장비·보관시설의 호환성이며, '컨테이너화'는 관련 없다.",
+      "relatedConcept": "일관파레티제이션(Through Palletization)",
+      "examTip": "일관파레티제이션 ≠ 컨테이너화. 팔레트와 컨테이너를 혼동시키는 함정"
+    },
+    {
+      "id": "q2-07-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "팔레트 출입구",
+      "question": "4방향(Four-way) 팔레트에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 지게차가 4면 중 2면에서만 진입 가능하다",
+        "B. 팔레트의 4면 모두에서 지게차 포크 진입이 가능하다",
+        "C. 4단까지만 적재가 가능한 팔레트이다",
+        "D. 4종류의 화물을 동시에 적재할 수 있는 팔레트이다",
+        "E. 상면이 4개의 구역으로 나뉜 팔레트이다"
+      ],
+      "answer": "B",
+      "explanation": "4방향(Four-way) 팔레트는 4면 모두에서 지게차 포크의 진입이 가능한 팔레트로, 하역 편의성이 높다. 2방향(Two-way) 팔레트는 2면에서만 진입 가능하다.",
+      "relatedConcept": "팔레트(Pallet)",
+      "examTip": "4방향=4면 진입(편리), 2방향=2면 진입. '방향'은 지게차 진입 방향을 의미"
+    },
+    {
+      "id": "q2-07-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "하역장비",
+      "question": "컨테이너 터미널의 안벽(Quay)에서 선박과 에이프런 사이의 컨테이너 양·적하 작업에 사용되는 대형 크레인은?",
+      "options": [
+        "A. RTGC(Rubber Tired Gantry Crane)",
+        "B. RMGC(Rail Mounted Gantry Crane)",
+        "C. 갠트리 크레인(Quay Crane/QC)",
+        "D. 스트래들 캐리어(Straddle Carrier)",
+        "E. 리치 스태커(Reach Stacker)"
+      ],
+      "answer": "C",
+      "explanation": "갠트리 크레인(Quay Crane/QC)은 안벽에 설치되어 선박과 에이프런 사이에서 컨테이너를 양·적하하는 대형 크레인이다. RTGC와 RMGC는 야드 내 적재용, 스트래들 캐리어는 야드 내 이동용이다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "안벽(선박↔에이프런)=갠트리/QC, 야드 내=RTGC/RMGC/S/C. 작업 위치로 장비 구분"
+    },
+    {
+      "id": "q2-07-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "RTGC vs RMGC",
+      "question": "컨테이너 야드 크레인 중 자동화 터미널에 적합하며 레일 위를 주행하는 장비는?",
+      "options": [
+        "A. RTGC(Rubber Tired Gantry Crane)",
+        "B. RMGC(Rail Mounted Gantry Crane)",
+        "C. 갠트리 크레인(Quay Crane)",
+        "D. 스트래들 캐리어(Straddle Carrier)",
+        "E. 리치 스태커(Reach Stacker)"
+      ],
+      "answer": "B",
+      "explanation": "RMGC(Rail Mounted Gantry Crane)는 레일 위를 주행하는 야드 크레인으로, 정밀한 위치 제어가 가능하여 자동화 터미널에 적합하다. RTGC는 타이어식으로 이동성은 높지만 자동화에는 RMGC가 유리하다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "RMGC=레일+자동화, RTGC=타이어+유연성. 자동화 터미널 관련 문제는 RMGC"
+    },
+    {
+      "id": "q2-07-11",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "하이큐브 컨테이너",
+      "question": "하이큐브(High Cube) 컨테이너는 일반 컨테이너와 폭은 같지만 높이가 9피트 6인치로 일반보다 1피트 높다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "하이큐브(High Cube) 컨테이너는 일반 컨테이너(높이 8'6\")보다 1피트 높은 9피트 6인치(2,896mm)의 높이를 가진다. 폭(8피트)과 길이(20' 또는 40')는 동일하다.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "하이큐브=높이 9'6\"(일반 8'6\" + 1피트). 폭과 길이는 동일"
+    },
+    {
+      "id": "q2-07-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운송조건",
+      "question": "한 명의 화주가 컨테이너 1개를 독점 사용하여 출발지 CY에서 적입하고 도착지 CY에서 수하인이 직접 적출하는 운송 조건은?",
+      "options": [
+        "A. CFS/CFS",
+        "B. CY/CFS",
+        "C. CFS/CY",
+        "D. CY/CY",
+        "E. Door/Door"
+      ],
+      "answer": "D",
+      "explanation": "CY/CY는 출발지 CY에서 화주가 직접 적입(FCL)하고, 도착지 CY에서 수하인이 직접 적출(FCL)하는 조건이다. 한 화주가 컨테이너를 독점 사용하는 FCL 화물에 적용된다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "CY/CY=FCL/FCL(한 화주 독점), CFS/CFS=LCL/LCL(소량 혼적). 출발·도착 조합 4가지 정리"
+    },
+    {
+      "id": "q2-07-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "팔레트 풀",
+      "question": "팔레트 풀(Pallet Pool) 시스템의 장점이 아닌 것은?",
+      "options": [
+        "A. 빈 팔레트 회수 비용 절감",
+        "B. 팔레트 이용률 향상",
+        "C. 일관파레티제이션 촉진",
+        "D. 팔레트 규격의 다양화 촉진",
+        "E. 팔레트 관리 비용 절감"
+      ],
+      "answer": "D",
+      "explanation": "팔레트 풀 시스템은 팔레트를 공동으로 사용·관리하는 제도로, 오히려 팔레트 규격의 '표준화'를 촉진한다. 규격의 다양화는 팔레트 풀의 목적과 반대되는 개념이다.",
+      "relatedConcept": "일관파레티제이션(Through Palletization)",
+      "examTip": "팔레트 풀 = 표준화 촉진. '다양화'는 반대 개념으로 오답"
+    },
+    {
+      "id": "q2-07-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "컨테이너 적재량",
+      "question": "20피트 컨테이너의 최대총중량(Max Gross Weight)이 30,480kg이고 자체중량(Tare Weight)이 2,300kg일 때, 최대적재량(Max Payload)은?",
+      "options": [
+        "A. 30,480kg",
+        "B. 28,180kg",
+        "C. 32,780kg",
+        "D. 26,680kg",
+        "E. 27,180kg"
+      ],
+      "answer": "B",
+      "explanation": "최대적재량(Max Payload) = 최대총중량(Max Gross Weight) - 자체중량(Tare Weight) = 30,480 - 2,300 = 28,180kg.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "Payload = Gross - Tare. 20ft: 30,480-2,300=28,180kg. 단순하지만 자주 출제되는 계산"
+    },
+    {
+      "id": "q2-07-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨테이너 규격 표준화",
+      "question": "컨테이너의 외부 치수·강도·시험방법 등의 국제표준을 제정하는 기관은?",
+      "options": [
+        "A. IATA(국제항공운송협회)",
+        "B. IMO(국제해사기구)",
+        "C. ISO(국제표준화기구)",
+        "D. FIATA(국제운송주선인협회)",
+        "E. UNCTAD(유엔무역개발회의)"
+      ],
+      "answer": "C",
+      "explanation": "해상 컨테이너의 외부 치수(ISO 668), 강도·시험방법(ISO 1496), 코딩·식별(ISO 6346) 등의 국제표준은 ISO(International Organization for Standardization)에서 제정한다.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "해상 컨테이너=ISO 규격, 항공 ULD=IATA 규격. 표준화 기관 구분 필수"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "chapter": "PART 08 운송수단별 하역방식",
+  "subject": "보관하역론",
+  "quizzes": [
+    {
+      "id": "q4-08-01",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "트럭 하역 — 테일게이트리프트",
+      "question": "도크(Dock) 시설이 없는 배송처에서 트럭 적재함과 지면 사이의 높이차를 극복하기 위해 트럭 후미에 장착하여 화물을 승·하강시키는 장비는?",
+      "options": [
+        "A. 독레벨러(Dock Leveller)",
+        "B. 테일게이트리프트(파워게이트)",
+        "C. 독실(Dock Seal)",
+        "D. 컨베이어(Conveyor)",
+        "E. 스트래들캐리어(Straddle Carrier)"
+      ],
+      "answer": "B",
+      "explanation": "테일게이트리프트(파워게이트)는 트럭 후미에 장착된 유압식 승강장치로, 도크 시설이 없는 곳에서 지면과 적재함 사이 화물을 승·하강시킨다. 독레벨러(A)는 도크와 트럭 간 높이차를 조정하는 도크 시설이고, 독실(C)은 틈새 밀봉 장치이다.",
+      "relatedConcept": "8-1",
+      "examTip": "테일게이트리프트='도크 없는 곳', 독레벨러='도크 있는 곳'의 대응관계를 정확히 구분해야 한다."
+    },
+    {
+      "id": "q4-08-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "트럭 적재함 종류",
+      "question": "적재함 양쪽 측면이 날개처럼 위로 열리는 구조로, 측면에서 지게차를 이용한 파레트 화물의 상·하역이 용이하여 하역 효율이 가장 높은 트럭 적재함 유형은?",
+      "options": [
+        "A. 밴형(Van Type)",
+        "B. 평판형(Flat Bed)",
+        "C. 윙바디(Wing Body)",
+        "D. 사이드오프닝(Side Opening)",
+        "E. 냉동·냉장형"
+      ],
+      "answer": "C",
+      "explanation": "윙바디(Wing Body)는 적재함 양쪽 측면이 날개(Wing)처럼 위로 열리는 구조로, 측면에서 지게차로 파레트 화물을 직접 상·하역할 수 있어 하역 효율이 가장 높다. 사이드오프닝(D)은 측면이 옆으로 열리는 구조로 장척물에 유리하지만 윙바디보다 파레트 하역 효율이 낮다.",
+      "relatedConcept": "8-1",
+      "examTip": "윙바디(위로 열림)와 사이드오프닝(옆으로 열림)의 개방 방향 차이를 구분하는 문제가 자주 출제된다."
+    },
+    {
+      "id": "q4-08-03",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "적재효율 계산",
+      "question": "트럭 적재효율 산정 시, 중량적재율이 70%이고 용적적재율이 50%인 경우, 해당 차량의 실질 적재효율은 70%이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "실질 적재효율은 중량적재율과 용적적재율 중 '낮은 값'(제약조건)이 적용된다. 중량적재율 70%, 용적적재율 50%이면, 용적이 먼저 가득 차므로 더 이상 적재할 수 없다. 따라서 실질 적재효율은 50%이다.",
+      "relatedConcept": "8-1",
+      "examTip": "적재효율은 '불리한 쪽(낮은 값)'이 제약조건이 된다. 중량·용적 중 어느 쪽이 먼저 한계에 도달하는지 판단하는 계산 문제 출제."
+    },
+    {
+      "id": "q4-08-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "철도 화차 종류",
+      "question": "상부 투입구로 화물을 넣고, 하부 배출구(게이트)를 개방하여 중력으로 화물을 배출하는 구조의 화차로, 곡물·시멘트·석탄 등 산적화물(벌크) 운송에 적합한 것은?",
+      "options": [
+        "A. 유개차(Box Car)",
+        "B. 무개차(Gondola Car)",
+        "C. 탱크차(Tank Car)",
+        "D. 호퍼차(Hopper Car)",
+        "E. 평판차(Flat Car)"
+      ],
+      "answer": "D",
+      "explanation": "호퍼차(Hopper Car)는 상부 투입구와 하부 배출구(게이트)를 갖춘 화차로, 곡물·시멘트·석탄·모래 등 분체·입체 산적화물을 중력을 이용하여 하역한다. 탱크차(C)는 액체화물(석유·화학약품)용이다.",
+      "relatedConcept": "8-2",
+      "examTip": "호퍼차='분체·입체(고체 벌크)+중력식 배출', 탱크차='액체+펌프/호스' 구분이 핵심."
+    },
+    {
+      "id": "q4-08-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TOFC와 COFC",
+      "question": "피기백(Piggyback) 수송에서 트레일러(섀시+컨테이너) 전체를 평판화차에 탑재하는 방식과, 컨테이너만을 탑재하는 방식의 명칭을 올바르게 짝지은 것은?",
+      "options": [
+        "A. 트레일러 전체 탑재 = COFC, 컨테이너만 탑재 = TOFC",
+        "B. 트레일러 전체 탑재 = TOFC, 컨테이너만 탑재 = COFC",
+        "C. 트레일러 전체 탑재 = COFC, 컨테이너만 탑재 = FCL",
+        "D. 트레일러 전체 탑재 = LCL, 컨테이너만 탑재 = FCL",
+        "E. 트레일러 전체 탑재 = TOFC, 컨테이너만 탑재 = FCL"
+      ],
+      "answer": "B",
+      "explanation": "TOFC(Trailer on Flat Car)는 트레일러 전체(섀시+컨테이너)를 화차에 탑재하는 방식이고, COFC(Container on Flat Car)는 컨테이너만(섀시 제외)을 탑재하는 방식이다. COFC가 공간효율과 사하중 면에서 유리하여 현대 인터모달 수송의 주류이다.",
+      "relatedConcept": "8-2",
+      "examTip": "TOFC의 T=Trailer(전체), COFC의 C=Container(컨테이너만). 알파벳으로 직접 연결하면 쉽다."
+    },
+    {
+      "id": "q4-08-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Lo-Lo / Ro-Ro / Fo-Fo 비교",
+      "question": "선박의 하역방식에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. Lo-Lo 방식은 크레인을 이용하여 화물을 수직으로 들어올려 상·하역하는 방식이다.",
+        "B. Ro-Ro 방식은 선미 또는 선측의 램프를 통해 차량이 자력으로 승·하선하는 방식이다.",
+        "C. Fo-Fo 방식은 바지(부선)를 물 위에 띄워 모선에 부양 탑재하는 방식으로, LASH선이 대표적이다.",
+        "D. Ro-Ro 방식은 항만에 크레인 등 대형 하역장비가 필수적으로 갖추어져야 한다.",
+        "E. Lo-Lo 방식은 컨테이너선의 표준 하역방식이며, 갠트리크레인(QC)이 핵심 장비이다."
+      ],
+      "answer": "D",
+      "explanation": "Ro-Ro(Roll on-Roll off) 방식은 차량이 램프를 통해 자력으로 승·하선하므로, 항만에 크레인 등 대형 하역장비가 반드시 필요하지 않다. 크레인이 필수적인 것은 Lo-Lo 방식이다. Ro-Ro의 장점이 바로 항만 설비 의존도가 낮다는 점이다.",
+      "relatedConcept": "8-3",
+      "examTip": "Lo-Lo/Ro-Ro/Fo-Fo 비교에서 '항만 장비 필요성'을 뒤바꿔 출제하는 함정 문제가 단골이다. Ro-Ro=자주식=장비 불필요, Lo-Lo=크레인 필수."
+    },
+    {
+      "id": "q4-08-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨테이너터미널 구성",
+      "question": "컨테이너터미널에서 LCL(소량화물)을 혼재(Stuffing)하여 컨테이너에 적입하거나, FCL 컨테이너에서 화물을 꺼내 분류(Stripping)하는 작업이 이루어지는 장소는?",
+      "options": [
+        "A. CY(Container Yard)",
+        "B. CFS(Container Freight Station)",
+        "C. 마샬링야드(Marshalling Yard)",
+        "D. 에이프런(Apron)",
+        "E. 게이트(Gate)"
+      ],
+      "answer": "B",
+      "explanation": "CFS(Container Freight Station)는 LCL(Less than Container Load) 화물을 혼재(Stuffing)하여 컨테이너에 적입하거나, FCL 컨테이너에서 화물을 꺼내 분류(Stripping)하는 장소이다. CY(A)는 FCL 컨테이너를 보관·장치하는 장소이다.",
+      "relatedConcept": "8-3",
+      "examTip": "CY=FCL(만재) 보관, CFS=LCL(소량) 혼재·분류. 이 대응관계는 반드시 암기."
+    },
+    {
+      "id": "q4-08-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨테이너 하역장비",
+      "question": "컨테이너터미널의 안벽(Berth)에서 본선과 에이프런 간 컨테이너를 수직으로 양·적하하는 대형 하역장비로, 레일 위를 이동하며 아웃리치(Outreach)로 선박의 폭에 대응하는 장비는?",
+      "options": [
+        "A. 트랜스퍼크레인(Transfer Crane)",
+        "B. 리치스태커(Reach Stacker)",
+        "C. 갠트리크레인(Gantry Crane/QC)",
+        "D. 스트래들캐리어(Straddle Carrier)",
+        "E. 야드트랙터(Yard Tractor)"
+      ],
+      "answer": "C",
+      "explanation": "갠트리크레인(Gantry Crane, QC/STS Crane)은 안벽에 설치되어 본선과 에이프런 간 컨테이너를 수직으로 양·적하하는 항만하역의 핵심장비이다. 트랜스퍼크레인(A)은 CY(야드) 내에서 컨테이너를 적재·인출하는 장비이다.",
+      "relatedConcept": "8-3",
+      "examTip": "갠트리크레인=안벽(본선↔에이프런), 트랜스퍼크레인=CY(야드 내 적재), 스트래들캐리어=운반+적재 겸용. 장비별 '작업 영역'을 구분하라."
+    },
+    {
+      "id": "q4-08-09",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "스트래들캐리어",
+      "question": "스트래들캐리어(Straddle Carrier)는 컨테이너를 다리 사이에 끼워 이동할 수 있으며, 에이프런과 CY 간 운반뿐 아니라 CY에서의 적재 작업도 수행할 수 있는 운반·적재 겸용 장비이다.",
+      "options": ["O", "X"],
+      "answer": "O",
+      "explanation": "스트래들캐리어(S/C)는 긴 다리 구조 사이에 컨테이너를 끼워(Straddle) 이동하며, 에이프런↔CY 간 수평운반과 CY에서 2~3단 적재를 모두 수행할 수 있는 운반·적재 겸용 장비이다.",
+      "relatedConcept": "8-3",
+      "examTip": "스트래들캐리어의 핵심 특징은 '운반+적재 겸용'. 야드트랙터는 운반만, 트랜스퍼크레인은 적재만 하는 것과 비교."
+    },
+    {
+      "id": "q4-08-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공 ULD 종류",
+      "question": "항공화물 탑재용기(ULD)에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 파레트(Pallet)는 평판형으로, 그물(Net)이나 네트로 화물을 고정한다.",
+        "B. 컨테이너(Container)는 밀폐형 상자 구조로, 항공기 동체 단면에 맞춘 곡면 설계이다.",
+        "C. 이글루(Igloo)는 파레트 위에 반원형 셸(지붕)을 덮은 구조로, 파레트의 유연성과 컨테이너의 보호성을 결합한 형태이다.",
+        "D. 벌크화물(Bulk Cargo)은 ULD에 적재하여 표준화된 방식으로 탑재하는 화물이다.",
+        "E. ULD 규격은 ISO 해상컨테이너(20ft/40ft)와 완전히 다른 항공 전용 규격이다."
+      ],
+      "answer": "D",
+      "explanation": "벌크화물(Bulk Cargo)은 ULD에 적재하지 않고 낱개 상태로 항공기 화물실에 직접 탑재하는 화물이다. ULD에 적재하는 것이 아니라, ULD를 사용하지 않는 것이 벌크화물의 특징이다.",
+      "relatedConcept": "8-4",
+      "examTip": "벌크화물=ULD 미사용(낱개 탑재). 'ULD에 적재'라고 하면 틀린 선지. 해상의 벌크(산적)와 항공의 벌크(낱개) 의미 차이도 주의."
+    },
+    {
+      "id": "q4-08-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공 하역장비",
+      "question": "항공화물 하역장비 중 ULD(파레트/컨테이너) 단위의 화물을 항공기 메인덱(Main Deck) 높이까지 유압식 플랫폼으로 들어올려 탑재하는 장비는?",
+      "options": [
+        "A. 벨트로더(Belt Loader)",
+        "B. 돌리(Dolly)",
+        "C. 하이로더(High Loader)",
+        "D. 트랜스포터(Transporter)",
+        "E. 지게차(Forklift)"
+      ],
+      "answer": "C",
+      "explanation": "하이로더(High Loader)는 유압식 플랫폼을 갖춘 장비로, ULD 단위 화물을 항공기 메인덱 또는 하부 화물실 높이까지 들어올려 탑재한다. 벨트로더(A)는 컨베이어 벨트로 벌크화물(낱개)을 하부 화물실에 투입하는 장비이다.",
+      "relatedConcept": "8-4",
+      "examTip": "하이로더=ULD(대형), 벨트로더=벌크(소형 낱개). 취급 대상에 따른 장비 구분이 핵심."
+    },
+    {
+      "id": "q4-08-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "복합운송 3요건",
+      "question": "다음 중 국제복합운송(Multimodal Transport)의 성립 요건에 해당하지 않는 것은?",
+      "options": [
+        "A. 2종류 이상의 서로 다른 운송수단을 사용할 것",
+        "B. 단일 운송계약(Single Contract)에 의할 것",
+        "C. 단일 운임(Through Rate)이 적용될 것",
+        "D. 반드시 해상운송을 포함할 것",
+        "E. 복합운송인(MTO)이 전 구간 운송 책임을 부담할 것"
+      ],
+      "answer": "D",
+      "explanation": "복합운송의 3요건은 ①2종 이상의 서로 다른 운송수단, ②단일 운송계약, ③단일 운임이다. 반드시 해상운송을 포함해야 하는 것은 아니며, 도로+항공, 철도+도로 등 해상을 포함하지 않는 복합운송도 성립한다. 복합운송인(MTO)의 전 구간 책임은 복합운송의 핵심 특성이다.",
+      "relatedConcept": "8-5",
+      "examTip": "복합운송 3요건='이단단(2종·단일계약·단일운임)'. '해상운송 포함'은 요건이 아님. 함정 선지로 자주 출제."
+    },
+    {
+      "id": "q4-08-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "피기백/피시백/버디백 비교",
+      "question": "도로운송(트럭)과 다른 운송수단의 결합에 관한 설명으로 올바르게 짝지어진 것은?",
+      "options": [
+        "A. 피기백(Piggyback) = 도로 + 해운",
+        "B. 피시백(Fishyback) = 도로 + 철도",
+        "C. 버디백(Birdyback) = 도로 + 항공",
+        "D. 피기백(Piggyback) = 도로 + 항공",
+        "E. 피시백(Fishyback) = 도로 + 항공"
+      ],
+      "answer": "C",
+      "explanation": "버디백(Birdyback)=도로+항공(Birdy=새=하늘), 피기백(Piggyback)=도로+철도(Piggy=돼지=육지), 피시백(Fishyback)=도로+해운(Fishy=물고기=바다). 모두 도로운송(트럭)과 다른 운송수단의 결합이라는 공통점이 있다.",
+      "relatedConcept": "8-5",
+      "examTip": "Piggy(돼지)=철도, Fishy(물고기)=해운, Birdy(새)=항공. 동물 연상법으로 암기하면 절대 안 틀린다."
+    },
+    {
+      "id": "q4-08-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "랜드브릿지 유형",
+      "question": "극동에서 미주 서안까지 해상운송한 후, 미주 대륙횡단 철도를 이용하여 미주 동안 항구까지 운송하고, 다시 해상운송으로 유럽까지 운송하는 복합운송 형태는?",
+      "options": [
+        "A. SLB(Siberian Land Bridge)",
+        "B. ALB(American Land Bridge)",
+        "C. MLB(Mini Land Bridge)",
+        "D. IPI(Interior Point Intermodal)",
+        "E. Sea & Air"
+      ],
+      "answer": "B",
+      "explanation": "ALB(American Land Bridge)는 극동→미주 서안(해운)→대륙횡단철도→미주 동안(해운)→유럽 경로로, 미주 대륙 전체를 철도로 횡단하여 양쪽을 해운으로 연결하는 형태이다. MLB(C)는 최종 목적지가 미주 동안/걸프로 끝나고, IPI(D)는 미국 내륙도시가 최종 목적지이다.",
+      "relatedConcept": "8-5",
+      "examTip": "ALB=미주 대륙 완전 횡단(양쪽 해운), MLB=미주 동안이 최종(한쪽만 해운), IPI=내륙도시가 최종. 최종 목적지가 어디인지로 구분."
+    },
+    {
+      "id": "q4-08-15",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "인터모달 vs 멀티모달",
+      "question": "인터모달(Intermodal) 운송은 '단일 운송계약과 단일 운임'을 강조하는 법률적·상무적 개념이고, 멀티모달(Multimodal) 운송은 '동일 운송용기(컨테이너)의 연속성'을 강조하는 물리적·기술적 개념이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "설명이 반대이다. 인터모달(Intermodal)은 동일 운송용기(컨테이너)를 환적 없이 여러 운송수단으로 일관운송하는 '물리적·기술적' 개념이고, 멀티모달(Multimodal)은 단일 운송계약·단일 운임하에 2종 이상 운송수단을 이용하는 '법률적·상무적' 개념이다.",
+      "relatedConcept": "8-5",
+      "examTip": "인터모달=물리적(용기의 연속성), 멀티모달=법률적(계약·운임의 단일성). 시험에서 두 개념의 설명을 바꿔 출제하는 것이 단골 패턴."
+    },
+    {
+      "id": "q4-08-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "항만하역 흐름",
+      "question": "컨테이너터미널에서 수입 컨테이너의 하역 흐름을 올바르게 나열한 것은?",
+      "options": [
+        "A. 본선 → 게이트 → CY → 에이프런 → 마샬링야드",
+        "B. 본선 → 에이프런 → 마샬링야드 → CY/CFS → 게이트",
+        "C. 본선 → CY → 에이프런 → 마샬링야드 → 게이트",
+        "D. 본선 → 마샬링야드 → 에이프런 → CFS → 게이트",
+        "E. 본선 → CFS → CY → 에이프런 → 게이트"
+      ],
+      "answer": "B",
+      "explanation": "수입 컨테이너의 하역 흐름은 본선(선박)에서 갠트리크레인으로 양하 → 에이프런(하역 작업공간) → 마샬링야드(임시 배치·정렬) → CY(FCL 보관) 또는 CFS(LCL 분류) → 게이트(반출)의 순서이다.",
+      "relatedConcept": "8-3",
+      "examTip": "'안(안벽)에(에이프런) 마(마샬링) 씨(CY/CFS) 게(게이트)' = '안에 마시게'로 암기. 순서를 뒤바꾼 선지 주의."
+    },
+    {
+      "id": "q4-08-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "자동화 항만 장비",
+      "question": "자동화 컨테이너터미널에서 에이프런과 CY 간 컨테이너 수평운반을 무인으로 수행하며, GPS·자기유도·레이저유도 등의 방식으로 경로를 추적하는 장비는?",
+      "options": [
+        "A. ARMG(Automated Rail Mounted Gantry)",
+        "B. RTG(Rubber Tired Gantry)",
+        "C. AGV(Automated Guided Vehicle)",
+        "D. 야드트랙터(Yard Tractor)",
+        "E. 스트래들캐리어(Straddle Carrier)"
+      ],
+      "answer": "C",
+      "explanation": "AGV(Automated Guided Vehicle, 무인운반차)는 자동화 터미널에서 에이프런↔CY 간 컨테이너를 무인으로 수평운반하는 장비이다. GPS·자기유도·레이저유도 등으로 경로를 자동 추적한다. ARMG(A)는 야드에서 자동으로 컨테이너를 적재·인출하는 레일식 크레인이다.",
+      "relatedConcept": "8-6",
+      "examTip": "자동화 항만 3대 장비: 원격제어 QC(안벽), AGV(수평운반), ARMG(야드 적재). 2025년 이후 출제 빈도 증가 예상."
+    },
+    {
+      "id": "q4-08-18",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "복합운송증권",
+      "question": "복합운송인(MTO)이 발행하는 복합운송증권(MTD)은 전 운송구간을 커버하는 단일 서류로, 유통가능(Negotiable) 증권의 성격을 가진다.",
+      "options": ["O", "X"],
+      "answer": "O",
+      "explanation": "복합운송증권(MTD: Multimodal Transport Document) 또는 CT B/L(Combined Transport Bill of Lading)은 복합운송인(MTO)이 발행하는 전 구간 커버 단일 서류이며, 유통가능(Negotiable) 증권으로 유가증권의 기능을 한다.",
+      "relatedConcept": "8-5",
+      "examTip": "복합운송증권=MTD=CT B/L. 단일 서류로 전 구간 커버, 유통가능. 개별 구간 서류와 혼동하지 말 것."
+    },
+    {
+      "id": "q4-08-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Sea & Air",
+      "question": "해상운송과 항공운송을 결합한 Sea & Air 복합운송에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 해운의 저렴한 운임과 항공의 신속성을 결합한 형태이다.",
+        "B. 중간 경유지(시애틀, 두바이, 싱가포르 등)에서 해운→항공으로 환적한다.",
+        "C. 순수 항공운송보다 비용이 저렴하고, 순수 해운보다 운송시간이 짧다.",
+        "D. 항상 해운 구간이 먼저이고 항공 구간이 나중이어야 Sea & Air로 인정된다.",
+        "E. 의류·전자부품 등 시간에 민감하지만 순수 항공운임은 부담스러운 화물에 적합하다."
+      ],
+      "answer": "D",
+      "explanation": "Sea & Air는 해운과 항공을 결합한 복합운송의 일종으로, 반드시 해운이 먼저여야 하는 것은 아니다. Air & Sea(항공→해운) 형태도 존재할 수 있다. 다만 일반적으로는 장거리 구간을 해운으로 처리하고 마지막 구간을 항공으로 신속 배송하는 Sea→Air 형태가 더 보편적이다.",
+      "relatedConcept": "8-5",
+      "examTip": "Sea & Air의 '순서 고정 여부'는 함정 선지. 일반적으로 해운→항공이 많지만, 반드시 해운이 먼저여야 하는 것은 아니다."
+    },
+    {
+      "id": "q4-08-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "RMG vs RTG 비교",
+      "question": "컨테이너 야드(CY)에서 사용되는 트랜스퍼크레인 중, 레일 위를 이동하며 자동화 운전이 가능하여 스마트항만의 핵심장비로 채택되는 것과, 고무 타이어로 이동하여 유연성이 높아 중소형 터미널에 적합한 것의 짝이 올바른 것은?",
+      "options": [
+        "A. 레일식 자동화 = RTG, 타이어식 유연 = RMG",
+        "B. 레일식 자동화 = RMG, 타이어식 유연 = RTG",
+        "C. 레일식 자동화 = QC, 타이어식 유연 = S/C",
+        "D. 레일식 자동화 = ARMG, 타이어식 유연 = QC",
+        "E. 레일식 자동화 = AGV, 타이어식 유연 = RTG"
+      ],
+      "answer": "B",
+      "explanation": "RMG(Rail Mounted Gantry Crane)는 레일 위를 이동하는 야드크레인으로, 정밀한 위치제어가 가능하여 자동화(ARMG)에 적합하고 대형 터미널·스마트항만에 채택된다. RTG(Rubber Tired Gantry Crane)는 고무 타이어로 자유롭게 이동하여 유연성이 높으며, 중소형 터미널에 적합하다.",
+      "relatedConcept": "8-3",
+      "examTip": "RMG=Rail(레일)=자동화 가능(ARMG)=대형/스마트항만, RTG=Rubber Tired(타이어)=유연=중소형. 알파벳 R·R로 시작하지만 뒤가 다르다!"
+    }
+  ]
+}

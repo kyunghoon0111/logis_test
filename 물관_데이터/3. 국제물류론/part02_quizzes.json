@@ -1,0 +1,368 @@
+{
+  "chapter": "PART 02 국제해상운송",
+  "subject": "국제물류론",
+  "quizzes": [
+    {
+      "id": "q3-02-01",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "정기선 vs 부정기선",
+      "question": "해상운송에서 정기선(Liner)에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 정해진 항로와 일정에 따라 규칙적으로 운항한다",
+        "B. 운임은 운임표(Tariff)에 의해 결정된다",
+        "C. 주로 원자재, 곡물 등 대량 살물화물을 취급한다",
+        "D. 개품운송계약에 의하며 선하증권(B/L)을 발행한다",
+        "E. 해운동맹에 가입하여 운항하는 경우가 많다"
+      ],
+      "answer": "C",
+      "explanation": "원자재, 곡물 등 대량 살물화물(Bulk Cargo)은 부정기선(Tramper)이 취급한다. 정기선은 완제품, 반제품 등 일반화물(소량·다품종)을 컨테이너로 운송한다.",
+      "relatedConcept": "정기선 vs 부정기선 비교",
+      "examTip": "정기선=일반화물(컨테이너), 부정기선=살물화물(벌크). 취급화물 구분은 기본 중의 기본!"
+    },
+    {
+      "id": "q3-02-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "해상운임 할증료",
+      "question": "해상운송에서 유류가격 변동에 따른 할증료를 의미하는 것은?",
+      "options": [
+        "A. CAF(Currency Adjustment Factor)",
+        "B. BAF(Bunker Adjustment Factor)",
+        "C. THC(Terminal Handling Charge)",
+        "D. PSS(Peak Season Surcharge)",
+        "E. CFS Charge"
+      ],
+      "answer": "B",
+      "explanation": "BAF(Bunker Adjustment Factor)는 유류(벙커유) 가격 변동에 따른 할증료이다. Bunker는 선박 연료를 의미한다. CAF는 환율변동, THC는 터미널 화물처리비, PSS는 성수기 할증료이다.",
+      "relatedConcept": "해상운임 할증료",
+      "examTip": "BAF=Bunker(연료)=유류, CAF=Currency(통화)=환율. 이 둘을 바꿔 출제하는 것이 가장 흔한 함정!"
+    },
+    {
+      "id": "q3-02-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "하역비 부담조건",
+      "question": "부정기선 해상운송에서 FIO(Free In and Out) 조건에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. 적재비는 선주, 양하비는 화주가 부담한다",
+        "B. 적재비와 양하비 모두 선주가 부담한다",
+        "C. 적재비와 양하비 모두 화주가 부담한다",
+        "D. 적재비는 화주, 양하비는 선주가 부담한다",
+        "E. 적재비, 양하비, 적부비 모두 화주가 부담한다"
+      ],
+      "answer": "C",
+      "explanation": "FIO(Free In and Out)는 적재(In)와 양하(Out) 비용 모두를 화주가 부담하는 조건이다. 선주는 해상운송만 담당한다. E의 경우 적부비까지 포함하면 FIOS 조건이 된다.",
+      "relatedConcept": "부정기선 하역비 부담조건",
+      "examTip": "FI=적재비 화주, FO=양하비 화주, FIO=둘 다 화주, FIOS=+적부비, FIOST=+정리비까지. 알파벳이 추가될수록 화주 부담 증가!"
+    },
+    {
+      "id": "q3-02-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "선하증권(B/L)",
+      "question": "선하증권(B/L)의 법적 성격으로 옳지 않은 것은?",
+      "options": [
+        "A. 유가증권성 - 재산적 가치를 가지는 증권이다",
+        "B. 운송계약서 - 운송인과 송하인 간의 운송계약 그 자체이다",
+        "C. 요인증권성 - 화물과 상환하여 권리를 행사한다",
+        "D. 문언증권성 - 기재된 내용이 법적 효력을 가진다",
+        "E. 화물수취증 - 운송인이 화물을 수취하였음을 증명한다"
+      ],
+      "answer": "B",
+      "explanation": "B/L은 '운송계약의 증거(Evidence of Contract)'이지, '운송계약서(Contract)' 자체가 아니다. 운송계약서는 용선계약서(Charter Party)이다. 이는 시험에서 가장 자주 출제되는 함정이다.",
+      "relatedConcept": "선하증권의 법적 성격",
+      "examTip": "B/L ≠ 운송계약서! B/L = 운송계약의 '증거'. 이 한 단어 차이가 매번 출제됨. 반드시 암기!"
+    },
+    {
+      "id": "q3-02-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "B/L 종류",
+      "question": "신용장(L/C) 거래에서 은행이 원칙적으로 수리를 거절하는 선하증권은?",
+      "options": [
+        "A. 선적B/L(Shipped B/L)",
+        "B. 무고장B/L(Clean B/L)",
+        "C. 지시식B/L(Order B/L)",
+        "D. 수취B/L(Received B/L)",
+        "E. 통선하증권(Through B/L)"
+      ],
+      "answer": "D",
+      "explanation": "수취B/L(Received B/L)은 운송인이 화물을 수취만 한 상태에서 발행한 것으로, 아직 본선에 선적되지 않았다. 신용장 거래에서 은행은 원칙적으로 선적B/L(Shipped/On Board B/L)을 요구하며, 수취B/L은 거절한다. 또한 고장B/L(Foul B/L)도 거절 대상이다.",
+      "relatedConcept": "선하증권의 종류",
+      "examTip": "은행 거절 B/L 2가지: ①수취B/L(미선적), ②고장B/L(화물 하자). 은행은 '선적된+무고장' B/L만 수리!"
+    },
+    {
+      "id": "q3-02-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "B/L 종류",
+      "question": "배서(Endorsement)에 의해 양도가 가능하며, 국제무역에서 가장 많이 사용되는 선하증권의 유형은?",
+      "options": [
+        "A. 기명식 B/L(Straight B/L)",
+        "B. 지시식 B/L(Order B/L)",
+        "C. 무기명식 B/L(Bearer B/L)",
+        "D. 수취 B/L(Received B/L)",
+        "E. 약식 B/L(Short Form B/L)"
+      ],
+      "answer": "B",
+      "explanation": "지시식 B/L(Order B/L)은 'to order' 또는 'to order of shipper'로 기재되며, 배서에 의해 양도가 가능하다. 국제무역에서 가장 널리 사용된다. 기명식은 배서양도 불가, 무기명식은 소지인에게 인도되어 분실 위험이 크다.",
+      "relatedConcept": "선하증권의 종류(수하인 기재 기준)",
+      "examTip": "지시식 B/L이 가장 많이 사용되는 이유: 배서양도 가능 → 유통성 확보 → 은행 담보 취득 용이"
+    },
+    {
+      "id": "q3-02-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "B/L vs AWB vs Sea Waybill",
+      "question": "선하증권(B/L), 항공화물운송장(AWB), 해상화물운송장(Sea Waybill)에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. B/L과 AWB는 모두 유가증권에 해당한다",
+        "B. Sea Waybill은 B/L과 마찬가지로 배서에 의한 양도가 가능하다",
+        "C. AWB는 유가증권이므로 원본과 상환하여 화물을 인도한다",
+        "D. B/L만이 유가증권이며, AWB와 Sea Waybill은 비유가증권이다",
+        "E. Sea Waybill은 유가증권이지만 AWB는 비유가증권이다"
+      ],
+      "answer": "D",
+      "explanation": "3대 운송서류 중 유가증권은 B/L뿐이다. AWB와 Sea Waybill은 모두 비유가증권으로 배서양도가 불가능하다. AWB는 화물수취증이자 운송계약의 증거이지만 유가증권이 아니므로, 원본 없이도 수하인에게 화물을 인도한다.",
+      "relatedConcept": "운송서류 비교",
+      "examTip": "유가증권은 B/L '만'! AWB도 Sea Waybill도 비유가증권. 이 사실 하나만 기억하면 관련 문제 거의 다 맞출 수 있음"
+    },
+    {
+      "id": "q3-02-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "용선계약",
+      "question": "용선계약에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 항해용선에서 선원은 선주가 고용한다",
+        "B. 정기용선에서 선원은 선주가 고용하나, 운항 지시는 용선자가 한다",
+        "C. 나용선에서 선원은 용선자가 고용한다",
+        "D. 정기용선에서 연료비(벙커비)는 선주가 부담한다",
+        "E. 나용선에서 선박보험은 용선자가 부담한다"
+      ],
+      "answer": "D",
+      "explanation": "정기용선에서 연료비(벙커비)는 용선자가 부담한다. 선주가 부담하는 것은 선원 고용, 선박 관리·수리, 선박보험이다. 연료비, 항비, 하역비 등 운항 관련 비용은 용선자가 부담하는 것이 정기용선의 특징이다.",
+      "relatedConcept": "용선계약 3종 비교",
+      "examTip": "정기용선의 비용 분담: 선주='선원+선박관리(고정비)', 용선자='연료+항비+하역(변동비)'. 고정비 vs 변동비로 구분하면 쉬움"
+    },
+    {
+      "id": "q3-02-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "용선계약",
+      "question": "나용선(Bareboat Charter)에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. 선원은 선주가 고용하고 운항 지시는 용선자가 한다",
+        "B. 선체만 빌리므로 선원 고용, 선박관리, 보험 모두 용선자 책임이다",
+        "C. 운임은 톤당 또는 Lump Sum으로 산정한다",
+        "D. 단기 계약이 일반적이며 Spot 시장에서 거래된다",
+        "E. 선주가 연료비와 항비를 부담한다"
+      ],
+      "answer": "B",
+      "explanation": "나용선(Bareboat Charter)은 'Bare(벌거벗은)' 선체만 빌리는 계약이므로, 선원 고용, 선박관리·수리, 보험, 연료비, 항비 등 모든 비용과 책임이 용선자에게 있다. A는 정기용선 설명, C는 항해용선, D는 항해용선 특성이다.",
+      "relatedConcept": "나용선의 특징",
+      "examTip": "나용선 = 셀프 렌터카. 차(선체)만 빌리고 나머지(기사=선원, 보험, 기름 등)는 전부 내가!"
+    },
+    {
+      "id": "q3-02-10",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "체선료/조출료 계산",
+      "question": "항해용선계약에서 정박기간(Lay Days)이 10일이고, 실제 하역에 13일이 소요되었다. 1일 체선료(Demurrage)가 $8,000일 때, 체선료 총액은?",
+      "options": [
+        "A. $8,000",
+        "B. $16,000",
+        "C. $24,000",
+        "D. $32,000",
+        "E. $80,000"
+      ],
+      "answer": "C",
+      "explanation": "체선료 = 초과일수 × 1일 체선료율. 초과일수 = 13일(실제) - 10일(정박기간) = 3일. 체선료 = 3일 × $8,000 = $24,000. 이 금액은 용선자가 선주에게 지급한다.",
+      "relatedConcept": "체선료(Demurrage) 계산",
+      "examTip": "체선료는 용선자→선주, 조출료는 선주→용선자. 금액 방향과 함께 조출료는 보통 체선료의 1/2이라는 점도 기억!"
+    },
+    {
+      "id": "q3-02-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "해상보험 ICC",
+      "question": "협회적하약관 ICC(A), ICC(B), ICC(C) 중 도난(Theft)과 해적행위(Piracy) 위험을 담보하는 약관은?",
+      "options": [
+        "A. ICC(A)만 담보한다",
+        "B. ICC(A)와 ICC(B)가 담보한다",
+        "C. ICC(A), ICC(B), ICC(C) 모두 담보한다",
+        "D. ICC(B)만 담보한다",
+        "E. ICC(B)와 ICC(C)가 담보한다"
+      ],
+      "answer": "A",
+      "explanation": "도난(Theft), 발하(Pilferage), 불착(Non-delivery), 해적행위(Piracy)는 ICC(A)만 담보한다. ICC(A)는 포괄담보(All Risks)로 면책사유 외 모든 위험을 담보하지만, ICC(B)와 ICC(C)는 열거위험만 담보하며 이들 위험은 열거 목록에 포함되지 않는다.",
+      "relatedConcept": "ICC(A)(B)(C) 담보범위 비교",
+      "examTip": "ICC(A)에서만 담보되는 위험: 도난·발하·불착·해적·갈고리손·우담수손해 등. '훔치고 적시는 건 A만!'"
+    },
+    {
+      "id": "q3-02-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "해상보험",
+      "question": "해상보험에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. ICC(A)는 포괄담보(All Risks) 방식이지만, 전쟁·동맹파업 위험은 별도 약관으로 부보해야 한다",
+        "B. 공동해손(G/A)은 ICC(A), ICC(B), ICC(C) 모두에서 담보된다",
+        "C. CIF 조건에서 매도인의 최소 부보 의무는 ICC(A)이다",
+        "D. 추정전손(CTL)은 수리·복구 비용이 화물가액을 초과할 때 인정된다",
+        "E. 보험금액은 통상 CIF 가격의 110%로 설정한다"
+      ],
+      "answer": "C",
+      "explanation": "인코텀즈 2020에서 CIF 조건의 매도인 최소 부보 의무는 ICC(C)이다(가장 좁은 담보). 반면 CIP 조건에서는 인코텀즈 2020 개정으로 ICC(A)(가장 넓은 담보)가 최소 의무로 변경되었다. CIF=ICC(C), CIP=ICC(A)를 혼동하면 안 된다.",
+      "relatedConcept": "해상보험과 인코텀즈 연계",
+      "examTip": "인코텀즈 2020 개정 핵심: CIF→최소 ICC(C), CIP→최소 ICC(A)로 변경. 2010년판에서는 둘 다 ICC(C)였으므로, 개정 포인트로 자주 출제!"
+    },
+    {
+      "id": "q3-02-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "공동해손",
+      "question": "공동해손(General Average)에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 공동의 안전을 위해 고의적이고 합리적으로 발생시킨 희생·비용이다",
+        "B. 선박과 화물 등 이해관계자들이 비율에 따라 공동으로 분담한다",
+        "C. 폭풍 시 일부 화물을 바다에 투하하는 행위가 대표적 사례이다",
+        "D. 풍랑으로 특정 화주의 화물만 손상된 경우도 공동해손에 해당한다",
+        "E. 요크-앤트워프 규칙(York-Antwerp Rules)이 국제적 표준이다"
+      ],
+      "answer": "D",
+      "explanation": "풍랑으로 특정 화주의 화물만 손상된 경우는 '단독해손(Particular Average)'이다. 공동해손은 반드시 '공동의 안전을 위한 고의적·합리적 처분'이어야 하며, 우연한 사고로 인한 손해는 해당되지 않는다.",
+      "relatedConcept": "공동해손 vs 단독해손",
+      "examTip": "공동해손의 핵심 키워드: '고의적+합리적+공동안전'. 하나라도 빠지면 단독해손! 풍랑에 의한 '우연한' 손해는 절대 공동해손 아님"
+    },
+    {
+      "id": "q3-02-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "국제조약 비교",
+      "question": "해상운송 국제조약에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. 헤이그규칙에서 운송인의 배상한도는 666.67SDR/포장이다",
+        "B. 함부르크규칙에서도 항해과실 면책이 인정된다",
+        "C. 헤이그-비스비규칙의 책임기간은 수취에서 인도까지이다",
+        "D. 함부르크규칙의 제소기간은 2년이다",
+        "E. 로테르담규칙은 현재 전 세계적으로 널리 적용되고 있다"
+      ],
+      "answer": "D",
+      "explanation": "함부르크규칙의 제소기간은 2년이다. A는 헤이그-비스비규칙의 배상한도(헤이그는 £100), B는 함부르크에서 항해과실 면책이 폐지됨, C는 헤이그-비스비의 책임기간은 선적~양하(Tackle to Tackle), E는 로테르담규칙은 미발효 상태이다.",
+      "relatedConcept": "해상운송 국제조약 비교",
+      "examTip": "제소기간: 헤이그/비스비=1년, 함부르크/로테르담=2년. 항해과실 면책: 헤이그/비스비=인정, 함부르크/로테르담=폐지. 이 두 가지가 가장 빈출!"
+    },
+    {
+      "id": "q3-02-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "국제조약 배상한도",
+      "question": "헤이그-비스비규칙에 따라 화물 200포장, 총중량 80,000kg이 손해를 입었을 때, 운송인의 배상한도는?",
+      "options": [
+        "A. 133,334SDR",
+        "B. 160,000SDR",
+        "C. 167,000SDR",
+        "D. 200,000SDR",
+        "E. 250,000SDR"
+      ],
+      "answer": "B",
+      "explanation": "헤이그-비스비규칙 배상한도 = Max(666.67SDR×포장수, 2SDR×총중량kg). ①포장당: 666.67×200 = 133,334SDR. ②중량당: 2×80,000 = 160,000SDR. Max(133,334, 160,000) = 160,000SDR. 둘 중 높은 금액이 적용된다.",
+      "relatedConcept": "헤이그-비스비규칙 배상한도 계산",
+      "examTip": "배상한도 계산 순서: ①포장당 계산 ②중량당 계산 ③둘 중 큰 값 선택. 숫자 암기: 헤비=666.67/2, 함=835/2.5, 로=875/3"
+    },
+    {
+      "id": "q3-02-16",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "국제조약",
+      "question": "헤이그-비스비규칙에서는 항해과실 면책이 인정되지만, 함부르크규칙에서는 항해과실 면책이 폐지되었다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "헤이그규칙과 헤이그-비스비규칙에서는 선장·선원의 항해과실(Navigation Fault)과 선박관리과실(Management Fault)을 운송인의 면책사유로 인정한다. 그러나 함부르크규칙에서는 화주 보호를 위해 항해과실 면책을 폐지하였으며, 로테르담규칙도 마찬가지이다.",
+      "relatedConcept": "항해과실 면책 적용 여부",
+      "examTip": "항해과실 면책은 헤이그·비스비에서만! 함부르크·로테르담은 폐지. 이것이 '화주 보호 강화'의 가장 대표적 변화"
+    },
+    {
+      "id": "q3-02-17",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "선하증권",
+      "question": "선하증권(B/L)은 운송인과 송하인 간의 해상운송계약서이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "선하증권(B/L)은 해상운송계약의 '증거(Evidence of Contract)'이지, 운송계약서 자체가 아니다. 운송계약서는 용선계약서(Charter Party)이다. B/L은 화물수취증, 운송계약의 증거, 유가증권(권리증권)의 3가지 기능을 한다.",
+      "relatedConcept": "B/L의 법적 성격",
+      "examTip": "초빈출 OX 문제! B/L='운송계약의 증거' ≠ '운송계약서'. 시험장에서 헷갈리면 무조건 X!"
+    },
+    {
+      "id": "q3-02-18",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "해상보험",
+      "question": "인코텀즈 2020에서 CIF 조건과 CIP 조건 모두 매도인의 최소 부보 의무는 ICC(A)이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "인코텀즈 2020에서 CIF 조건의 매도인 최소 부보 의무는 ICC(C)(최소담보)이고, CIP 조건의 최소 부보 의무는 ICC(A)(포괄담보)이다. 2010년판에서는 CIF, CIP 모두 ICC(C)였으나, 2020에서 CIP만 ICC(A)로 상향 변경되었다.",
+      "relatedConcept": "인코텀즈 2020과 보험 연계",
+      "examTip": "CIF=C등급(ICC(C)), CIP=A등급(ICC(A))으로 암기. 인코텀즈 2020 개정 포인트로 매우 높은 빈출!"
+    },
+    {
+      "id": "q3-02-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Switch B/L",
+      "question": "중개무역(삼각무역)에서 원래의 B/L을 회수하고 새로운 B/L을 발행하여 실제 수출자 정보를 숨기는 목적으로 사용되는 B/L은?",
+      "options": [
+        "A. Through B/L",
+        "B. Stale B/L",
+        "C. Switch B/L",
+        "D. Red B/L",
+        "E. Groupage B/L"
+      ],
+      "answer": "C",
+      "explanation": "Switch B/L은 중개무역(삼각무역)에서 중개상이 원래 B/L을 회수하고, 송하인(Shipper)이나 수하인(Consignee)을 변경한 새로운 B/L을 발행받는 것이다. 이를 통해 실제 수출자와 수입자 간의 직접 거래를 방지하고 중개상의 거래 정보를 보호한다.",
+      "relatedConcept": "특수 B/L 종류",
+      "examTip": "Switch B/L = '교체(Switch)' B/L = 삼각무역용. Stale B/L = 기한 경과 B/L. Red B/L = 보상장(L/I) 첨부 B/L. 이름에서 힌트를 찾자!"
+    },
+    {
+      "id": "q3-02-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "종합",
+      "question": "해상운송에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 정기용선에서 Off-Hire는 선박 불가동 기간에 대해 용선료를 면제하는 제도이다",
+        "B. 조출료(Despatch Money)는 하역을 조기 완료했을 때 선주가 용선자에게 지급하는 보상금이다",
+        "C. 헤이그-비스비규칙은 현재 국제적으로 가장 널리 적용되는 해상운송 조약이다",
+        "D. 해상화물운송장(Sea Waybill)은 유가증권으로서 배서에 의한 양도가 가능하다",
+        "E. ICC(C)는 화재·폭발, 좌초·침몰·전복 등 기본위험만을 담보하는 최소담보 약관이다"
+      ],
+      "answer": "D",
+      "explanation": "해상화물운송장(Sea Waybill)은 유가증권이 아닌 비유가증권이다. 따라서 배서에 의한 양도가 불가능하며, 수하인 본인 확인만으로 화물을 인도한다. 유가증권인 B/L과 달리 분실 시에도 화물 인도에 지장이 없는 장점이 있다.",
+      "relatedConcept": "해상운송 종합 이해",
+      "examTip": "Sea Waybill=비유가증권이라는 점은 거의 매 시험 출제. B/L과의 차이점을 확실히 정리해두면 2~3문제는 잡을 수 있음"
+    }
+  ]
+}

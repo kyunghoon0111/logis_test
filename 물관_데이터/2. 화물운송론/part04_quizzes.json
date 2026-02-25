@@ -1,0 +1,374 @@
+{
+  "chapter": "PART 04 해상운송",
+  "subject": "화물운송론",
+  "quizzes": [
+    {
+      "id": "q2-04-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "해운 형태",
+      "question": "정기선(Liner)과 부정기선(Tramper)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 정기선은 용선계약(C/P)에 의해 운항된다",
+        "B. 부정기선은 운임표(Tariff)에 따라 운임이 결정된다",
+        "C. 정기선은 정해진 항로·일정에 따라 규칙적으로 운항한다",
+        "D. 부정기선은 주로 컨테이너 화물을 운송한다",
+        "E. 정기선은 특정 대량 화주만을 대상으로 운항한다"
+      ],
+      "answer": "C",
+      "explanation": "정기선은 정해진 항로와 일정에 따라 규칙적으로 운항하며, 운임표(Tariff)를 적용하고 B/L을 발행한다. 용선계약은 부정기선, 컨테이너는 정기선, Tariff는 정기선의 특징이다.",
+      "relatedConcept": "해상운송의 특성과 형태",
+      "examTip": "정기선=Tariff+B/L+컨테이너+불특정 다수. 부정기선=용선계약(C/P)+시장운임+벌크+특정 화주. 두 형태의 특징을 교차 출제"
+    },
+    {
+      "id": "q2-04-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "선하증권",
+      "question": "선하증권(B/L)의 기능에 해당하지 않는 것은?",
+      "options": [
+        "A. 운송계약의 증거",
+        "B. 화물 수령증",
+        "C. 권리증권(유가증권)",
+        "D. 소유권 이전 증서",
+        "E. 배서에 의한 양도 가능"
+      ],
+      "answer": "D",
+      "explanation": "B/L의 3대 기능은 ①운송계약의 증거, ②화물 수령증, ③권리증권(유가증권)이다. B/L은 화물에 대한 인도청구권을 나타내는 것이지, 소유권 이전을 직접 증명하는 서류는 아니다.",
+      "relatedConcept": "선하증권(Bill of Lading, B/L)",
+      "examTip": "B/L 3대 기능: 증거+수령증+권리증권. '소유권 이전'은 B/L의 기능이 아님. Incoterms도 소유권 이전을 규정하지 않음"
+    },
+    {
+      "id": "q2-04-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "B/L 종류",
+      "question": "신용장(L/C) 거래에서 은행이 일반적으로 요구하는 선하증권의 조건은?",
+      "options": [
+        "A. Received Foul B/L",
+        "B. Shipped Clean On Board B/L",
+        "C. Stale B/L",
+        "D. Foul Order B/L",
+        "E. Received Clean B/L"
+      ],
+      "answer": "B",
+      "explanation": "L/C 거래에서 은행은 Shipped(선적완료) + Clean(무사고) + On Board(본선적재) B/L을 요구한다. 선적이 완료되고 화물 외관에 이상이 없음을 확인한 B/L이어야 은행이 서류를 수리한다.",
+      "relatedConcept": "선하증권(Bill of Lading, B/L)",
+      "examTip": "L/C 필수 조건: Shipped + Clean + On Board. Received(수취)나 Foul(사고부)이면 은행 거절. 매우 빈출"
+    },
+    {
+      "id": "q2-04-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "용선계약",
+      "question": "용선계약 형태 중, 선박만 임차하고 선원·연료·보험 등 모든 운영비용을 용선자가 부담하는 것은?",
+      "options": [
+        "A. 항해용선(Voyage Charter)",
+        "B. 기간용선(Time Charter)",
+        "C. 나용선(Bareboat Charter)",
+        "D. 정기용선(Liner Charter)",
+        "E. 부분용선(Part Charter)"
+      ],
+      "answer": "C",
+      "explanation": "나용선(Bareboat Charter)은 선체(hull)만 임차하는 계약으로, 선원 고용, 연료비, 보험료 등 모든 운영비를 용선자가 부담한다. 사실상 장기 선박 리스와 유사하다.",
+      "relatedConcept": "해상운임과 용선계약",
+      "examTip": "나용선=Bareboat='벌거벗은 배'=선체만 빌림. 항해용선=선주 대부분 부담, 기간용선=연료·항비 용선자, 나용선=전부 용선자. 비용부담 범위로 구분"
+    },
+    {
+      "id": "q2-04-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "해상운임 할증",
+      "question": "국제유가 변동에 따라 부과되는 해상운임 할증료는?",
+      "options": [
+        "A. CAF (Currency Adjustment Factor)",
+        "B. BAF (Bunker Adjustment Factor)",
+        "C. THC (Terminal Handling Charge)",
+        "D. PSS (Peak Season Surcharge)",
+        "E. WRS (War Risk Surcharge)"
+      ],
+      "answer": "B",
+      "explanation": "BAF(Bunker Adjustment Factor)는 유류(벙커유) 가격 변동에 따른 할증료이다. CAF는 환율 변동, THC는 터미널 하역비, PSS는 성수기 할증, WRS는 전쟁 위험 할증이다.",
+      "relatedConcept": "해상운임과 용선계약",
+      "examTip": "BAF=Bunker(연료), CAF=Currency(통화). 두 개를 바꿔 출제하는 패턴이 매우 빈출. 영문 약어의 첫 글자로 기억"
+    },
+    {
+      "id": "q2-04-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "체선료·조출료",
+      "question": "용선계약에서 정박기간(Lay Time)이 10일이고 일당 체선료(Demurrage)가 $6,000일 때, 실제 작업이 7일 만에 완료되었다면 조출료(Dispatch Money)는?",
+      "options": [
+        "A. $6,000",
+        "B. $9,000",
+        "C. $12,000",
+        "D. $15,000",
+        "E. $18,000"
+      ],
+      "answer": "B",
+      "explanation": "단축일수 = 10일 - 7일 = 3일. 조출료 = 체선료의 1/2 × 단축일수 = $6,000 × 1/2 × 3 = $9,000. 체선료와 조출료의 관계(Demurrage = 2 × Dispatch)를 기억해야 한다.",
+      "relatedConcept": "해운 관련 주요 용어와 실무",
+      "examTip": "조출료 = 일당 체선료 ÷ 2 × 단축일수. 체선료가 조출료의 2배라는 관계를 이용. 시험에서 '같다'로 바꿔 출제 주의"
+    },
+    {
+      "id": "q2-04-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "하역조건",
+      "question": "FIO(Free In and Out) 조건에서 선적·양하 비용의 부담은?",
+      "options": [
+        "A. 선적: 선주, 양하: 선주",
+        "B. 선적: 화주, 양하: 선주",
+        "C. 선적: 선주, 양하: 화주",
+        "D. 선적: 화주, 양하: 화주",
+        "E. 선적·양하 비용을 선주와 화주가 균등 분담"
+      ],
+      "answer": "D",
+      "explanation": "FIO(Free In and Out)는 선적(In)과 양하(Out) 비용 모두 선주가 면책(Free)되는 조건으로, 화주가 모두 부담한다. 선주 입장에서 Free이므로 화주에게 비용이 전가된다.",
+      "relatedConcept": "해운 관련 주요 용어와 실무",
+      "examTip": "FIO의 'Free'는 선주가 Free(면책)라는 뜻 → 화주 부담. Berth Terms는 반대로 선주 부담. 관점(누가 Free인지)을 파악"
+    },
+    {
+      "id": "q2-04-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "해상보험",
+      "question": "ICC 약관 중 담보범위가 가장 넓은(전위험 담보) 것은?",
+      "options": [
+        "A. ICC(A)",
+        "B. ICC(B)",
+        "C. ICC(C)",
+        "D. ICC(W)",
+        "E. ICC(S)"
+      ],
+      "answer": "A",
+      "explanation": "ICC(A)는 All Risks(전위험 담보)로 담보범위가 가장 넓다. ICC(B)는 중간, ICC(C)는 최소 담보이다. 담보범위: A > B > C. 보험료도 A > B > C 순이다.",
+      "relatedConcept": "해상보험",
+      "examTip": "ICC(A)=All Risks(가장 넓음), ICC(C)=Core(최소). 그러나 ICC(A)도 전쟁·파업 위험은 별도 특약 필요"
+    },
+    {
+      "id": "q2-04-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "보험료 계산",
+      "question": "CIF 가격이 $50,000인 화물에 대해 보험금액을 CIF의 110%로, 보험요율을 0.4%로 적용할 때 보험료는?",
+      "options": [
+        "A. $200",
+        "B. $220",
+        "C. $440",
+        "D. $500",
+        "E. $550"
+      ],
+      "answer": "B",
+      "explanation": "보험금액 = $50,000 × 110% = $55,000. 보험료 = $55,000 × 0.4% = $55,000 × 0.004 = $220.",
+      "relatedConcept": "해상보험",
+      "examTip": "보험금액 = CIF × 110%(희망이익 10% 포함). 보험료 = 보험금액 × 보험요율. 2단계 계산을 정확히"
+    },
+    {
+      "id": "q2-04-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Incoterms 2020 기본",
+      "question": "Incoterms 2020에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 국제상업회의소(ICC)가 제정하였다",
+        "B. 총 11개 조건으로 구성된다",
+        "C. 매도인과 매수인 간의 비용·위험 분담을 규정한다",
+        "D. 소유권 이전 시점을 명확히 규정한다",
+        "E. 2020년 1월 1일부터 시행되었다"
+      ],
+      "answer": "D",
+      "explanation": "Incoterms는 비용·위험·인도 의무만 규정하며, 소유권 이전과 대금결제 방법은 규정하지 않는다. 소유권 이전은 매매계약이나 해당국 법률에 의해 결정된다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "Incoterms가 규정하지 않는 것: ①소유권 이전, ②대금결제. 이 두 가지가 시험에서 가장 많이 출제되는 함정"
+    },
+    {
+      "id": "q2-04-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Incoterms 해상전용",
+      "question": "Incoterms 2020에서 해상 및 내수로 운송에만 사용되는 조건을 모두 고른 것은?",
+      "options": [
+        "A. EXW, FCA, FOB, CIF",
+        "B. FAS, FOB, CFR, CIF",
+        "C. FOB, CFR, CIF, DDP",
+        "D. FAS, FOB, CPT, CIP",
+        "E. FCA, FAS, FOB, CFR"
+      ],
+      "answer": "B",
+      "explanation": "해상·내수로 전용 4개 조건: FAS, FOB, CFR, CIF. 나머지 7개(EXW, FCA, CPT, CIP, DAP, DPU, DDP)는 모든 운송수단에 사용 가능하다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "해상전용 4개: FAS, FOB, CFR, CIF → 모두 '선적항' 또는 '목적항' 기반. 컨테이너 운송에는 사용하지 않는 것이 원칙(FCA, CPT, CIP 사용)"
+    },
+    {
+      "id": "q2-04-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Incoterms 위험이전",
+      "question": "CIF 조건에서 매도인이 운임과 보험료를 목적항까지 부담하지만, 위험이전 시점은 어디인가?",
+      "options": [
+        "A. 매도인의 공장",
+        "B. 선적항 선측",
+        "C. 선적항 본선에 화물 적재 시",
+        "D. 목적항에 화물 도착 시",
+        "E. 매수인의 창고에 화물 인도 시"
+      ],
+      "answer": "C",
+      "explanation": "CIF는 C그룹으로, 비용은 목적항까지 매도인이 부담하지만, 위험은 선적항에서 본선에 화물을 적재한 시점에 매수인에게 이전된다. 비용부담 시점과 위험이전 시점이 다른 것이 C그룹의 핵심 특징이다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "C그룹(CFR, CIF, CPT, CIP) 최대 함정: 비용=목적지까지, 위험=출발지에서 이전. '비용≠위험' 시점이 다름! 시험 최다 출제 포인트"
+    },
+    {
+      "id": "q2-04-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Incoterms EXW vs DDP",
+      "question": "Incoterms 2020에서 매도인의 의무가 가장 큰(비용·위험 부담 최대) 조건과 가장 작은 조건의 올바른 조합은?",
+      "options": [
+        "A. 최대: CIF, 최소: FOB",
+        "B. 최대: DDP, 최소: EXW",
+        "C. 최대: DAP, 최소: FCA",
+        "D. 최대: CIP, 최소: FAS",
+        "E. 최대: DPU, 최소: EXW"
+      ],
+      "answer": "B",
+      "explanation": "DDP(Delivered Duty Paid)는 관세·통관까지 매도인이 부담하여 의무가 최대이고, EXW(Ex Works)는 공장에서 인도만 하면 되므로 의무가 최소이다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "매도인 의무: EXW(최소) → FCA → FAS → FOB → CFR → CIF → CPT → CIP → DAP → DPU → DDP(최대). 양 극단을 기억"
+    },
+    {
+      "id": "q2-04-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Incoterms 2020 변경사항",
+      "question": "Incoterms 2010에서 2020으로 개정 시 변경된 사항으로 옳은 것은?",
+      "options": [
+        "A. FOB가 FCA로 통합되었다",
+        "B. DAT가 DPU로 명칭이 변경되었다",
+        "C. CIF의 최소 보험조건이 ICC(A)로 상향되었다",
+        "D. EXW 조건이 폐지되었다",
+        "E. 총 13개 조건에서 11개로 축소되었다"
+      ],
+      "answer": "B",
+      "explanation": "Incoterms 2020의 주요 변경: ①DAT→DPU(양하 장소 확대), ②FCA에서 선적B/L 발행 규정 추가, ③CIP의 보험이 ICC(A)로 상향(CIF는 ICC(C) 유지). 2010도 11개, 2020도 11개로 총 수는 동일하다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "2010→2020 3대 변경: DAT→DPU, FCA B/L 발행, CIP 보험 상향. 특히 CIF는 ICC(C) 유지이고 CIP만 ICC(A)로 상향된 점 혼동 주의"
+    },
+    {
+      "id": "q2-04-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Incoterms 보험",
+      "question": "Incoterms 2020에서 매도인에게 보험 부보 의무가 있는 조건과 그 최소 담보 수준의 조합으로 올바른 것은?",
+      "options": [
+        "A. CIF - ICC(A), CIP - ICC(A)",
+        "B. CIF - ICC(C), CIP - ICC(C)",
+        "C. CIF - ICC(C), CIP - ICC(A)",
+        "D. CIF - ICC(A), CIP - ICC(C)",
+        "E. FOB - ICC(C), CFR - ICC(A)"
+      ],
+      "answer": "C",
+      "explanation": "Incoterms 2020에서 보험 의무가 있는 조건은 CIF와 CIP 두 가지뿐이다. CIF의 최소 담보는 ICC(C)이고, CIP는 2020년 개정으로 ICC(A)(전위험)로 상향되었다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "보험 의무 조건: CIF=ICC(C), CIP=ICC(A). 2020 개정에서 CIP만 상향됨. CIF와 CIP의 보험 수준을 바꿔 출제하는 함정이 매회 출제급"
+    },
+    {
+      "id": "q2-04-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Incoterms DAP vs DPU",
+      "question": "Incoterms 2020에서 DAP와 DPU의 차이점으로 올바른 것은?",
+      "options": [
+        "A. DAP는 관세를 매도인이 부담하고, DPU는 매수인이 부담한다",
+        "B. DAP는 양하 비용을 매수인이 부담하고, DPU는 매도인이 양하까지 부담한다",
+        "C. DAP는 해상전용이고, DPU는 모든 운송수단에 적용된다",
+        "D. DAP는 보험 부보 의무가 있고, DPU는 없다",
+        "E. DAP와 DPU는 위험이전 시점이 동일하다"
+      ],
+      "answer": "B",
+      "explanation": "DAP는 목적지에 양하 준비상태로 도착하면 인도 완료(양하는 매수인), DPU는 목적지에서 양하까지 완료해야 인도 완료(양하 매도인 부담). 양하 비용·위험의 부담 주체가 핵심 차이이다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "DAP=도착+양하 준비(양하X), DPU=도착+양하 완료(양하O). DPU는 11개 조건 중 유일하게 '목적지에서 양하 의무'가 매도인에게 있는 조건"
+    },
+    {
+      "id": "q2-04-17",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "B/L vs AWB",
+      "question": "항공화물운송장(AWB)은 선하증권(B/L)과 마찬가지로 유가증권이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "AWB(Air Waybill)는 유가증권이 아닌 증거증권이다. B/L은 유가증권(권리증권)이지만, AWB는 화물 수취 증거에 불과하며 배서·양도가 불가능하다.",
+      "relatedConcept": "선하증권(Bill of Lading, B/L)",
+      "examTip": "유가증권: B/L, 화물상환증. 증거증권: AWB, 공로운송장. B/L과 AWB의 법적 성격 차이는 거의 매회 출제"
+    },
+    {
+      "id": "q2-04-18",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "ICC 면책",
+      "question": "ICC(A) 전위험 담보 조건에서도 전쟁 위험과 동맹파업 위험은 기본적으로 면책(담보하지 않음)이다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "ICC(A)는 전위험 담보이지만, 전쟁·동맹파업 위험은 기본 면책 사항이다. 이를 담보하려면 별도의 전쟁약관(Institute War Clauses)이나 파업약관(Institute Strikes Clauses)에 가입해야 한다.",
+      "relatedConcept": "해상보험",
+      "examTip": "ICC(A)의 '전위험'에 속지 말 것. 전쟁·파업·고의·포장불량·지연·고유하자 등은 면책. 특히 전쟁·파업은 별도 특약 필수"
+    },
+    {
+      "id": "q2-04-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "Incoterms FOB vs FCA",
+      "question": "컨테이너 운송 시 Incoterms 2020에 의하면 FOB 대신 사용이 권장되는 조건은?",
+      "options": [
+        "A. EXW",
+        "B. FCA",
+        "C. FAS",
+        "D. CFR",
+        "E. DAP"
+      ],
+      "answer": "B",
+      "explanation": "FOB는 '본선 적재(on board)' 시점에 위험이 이전되므로 재래선 화물에 적합하다. 컨테이너 화물은 CY에서 운송인에게 인도되므로 '운송인 인도' 시점의 FCA가 더 적합하다. 이는 ICC도 권장하는 사항이다.",
+      "relatedConcept": "Incoterms 2020 (국제상업조건)",
+      "examTip": "컨테이너=FCA 권장(CY에서 인도), 재래선=FOB 적합(본선 적재). 실무에서는 여전히 FOB가 많이 쓰이지만, 이론적으로는 FCA가 맞음. 출제 빈도 상승 중"
+    },
+    {
+      "id": "q2-04-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "FCL vs LCL",
+      "question": "해상 컨테이너 운송에서 FCL과 LCL에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. FCL은 한 화주가 컨테이너 1개를 전용으로 사용한다",
+        "B. LCL은 여러 화주의 화물을 한 컨테이너에 혼적한다",
+        "C. FCL은 CY to CY 방식으로 처리된다",
+        "D. LCL은 CFS에서 화물 분류·혼적 작업이 이루어진다",
+        "E. LCL이 FCL보다 톤당 운임이 저렴하다"
+      ],
+      "answer": "E",
+      "explanation": "LCL은 CFS에서의 혼적·분류 작업 비용이 추가되므로, 일반적으로 FCL보다 톤당 운임이 비싸다. FCL이 톤당 운임 측면에서 더 경제적이다.",
+      "relatedConcept": "해운 관련 주요 용어와 실무",
+      "examTip": "FCL=CY to CY(경제적, 대량), LCL=CFS to CFS(비쌈, 소량). 톤당 운임: FCL < LCL. '저렴'과 '비쌈'을 바꿔 출제"
+    }
+  ]
+}

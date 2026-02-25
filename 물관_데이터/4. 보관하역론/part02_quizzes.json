@@ -1,0 +1,362 @@
+{
+  "chapter": "PART 02 물류시설과 창고관리시스템",
+  "subject": "보관하역론",
+  "quizzes": [
+    {
+      "id": "q4-02-01",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "DC vs TC vs FC 비교",
+      "question": "다음 중 Transfer Center(TC)에 대한 설명으로 가장 옳은 것은?",
+      "options": [
+        "A. 다품종 소량 재고를 보관하며 개별 소비자 주문을 처리한다",
+        "B. 크로스도킹 중심의 통과형 센터로 장기 재고를 보관하지 않는다",
+        "C. e커머스 특화 센터로 피킹·패킹·반품처리를 일괄 수행한다",
+        "D. 대량 입고 후 소량 분배 출고하는 전통적 재고보관형 센터이다",
+        "E. 2개 이상 운송수단 간 연계·환적 기능을 수행하는 터미널이다"
+      ],
+      "answer": "B",
+      "explanation": "TC(Transfer Center)는 크로스도킹 중심의 무재고 통과형 센터로, 입고된 화물을 보관하지 않고 즉시 분류·출고한다. A는 FC, C도 FC, D는 DC, E는 복합물류터미널에 대한 설명이다.",
+      "relatedConcept": "2-1",
+      "examTip": "TC의 핵심 키워드는 '크로스도킹'과 '무재고(통과형)'. 일시적 체류(24시간 이내)는 가능하지만 장기보관은 불가."
+    },
+    {
+      "id": "q4-02-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "DC vs TC vs FC 비교",
+      "question": "Fulfillment Center(FC)의 특성으로 가장 거리가 먼 것은?",
+      "options": [
+        "A. e커머스 주문처리에 특화되어 있다",
+        "B. 반품처리(역물류) 기능을 포함한다",
+        "C. 소량·다빈도·다품종 출고가 특징이다",
+        "D. DPS·DAS·로봇피킹 등 자동화 설비를 활용한다",
+        "E. 재고를 보관하지 않고 입고 즉시 분류·출고한다"
+      ],
+      "answer": "E",
+      "explanation": "E는 TC(Transfer Center)의 특성이다. FC는 다품종 소량 재고를 보관하면서 개별 소비자 주문의 피킹·패킹·배송·반품처리를 일괄 수행하는 센터이다.",
+      "relatedConcept": "2-1",
+      "examTip": "'재고를 보관하지 않는' 센터는 TC! FC는 재고를 보유하되 회전율이 높은 것이 특징이다."
+    },
+    {
+      "id": "q4-02-03",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "DC vs TC vs FC 비교",
+      "question": "Distribution Center(DC)는 크로스도킹 전용 센터로서 재고를 보관하지 않고 입고 즉시 출고하는 통과형 시설이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "크로스도킹 전용 통과형 센터는 TC(Transfer Center)이다. DC(Distribution Center)는 재고를 보관하면서 대량 입고 후 소량 분배·출고하는 전통적 배송센터이다.",
+      "relatedConcept": "2-1",
+      "examTip": "DC=재고보관형, TC=통과형(무재고). 'Distribution'이라는 단어에 속아 DC를 통과형으로 오해하지 말 것."
+    },
+    {
+      "id": "q4-02-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "물류단지·물류터미널·유통단지",
+      "question": "다음 중 법적 근거가 나머지 넷과 다른 것은?",
+      "options": [
+        "A. 일반물류단지",
+        "B. 도시첨단물류단지",
+        "C. 일반물류터미널",
+        "D. 유통단지",
+        "E. 복합물류터미널"
+      ],
+      "answer": "D",
+      "explanation": "유통단지는 「유통산업발전법」에 근거하고, 나머지 A·B·C·E는 모두 「물류시설의 개발 및 운영에 관한 법률(물류시설법)」에 근거한다.",
+      "relatedConcept": "2-2",
+      "examTip": "법적 근거 구분은 단골 출제! 물류단지·물류터미널='물류시설법', 유통단지='유통산업발전법'. 반드시 구분해서 암기."
+    },
+    {
+      "id": "q4-02-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "물류단지·물류터미널·유통단지",
+      "question": "복합물류터미널에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 보관·하역·유통가공 등 다양한 물류기능을 복합적으로 수행하는 터미널이다",
+        "B. 도심 또는 도심 인접지에 설치하여 첨단물류기술을 활용하는 단지이다",
+        "C. 2개 이상 운송수단 간 연계·환적 기능을 수행하는 물류터미널이다",
+        "D. 유통산업발전법에 근거하여 도매·소매 기능을 복합 수행하는 단지이다",
+        "E. 일반물류단지와 도시첨단물류단지를 합친 대규모 물류거점이다"
+      ],
+      "answer": "C",
+      "explanation": "복합물류터미널의 '복합'은 '2개 이상 운송수단 간 연계'를 의미한다. A는 물류단지의 일반적 기능, B는 도시첨단물류단지, D는 유통단지 설명이다.",
+      "relatedConcept": "2-2",
+      "examTip": "'복합'물류터미널에서 '복합'='2개 이상 운송수단 연계'. 다양한 물류기능의 복합이 아님! 대표 사례는 ICD(내륙컨테이너기지)."
+    },
+    {
+      "id": "q4-02-06",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "물류단지·물류터미널·유통단지",
+      "question": "물류터미널의 법적 근거는 「물류터미널사업법」이다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "물류터미널사업법은 이미 폐지되었으며, 현재 물류터미널의 법적 근거는 「물류시설의 개발 및 운영에 관한 법률(물류시설법)」이다.",
+      "relatedConcept": "2-2",
+      "examTip": "물류터미널사업법은 폐지! 현행 근거법은 물류시설법. 과거 법률명을 제시하는 함정에 주의."
+    },
+    {
+      "id": "q4-02-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "WMS 핵심 기능",
+      "question": "WMS(창고관리시스템)의 기능 중 '사전출하통보(ASN)를 기반으로 입고예정 화물을 확인하고 수량·품질을 검수하는 기능'은 다음 중 어느 영역에 해당하는가?",
+      "options": [
+        "A. 재고관리",
+        "B. 입고관리",
+        "C. 피킹관리",
+        "D. 출고관리",
+        "E. 로케이션관리"
+      ],
+      "answer": "B",
+      "explanation": "ASN(Advanced Shipping Notice, 사전출하통보) 연동을 통한 입고예정 확인과 입고검수는 WMS의 '입고관리' 기능에 해당한다.",
+      "relatedConcept": "2-3",
+      "examTip": "ASN(사전출하통보)은 입고관리의 핵심 키워드! 공급업체가 출하 전 보내는 사전 정보로, 입고 검수 효율을 높인다."
+    },
+    {
+      "id": "q4-02-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "피킹방식 비교",
+      "question": "다수의 주문을 합산하여 한꺼번에 상품을 집품한 후, 사후에 주문별로 분류하는 피킹방식은?",
+      "options": [
+        "A. 오더피킹(Order Picking)",
+        "B. 존피킹(Zone Picking)",
+        "C. 배치피킹(Batch Picking)",
+        "D. 웨이브피킹(Wave Picking)",
+        "E. 릴레이피킹(Relay Picking)"
+      ],
+      "answer": "C",
+      "explanation": "배치피킹(Batch Picking, 토탈피킹)은 다수 주문을 합산하여 상품을 일괄 집품한 후, 사후에 주문별로 분류(소팅)하는 방식이다. 이동거리를 절감할 수 있으나 사후 분류작업이 필요하다.",
+      "relatedConcept": "2-3",
+      "examTip": "'다수 주문 합산 → 사후 분류'는 배치피킹! '주문건별 개별피킹'은 오더피킹, '구역별 담당자'는 존피킹, '시간대별 그룹'은 웨이브피킹."
+    },
+    {
+      "id": "q4-02-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "WMS 로케이션관리",
+      "question": "WMS의 로케이션 관리에서 품목별 지정 위치 없이 빈 공간에 자유롭게 보관하는 방식의 장점으로 옳은 것은?",
+      "options": [
+        "A. 작업자가 상품 위치를 외워서 시스템 없이도 관리 가능하다",
+        "B. 공간활용률(Space Utilization)이 높다",
+        "C. 시스템 장애 시에도 피킹 작업이 원활하다",
+        "D. 동일 품목이 항상 같은 위치에 있어 피킹 속도가 빠르다",
+        "E. ABC 분류가 불필요하다"
+      ],
+      "answer": "B",
+      "explanation": "자유로케이션(Free Location)은 빈 공간 어디든 보관하므로 공간활용률이 높다는 것이 최대 장점이다. 반면 시스템 의존도가 높아 시스템 장애 시 위치 파악이 어렵다는 단점이 있다. A·C·D는 고정로케이션의 장점에 가깝다.",
+      "relatedConcept": "2-3",
+      "examTip": "자유로케이션=공간활용률↑+시스템의존도↑, 고정로케이션=관리 쉬움+공간활용률↓. '공간활용률이 높은 방식은?'→자유로케이션"
+    },
+    {
+      "id": "q4-02-10",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "WMS vs WCS",
+      "question": "WCS(Warehouse Control System)는 WMS의 상위 시스템으로, 창고 전체의 입출고 계획과 재고관리를 총괄한다.",
+      "options": ["O", "X"],
+      "answer": "X",
+      "explanation": "WCS는 WMS의 하위 시스템으로, 컨베이어·소터·자동창고 등 물류설비의 실시간 제어를 담당한다. 창고 전체의 계획과 관리를 총괄하는 것은 WMS이다. WMS(관리/계획)→WCS(설비 제어)의 관계이다.",
+      "relatedConcept": "2-3",
+      "examTip": "WMS='관리시스템'(계획·지시), WCS='제어시스템'(설비 실시간 제어). WMS가 상위, WCS가 하위!"
+    },
+    {
+      "id": "q4-02-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "바코드 체계 비교",
+      "question": "골판지 박스 등 거친 표면에 직접 인쇄가 가능하며, 물류용으로 박스 단위 식별에 사용되는 14자리 바코드는?",
+      "options": [
+        "A. EAN-13",
+        "B. EAN-8",
+        "C. ITF-14",
+        "D. GS1-128",
+        "E. Code 39"
+      ],
+      "answer": "C",
+      "explanation": "ITF-14는 14자리 물류용 바코드로, 골판지 박스 등 거친 표면에 직접 인쇄가 가능하며 박스단위 식별에 사용된다. EAN-13은 소매용(13자리), GS1-128은 상세물류정보(가변길이)이다.",
+      "relatedConcept": "2-4",
+      "examTip": "'골판지 직접 인쇄' + '14자리' + '물류용 박스 식별' = ITF-14. 세 키워드 모두 ITF-14를 가리킨다."
+    },
+    {
+      "id": "q4-02-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "바코드 체계 비교",
+      "question": "GS1-128 바코드에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 가변길이 바코드로 다양한 정보를 표현할 수 있다",
+        "B. AI(Application Identifier)를 통해 데이터의 의미를 구분한다",
+        "C. 유통기한, 로트번호, 중량 등 상세 물류정보를 담을 수 있다",
+        "D. 과거 명칭은 EAN-128이다",
+        "E. 13자리 고정길이로 소매점 POS에서 주로 사용된다"
+      ],
+      "answer": "E",
+      "explanation": "13자리 고정길이로 소매점 POS에서 사용되는 것은 EAN-13이다. GS1-128은 가변길이 바코드로, AI(응용식별자)를 통해 유통기한·로트번호·중량 등 상세 물류정보를 표현한다.",
+      "relatedConcept": "2-4",
+      "examTip": "GS1-128의 'AI'는 Application Identifier(응용식별자)이지 인공지능(AI)이 아님! (01)=GTIN, (17)=유효기한, (10)=로트번호."
+    },
+    {
+      "id": "q4-02-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "RFID 구성요소",
+      "question": "RFID 시스템 구성요소 중 리더에서 수집된 대량의 원시 데이터를 필터링·가공하여 호스트시스템에 전달하는 역할을 하는 것은?",
+      "options": [
+        "A. 태그(Tag)",
+        "B. 안테나(Antenna)",
+        "C. 리더(Reader)",
+        "D. 미들웨어(Middleware)",
+        "E. EPC코드(Electronic Product Code)"
+      ],
+      "answer": "D",
+      "explanation": "미들웨어(Middleware)는 리더에서 수집된 대량의 원시 데이터를 필터링·가공·변환하여 호스트시스템(WMS·ERP 등)에 전달하는 중간 소프트웨어 계층이다.",
+      "relatedConcept": "2-5",
+      "examTip": "RFID 구성요소 5가지: 태그·리더·안테나·미들웨어·호스트시스템. 미들웨어='데이터 필터링·가공·전달'이 핵심 역할."
+    },
+    {
+      "id": "q4-02-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "RFID 주파수대역",
+      "question": "물류·유통·SCM 분야에서 가장 널리 활용되며, 인식거리 3~10m에 다중태그 동시인식이 우수한 RFID 주파수대역은?",
+      "options": [
+        "A. 125kHz (저주파/LF)",
+        "B. 13.56MHz (고주파/HF)",
+        "C. 860~960MHz (UHF 극초단파)",
+        "D. 2.45GHz (마이크로파)",
+        "E. 5.8GHz (밀리미터파)"
+      ],
+      "answer": "C",
+      "explanation": "UHF 대역(860~960MHz)은 인식거리 3~10m, 빠른 데이터전송속도, 우수한 다중태그 인식 능력으로 물류·유통·SCM 분야에서 가장 널리 활용된다. EPC Gen2 표준이 이 대역을 사용한다.",
+      "relatedConcept": "2-5",
+      "examTip": "물류용 RFID = UHF(860~960MHz)! 13.56MHz는 교통카드, 125kHz는 출입통제, 2.45GHz는 컨테이너·하이패스."
+    },
+    {
+      "id": "q4-02-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "RFID 태그 유형",
+      "question": "RFID 태그 유형 중 내장 배터리 없이 리더의 전파 에너지로 구동되며, 저가로 대량 물류식별에 적합한 것은?",
+      "options": [
+        "A. 능동형(Active) 태그",
+        "B. 수동형(Passive) 태그",
+        "C. 반능동형(Semi-Active) 태그",
+        "D. 하이브리드(Hybrid) 태그",
+        "E. 센서형(Sensor) 태그"
+      ],
+      "answer": "B",
+      "explanation": "수동형(Passive) 태그는 내장 배터리 없이 리더의 전파 에너지만으로 구동되어 저가이며, 반영구적 수명을 가져 대량 물류식별에 적합하다. 능동형(Active)은 배터리 내장으로 장거리 인식이 가능하나 고가이다.",
+      "relatedConcept": "2-5",
+      "examTip": "수동형=배터리X·저가·단거리·반영구적, 능동형=배터리O·고가·장거리·수명제한(3~5년). '대량 물류식별'은 수동형!"
+    },
+    {
+      "id": "q4-02-16",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "RFID 특성",
+      "question": "RFID는 바코드와 달리 가시선(Line of Sight) 확보 없이도 비접촉으로 인식이 가능하다.",
+      "options": ["O", "X"],
+      "answer": "O",
+      "explanation": "RFID의 최대 장점 중 하나는 비가시선(Non-Line of Sight) 인식이 가능하다는 것이다. 바코드는 레이저나 카메라가 직접 바코드 표면을 '볼' 수 있어야 하지만, RFID는 전파를 이용하므로 포장 내부나 적재물 안에 있어도 인식 가능하다.",
+      "relatedConcept": "2-5",
+      "examTip": "RFID의 바코드 대비 핵심 장점: 비접촉·비가시선 인식, 다중태그 동시인식, 읽기/쓰기 가능, 높은 내구성."
+    },
+    {
+      "id": "q4-02-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "OMS-WMS-TMS 연계",
+      "question": "물류정보시스템에서 배차계획 수립, 경로최적화, GPS를 활용한 운송추적, 운임정산을 담당하는 시스템은?",
+      "options": [
+        "A. ERP(Enterprise Resource Planning)",
+        "B. OMS(Order Management System)",
+        "C. WMS(Warehouse Management System)",
+        "D. TMS(Transportation Management System)",
+        "E. WCS(Warehouse Control System)"
+      ],
+      "answer": "D",
+      "explanation": "TMS(운송관리시스템)는 배차계획, 경로최적화, GPS 운송추적, 운임정산, PoD(배송증명) 등 창고 밖 운송 관련 기능을 담당한다. OMS는 주문관리, WMS는 창고관리이다.",
+      "relatedConcept": "2-6",
+      "examTip": "배차·경로·추적·운임 = TMS! 입고·재고·피킹·출고 = WMS! 주문접수·할당·지시 = OMS! 기능귀속 정확히 구분."
+    },
+    {
+      "id": "q4-02-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "자동인식기술 비교",
+      "question": "다음 자동인식기술 비교 중 옳지 않은 것은?",
+      "options": [
+        "A. 바코드는 가시선(Line of Sight)이 필요하지만 RFID는 필요하지 않다",
+        "B. QR코드는 2차원 바코드로 1차원 바코드보다 데이터 용량이 크다",
+        "C. NFC는 13.56MHz 주파수를 사용하며 양방향 통신이 가능하다",
+        "D. RFID는 다수의 태그를 동시에 인식할 수 있다",
+        "E. 바코드는 RFID보다 태그 비용이 비싸지만 인식 정확도가 높다"
+      ],
+      "answer": "E",
+      "explanation": "바코드는 인쇄 방식이므로 태그 비용이 RFID보다 훨씬 저렴하다. 또한 인식 정확도 측면에서도 RFID가 비접촉·비가시선 인식이 가능하여 현장 적용 시 더 높은 정확도를 보일 수 있다. E의 설명은 정반대이다.",
+      "relatedConcept": "2-6",
+      "examTip": "비용: 바코드(매우 저렴, 인쇄) < QR(저렴, 인쇄) < RFID(중간~고가, 칩) < NFC(고가). 비용 순서 자주 출제."
+    },
+    {
+      "id": "q4-02-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "OMS-WMS-TMS 데이터 흐름",
+      "question": "OMS-WMS-TMS 간 데이터 흐름의 순방향 경로로 올바른 것은?",
+      "options": [
+        "A. TMS → OMS → WMS",
+        "B. WMS → OMS → TMS",
+        "C. OMS → TMS → WMS",
+        "D. OMS → WMS → TMS",
+        "E. TMS → WMS → OMS"
+      ],
+      "answer": "D",
+      "explanation": "순방향 데이터 흐름은 OMS(주문접수·출고지시) → WMS(창고작업·출고완료) → TMS(배차·운송)이다. 역방향으로는 TMS→WMS→OMS로 배송완료·실적 정보가 피드백된다.",
+      "relatedConcept": "2-6",
+      "examTip": "주문(OMS) → 창고(WMS) → 운송(TMS): 물류 프로세스 순서와 동일! 역방향 피드백도 함께 기억."
+    },
+    {
+      "id": "q4-02-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "바코드 체계·EAN-13",
+      "question": "EAN-13 바코드에서 우리나라의 국가코드(국가식별코드)는?",
+      "options": [
+        "A. 450~459",
+        "B. 690~699",
+        "C. 880",
+        "D. 890",
+        "E. 400~440"
+      ],
+      "answer": "C",
+      "explanation": "한국의 EAN-13 국가코드는 880이다. 450~459는 일본, 690~699는 중국, 890은 인도, 400~440은 독일이다.",
+      "relatedConcept": "2-4",
+      "examTip": "한국 국가코드 880! 일본 450, 중국 690, 미국·캐나다 00~13. 국가코드는 EAN-13 앞 2~3자리에 해당한다."
+    }
+  ]
+}

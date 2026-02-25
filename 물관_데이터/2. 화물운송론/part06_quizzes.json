@@ -1,0 +1,273 @@
+{
+  "chapter": "PART 06 국제복합운송",
+  "subject": "화물운송론",
+  "quizzes": [
+    {
+      "id": "q2-06-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "복합운송 요건",
+      "question": "국제복합운송의 요건에 해당하지 않는 것은?",
+      "options": [
+        "A. 2가지 이상의 서로 다른 운송수단 사용",
+        "B. 하나의 복합운송계약 체결",
+        "C. 반드시 해상운송이 포함되어야 함",
+        "D. 복합운송인(MTO)의 전구간 일관 책임",
+        "E. 하나의 복합운송증권 발행"
+      ],
+      "answer": "C",
+      "explanation": "국제복합운송의 요건은 ①이종운송수단(2가지 이상) ②단일계약 ③단일증권 ④단일책임 ⑤국제성이다. 반드시 해상운송이 포함되어야 하는 것은 아니며, 항공+트럭, 철도+트럭 조합도 복합운송에 해당한다.",
+      "relatedConcept": "국제복합운송의 개념과 요건",
+      "examTip": "'해상운송 포함 필수'는 대표적 함정 선지. 이종수단이면 어떤 조합이든 가능"
+    },
+    {
+      "id": "q2-06-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "책임체계",
+      "question": "복합운송인의 책임체계 중 손해 발생 구간에 관계없이 동일한 책임 원칙을 적용하는 것은?",
+      "options": [
+        "A. 이종책임체계(Network Liability System)",
+        "B. 균일책임체계(Uniform Liability System)",
+        "C. 변형균일책임체계(Modified Uniform Liability System)",
+        "D. 과실책임체계(Fault Liability System)",
+        "E. 무과실책임체계(Strict Liability System)"
+      ],
+      "answer": "B",
+      "explanation": "균일책임체계(Uniform Liability System)는 손해 발생 구간에 관계없이 동일한 책임 원칙을 적용하는 방식으로, UN국제복합운송조약(MT조약)이 채택하고 있다.",
+      "relatedConcept": "복합운송인의 책임체계와 국제조약",
+      "examTip": "균일=구간불문 동일, 이종=해당구간 법규, 변형균일=기본 균일+구간확인 시 해당법규"
+    },
+    {
+      "id": "q2-06-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "배상한도",
+      "question": "UN국제복합운송조약(MT조약, 1980)에서 규정한 화물 손해배상 한도는?",
+      "options": [
+        "A. 1포장당 666.67SDR 또는 1kg당 2SDR 중 큰 금액",
+        "B. 1포장당 835SDR 또는 1kg당 2.5SDR 중 큰 금액",
+        "C. 1포장당 920SDR 또는 1kg당 2.75SDR 중 큰 금액",
+        "D. 1kg당 22SDR",
+        "E. 1포장당 100영국파운드"
+      ],
+      "answer": "C",
+      "explanation": "MT조약의 배상한도는 1포장당 920SDR 또는 1kg당 2.75SDR 중 큰 금액이다. A는 헤이그-비스비규칙/UNCTAD/ICC 규칙, B는 함부르크규칙, D는 몬트리올협약(항공), E는 헤이그규칙의 배상한도이다.",
+      "relatedConcept": "복합운송인의 책임체계와 국제조약",
+      "examTip": "배상한도 크기순: MT(920/2.75) > 함부르크(835/2.5) > 헤이그비스비(666.67/2). 반드시 암기"
+    },
+    {
+      "id": "q2-06-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "UNCTAD/ICC 규칙",
+      "question": "UNCTAD/ICC 복합운송증권규칙(1992)이 채택한 책임체계는?",
+      "options": [
+        "A. 균일책임체계",
+        "B. 이종책임체계",
+        "C. 변형균일책임체계",
+        "D. 절대책임체계",
+        "E. 무과실책임체계"
+      ],
+      "answer": "C",
+      "explanation": "UNCTAD/ICC 복합운송증권규칙(1992)은 변형균일책임체계(Modified Uniform Liability System)를 채택하였다. 기본적으로 균일책임을 적용하되, 손해 발생 구간이 확인된 경우 해당 구간의 강행법규를 적용한다.",
+      "relatedConcept": "복합운송인의 책임체계와 국제조약",
+      "examTip": "MT조약=균일, UNCTAD/ICC=변형균일. 두 조약의 책임체계 혼동 주의"
+    },
+    {
+      "id": "q2-06-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Land Bridge",
+      "question": "극동에서 해상운송으로 미국 서해안에 도착한 후 대륙횡단철도로 미국 동해안까지 운송하고, 다시 해상운송으로 유럽까지 운송하는 경로는?",
+      "options": [
+        "A. SLB(Siberian Land Bridge)",
+        "B. MLB(Mini Land Bridge)",
+        "C. ALB(American Land Bridge)",
+        "D. IPI(Interior Point Intermodal)",
+        "E. RIPI(Reverse IPI)"
+      ],
+      "answer": "C",
+      "explanation": "ALB(American Land Bridge)는 극동→(해상)→미국 서해안→(대륙횡단철도)→미국 동해안→(해상)→유럽의 경로로, 미국 대륙을 '통과'하여 유럽까지 연결하는 복합운송이다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "ALB=미국 통과→유럽, MLB=미국 동해안 종료, IPI=미국 내륙도시 종료. 종착지가 핵심!"
+    },
+    {
+      "id": "q2-06-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TSR/TCR",
+      "question": "블라디보스토크에서 모스크바까지 연결되는 세계 최장의 대륙횡단철도는?",
+      "options": [
+        "A. TCR(Trans-China Railway)",
+        "B. TSR(Trans-Siberian Railway)",
+        "C. TMR(Trans-Manchuria Railway)",
+        "D. TMGR(Trans-Mongolia Railway)",
+        "E. TKR(Trans-Korea Railway)"
+      ],
+      "answer": "B",
+      "explanation": "TSR(Trans-Siberian Railway, 시베리아횡단철도)은 블라디보스토크에서 모스크바까지 약 9,297km를 연결하는 세계 최장의 대륙횡단철도이다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "TSR=블라디보스토크↔모스크바(9,297km), TCR=연운항↔알라산커우. 출발·도착 도시 암기"
+    },
+    {
+      "id": "q2-06-07",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "MT조약 발효",
+      "question": "UN국제복합운송조약(MT조약, 1980)은 현재 발효되어 국제복합운송에 적용되고 있다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "MT조약(1980)은 아직 미발효 상태이다. 발효 요건인 30개국 비준을 충족하지 못하였다. 현재 실무에서는 UNCTAD/ICC 복합운송증권규칙(1992)이 적용되고 있다.",
+      "relatedConcept": "복합운송인의 책임체계와 국제조약",
+      "examTip": "MT조약 '미발효'는 매우 자주 출제. '발효'라고 하면 오답"
+    },
+    {
+      "id": "q2-06-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "FBL",
+      "question": "FIATA에서 발행하는 서류 중 유통가능(Negotiable)한 복합운송증권은?",
+      "options": [
+        "A. FCR(Forwarder's Certificate of Receipt)",
+        "B. FBL(FIATA Combined Transport B/L)",
+        "C. FWR(FIATA Warehouse Receipt)",
+        "D. FWB(FIATA Waybill)",
+        "E. SDT(Shipper's Declaration for Transport)"
+      ],
+      "answer": "B",
+      "explanation": "FBL(FIATA Combined Transport Bill of Lading)은 FIATA가 제정한 유통가능(Negotiable)한 복합운송증권으로, 신용장(L/C) 거래에서 인정된다. FCR, FWR, FWB는 비유통증권이다.",
+      "relatedConcept": "복합운송증권(CT B/L)과 운송서류",
+      "examTip": "FIATA 서류 중 유통가능: FBL, FCT. 비유통: FCR, FWR, FWB. 유통 여부 구분 필수"
+    },
+    {
+      "id": "q2-06-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "NVOCC",
+      "question": "NVOCC(Non-Vessel Operating Common Carrier)에 대한 설명으로 틀린 것은?",
+      "options": [
+        "A. 자체 선박을 보유하지 않는 운송인이다",
+        "B. 화주에 대해서는 운송인의 지위를 갖는다",
+        "C. 실제운송인에 대해서는 화주의 지위를 갖는다",
+        "D. House B/L을 발행할 수 있다",
+        "E. 반드시 자체 창고와 터미널을 보유해야 한다"
+      ],
+      "answer": "E",
+      "explanation": "NVOCC는 자체 선박을 보유하지 않는 비선박운항운송인으로, 자체 창고와 터미널의 보유는 필수 요건이 아니다. NVOCC는 화주에게는 운송인, 실제운송인에게는 화주의 이중적 지위를 가진다.",
+      "relatedConcept": "복합운송의 운영형태와 운임",
+      "examTip": "NVOCC 핵심: 선박 미보유 + 이중적 지위(화주에겐 운송인, 선사에겐 화주)"
+    },
+    {
+      "id": "q2-06-10",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "CT B/L 성격",
+      "question": "복합운송증권(CT B/L)은 화물이 본선에 적재된 후 발행되는 선적식(Shipped) B/L이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "복합운송증권(CT B/L)은 수취식(Received for Shipment) B/L의 성격을 가진다. 복합운송인이 화물을 수취한 시점에 발행되며, 본선 적재 여부와 무관하다.",
+      "relatedConcept": "복합운송증권(CT B/L)과 운송서류",
+      "examTip": "CT B/L=수취식(Received), 해상 B/L=선적식(Shipped/On Board). B/L 종류별 발행 시점 구분"
+    },
+    {
+      "id": "q2-06-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "해공복합운송",
+      "question": "해공복합운송(Sea & Air)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 항공운송 후 해상운송 순서가 일반적이다",
+        "B. 운송비가 순수 항공운송보다 비싸다",
+        "C. 해상운송의 저운임과 항공운송의 신속성을 결합한 방식이다",
+        "D. 주로 저가 대량 화물에 적합하다",
+        "E. 경유지 없이 직접 운송하는 방식이다"
+      ],
+      "answer": "C",
+      "explanation": "해공복합운송은 해상운송(저운임)과 항공운송(신속성)의 장점을 결합한 방식이다. 일반적으로 해상→항공 순서이며, 두바이·싱가포르·방콕 등을 경유지로 활용한다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "해공복합 순서: 해상(먼저, 저비용)→항공(나중, 신속). 경유지를 통해 환적"
+    },
+    {
+      "id": "q2-06-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "MLB와 IPI",
+      "question": "극동에서 해상운송으로 미국 서해안에 도착한 후 대륙횡단철도로 미국 내륙의 시카고까지 운송하는 경로는?",
+      "options": [
+        "A. ALB(American Land Bridge)",
+        "B. MLB(Mini Land Bridge)",
+        "C. IPI(Interior Point Intermodal)",
+        "D. SLB(Siberian Land Bridge)",
+        "E. RIPI(Reverse IPI)"
+      ],
+      "answer": "C",
+      "explanation": "IPI(Interior Point Intermodal)는 극동→(해상)→미국 서해안→(철도/트럭)→미국 내륙도시(시카고, 덴버 등)로 운송하는 경로이다. MLB는 미국 동해안/걸프항까지의 경로이다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "IPI=미국 '내륙도시' 종착. MLB=미국 '동해안/걸프' 종착. 도착지가 내륙이면 IPI"
+    },
+    {
+      "id": "q2-06-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "복합운송 vs 통운송",
+      "question": "복합운송(Multimodal Transport)과 통운송(Through Transport)의 차이점으로 옳은 것은?",
+      "options": [
+        "A. 복합운송은 단일계약이고, 통운송은 개별계약이다",
+        "B. 복합운송은 이종운송수단, 통운송은 동일 또는 이종 운송수단을 사용한다",
+        "C. 복합운송만 운송증권이 발행되고, 통운송은 발행되지 않는다",
+        "D. 통운송은 반드시 국제운송이어야 한다",
+        "E. 복합운송과 통운송은 완전히 동일한 개념이다"
+      ],
+      "answer": "B",
+      "explanation": "복합운송은 반드시 2가지 이상의 서로 '다른' 운송수단(이종)을 사용해야 하지만, 통운송(Through Transport)은 동일 또는 이종 운송수단의 연속적 운송을 포함하는 넓은 개념이다.",
+      "relatedConcept": "국제복합운송의 개념과 요건",
+      "examTip": "복합운송=반드시 '이종' 수단, 통운송=동종·이종 모두 가능. 핵심 차이점"
+    },
+    {
+      "id": "q2-06-14",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "SLB 경로",
+      "question": "SLB(Siberian Land Bridge)는 극동에서 부산항을 출발하여 나홋카까지 해상운송 후, TSR(시베리아횡단철도)을 이용하여 유럽까지 운송하는 경로이다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "SLB는 극동(주로 부산)→(해상)→나홋카/보스토치니→(TSR)→모스크바→유럽의 경로로, 해상과 철도를 결합한 해륙복합운송 경로이다. TSR의 시베리아 구간을 육교(Land Bridge)로 활용한다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "SLB 경로: 부산→나홋카→(TSR)→유럽. 해상+TSR 조합"
+    },
+    {
+      "id": "q2-06-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "조약별 특징",
+      "question": "다음 중 함부르크규칙(1978)의 특징으로 옳은 것을 모두 고른 것은?\n가. 해상운송에 적용되는 국제조약이다\n나. 과실추정주의를 채택하였다\n다. 배상한도는 1포장당 835SDR 또는 1kg당 2.5SDR이다\n라. 운송인의 책임기간은 수취~인도까지이다",
+      "options": [
+        "A. 가, 나",
+        "B. 가, 나, 다",
+        "C. 가, 나, 다, 라",
+        "D. 나, 다",
+        "E. 가, 다, 라"
+      ],
+      "answer": "C",
+      "explanation": "함부르크규칙은 ①해상운송 조약 ②과실추정주의(운송인이 무과실 입증해야 면책) ③배상한도 835SDR/포장 또는 2.5SDR/kg ④책임기간을 수취~인도까지로 확대(헤이그규칙은 선적~양하). 모두 옳은 설명이다.",
+      "relatedConcept": "복합운송인의 책임체계와 국제조약",
+      "examTip": "함부르크규칙 특징: 과실추정+835/2.5+수취~인도. 헤이그비스비와 비교하여 정리"
+    }
+  ]
+}

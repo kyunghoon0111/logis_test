@@ -1,0 +1,273 @@
+{
+  "chapter": "PART 03 철도운송",
+  "subject": "화물운송론",
+  "quizzes": [
+    {
+      "id": "q2-03-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "철도운송 특성",
+      "question": "철도운송의 장점으로 옳지 않은 것은?",
+      "options": [
+        "A. 대량 화물의 장거리 운송에 경제적이다",
+        "B. 정시성이 높다",
+        "C. 문전수송(door-to-door)이 단독으로 가능하다",
+        "D. 안전성이 높고 사고율이 낮다",
+        "E. 환경친화적이다(CO₂ 배출 적음)"
+      ],
+      "answer": "C",
+      "explanation": "문전수송이 단독으로 가능한 것은 공로운송의 장점이다. 철도운송은 역·터미널까지의 연계운송(공로)이 필요하므로 문전수송이 불가능하다.",
+      "relatedConcept": "철도운송의 특성과 장·단점",
+      "examTip": "문전수송 = 공로만 단독 가능. 철도에 문전수송을 장점으로 넣으면 무조건 오답"
+    },
+    {
+      "id": "q2-03-02",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "화차 종류",
+      "question": "석탄, 광석 등 비에 노출되어도 문제없는 벌크화물 운송에 가장 적합한 화차는?",
+      "options": [
+        "A. 유개차(Covered Car)",
+        "B. 무개차(Open Car)",
+        "C. 탱크차(Tank Car)",
+        "D. 냉장차(Refrigerator Car)",
+        "E. 호퍼차(Hopper Car)"
+      ],
+      "answer": "B",
+      "explanation": "무개차(Open Car)는 지붕이 없는 화차로, 석탄·광석·목재·고철 등 비에 노출되어도 문제없는 화물 운송에 적합하다. 호퍼차(E)도 벌크화물에 사용되지만, 주로 곡물·시멘트 등 분말형 화물의 자동 하역에 특화되어 있다.",
+      "relatedConcept": "철도화물의 종류와 운송 방식",
+      "examTip": "무개차=지붕 없음(석탄·광석), 유개차=지붕 있음(곡물·포장화물), 호퍼차=바닥 개폐(시멘트·곡물 자동 하역). 화차별 적합 화물 구분"
+    },
+    {
+      "id": "q2-03-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "복합운송 방식",
+      "question": "트레일러를 철도 평판차에 적재하여 운송하는 복합운송 방식의 명칭은?",
+      "options": [
+        "A. 피시백(Fishyback)",
+        "B. 피기백(Piggyback)",
+        "C. 버디백(Birdyback)",
+        "D. 크로스도킹(Cross-Docking)",
+        "E. 밀크런(Milk-Run)"
+      ],
+      "answer": "B",
+      "explanation": "피기백(Piggyback)은 트레일러를 철도 평판차(Flat Car)에 적재하여 운송하는 방식이다. TOFC(Trailer On Flat Car)라고도 한다. 피시백은 선박에 적재, 버디백은 항공기에 적재하는 방식이다.",
+      "relatedConcept": "철도화물의 종류와 운송 방식",
+      "examTip": "Piggyback=철도(돼지 등에 탄다→기차에 태운다), Fishyback=해상(물고기→바다), Birdyback=항공(새→하늘). 이미지로 연상"
+    },
+    {
+      "id": "q2-03-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ICD",
+      "question": "ICD(Inland Container Depot)에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 내륙에 위치한 컨테이너 기지이다",
+        "B. 통관, 보관, 환적 등의 기능을 수행한다",
+        "C. 항만의 혼잡을 완화하는 효과가 있다",
+        "D. 반드시 항만 인접지역에 설치해야 한다",
+        "E. 공(空)컨테이너의 반납·보관 기능도 있다"
+      ],
+      "answer": "D",
+      "explanation": "ICD는 '내륙(Inland)'에 위치하는 컨테이너 기지이므로, 항만 인접이 아닌 내륙 주요 지역에 설치된다. 대표적으로 의왕 ICD는 수도권 내륙에 위치하여 부산항·인천항과 철도로 연결된다.",
+      "relatedConcept": "컨테이너 철도운송",
+      "examTip": "ICD = Inland(내륙). 항만 인접이 아닌 내륙에 설치되는 것이 핵심. '항만 내 시설'이라고 하면 CY(Container Yard)임"
+    },
+    {
+      "id": "q2-03-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "대륙횡단철도",
+      "question": "러시아 시베리아를 횡단하여 블라디보스토크에서 모스크바까지 연결하는 대륙횡단철도는?",
+      "options": [
+        "A. TCR(Trans-China Railway)",
+        "B. TSR(Trans-Siberian Railway)",
+        "C. TMR(Trans-Manchuria Railway)",
+        "D. TKR(Trans-Korea Railway)",
+        "E. TMGR(Trans-Mongolia Railway)"
+      ],
+      "answer": "B",
+      "explanation": "TSR(Trans-Siberian Railway)은 러시아 시베리아를 횡단하는 철도로, 블라디보스토크에서 모스크바까지 약 9,300km를 연결하는 세계 최장의 단일 철도노선이다.",
+      "relatedConcept": "남북철도 및 대륙횡단철도",
+      "examTip": "TSR=시베리아(러시아), TCR=차이나(중국), TMR=만주(중국동북), TMGR=몽골리아(몽골), TKR=코리아(한반도). 약어의 두 번째 글자로 구분"
+    },
+    {
+      "id": "q2-03-06",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "DST",
+      "question": "한국에서는 DST(Double Stack Train, 이중적재열차)가 보편적으로 운행되고 있다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "한국은 터널 높이, 교량 하중, 전차선 높이 등 인프라 제약으로 DST 도입이 제한적이다. DST가 보편화된 국가는 미국이며, 한국은 아직 이중적재열차 운행이 일반적이지 않다.",
+      "relatedConcept": "컨테이너 철도운송",
+      "examTip": "DST(이중적재) = 미국에서 보편적. 한국은 인프라 제약(터널·교량·전차선)으로 미도입. 시험에서 한국 DST 운행 여부를 묻는 문제 출제"
+    },
+    {
+      "id": "q2-03-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운임 산정",
+      "question": "철도 운임 산정 방식 중, 운송거리가 길어질수록 km당 운임단가가 감소하는 방식은?",
+      "options": [
+        "A. 거리비례운임",
+        "B. 체감운임",
+        "C. 균일운임",
+        "D. 구간운임",
+        "E. 중량비례운임"
+      ],
+      "answer": "B",
+      "explanation": "체감운임은 운송거리가 길어질수록 km당 운임단가가 감소하는 방식으로, 거리의 경제(economies of distance)를 운임에 반영한 것이다. 이를 통해 장거리 이용을 촉진하는 효과가 있다.",
+      "relatedConcept": "철도운임 체계",
+      "examTip": "체감운임 = 장거리일수록 km당 단가 ↓. 거리비례운임은 km당 일정, 균일운임은 거리 무관 정액"
+    },
+    {
+      "id": "q2-03-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "체감운임 계산",
+      "question": "철도 체감운임이 다음과 같을 때, 350km 구간의 총 운임은?\n- 0~100km: km당 600원\n- 100~200km: km당 500원\n- 200~400km: km당 400원",
+      "options": [
+        "A. 140,000원",
+        "B. 155,000원",
+        "C. 170,000원",
+        "D. 175,000원",
+        "E. 210,000원"
+      ],
+      "answer": "C",
+      "explanation": "0~100km: 100 × 600 = 60,000원. 100~200km: 100 × 500 = 50,000원. 200~350km: 150 × 400 = 60,000원. 총 운임 = 60,000 + 50,000 + 60,000 = 170,000원.",
+      "relatedConcept": "철도운임 체계",
+      "examTip": "체감운임 계산은 구간별로 나누어 계산 후 합산. 구간 경계값과 km 수를 정확히 계산해야 실수 방지"
+    },
+    {
+      "id": "q2-03-09",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "철도 환경",
+      "question": "철도운송의 CO₂ 배출량은 공로운송의 약 1/8 수준으로, 환경친화적인 운송수단이다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "철도운송은 톤·km당 CO₂ 배출량이 공로운송의 약 1/8 수준으로, 가장 환경친화적인 지상 운송수단 중 하나이다. 이는 모달시프트 정책의 핵심 근거이기도 하다.",
+      "relatedConcept": "철도운송의 특성과 장·단점",
+      "examTip": "CO₂ 배출 비율 약 1/8은 자주 출제되는 수치. 1/2, 1/4로 바꿔 출제하면 오답"
+    },
+    {
+      "id": "q2-03-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CL vs LCL",
+      "question": "철도 화물 운송에서 화차 1량 미만의 소량화물 운송을 의미하는 것은?",
+      "options": [
+        "A. CL(Carload)",
+        "B. LCL(Less than Carload)",
+        "C. FCL(Full Container Load)",
+        "D. FTL(Full Truckload)",
+        "E. LTL(Less Than Truckload)"
+      ],
+      "answer": "B",
+      "explanation": "LCL(Less than Carload)은 화차 1량 미만의 소량화물을 의미한다. CL(Carload)은 화차 1량 이상을 사용하는 대량화물이다. FCL은 해상 컨테이너, FTL/LTL은 공로운송 용어이다.",
+      "relatedConcept": "철도화물의 종류와 운송 방식",
+      "examTip": "철도: CL/LCL, 해상: FCL/LCL, 공로: FTL/LTL. 운송수단별 대량/소량 구분 용어가 다르므로 혼동 주의"
+    },
+    {
+      "id": "q2-03-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "대륙횡단철도",
+      "question": "다음 중 대륙횡단철도에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. TSR은 세계 최장의 단일 철도노선이다",
+        "B. TCR은 중국을 횡단하는 노선이다",
+        "C. TKR은 현재 부산에서 유럽까지 직통 운행 중이다",
+        "D. 대륙횡단철도는 해상운송 대비 운송시간 단축이 가능하다",
+        "E. TMGR은 몽골을 경유하는 노선이다"
+      ],
+      "answer": "C",
+      "explanation": "TKR(한반도종단철도)은 남북분단으로 인해 현재 직통 운행이 불가능하다. 남북관계 개선 시 대륙횡단철도와 연결 가능하지만, 현재는 미완성 상태이다.",
+      "relatedConcept": "남북철도 및 대륙횡단철도",
+      "examTip": "TKR = 현재 미연결(남북분단). '직통 운행 중'이라고 하면 오답. 향후 연결 가능성을 묻는 문제와 구분"
+    },
+    {
+      "id": "q2-03-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "철도 부대비용",
+      "question": "철도 운임의 부대비용 중 '역 구내에서 화차를 이동·배치하는 비용'을 무엇이라 하는가?",
+      "options": [
+        "A. 하역료",
+        "B. 보관료",
+        "C. 입환료",
+        "D. 환적료",
+        "E. 화차사용료"
+      ],
+      "answer": "C",
+      "explanation": "입환료(入換料)는 역 구내에서 화차를 소정의 위치로 이동·배치하는 작업(입환작업)에 대한 비용이다. 하역료는 화물을 싣고 내리는 비용, 환적료는 화차 간 화물을 옮기는 비용이다.",
+      "relatedConcept": "철도운임 체계",
+      "examTip": "입환 = 역 구내 화차 이동·배치. 하역 = 화물 상하차. 환적 = 차량 간 화물 이동. 세 가지 용어 정확히 구분"
+    },
+    {
+      "id": "q2-03-13",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "철도 비용구조",
+      "question": "철도운송은 변동비 비중이 높아 소량운송에서도 경제적이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "철도운송은 고정비 비중이 높다(선로, 역사, 차량 등 인프라 투자). 따라서 대량운송 시 고정비가 분산되어 경제적이지만, 소량운송에서는 고정비 부담이 커서 비경제적이다.",
+      "relatedConcept": "철도운송의 특성과 장·단점",
+      "examTip": "철도 = 고정비 高 → 대량에 유리. 공로 = 변동비 相對高 → 소량에도 부담 적음. 비용구조와 유불리 연결 기억"
+    },
+    {
+      "id": "q2-03-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "복합운송 비교",
+      "question": "다음 중 운송수단과 복합운송 방식의 연결이 올바른 것은?",
+      "options": [
+        "A. 피기백(Piggyback) - 트레일러를 선박에 적재",
+        "B. 피시백(Fishyback) - 트레일러를 철도에 적재",
+        "C. 버디백(Birdyback) - 컨테이너를 항공기에 적재",
+        "D. COFC - 트레일러를 평판차에 적재",
+        "E. TOFC - 컨테이너를 평판차에 적재"
+      ],
+      "answer": "C",
+      "explanation": "버디백(Birdyback)은 컨테이너를 항공기에 적재하는 방식이다. 피기백=철도(TOFC), 피시백=선박, COFC=컨테이너를 평판차에 적재. A는 피시백, B는 피기백, D는 TOFC, E는 COFC의 설명이므로 모두 바뀌어 있다.",
+      "relatedConcept": "철도화물의 종류와 운송 방식",
+      "examTip": "Piggy=철도, Fishy=해상, Birdy=항공. TOFC=Trailer, COFC=Container. 짝짓기 문제 주의"
+    },
+    {
+      "id": "q2-03-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "직행열차",
+      "question": "철도화물 운송에서 동일 목적지 화물만으로 편성하여 중간 정차 없이 운행하는 열차를 무엇이라 하는가?",
+      "options": [
+        "A. 혼합열차",
+        "B. 셔틀열차",
+        "C. 직행열차(Block Train)",
+        "D. 순환열차",
+        "E. 연결열차"
+      ],
+      "answer": "C",
+      "explanation": "직행열차(Block Train)는 동일 목적지 화물만으로 편성하여 중간 정차·환적 없이 직행하는 열차로, 가장 빠르고 효율적인 철도운송 방식이다.",
+      "relatedConcept": "철도화물의 종류와 운송 방식",
+      "examTip": "Block Train = 직행열차(단일 목적지). 혼합열차는 여러 목적지 화물 혼합. 셔틀열차는 정기적 왕복 운행"
+    }
+  ]
+}

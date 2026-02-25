@@ -1,0 +1,362 @@
+{
+  "chapter": "PART 04 국제복합운송 및 국제물류보안",
+  "subject": "국제물류론",
+  "quizzes": [
+    {
+      "id": "q3-04-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "국제복합운송 요건",
+      "question": "국제복합운송의 성립 요건으로 옳지 않은 것은?",
+      "options": [
+        "A. 2종 이상의 서로 다른 운송수단을 사용할 것",
+        "B. 단일 운송계약에 의할 것",
+        "C. 복합운송인이 전 구간에 대해 일관 책임을 질 것",
+        "D. 각 구간별로 별도의 운임을 산정할 것",
+        "E. 복합운송증권(MTD)을 발행할 것"
+      ],
+      "answer": "D",
+      "explanation": "복합운송은 단일 운임(Through Rate)으로 산정하는 것이 요건이다. 구간별 별도 운임 산정은 복합운송이 아닌 연속운송의 특징이다. 복합운송의 5대 요건은 ①2종 이상 운송수단, ②단일 운송계약, ③단일 운임, ④MTD 발행, ⑤MTO 전구간 책임이다.",
+      "relatedConcept": "국제복합운송의 개념과 체계",
+      "examTip": "복합운송 5대 요건에서 '단일 운임'을 '구간별 운임'으로 바꾸는 함정이 빈출된다."
+    },
+    {
+      "id": "q3-04-02",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "복합운송 vs 통운송 vs 연속운송",
+      "question": "다음 중 통운송(Through Transport)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 2종 이상의 서로 다른 운송수단을 이용한다",
+        "B. 통선하증권(Through B/L)을 발행하며 단일 운송수단을 사용한다",
+        "C. 각 구간별 운송인이 개별 책임을 진다",
+        "D. 복합운송인(MTO)이 전 구간 일관 책임을 진다",
+        "E. 운송수단 간 환적이 발생하지 않는다"
+      ],
+      "answer": "B",
+      "explanation": "통운송은 단일 운송수단으로 여러 운송인이 순차적으로 운송하며, 통선하증권(Through B/L)을 발행한다. 해상운송에서 A선사가 B선사로 환적하는 경우가 대표적이다. 2종 이상 운송수단은 복합운송, 각 구간별 개별 책임은 연속운송의 특징이다.",
+      "relatedConcept": "국제복합운송의 개념과 체계",
+      "examTip": "복합운송·통운송·연속운송 3가지의 운송수단 수, 증권 종류, 책임 주체를 정확히 구분해야 한다."
+    },
+    {
+      "id": "q3-04-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "복합운송인 책임체계",
+      "question": "복합운송인의 책임체계 중, 사고 발생 구간이 확인된 경우 해당 구간의 국제조약을 적용하고, 불명인 경우에는 적용이 곤란한 문제점이 있는 체계는?",
+      "options": [
+        "A. 균일책임체계(Uniform Liability System)",
+        "B. 이종책임체계(Network Liability System)",
+        "C. 변형균일책임체계(Modified Uniform Liability System)",
+        "D. 절대책임체계(Absolute Liability System)",
+        "E. 과실책임체계(Fault Liability System)"
+      ],
+      "answer": "B",
+      "explanation": "이종책임체계(Network Liability System)는 사고 발생 구간이 확인되면 해당 구간의 국제조약(해상이면 헤이그규칙, 항공이면 몬트리올협약 등)을 적용하는 체계이다. 그러나 사고 구간이 불명인 경우 어떤 조약을 적용할지 결정할 수 없어 적용이 곤란하다는 단점이 있다. ICC 복합운송증권 통일규칙(1975)이 채택하였다.",
+      "relatedConcept": "복합운송증권과 복합운송인의 책임체계",
+      "examTip": "이종책임의 최대 단점='사고구간 불명 시 적용 곤란'을 이용한 출제가 빈출. 균일책임·변형균일은 불명 시에도 균일한도 적용 가능."
+    },
+    {
+      "id": "q3-04-04",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "변형균일책임체계",
+      "question": "UNCTAD/ICC 복합운송증권규칙(1992)이 채택한 책임체계에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 사고 구간과 관계없이 항상 동일한 책임한도를 적용한다",
+        "B. 사고 발생 구간의 국제조약만 적용하며 균일한도는 없다",
+        "C. 원칙적으로 균일한도를 적용하되, 해당 구간 조약의 한도가 더 높으면 그 한도를 적용한다",
+        "D. 원칙적으로 이종책임을 적용하되, 구간불명 시에만 균일한도를 적용한다",
+        "E. 복합운송인의 책임을 완전 면제한다"
+      ],
+      "answer": "C",
+      "explanation": "UNCTAD/ICC 규칙(1992)은 변형균일책임체계를 채택하였다. 이는 원칙적으로 균일책임한도를 적용하되, 사고 발생 구간이 확인되고 해당 구간의 국제조약 책임한도가 균일한도보다 높은 경우 그 높은 한도를 적용하는 절충형이다. '더 높은 쪽'이 핵심이다.",
+      "relatedConcept": "복합운송증권과 복합운송인의 책임체계",
+      "examTip": "변형균일=균일이 원칙+높은 쪽 적용. '낮은 쪽'이라고 바꿔 출제하는 함정 주의."
+    },
+    {
+      "id": "q3-04-05",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "FIATA 서류",
+      "question": "FIATA가 발행하는 서류 중 유통가능(Negotiable)한 복합운송증권은?",
+      "options": [
+        "A. FCR(Forwarder's Certificate of Receipt)",
+        "B. FBL(FIATA Combined Transport Bill of Lading)",
+        "C. FFI(FIATA Forwarding Instruction)",
+        "D. SDT(Shipper's Declaration for Dangerous Goods)",
+        "E. FCI(FIATA Certificate of Insurance)"
+      ],
+      "answer": "B",
+      "explanation": "FBL(FIATA Combined Transport Bill of Lading)은 FIATA가 발행하는 유통가능한 복합운송선하증권으로, 선하증권과 동일한 법적 기능(유가증권성)을 갖는다. FCR은 화물수취증에 불과하여 유통불가능하다.",
+      "relatedConcept": "복합운송증권과 복합운송인의 책임체계",
+      "examTip": "FBL=유통가능, FCR=유통불가능 → 이 둘의 혼동을 이용한 함정 출제가 매우 빈출."
+    },
+    {
+      "id": "q3-04-06",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "복합운송 배상한도",
+      "question": "UN국제복합운송조약(1980)에 의한 복합운송인의 배상한도는 1포장당 920SDR 또는 1kg당 2.75SDR 중 낮은 금액이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "UN조약의 배상한도는 1포장당 920SDR 또는 1kg당 2.75SDR 중 '높은' 금액이다. 화주에게 유리한 방향으로 높은 쪽을 적용한다.",
+      "relatedConcept": "복합운송증권과 복합운송인의 책임체계",
+      "examTip": "'높은 금액' vs '낮은 금액' 함정은 해상보험·복합운송 배상한도에서 단골로 출제된다."
+    },
+    {
+      "id": "q3-04-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "배상한도 계산",
+      "question": "UN국제복합운송조약에 따라, 20포장(총중량 8,000kg) 화물의 배상한도는?",
+      "options": [
+        "A. 18,400SDR",
+        "B. 22,000SDR",
+        "C. 16,000SDR",
+        "D. 25,300SDR",
+        "E. 20,000SDR"
+      ],
+      "answer": "B",
+      "explanation": "①포장 기준: 920SDR × 20포장 = 18,400SDR, ②중량 기준: 2.75SDR × 8,000kg = 22,000SDR. 둘 중 높은 금액인 22,000SDR이 배상한도이다.",
+      "relatedConcept": "복합운송증권과 복합운송인의 책임체계",
+      "examTip": "MAX(920×포장수, 2.75×중량kg) 공식을 정확히 기억하고, 반드시 '높은 쪽'을 선택해야 한다."
+    },
+    {
+      "id": "q3-04-08",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "AEO 제도",
+      "question": "AEO(수출입안전관리우수업체) 제도를 주도한 국제기구는?",
+      "options": [
+        "A. WTO(세계무역기구)",
+        "B. IMO(국제해사기구)",
+        "C. WCO(세계관세기구)",
+        "D. ICAO(국제민간항공기구)",
+        "E. UNCTAD(유엔무역개발회의)"
+      ],
+      "answer": "C",
+      "explanation": "AEO 제도는 WCO(World Customs Organization, 세계관세기구)가 2005년 SAFE Framework에서 도입한 제도이다. WTO(세계무역기구)와 WCO(세계관세기구)를 혼동하지 않아야 한다.",
+      "relatedConcept": "AEO 제도(수출입안전관리우수업체)",
+      "examTip": "WCO vs WTO 혼동이 가장 빈출되는 함정! AEO=WCO, 무역자유화=WTO로 구분."
+    },
+    {
+      "id": "q3-04-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "AEO 공인기준",
+      "question": "다음 중 AEO 공인 심사기준에 해당하지 않는 것은?",
+      "options": [
+        "A. 법규준수도",
+        "B. 내부통제시스템",
+        "C. 재무건전성",
+        "D. 안전관리",
+        "E. 시장점유율"
+      ],
+      "answer": "E",
+      "explanation": "AEO 공인 4대 기준은 ①법규준수도, ②내부통제시스템, ③재무건전성, ④안전관리이다. 시장점유율은 AEO 공인 기준에 포함되지 않는다.",
+      "relatedConcept": "AEO 제도(수출입안전관리우수업체)",
+      "examTip": "AEO 4대 기준='법내재안(법규준수·내부통제·재무건전·안전관리)' 암기. 매출·점유율 등 경영성과는 기준이 아님."
+    },
+    {
+      "id": "q3-04-10",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "AEO MRA",
+      "question": "AEO 상호인정약정(MRA)을 체결하면 상대국에서도 AEO 혜택을 자동으로 인정받을 수 있다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "MRA(Mutual Recognition Arrangement)는 양국 간 AEO 공인을 상호 인정하는 약정으로, 체결국에서 상대국 AEO 업체에 대해 검사비율 축소 등의 혜택을 부여한다. 한국은 미국, EU, 중국, 일본 등과 MRA를 체결하고 있다.",
+      "relatedConcept": "AEO 제도(수출입안전관리우수업체)",
+      "examTip": "MRA 체결국에서만 혜택 인정. 체결하지 않은 국가에서는 혜택 없음."
+    },
+    {
+      "id": "q3-04-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "C-TPAT",
+      "question": "C-TPAT에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 2001년 9·11 테러 이후 미국 CBP가 도입하였다",
+        "B. 미국으로 수입하는 공급망 참여자가 자발적으로 참여한다",
+        "C. WCO가 국제적으로 운영하는 표준 프로그램이다",
+        "D. 참여 시 검사비율 축소, 신속통관 등의 혜택이 주어진다",
+        "E. AEO 제도보다 먼저 시행되었다"
+      ],
+      "answer": "C",
+      "explanation": "C-TPAT은 미국 CBP(관세국경보호청)가 운영하는 미국 고유의 제도이지, WCO가 운영하는 국제 프로그램이 아니다. WCO가 주도하는 것은 AEO/SAFE Framework이다. C-TPAT(2001)은 AEO(2005)보다 4년 먼저 시행되었다.",
+      "relatedConcept": "C-TPAT, CSI 및 미국 주도 보안 프로그램",
+      "examTip": "C-TPAT=미국 고유, AEO=WCO 국제표준. 이 둘을 섞어 출제하는 문제가 빈출."
+    },
+    {
+      "id": "q3-04-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CSI",
+      "question": "CSI(Container Security Initiative)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. IMO가 주도하는 국제 선박보안 제도이다",
+        "B. 미국 도착 후 항만에서 컨테이너를 전수 검사한다",
+        "C. 미국행 컨테이너를 외국 출발항에서 사전 검색하는 제도이다",
+        "D. 모든 WCO 회원국에 강제 적용되는 규칙이다",
+        "E. 항공화물만을 대상으로 한다"
+      ],
+      "answer": "C",
+      "explanation": "CSI는 2002년 미국 CBP가 시행한 제도로, 미국행 컨테이너를 외국 항만(출발항)에서 미리 검색·검사하는 것이 핵심이다. 미국 도착 후가 아닌 '출발 전' 사전검색이며, IMO가 아닌 미국 CBP 주도이다.",
+      "relatedConcept": "C-TPAT, CSI 및 미국 주도 보안 프로그램",
+      "examTip": "CSI 핵심='외국항에서 사전 검색'. '미국 항구에서 검사'라고 바꾸는 함정 주의."
+    },
+    {
+      "id": "q3-04-13",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "24시간 규칙",
+      "question": "24시간 규칙은 미국행 선박의 도착 24시간 전까지 적하목록을 제출해야 하는 규정이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "24시간 규칙은 '도착 전'이 아니라 '선적(출발) 24시간 전'까지 적하목록(Manifest)을 미국 세관에 전자적으로 제출해야 하는 규정이다. '선적 전'과 '도착 전'을 혼동하면 안 된다.",
+      "relatedConcept": "C-TPAT, CSI 및 미국 주도 보안 프로그램",
+      "examTip": "'선적 전' 24시간이 정답. '도착 전'으로 바꾸는 함정이 단골 출제."
+    },
+    {
+      "id": "q3-04-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ISF(10+2 Rule)",
+      "question": "ISF(Importer Security Filing)에서 수입업자가 제출해야 하는 정보 수와 선사가 제출해야 하는 정보 수의 조합으로 옳은 것은?",
+      "options": [
+        "A. 수입업자 8가지 + 선사 4가지",
+        "B. 수입업자 10가지 + 선사 2가지",
+        "C. 수입업자 12가지 + 선사 없음",
+        "D. 수입업자 5가지 + 선사 5가지",
+        "E. 수입업자 6가지 + 선사 6가지"
+      ],
+      "answer": "B",
+      "explanation": "ISF는 '10+2 Rule'이라고도 불리며, 수입업자가 10가지 보안정보를, 선사가 2가지 정보(선적 컨테이너 적재계획, 컨테이너 상태메시지)를 선적 24시간 전까지 제출하는 규정이다. 2009년부터 시행되었다.",
+      "relatedConcept": "C-TPAT, CSI 및 미국 주도 보안 프로그램",
+      "examTip": "10+2=수입업자10+선사2. 숫자 조합을 바꿔 출제하는 문제 주의."
+    },
+    {
+      "id": "q3-04-15",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "ISPS Code",
+      "question": "ISPS Code를 주도한 국제기구와 적용 대상의 연결이 옳은 것은?",
+      "options": [
+        "A. WCO - 국제항해 500톤 이상 선박",
+        "B. IMO - 국제항해 500톤 이상 선박 및 항만시설",
+        "C. ICAO - 국제항공 여객기 및 공항시설",
+        "D. WTO - 국제무역 참여 모든 선박",
+        "E. IMO - 모든 선박 및 항만시설(톤수 제한 없음)"
+      ],
+      "answer": "B",
+      "explanation": "ISPS Code는 IMO(국제해사기구)가 주도하며, 국제항해에 종사하는 총톤수 500톤 이상의 선박과 이를 접수하는 항만시설에 적용된다. 톤수 제한이 없는 것이 아니라 '500톤 이상'이라는 기준이 있다.",
+      "relatedConcept": "ISPS Code, ISO 17712 및 국제물류보안 규범",
+      "examTip": "ISPS Code: IMO 주도 + 500톤 이상. 두 가지를 동시에 물어보는 문제 주의."
+    },
+    {
+      "id": "q3-04-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ISPS Code 보안등급",
+      "question": "ISPS Code의 보안등급(Security Level) 중 보안위협이 증가하여 추가 보안조치가 필요한 상태는?",
+      "options": [
+        "A. Level 1",
+        "B. Level 2",
+        "C. Level 3",
+        "D. Level 4",
+        "E. Level 5"
+      ],
+      "answer": "B",
+      "explanation": "ISPS Code 보안등급은 3단계이다. Level 1은 평상시(Normal), Level 2는 보안위협 증가(Heightened)로 추가 보안조치가 필요한 상태, Level 3은 보안사고 발생 가능성이 높거나 임박한 상태(Exceptional)이다. Level 4, 5는 존재하지 않는다.",
+      "relatedConcept": "ISPS Code, ISO 17712 및 국제물류보안 규범",
+      "examTip": "ISPS 보안등급은 1/2/3 총 3단계만 있음. Level 4·5는 없다! 존재하지 않는 등급으로 함정 출제."
+    },
+    {
+      "id": "q3-04-17",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "ISPS Code 구성",
+      "question": "ISPS Code에서 Part A는 권고규정이고, Part B는 강제규정이다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "ISPS Code에서 Part A가 강제규정이고, Part B가 권고규정이다. 'A=강제, B=권고'가 정답이다. 순서를 바꿔 혼동시키는 함정 문제이다.",
+      "relatedConcept": "ISPS Code, ISO 17712 및 국제물류보안 규범",
+      "examTip": "Part A=강제(Mandatory), Part B=권고(Guidance). 'A가 먼저=강제가 먼저' 기억법."
+    },
+    {
+      "id": "q3-04-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ISO 17712",
+      "question": "ISO 17712 컨테이너 봉인 국제표준에서 최고 보안등급은?",
+      "options": [
+        "A. I(Indicative) 등급",
+        "B. S(Security) 등급",
+        "C. H(High Security) 등급",
+        "D. A(Advanced) 등급",
+        "E. P(Premium) 등급"
+      ],
+      "answer": "C",
+      "explanation": "ISO 17712의 컨테이너 봉인 등급은 H(High Security, 최고) > S(Security, 중간) > I(Indicative, 최저)이다. H등급은 강철·볼트 타입으로 절단에 강한 저항력을 가지며, WCO가 권장하는 최소 기준이다.",
+      "relatedConcept": "ISPS Code, ISO 17712 및 국제물류보안 규범",
+      "examTip": "H=High=최고, I=Indicative(표시용)=최저. A등급, P등급은 ISO 17712에 존재하지 않는 함정 선지."
+    },
+    {
+      "id": "q3-04-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "보안제도 종합",
+      "question": "다음 국제물류보안 제도와 주관기관의 연결이 모두 옳은 것은?",
+      "options": [
+        "A. AEO - WTO, ISPS Code - IMO, C-TPAT - CBP",
+        "B. AEO - WCO, ISPS Code - WCO, C-TPAT - CBP",
+        "C. AEO - WCO, ISPS Code - IMO, C-TPAT - CBP",
+        "D. AEO - IMO, ISPS Code - IMO, C-TPAT - WCO",
+        "E. AEO - WCO, ISPS Code - ICAO, C-TPAT - CBP"
+      ],
+      "answer": "C",
+      "explanation": "AEO는 WCO(세계관세기구), ISPS Code는 IMO(국제해사기구), C-TPAT은 미국 CBP(관세국경보호청)가 각각 주관한다. 보안제도-주관기관 매칭은 시험에서 가장 빈출되는 유형이다.",
+      "relatedConcept": "국제물류보안 최신 동향 및 종합 비교",
+      "examTip": "WCO=AEO, IMO=ISPS, CBP=C-TPAT/CSI, ICAO=Annex 17. 주관기관 교차 매칭 반드시 암기."
+    },
+    {
+      "id": "q3-04-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "WCO SAFE Framework",
+      "question": "WCO SAFE Framework의 구성에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. Pillar 1은 관세-민간 협력, Pillar 2는 관세당국 간 협력이다",
+        "B. Pillar 1은 관세당국 간 협력(Customs to Customs), Pillar 2는 관세-민간 협력(Customs to Business)이다",
+        "C. Pillar 1은 선박보안, Pillar 2는 항공보안이다",
+        "D. Pillar 1은 미국 보안, Pillar 2는 EU 보안이다",
+        "E. Pillar 1과 Pillar 2 모두 관세당국 간 협력만 다룬다"
+      ],
+      "answer": "B",
+      "explanation": "WCO SAFE Framework(2005)는 Pillar 1(관세당국 간 협력: Customs to Customs)과 Pillar 2(관세-민간 협력: Customs to Business)로 구성된다. Pillar 2가 AEO 제도의 근간이 된다. Pillar 1과 2의 순서를 바꿔 출제하는 함정에 주의.",
+      "relatedConcept": "국제물류보안 최신 동향 및 종합 비교",
+      "examTip": "Pillar 1=C to C(관세간), Pillar 2=C to B(관세-민간). 순서 바꿈 함정 주의."
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "chapter": "PART 01 국제물류 총론",
+  "subject": "국제물류론",
+  "quizzes": [
+    {
+      "id": "q3-01-01",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "국제물류 개념",
+      "question": "국제물류의 특성으로 가장 거리가 먼 것은?",
+      "options": [
+        "A. 통관절차가 필수적으로 수반된다",
+        "B. 환율 변동에 따른 리스크가 존재한다",
+        "C. 단일 국가의 법률 체계만 적용된다",
+        "D. 장거리 운송으로 리드타임이 길다",
+        "E. 복수 운송수단의 복합운송이 빈번하다"
+      ],
+      "answer": "C",
+      "explanation": "국제물류는 2개국 이상에 걸쳐 이루어지므로 각국의 법률·규정이 복수로 적용된다. 단일 국가 법률만 적용되는 것은 국내물류의 특성이다. 나머지는 모두 국제물류의 대표적 특성이다.",
+      "relatedConcept": "국제물류의 개념과 특성",
+      "examTip": "국내물류와 국제물류의 차이점을 묻는 문제는 매년 출제됨. '통관·환율·복수 법률·장거리'가 국제물류의 핵심 키워드"
+    },
+    {
+      "id": "q3-01-02",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "국제물류 개념",
+      "question": "국제물류는 소유권 이전과 관련된 상적 유통활동은 포함하지 않으며, 물적 유통활동만을 의미한다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "물류(Physical Distribution)는 물적 유통을 의미하며, 소유권 이전과 관련된 상적 유통(상거래)은 별개의 영역이다. 국제물류는 운송·보관·하역·포장·통관 등 물적 유통활동을 의미한다. 단, 넓은 의미에서는 무역금융·보험 등 관련 서비스를 포함하기도 한다.",
+      "relatedConcept": "국제물류의 개념과 특성",
+      "examTip": "물류 = 물적 유통, 상적 유통(소유권 이전)과 구분하는 것이 기본. 다만 '넓은 의미의 물류'를 물으면 금융·보험 포함 가능"
+    },
+    {
+      "id": "q3-01-03",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "비교우위론",
+      "question": "A국은 쌀 1단위 생산에 노동 4시간, 옷 1단위 생산에 노동 8시간이 필요하고, B국은 쌀 1단위에 노동 12시간, 옷 1단위에 노동 6시간이 필요하다. 비교우위론에 따른 설명으로 옳은 것은?",
+      "options": [
+        "A. A국은 쌀과 옷 모두에 비교우위가 있다",
+        "B. A국은 옷에, B국은 쌀에 비교우위가 있다",
+        "C. A국은 쌀에, B국은 옷에 비교우위가 있다",
+        "D. B국은 두 재화 모두 절대우위에 있으므로 무역 불필요",
+        "E. 양국의 기회비용이 동일하므로 무역 이익이 없다"
+      ],
+      "answer": "C",
+      "explanation": "A국 쌀의 기회비용 = 4/8 = 0.5옷, B국 쌀의 기회비용 = 12/6 = 2옷. A국이 쌀의 기회비용이 낮으므로 쌀에 비교우위. A국 옷의 기회비용 = 8/4 = 2쌀, B국 옷의 기회비용 = 6/12 = 0.5쌀. B국이 옷의 기회비용이 낮으므로 옷에 비교우위. A국이 양 재화 모두 절대우위(생산비 낮음)지만, 비교우위는 기회비용으로 판단한다.",
+      "relatedConcept": "국제무역이론 - 비교우위론",
+      "examTip": "기회비용 계산 시 '해당 재화 노동시간 / 다른 재화 노동시간'으로 계산. 분모·분자를 바꿔 넣는 실수가 가장 많음!"
+    },
+    {
+      "id": "q3-01-04",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "H-O이론",
+      "question": "헥셔-올린(H-O) 이론에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 각국은 풍부하게 보유한 생산요소를 집약적으로 사용하는 재화를 수출한다",
+        "B. 리카도의 비교우위론과 달리 2개 이상의 생산요소를 고려한다",
+        "C. 레온티에프 역설은 H-O이론을 실증적으로 뒷받침한 사례이다",
+        "D. 요소부존이론이라고도 불린다",
+        "E. 자유무역이 진행되면 양국의 요소가격이 균등화된다는 정리와 연결된다"
+      ],
+      "answer": "C",
+      "explanation": "레온티에프 역설은 H-O이론을 '반박'한 사례이다. 자본풍부국인 미국이 노동집약재를 수출하는 현상을 발견하여 H-O이론의 예측과 상반되는 결과를 보여주었다. 따라서 '실증적으로 뒷받침'이 아니라 '반례'가 정확하다.",
+      "relatedConcept": "국제무역이론 - H-O이론",
+      "examTip": "레온티에프 역설 = H-O이론의 반례(반박). '뒷받침'이라는 표현이 나오면 바로 오답 판별!"
+    },
+    {
+      "id": "q3-01-05",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "WTO",
+      "question": "WTO의 기본원칙에 해당하지 않는 것은?",
+      "options": [
+        "A. 최혜국대우(MFN) 원칙",
+        "B. 내국민대우(NT) 원칙",
+        "C. 수량제한금지 원칙",
+        "D. 관세양허 원칙",
+        "E. 역내 관세동맹 의무화 원칙"
+      ],
+      "answer": "E",
+      "explanation": "WTO의 기본원칙은 최혜국대우(MFN), 내국민대우(NT), 수량제한금지, 관세양허 등이다. '역내 관세동맹 의무화'는 WTO 원칙이 아니다. 관세동맹은 경제통합의 한 단계로, WTO 체제에서 FTA/관세동맹은 MFN 원칙의 예외(GATT 제24조)로 허용될 뿐이다.",
+      "relatedConcept": "국제물류환경변화 - WTO",
+      "examTip": "WTO 4대 원칙(MFN, NT, 수량제한금지, 관세양허) 암기 필수. FTA·관세동맹은 MFN의 '예외'로 허용된다는 점도 출제됨"
+    },
+    {
+      "id": "q3-01-06",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "경제통합",
+      "question": "경제통합의 단계를 낮은 수준에서 높은 수준 순서로 바르게 나열한 것은?",
+      "options": [
+        "A. 자유무역지역 → 공동시장 → 관세동맹 → 경제동맹 → 완전경제통합",
+        "B. 관세동맹 → 자유무역지역 → 공동시장 → 경제동맹 → 완전경제통합",
+        "C. 자유무역지역 → 관세동맹 → 공동시장 → 경제동맹 → 완전경제통합",
+        "D. 자유무역지역 → 관세동맹 → 경제동맹 → 공동시장 → 완전경제통합",
+        "E. 공동시장 → 자유무역지역 → 관세동맹 → 경제동맹 → 완전경제통합"
+      ],
+      "answer": "C",
+      "explanation": "경제통합 5단계: 자유무역지역(FTA, 역내 관세 철폐) → 관세동맹(CU, +대외 공동관세) → 공동시장(CM, +생산요소 자유이동) → 경제동맹(EU, +경제정책 조화) → 완전경제통합(+초국가기구). '자관공경완' 순서를 암기해야 한다.",
+      "relatedConcept": "국제물류환경변화 - 경제통합",
+      "examTip": "'자관공경완' 순서 암기! 관세동맹과 공동시장 순서를 바꿔놓는 함정 선지가 자주 등장"
+    },
+    {
+      "id": "q3-01-07",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈 2020에서 해상 및 내수로 운송에만 사용할 수 있는 조건으로만 묶인 것은?",
+      "options": [
+        "A. EXW, FCA, FOB, CIF",
+        "B. FAS, FOB, CFR, CIF",
+        "C. FOB, CFR, CIF, CPT",
+        "D. FAS, FOB, CIF, DPU",
+        "E. FCA, FAS, FOB, CFR"
+      ],
+      "answer": "B",
+      "explanation": "인코텀즈 2020에서 해상·내수로 전용 조건은 FAS(선측인도), FOB(본선인도), CFR(운임포함인도), CIF(운임보험료포함) 4가지이다. EXW, FCA, CPT, CIP, DAP, DPU, DDP는 모든 운송수단에 사용 가능하다.",
+      "relatedConcept": "인코텀즈 2020",
+      "examTip": "해상전용 4가지(FAS/FOB/CFR/CIF) 암기는 기본 중의 기본! CPT·CIP는 해상이 아니라 '모든 운송수단'임을 주의"
+    },
+    {
+      "id": "q3-01-08",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈 2020에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. CIF 조건에서 매도인은 ICC(C) 최소담보조건의 보험에 가입할 의무가 있다",
+        "B. CIP 조건에서 매도인은 ICC(A) 전위험담보조건의 보험에 가입할 의무가 있다",
+        "C. DPU는 인코텀즈 2010의 DAT를 대체한 것으로, 매도인이 양하까지 책임진다",
+        "D. FOB, CFR, CIF 조건에서 위험의 이전 시점은 모두 본선 적재 시이다",
+        "E. FCA 조건에서 매도인은 반드시 해상운송에 의한 선하증권(B/L)을 제공해야 한다"
+      ],
+      "answer": "E",
+      "explanation": "FCA는 모든 운송수단에 사용 가능한 조건이므로 반드시 해상 B/L을 제공할 의무는 없다. 다만 인코텀즈 2020에서 FCA 조건에 매수인이 운송인에게 선적본선적재 B/L 발행을 지시할 수 있는 '옵션'이 신설되었다. 의무가 아니라 옵션이라는 점이 함정이다.",
+      "relatedConcept": "인코텀즈 2020 - FCA 조건",
+      "examTip": "FCA의 B/L 옵션은 2020 신설 내용! '반드시·의무' vs '옵션'의 차이를 반드시 구분. CIF=ICC(C), CIP=ICC(A)도 2020 핵심 변경점"
+    },
+    {
+      "id": "q3-01-09",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈 2020에서 매도인의 의무가 가장 큰 조건은?",
+      "options": [
+        "A. EXW",
+        "B. FOB",
+        "C. CIF",
+        "D. DAP",
+        "E. DDP"
+      ],
+      "answer": "E",
+      "explanation": "DDP(Delivered Duty Paid, 관세지급인도)는 매도인이 목적지까지의 모든 운송비용, 수입통관, 수입관세까지 부담하는 조건으로, 매도인 의무가 가장 크다. 반대로 EXW(공장인도)는 매도인 의무가 가장 작다.",
+      "relatedConcept": "인코텀즈 2020 - DDP/EXW",
+      "examTip": "매도인 의무: EXW(최소) ↔ DDP(최대). 매수인 의무는 반대: EXW(최대) ↔ DDP(최소). 양 극단 암기!"
+    },
+    {
+      "id": "q3-01-10",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈 2020의 C그룹(CFR/CIF/CPT/CIP)의 특징으로 옳은 것은?",
+      "options": [
+        "A. 비용 이전 시점과 위험 이전 시점이 동일하다",
+        "B. 매도인이 주운송비를 부담하며, 위험도 도착지까지 부담한다",
+        "C. 매도인이 주운송비를 부담하나, 위험은 선적지에서 이전된다",
+        "D. 매수인이 운송계약을 체결하고 운임을 부담한다",
+        "E. 보험가입 의무가 4가지 조건 모두에 있다"
+      ],
+      "answer": "C",
+      "explanation": "C그룹의 가장 큰 특징은 '비용이전과 위험이전의 분리'이다. 매도인이 목적지까지의 운임(비용)을 부담하지만, 위험은 선적지(본선적재 또는 제1운송인 인도 시)에서 매수인에게 이전된다. 보험가입 의무는 CIF와 CIP에만 있고, CFR과 CPT에는 없다.",
+      "relatedConcept": "인코텀즈 2020 - C그룹",
+      "examTip": "C그룹 핵심 = '비용이전 ≠ 위험이전'. 매도인이 운임 내도 위험은 선적지에서 이전! 이것을 이해 못하면 인코텀즈 문제를 풀 수 없음"
+    },
+    {
+      "id": "q3-01-11",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈는 ICC(국제상업회의소)가 제정한 국제법으로, 모든 국제무역거래에 자동으로 적용된다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "인코텀즈는 ICC가 제정한 '무역관습 해석규칙'이지 국제법이 아니다. 자동 적용되지 않으며, 계약서에 명시적으로 'Incoterms 2020'을 인용해야 적용된다. 또한 인코텀즈는 소유권 이전, 대금결제 조건 등은 규정하지 않는다.",
+      "relatedConcept": "인코텀즈 2020 - 법적 성격",
+      "examTip": "인코텀즈 ≠ 법률. '자동 적용'이라는 표현이 나오면 오답! 계약서 명시 필요. 소유권 이전 규정도 하지 않음"
+    },
+    {
+      "id": "q3-01-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "FOB vs CFR vs CIF",
+      "question": "FOB, CFR, CIF 조건에 대한 비교 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 세 조건 모두 해상 및 내수로 운송 전용 조건이다",
+        "B. 세 조건 모두 위험의 이전 시점은 본선 적재 시이다",
+        "C. CFR은 FOB에 운임이 추가된 것이고, CIF는 CFR에 보험료가 추가된 것이다",
+        "D. CIF에서 매도인은 ICC(A) 전위험담보 보험에 가입해야 한다",
+        "E. FOB에서는 매수인이 운송계약을 체결한다"
+      ],
+      "answer": "D",
+      "explanation": "CIF에서 매도인의 보험가입 의무는 ICC(C) '최소담보'조건이다. ICC(A) 전위험담보 의무가 있는 것은 CIP 조건이다. 이는 인코텀즈 2020의 핵심 변경사항으로, 2010까지는 CIF와 CIP 모두 ICC(C)였으나, 2020에서 CIP만 ICC(A)로 상향되었다.",
+      "relatedConcept": "인코텀즈 2020 - CIF vs CIP",
+      "examTip": "CIF = ICC(C) 최소, CIP = ICC(A) 전위험. 이 차이가 인코텀즈 2020 최대 빈출 포인트! 절대 혼동하지 말 것"
+    },
+    {
+      "id": "q3-01-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "국제기관",
+      "question": "다음 중 국제물류 관련 기관과 그 역할의 연결이 옳지 않은 것은?",
+      "options": [
+        "A. WCO - HS코드 관리 및 AEO 제도 운영",
+        "B. IMO - SOLAS(해상인명안전협약), ISPS Code 제정",
+        "C. ICC - 인코텀즈 및 UCP600(신용장통일규칙) 제정",
+        "D. UNCTAD - 항공안전 기준 및 시카고협약 관리",
+        "E. FIATA - FBL(FIATA 복합운송선하증권) 발행 표준화"
+      ],
+      "answer": "D",
+      "explanation": "항공안전 기준과 시카고협약을 관리하는 기관은 ICAO(국제민간항공기구)이다. UNCTAD(유엔무역개발회의)는 개발도상국의 무역·개발 촉진, 복합운송규칙 제정 등을 담당한다.",
+      "relatedConcept": "국제물류 주요 국제기관",
+      "examTip": "기관-역할 매칭은 단골 출제! UNCTAD=개도국+복합운송, ICAO=항공+시카고협약, IMO=해사+SOLAS+ISPS"
+    },
+    {
+      "id": "q3-01-14",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "FTA와 WTO",
+      "question": "FTA(자유무역협정)는 WTO의 최혜국대우(MFN) 원칙에 위배되므로 WTO 체제에서는 허용되지 않는다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "FTA는 WTO의 MFN 원칙의 '예외'로서 GATT 제24조에 의해 허용된다. 특정 조건(실질적으로 모든 무역 포함, 합리적 기간 내 완성 등)을 충족하면 MFN 원칙에 대한 합법적 예외로 인정된다.",
+      "relatedConcept": "국제물류환경변화 - FTA와 WTO",
+      "examTip": "FTA = MFN 원칙의 예외(GATT 제24조). '위배되므로 불법'이라는 선지는 대표적인 함정!"
+    },
+    {
+      "id": "q3-01-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈 2020에서 매도인이 수입통관 의무까지 부담하는 조건은?",
+      "options": [
+        "A. CIF",
+        "B. DAP",
+        "C. DPU",
+        "D. DDP",
+        "E. FOB"
+      ],
+      "answer": "D",
+      "explanation": "DDP(Delivered Duty Paid, 관세지급인도)는 매도인이 수출통관은 물론 수입통관과 수입관세까지 모두 부담하는 유일한 조건이다. DAP와 DPU에서는 수입통관이 매수인 의무이다. 참고로 EXW에서는 수출통관도 매수인 의무이다.",
+      "relatedConcept": "인코텀즈 2020 - DDP",
+      "examTip": "수입통관 매도인 부담 = DDP만! 수출통관 매수인 부담 = EXW만! 이 양 극단이 시험에 자주 출제됨"
+    },
+    {
+      "id": "q3-01-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "인코텀즈 2020 변경점",
+      "question": "인코텀즈 2010에서 2020으로 변경된 주요 내용으로 옳지 않은 것은?",
+      "options": [
+        "A. DAT(Delivered At Terminal)가 DPU(Delivered at Place Unloaded)로 변경되었다",
+        "B. CIP 조건의 보험 기본담보가 ICC(C)에서 ICC(A)로 상향되었다",
+        "C. FCA 조건에서 선적본선적재 B/L 발행 옵션이 신설되었다",
+        "D. FOB 조건이 삭제되고 FCA로 통합되었다",
+        "E. 보안 관련 비용 부담에 대한 내용이 강화되었다"
+      ],
+      "answer": "D",
+      "explanation": "FOB 조건은 인코텀즈 2020에서도 그대로 유지된다. 인코텀즈 2020의 주요 변경점은 ①DAT→DPU 변경, ②CIP 보험 ICC(C)→ICC(A) 상향, ③FCA에 B/L 발행 옵션 신설, ④보안 관련 비용 규정 강화 등이다.",
+      "relatedConcept": "인코텀즈 2020 변경사항",
+      "examTip": "2010→2020 변경 3대 핵심: ①DAT→DPU, ②CIP 보험 상향, ③FCA B/L 옵션. 'FOB 삭제'는 절대 아님!"
+    },
+    {
+      "id": "q3-01-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "RCEP",
+      "question": "RCEP(역내포괄적경제동반자협정)에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 아세안 10개국과 한·중·일·호주·뉴질랜드 총 15개국이 참여한다",
+        "B. 2022년에 발효되었다",
+        "C. 세계 GDP의 약 30%를 차지하는 메가 FTA이다",
+        "D. 인도가 최종 참여하여 16개국이 서명하였다",
+        "E. 원산지 규정, 전자상거래, 지식재산권 등을 포함한다"
+      ],
+      "answer": "D",
+      "explanation": "인도는 RCEP 협상에 참여했으나 2019년에 협상에서 탈퇴하였다. 최종 서명국은 아세안 10개국 + 한국·중국·일본·호주·뉴질랜드 총 15개국이다. 인도 탈퇴는 시험 출제 포인트이다.",
+      "relatedConcept": "국제물류환경변화 - RCEP",
+      "examTip": "RCEP 15개국에서 인도가 빠졌다는 점이 시험 함정! '16개국'이라는 선지가 나오면 오답"
+    },
+    {
+      "id": "q3-01-18",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "국제기관",
+      "question": "인코텀즈(Incoterms)를 제정하는 국제기관은?",
+      "options": [
+        "A. WTO (세계무역기구)",
+        "B. WCO (세계관세기구)",
+        "C. ICC (국제상업회의소)",
+        "D. IMO (국제해사기구)",
+        "E. UNCTAD (유엔무역개발회의)"
+      ],
+      "answer": "C",
+      "explanation": "인코텀즈는 ICC(International Chamber of Commerce, 국제상업회의소)가 제정한다. ICC는 민간 기구로, 인코텀즈 외에도 UCP600(신용장통일규칙), URC522(추심통일규칙) 등을 제정한다.",
+      "relatedConcept": "국제물류 주요 국제기관 - ICC",
+      "examTip": "ICC = 인코텀즈 + UCP600. 민간기구라는 점 기억! WCO(관세), IMO(해사), UNCTAD(개도국)와 혼동 주의"
+    },
+    {
+      "id": "q3-01-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "인코텀즈 2020",
+      "question": "인코텀즈 2020 조건 중 매도인이 목적지에서 양하(unloading)까지 책임지는 유일한 D그룹 조건은?",
+      "options": [
+        "A. DAP",
+        "B. DPU",
+        "C. DDP",
+        "D. CPT",
+        "E. CIF"
+      ],
+      "answer": "B",
+      "explanation": "DPU(Delivered at Place Unloaded)는 D그룹 중 매도인이 목적지에서 양하(하역)까지 책임지는 유일한 조건이다. DAP는 양하 준비 상태까지만 매도인 책임이고, DDP도 양하는 매수인 부담이다(다만 관세는 매도인). DPU는 인코텀즈 2010의 DAT를 대체한 것이다.",
+      "relatedConcept": "인코텀즈 2020 - DPU",
+      "examTip": "D그룹 비교: DAP(양하 전 인도) vs DPU(양하 후 인도, 유일!) vs DDP(양하 전 인도 + 관세 부담). DPU만 양하 포함!"
+    },
+    {
+      "id": "q3-01-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "국제물류 트렌드",
+      "question": "코로나19 이후 글로벌 공급망 재편 전략 중, 지리적으로 인접한 국가로 생산기지를 이전하는 전략은?",
+      "options": [
+        "A. 오프쇼어링(Offshoring)",
+        "B. 리쇼어링(Reshoring)",
+        "C. 니어쇼어링(Nearshoring)",
+        "D. 프렌드쇼어링(Friendshoring)",
+        "E. 아웃소싱(Outsourcing)"
+      ],
+      "answer": "C",
+      "explanation": "니어쇼어링(Nearshoring)은 지리적으로 가까운 인접국가로 생산기지를 이전하는 전략이다. 리쇼어링은 본국 복귀, 프렌드쇼어링은 동맹국·우호국 중심 공급망 구성, 오프쇼어링은 저비용 국가로 이전하는 전략이다.",
+      "relatedConcept": "국제물류 트렌드와 디지털 전환",
+      "examTip": "리쇼어링(본국)·니어쇼어링(인접국)·프렌드쇼어링(동맹국) 3가지 구분은 최근 기출 트렌드. 코로나·미중갈등 키워드와 함께 출제"
+    }
+  ]
+}
