@@ -9,7 +9,13 @@
       "difficulty": 1,
       "topic": "WMS",
       "question": "창고의 입출고, 보관위치, 피킹 등을 관리하는 물류정보시스템은?",
-      "options": ["A. OMS", "B. WMS", "C. TMS", "D. YMS", "E. ERP"],
+      "options": [
+        "A. OMS",
+        "B. WMS",
+        "C. TMS",
+        "D. YMS",
+        "E. ERP"
+      ],
       "answer": "B",
       "explanation": "WMS(Warehouse Management System)는 창고 내부의 입출고·보관위치·피킹·재고 등을 관리한다. OMS=주문, TMS=운송, YMS=야드, ERP=전사자원.",
       "relatedConcept": "물류정보시스템",
@@ -22,7 +28,13 @@
       "difficulty": 2,
       "topic": "바코드 vs RFID",
       "question": "바코드 대비 RFID의 장점으로 옳지 않은 것은?",
-      "options": ["A. 다수 동시 인식 가능", "B. 비접촉식 인식", "C. 데이터 수정(쓰기) 가능", "D. 도입 비용이 저렴하다", "E. 내구성이 높다"],
+      "options": [
+        "A. 다수 동시 인식 가능",
+        "B. 비접촉식 인식",
+        "C. 데이터 수정(쓰기) 가능",
+        "D. 도입 비용이 저렴하다",
+        "E. 내구성이 높다"
+      ],
       "answer": "D",
       "explanation": "RFID는 태그·리더기·인프라 비용이 바코드보다 높다(고비용). 이것이 RFID 확산의 가장 큰 장애요인이다. 나머지는 모두 RFID의 장점.",
       "relatedConcept": "바코드 vs RFID",
@@ -35,7 +47,13 @@
       "difficulty": 2,
       "topic": "RFID 태그",
       "question": "RFID 태그 중 배터리가 없고 비용이 저렴한 유형은?",
-      "options": ["A. 능동형(Active)", "B. 수동형(Passive)", "C. 반수동형(Semi-passive)", "D. 복합형(Hybrid)", "E. 스마트형(Smart)"],
+      "options": [
+        "A. 능동형(Active)",
+        "B. 수동형(Passive)",
+        "C. 반수동형(Semi-passive)",
+        "D. 복합형(Hybrid)",
+        "E. 스마트형(Smart)"
+      ],
       "answer": "B",
       "explanation": "수동형(Passive) 태그는 배터리 없이 리더기의 전파 에너지로 작동하며, 저비용·소형이지만 인식거리가 짧다.",
       "relatedConcept": "RFID",
@@ -48,7 +66,13 @@
       "difficulty": 2,
       "topic": "EDI",
       "question": "EDI의 국제 표준은?",
-      "options": ["A. ANSI X.12", "B. UN/EDIFACT", "C. ISO 9001", "D. KS T 1001", "E. IEEE 802.11"],
+      "options": [
+        "A. ANSI X.12",
+        "B. UN/EDIFACT",
+        "C. ISO 9001",
+        "D. KS T 1001",
+        "E. IEEE 802.11"
+      ],
       "answer": "B",
       "explanation": "UN/EDIFACT는 UN 산하 국제 EDI 표준이다. ANSI X.12는 미국 EDI 표준. ISO 9001은 품질경영, IEEE 802.11은 무선LAN 표준.",
       "relatedConcept": "EDI",
@@ -61,7 +85,13 @@
       "difficulty": 2,
       "topic": "GPS vs GIS",
       "question": "GPS와 GIS에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. GPS는 위성 기반 위치측위 시스템이다", "B. GIS는 공간 데이터를 분석·시각화한다", "C. GPS는 차량 실시간 추적에 활용된다", "D. GIS는 물류센터 입지 분석에 활용된다", "E. GPS와 GIS는 동일한 시스템이다"],
+      "options": [
+        "A. GPS는 위성 기반 위치측위 시스템이다",
+        "B. GIS는 공간 데이터를 분석·시각화한다",
+        "C. GPS는 차량 실시간 추적에 활용된다",
+        "D. GIS는 물류센터 입지 분석에 활용된다",
+        "E. GPS와 GIS는 동일한 시스템이다"
+      ],
       "answer": "E",
       "explanation": "GPS(위치측위)와 GIS(공간분석)는 서로 다른 시스템이다. GPS가 GIS의 입력 데이터로 활용될 수 있으나 동일 시스템은 아니다.",
       "relatedConcept": "GPS와 GIS",
@@ -74,7 +104,13 @@
       "difficulty": 2,
       "topic": "VAN",
       "question": "VAN(Value Added Network)에 대한 설명으로 옳은 것은?",
-      "options": ["A. EDI와 동일한 개념이다", "B. 바코드 인식 장비이다", "C. EDI 데이터의 중계·변환·저장 서비스를 제공하는 통신망이다", "D. 위성 기반 위치 추적 시스템이다", "E. 창고관리 소프트웨어이다"],
+      "options": [
+        "A. EDI와 동일한 개념이다",
+        "B. 바코드 인식 장비이다",
+        "C. EDI 데이터의 중계·변환·저장 서비스를 제공하는 통신망이다",
+        "D. 위성 기반 위치 추적 시스템이다",
+        "E. 창고관리 소프트웨어이다"
+      ],
       "answer": "C",
       "explanation": "VAN은 부가가치통신망으로 EDI 데이터의 전송·중계·변환·저장 등 부가서비스를 제공하는 통신 네트워크이다.",
       "relatedConcept": "VAN",
@@ -87,7 +123,13 @@
       "difficulty": 2,
       "topic": "EAN-13",
       "question": "EAN-13 바코드의 총 자릿수와 마지막 자리의 역할은?",
-      "options": ["A. 12자리, 국가코드", "B. 13자리, 체크디지트", "C. 14자리, 상품코드", "D. 13자리, 업체코드", "E. 12자리, 체크디지트"],
+      "options": [
+        "A. 12자리, 국가코드",
+        "B. 13자리, 체크디지트",
+        "C. 14자리, 상품코드",
+        "D. 13자리, 업체코드",
+        "E. 12자리, 체크디지트"
+      ],
       "answer": "B",
       "explanation": "EAN-13은 총 13자리이며, 마지막 1자리는 체크디지트(오류검증용)이다. 구성: 국가코드(3)+업체코드(4~5)+상품코드(4~5)+체크디지트(1).",
       "relatedConcept": "바코드",
@@ -100,7 +142,13 @@
       "difficulty": 2,
       "topic": "블록체인",
       "question": "물류에서 블록체인 기술 활용의 주요 기대효과는?",
-      "options": ["A. 물류비 직접 절감", "B. 운송 속도 향상", "C. 이력 추적 및 위변조 방지", "D. 창고 자동화", "E. 포장 비용 절감"],
+      "options": [
+        "A. 물류비 직접 절감",
+        "B. 운송 속도 향상",
+        "C. 이력 추적 및 위변조 방지",
+        "D. 창고 자동화",
+        "E. 포장 비용 절감"
+      ],
       "answer": "C",
       "explanation": "블록체인은 분산 원장 기술로 물류에서는 이력 추적의 투명성 확보와 데이터 위변조 방지가 핵심 효과이다.",
       "relatedConcept": "4차 산업혁명 물류기술",
@@ -113,7 +161,10 @@
       "difficulty": 1,
       "topic": "바코드",
       "question": "바코드는 다수의 상품을 동시에 인식할 수 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "바코드는 1개씩 순차적으로 인식해야 한다. 다수 동시 인식이 가능한 것은 RFID이다.",
       "relatedConcept": "바코드 vs RFID",
@@ -126,11 +177,296 @@
       "difficulty": 2,
       "topic": "ITS",
       "question": "ITS(Intelligent Transport Systems)의 하위 시스템 중 물류와 가장 직접 관련된 것은?",
-      "options": ["A. ATIS(교통정보제공)", "B. ATMS(교통관리)", "C. CVO(화물운송효율화)", "D. ETCS(전자요금징수)", "E. APTS(대중교통관리)"],
+      "options": [
+        "A. ATIS(교통정보제공)",
+        "B. ATMS(교통관리)",
+        "C. CVO(화물운송효율화)",
+        "D. ETCS(전자요금징수)",
+        "E. APTS(대중교통관리)"
+      ],
       "answer": "C",
       "explanation": "CVO(Commercial Vehicle Operations)는 화물운송의 효율화를 위한 시스템으로 ITS 중 물류와 가장 직접적 관련이 있다.",
       "relatedConcept": "ITS",
       "examTip": "ITS 하위 중 물류 관련=CVO! ETCS(하이패스)와 혼동 주의."
+    },
+    {
+      "id": "q1-04-11",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "POS 시스템",
+      "question": "POS(Point of Sales) 시스템의 도입효과로 옳지 않은 것은?",
+      "options": [
+        "A. 계산원의 생산성 향상",
+        "B. 입력오류의 방지",
+        "C. 제품 생산량의 자동 조절",
+        "D. 가격표 부착작업의 감소",
+        "E. 판매정보의 실시간 파악"
+      ],
+      "answer": "C",
+      "explanation": "POS는 판매시점 정보관리 시스템으로, 제품 생산량의 자동 조절은 POS의 직접적 효과가 아니다. POS 데이터는 생산계획에 '참고'될 수 있으나 POS 자체가 생산을 조절하지는 않는다.",
+      "relatedConcept": "POS 시스템",
+      "examTip": "POS 효과: 계산원 생산성↑, 입력오류 방지, 점포사무 간소화, 가격부착↓, 판매정보 실시간. '생산' 관련은 아님!"
+    },
+    {
+      "id": "q1-04-12",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CAO vs EOS",
+      "question": "주문관리시스템(OMS)에서 시스템이 자체적으로 자동 발주하며, 수요변동폭이 작은 상품에 적합한 것은?",
+      "options": [
+        "A. CAO",
+        "B. EOS",
+        "C. POS",
+        "D. WMS",
+        "E. TMS"
+      ],
+      "answer": "B",
+      "explanation": "EOS(Electronic Ordering System)는 시스템이 자체적으로 자동 발주하며 수요변동폭이 작은 상품에 적합하다. CAO는 관리자가 최종 발주를 확정하며 수요변동폭이 큰 상품에 적합하다.",
+      "relatedConcept": "CAO vs EOS",
+      "examTip": "EOS=시스템 '자동' 발주(변동↓), CAO=관리자 '최종' 발주(변동↑). 발주 주체와 변동폭 매칭!"
+    },
+    {
+      "id": "q1-04-13",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CVO",
+      "question": "CVO(첨단화물운송시스템)의 하위시스템으로 화물 및 화물차량을 관리하는 시스템은?",
+      "options": [
+        "A. ATIS",
+        "B. ATMS",
+        "C. FFMS",
+        "D. ETCS",
+        "E. APTS"
+      ],
+      "answer": "C",
+      "explanation": "FFMS(Freight and Fleet Management System)는 CVO의 하위시스템으로 화물 및 화물차량 관리 기능을 수행한다. HMMS(위험물차량관리)도 CVO의 하위시스템이다.",
+      "relatedConcept": "CVO",
+      "examTip": "CVO 하위: FFMS(화물·차량관리), HMMS(위험물). ATIS·ATMS·ETCS는 ITS의 다른 하위시스템!"
+    },
+    {
+      "id": "q1-04-14",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "KL-NET vs KT-NET",
+      "question": "우리나라 물류업무의 온라인화를 위해 개발된 물류정보망은?",
+      "options": [
+        "A. KT-NET",
+        "B. KL-NET",
+        "C. KROIS",
+        "D. Port-MIS",
+        "E. CALS"
+      ],
+      "answer": "B",
+      "explanation": "KL-NET(Korea Logistics Network, 한국물류정보통신)은 물류정보망으로 물류업무의 온라인화를 위해 개발되었다. KT-NET(Korea Trade Network)은 무역정보망이다.",
+      "relatedConcept": "물류정보통신망",
+      "examTip": "KL-NET=물류(L=Logistics), KT-NET=무역(T=Trade). L과 T로 구분!"
+    },
+    {
+      "id": "q1-04-15",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CALS",
+      "question": "CALS(광속상거래)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 판매시점 정보관리 시스템이다",
+        "B. 화물차량 운행 최적화 시스템이다",
+        "C. 제품의 전 라이프사이클 정보를 디지털로 통합 관리하는 전략이다",
+        "D. 위성 기반 위치 추적 시스템이다",
+        "E. 창고 내부 관리 시스템이다"
+      ],
+      "answer": "C",
+      "explanation": "CALS(Commerce At Light Speed)는 제품의 생산부터 폐기까지 전 과정(Life-cycle)의 정보를 실시간으로 디지털 기술을 통해 통합 관리하는 산업 정보화 전략이다.",
+      "relatedConcept": "CALS",
+      "examTip": "CALS 핵심 키워드: '라이프사이클 전 과정' + '실시간 디지털 통합'. 원래 Computer Aided Logistics Support에서 발전!"
+    },
+    {
+      "id": "q1-04-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ITF-14 바코드",
+      "question": "골판지 상자에 직접 인쇄하여 물류단위를 인식하는 데 사용되는 국제표준물류 바코드는?",
+      "options": [
+        "A. EAN-13",
+        "B. EAN-8",
+        "C. ITF-14",
+        "D. Code 128",
+        "E. QR코드"
+      ],
+      "answer": "C",
+      "explanation": "ITF-14는 GTIN-14(표준물류 식별코드)를 사용하며, 주로 골판지 상자에 직접 바코드를 인쇄하여 생산공장·물류센터에서 입출하 시 동일 상품의 물류단위를 인식하는 데 사용된다.",
+      "relatedConcept": "바코드 종류",
+      "examTip": "ITF-14=골판지 직접 인쇄(물류용), EAN-13=소매상품, GS1-128=파렛트·컨테이너. 적용 대상 구분!"
+    },
+    {
+      "id": "q1-04-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "물류정보 특징",
+      "question": "물류정보의 특징으로 옳지 않은 것은?",
+      "options": [
+        "A. 관리대상 정보의 종류가 많고 내용이 다양하다",
+        "B. 성수기와 비수기의 정보량 차이가 크다",
+        "C. 정보가 한 곳에 집중되어 있다",
+        "D. 상품과 정보의 흐름에 동시성이 요구된다",
+        "E. 구매·생산·영업·운송활동과의 관련성이 크다"
+      ],
+      "answer": "C",
+      "explanation": "물류정보는 정보의 발생원, 처리장소, 전달대상 등이 '넓게 분산'되어 있는 것이 특징이다. '한 곳에 집중'은 오답이다.",
+      "relatedConcept": "물류정보의 특징",
+      "examTip": "물류정보 특징: 다양, 성수기차이↑, '광역 분산'(집중 아님!), 동시성, 타부서 관련성↑"
+    },
+    {
+      "id": "q1-04-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TMS 하부시스템",
+      "question": "차량·선박·항공기에 GPS를 장착하여 이동체의 위치를 실시간으로 파악하는 시스템은?",
+      "options": [
+        "A. GIS",
+        "B. TRS",
+        "C. AVLS",
+        "D. POS",
+        "E. WMS"
+      ],
+      "answer": "C",
+      "explanation": "AVLS(Automatic Vehicle Location System)는 이동체 위치파악시스템으로, 차량·선박·항공기에 GPS를 장착하여 실시간 위치를 파악한다. TRS는 주파수공용통신(무선통신서비스)이다.",
+      "relatedConcept": "TMS 하부시스템",
+      "examTip": "AVLS=이동체 위치(GPS 장착), TRS=무선통신, GIS=지리정보 분석. TMS 하부시스템 구별!"
+    },
+    {
+      "id": "q1-04-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운송정보시스템",
+      "question": "철도운영정보시스템의 약칭은?",
+      "options": [
+        "A. AIRCIS",
+        "B. Port-MIS",
+        "C. KROIS",
+        "D. CVO",
+        "E. CALS"
+      ],
+      "answer": "C",
+      "explanation": "KROIS(Korea Railroad Operating Information System)는 철도운영정보시스템이다. Port-MIS는 항만운영정보시스템, AIRCIS는 항공정보시스템이다.",
+      "relatedConcept": "운송수단별 정보시스템",
+      "examTip": "KROIS=철도(Railroad), Port-MIS=항만(Port), AIRCIS=항공(AIR). 약칭에 답이 있다!"
+    },
+    {
+      "id": "q1-04-20",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "GS1-128 바코드",
+      "question": "GS1-128(EAN-128) 바코드는 주로 파렛트, 컨테이너 등 대형 물류단위에 사용하며, 소매품보다는 비소매품에 적용한다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "O",
+      "explanation": "GS1-128(EAN-128)은 상대적으로 바코드 규격이 크기 때문에 파렛트, 컨테이너 등 대형 물류단위에 사용하며, 주로 비소매품에 적용한다. 소매상품에는 EAN-13을 사용한다.",
+      "relatedConcept": "바코드 종류",
+      "examTip": "GS1-128=대형 물류단위(파렛트·컨테이너)+비소매품. EAN-13=소매상품. ITF-14=골판지."
+    },
+    {
+      "id": "q1-04-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "WMS 구성",
+      "question": "WMS(창고관리시스템)의 구성에 해당하지 않는 것은?",
+      "options": [
+        "A. 입출고관리",
+        "B. 보관위치관리",
+        "C. 피킹시스템",
+        "D. 차량배차관리",
+        "E. 재고관리"
+      ],
+      "answer": "D",
+      "explanation": "WMS는 입출고관리·재고관리·보관위치관리·출고지시시스템·피킹시스템·합포장시스템 등으로 구성된다. 차량배차관리는 TMS(운송관리시스템)의 기능이다.",
+      "relatedConcept": "WMS",
+      "examTip": "WMS=창고 '내부' 관리. 배차관리=TMS, 야드관리=YMS!"
+    },
+    {
+      "id": "q1-04-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "VAN 특징",
+      "question": "VAN(부가가치통신망)의 특징으로 옳지 않은 것은?",
+      "options": [
+        "A. 제한된 사용자",
+        "B. 높은 보안성",
+        "C. 저렴한 사용료",
+        "D. EDI 수행을 위한 수단",
+        "E. 데이터 중계·변환 서비스"
+      ],
+      "answer": "C",
+      "explanation": "VAN은 높은 보안성을 제공하지만 사용료가 높은 편이다. 이 때문에 최근에는 인터넷 기반의 Web-EDI가 확산되고 있다.",
+      "relatedConcept": "VAN",
+      "examTip": "VAN=보안↑, 사용료↑, 제한된 사용자. '저렴'은 Web-EDI의 장점!"
+    },
+    {
+      "id": "q1-04-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "RFID 주파수",
+      "question": "RFID에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 비접촉식 무선 인식 기술이다",
+        "B. 다량의 복수정보를 빠르게 판독할 수 있다",
+        "C. 금속과 액체 환경에서도 인식률이 높다",
+        "D. 원거리 및 고속 이동 시에도 인식이 가능하다",
+        "E. 바코드보다 대용량 데이터를 저장할 수 있다"
+      ],
+      "answer": "C",
+      "explanation": "RFID는 금속과 액체(물) 환경에서 인식률이 저하되는 것이 단점이다. 이외에 오물 점착 환경에서는 교신이 가능하다(내환경성).",
+      "relatedConcept": "RFID",
+      "examTip": "RFID 약점: 금속·액체에서 인식률↓. '모든 환경에서 인식 가능'은 오답!"
+    },
+    {
+      "id": "q1-04-24",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "EDI vs 이메일",
+      "question": "EDI는 표준화된 정형 데이터를 교환하며, 컴퓨터 간 자동 처리가 가능하다는 점에서 비정형 메시지를 교환하는 이메일과 다르다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "O",
+      "explanation": "EDI는 표준화된 정형 데이터를 컴퓨터 간 자동 교환하는 시스템이고, 이메일은 비정형 메시지를 사람이 읽어야 하는 방식이므로 근본적으로 다르다.",
+      "relatedConcept": "EDI",
+      "examTip": "EDI=정형데이터·자동처리, 이메일=비정형·사람이읽음. 'EDI=이메일'은 오답!"
+    },
+    {
+      "id": "q1-04-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "KAN-13 구조",
+      "question": "KAN-13 표준형(A) 바코드의 제조업체코드와 상품코드 자릿수 조합으로 올바른 것은?",
+      "options": [
+        "A. 제조업체 3자리, 상품 6자리",
+        "B. 제조업체 4자리, 상품 5자리",
+        "C. 제조업체 5자리, 상품 4자리",
+        "D. 제조업체 6자리, 상품 3자리",
+        "E. 제조업체 7자리, 상품 2자리"
+      ],
+      "answer": "B",
+      "explanation": "KAN-13 표준형(A): 국가코드(880, 3자리)+제조업체코드(4자리)+상품코드(5자리)+검증코드(1자리)=13자리. 표준형(B)는 제조업체 6자리+상품 3자리이다.",
+      "relatedConcept": "KAN-13 바코드",
+      "examTip": "표준형(A)=업체4+상품5(의류 등 다품목), 표준형(B)=업체6+상품3(잡화 등 소스마킹). A와 B 구별!"
     }
   ]
 }

@@ -47,7 +47,10 @@
       "difficulty": 1,
       "topic": "DC vs TC vs FC 비교",
       "question": "Distribution Center(DC)는 크로스도킹 전용 센터로서 재고를 보관하지 않고 입고 즉시 출고하는 통과형 시설이다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "크로스도킹 전용 통과형 센터는 TC(Transfer Center)이다. DC(Distribution Center)는 재고를 보관하면서 대량 입고 후 소량 분배·출고하는 전통적 배송센터이다.",
       "relatedConcept": "2-1",
@@ -98,7 +101,10 @@
       "difficulty": 2,
       "topic": "물류단지·물류터미널·유통단지",
       "question": "물류터미널의 법적 근거는 「물류터미널사업법」이다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "물류터미널사업법은 이미 폐지되었으며, 현재 물류터미널의 법적 근거는 「물류시설의 개발 및 운영에 관한 법률(물류시설법)」이다.",
       "relatedConcept": "2-2",
@@ -168,7 +174,10 @@
       "difficulty": 2,
       "topic": "WMS vs WCS",
       "question": "WCS(Warehouse Control System)는 WMS의 상위 시스템으로, 창고 전체의 입출고 계획과 재고관리를 총괄한다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "WCS는 WMS의 하위 시스템으로, 컨베이어·소터·자동창고 등 물류설비의 실시간 제어를 담당한다. 창고 전체의 계획과 관리를 총괄하는 것은 WMS이다. WMS(관리/계획)→WCS(설비 제어)의 관계이다.",
       "relatedConcept": "2-3",
@@ -276,7 +285,10 @@
       "difficulty": 2,
       "topic": "RFID 특성",
       "question": "RFID는 바코드와 달리 가시선(Line of Sight) 확보 없이도 비접촉으로 인식이 가능하다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "O",
       "explanation": "RFID의 최대 장점 중 하나는 비가시선(Non-Line of Sight) 인식이 가능하다는 것이다. 바코드는 레이저나 카메라가 직접 바코드 표면을 '볼' 수 있어야 하지만, RFID는 전파를 이용하므로 포장 내부나 적재물 안에 있어도 인식 가능하다.",
       "relatedConcept": "2-5",
@@ -357,6 +369,98 @@
       "explanation": "한국의 EAN-13 국가코드는 880이다. 450~459는 일본, 690~699는 중국, 890은 인도, 400~440은 독일이다.",
       "relatedConcept": "2-4",
       "examTip": "한국 국가코드 880! 일본 450, 중국 690, 미국·캐나다 00~13. 국가코드는 EAN-13 앞 2~3자리에 해당한다."
+    },
+    {
+      "id": "q4-02-21",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "배송센터 수 효과",
+      "question": "물류센터(배송센터)의 수가 증가할 때 나타나는 효과로 옳지 않은 것은?",
+      "options": [
+        "A. 배송비용 감소",
+        "B. 재고수준 증가",
+        "C. 납기준수율 증가",
+        "D. 수송비용 감소",
+        "E. 운영비용 증가"
+      ],
+      "answer": "D",
+      "explanation": "배송센터 수가 증가하면 공장에서 각 센터로의 간선수송비용은 오히려 증가한다. 감소하는 것은 센터에서 고객까지의 배송비용이다.",
+      "relatedConcept": "물류센터 설계·운영과 거점 수 효과",
+      "examTip": "수송비(간선)↑ vs 배송비(고객)↓ 구분 필수"
+    },
+    {
+      "id": "q4-02-22",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "보세구역",
+      "question": "지정보세구역에 해당하는 것을 모두 고른 것은?\nㄱ. 지정장치장  ㄴ. 세관검사장  ㄷ. 보세창고  ㄹ. 보세공장",
+      "options": [
+        "A. ㄱ, ㄴ",
+        "B. ㄱ, ㄷ",
+        "C. ㄴ, ㄷ",
+        "D. ㄱ, ㄴ, ㄷ",
+        "E. ㄱ, ㄴ, ㄹ"
+      ],
+      "answer": "A",
+      "explanation": "지정보세구역은 지정장치장과 세관검사장이다. 보세창고와 보세공장은 특허보세구역에 해당한다.",
+      "relatedConcept": "ICD·ODCY·CY·CFS 항만물류시설 심화",
+      "examTip": "지정보세구역 = 지정장치장 + 세관검사장 (2개만)"
+    },
+    {
+      "id": "q4-02-23",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "PQRST",
+      "question": "PQRST 분석에서 P는 Product(화물), Q는 Quality(품질)를 의미한다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "X",
+      "explanation": "PQRST에서 Q는 Quality(품질)가 아니라 Quantity(수량)이다. P=Product, Q=Quantity, R=Route, S=Service, T=Time이다.",
+      "relatedConcept": "물류센터 설계·운영과 거점 수 효과",
+      "examTip": "Q = Quantity(수량), Quality(품질) 아님!"
+    },
+    {
+      "id": "q4-02-24",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "민간투자방식",
+      "question": "민간 사업자가 공공시설을 건설한 후 소유권을 정부에 이전하고, 일정기간 운영하여 수익으로 투자비를 회수하는 방식은?",
+      "options": [
+        "A. BTL",
+        "B. BTO",
+        "C. BOT",
+        "D. BOO",
+        "E. PPP"
+      ],
+      "answer": "B",
+      "explanation": "BTO(Build-Transfer-Operate)는 건설 후 소유권을 먼저 이전하고 일정기간 운영하여 투자비를 회수하는 방식이다. BOT는 운영 후에 소유권을 이전한다.",
+      "relatedConcept": "ICD·ODCY·CY·CFS 항만물류시설 심화",
+      "examTip": "BTO = 이전 먼저(T before O), BOT = 운영 먼저(O before T)"
+    },
+    {
+      "id": "q4-02-25",
+      "type": "concept",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "CY와 CFS",
+      "question": "FCL 화물이 보관·취급되는 컨테이너터미널 내 시설은?",
+      "options": [
+        "A. CFS",
+        "B. CY",
+        "C. ICD",
+        "D. ODCY",
+        "E. Depot"
+      ],
+      "answer": "B",
+      "explanation": "CY(Container Yard)는 FCL 화물을 보관·취급하는 장소이다. LCL 화물의 혼재·분해는 CFS에서 수행한다.",
+      "relatedConcept": "ICD·ODCY·CY·CFS 항만물류시설 심화",
+      "examTip": "FCL → CY, LCL → CFS"
     }
   ]
 }

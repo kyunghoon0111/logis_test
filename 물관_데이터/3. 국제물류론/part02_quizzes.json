@@ -363,6 +363,155 @@
       "explanation": "해상화물운송장(Sea Waybill)은 유가증권이 아닌 비유가증권이다. 따라서 배서에 의한 양도가 불가능하며, 수하인 본인 확인만으로 화물을 인도한다. 유가증권인 B/L과 달리 분실 시에도 화물 인도에 지장이 없는 장점이 있다.",
       "relatedConcept": "해상운송 종합 이해",
       "examTip": "Sea Waybill=비유가증권이라는 점은 거의 매 시험 출제. B/L과의 차이점을 확실히 정리해두면 2~3문제는 잡을 수 있음"
+    },
+    {
+      "id": "q3-02-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "선박 톤수",
+      "question": "선박의 톤수에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. 총톤수(G/T)는 선박의 매매 및 용선료 산출기준이다",
+        "B. 순톤수(N/T)는 관세, 등록세, 도선료의 부과기준이다",
+        "C. 배수톤수(DISPT)는 주로 군함의 크기를 나타낼 때 사용된다",
+        "D. 재화중량톤수(DWT)는 항세와 톤세의 부과기준이다",
+        "E. 운하통행료는 총톤수를 기준으로 부과된다"
+      ],
+      "answer": "C",
+      "explanation": "배수톤수(DISPT)는 선체가 밀어낸 물의 중량으로, 주로 군함의 크기를 나타내는 데 사용된다. 총톤수(G/T)는 관세·등록세·도선료 기준, 순톤수(N/T)는 항세·톤세·운하통과료 기준, 재화중량톤수(DWT)는 매매·용선료 기준이다.",
+      "relatedConcept": "선박의 구조와 톤수체계",
+      "examTip": "G/T=세금(관세·등록세), N/T=항만(항세·톤세·운하), DWT=거래(매매·용선료), DISPT=군함"
+    },
+    {
+      "id": "q3-02-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "해상운송 서류",
+      "question": "컨테이너선 수출절차에서 화물이 CY에 반입되면 선사가 교부하는 서류는?",
+      "options": [
+        "A. S/R(선적요청서)",
+        "B. B/N(선복예약서)",
+        "C. E/R(기기수도증)",
+        "D. D/R(부두수취증)",
+        "E. M/R(본선수취증)"
+      ],
+      "answer": "D",
+      "explanation": "FCL화물이 CY에 반입되면 선사는 부두수취증(D/R, Dock Receipt)을 교부한다. M/R(본선수취증)은 재래선(벌크선)에서 일등항해사가 교부하는 서류이다. E/R(기기수도증)은 CY에서 공컨테이너 반출 시 발급된다.",
+      "relatedConcept": "해상운송 수출입절차와 서류",
+      "examTip": "D/R=컨테이너선(CY 반입 시), M/R=재래선(본선 적재 완료 시). 발급 시점과 적용 선종 구분"
+    },
+    {
+      "id": "q3-02-23",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "ICD",
+      "question": "내륙컨테이너기지(ICD)는 항만에서 이루어지는 마샬링 기능과 본선적재 기능을 수행할 수 있다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "X",
+      "explanation": "ICD는 내륙에 위치하므로 항만에서 이루어지는 마샬링(정렬) 기능과 본선적재 기능은 수행할 수 없다. ICD는 집화, 보관, 혼재, 분류, 통관, 공컨테이너 장치, 컨테이너 수리·정비 등의 기능을 수행한다.",
+      "relatedConcept": "컨테이너 터미널 구성과 ICD",
+      "examTip": "ICD의 한계 = 마샬링 불가 + 본선적재 불가. '내륙'이기 때문. 나머지 기능은 거의 다 가능"
+    },
+    {
+      "id": "q3-02-24",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "하역비 부담조건",
+      "question": "부정기선 용선계약에서 선적 시와 양륙 시 하역비를 모두 용선자(화주)가 부담하는 조건으로 옳은 것을 모두 고르면?",
+      "options": [
+        "A. Berth Term, FIO Term",
+        "B. FI Term, FO Term",
+        "C. FIO Term, FIOST Term",
+        "D. Berth Term, FIOST Term",
+        "E. FI Term, FIOST Term"
+      ],
+      "answer": "C",
+      "explanation": "FIO(Free In and Out)는 선적·양륙 모두 용선자 부담이고, FIOST는 FIO에 적부(Stowed)와 정리(Trimmed)까지 용선자가 부담하는 조건이다. Berth Term은 선주가 모두 부담하고, FI는 선적만, FO는 양륙만 용선자가 부담한다.",
+      "relatedConcept": "하역비 부담조건과 해운동맹",
+      "examTip": "양쪽 모두 용선자 부담: FIO, FIOST. 'Free'=선주 면제(용선자 부담). Berth Term은 전부 선주 부담"
+    },
+    {
+      "id": "q3-02-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "수입 서류",
+      "question": "B/L이 도착하기 전에 수입화물이 먼저 도착한 경우, 수입자가 물품을 인수받기 위해 은행에서 발급받는 보증서는?",
+      "options": [
+        "A. D/O(Delivery Order)",
+        "B. L/G(Letter of Guarantee)",
+        "C. T/R(Trust Receipt)",
+        "D. A/N(Arrival Notice)",
+        "E. E/R(Equipment Receipt)"
+      ],
+      "answer": "B",
+      "explanation": "L/G(수입화물선취보증서)는 B/L보다 물품이 먼저 도착한 경우, 매수인과 발행은행이 연대보증한 보증서를 선사에 제출하고 화물을 인도받는 제도이다. D/O는 화물인도지시서, T/R은 신용장 결제 전 화물 인수 수단이다.",
+      "relatedConcept": "해상운송 수출입절차와 서류",
+      "examTip": "L/G = B/L 미도착 시 긴급 인수 수단. L/G는 은행 보증 필요. Surrendered B/L과 구분할 것"
+    },
+    {
+      "id": "q3-02-26",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "해상운송 국제규칙",
+      "question": "해상운송 국제규칙 중 항해과실면책을 최초로 폐지한 것은?",
+      "options": [
+        "A. 헤이그규칙",
+        "B. 헤이그-비스비규칙",
+        "C. 함부르크규칙",
+        "D. 로테르담규칙",
+        "E. UN복합운송조약"
+      ],
+      "answer": "C",
+      "explanation": "함부르크규칙(1978)이 항해과실면책과 화재면책을 최초로 폐지하였다. 추정과실책임주의를 채택하여 운송인이 과실이 없음을 입증해야 면책되도록 하였다. 헤이그규칙과 헤이그-비스비규칙은 항해과실면책을 인정하며, 로테르담규칙도 폐지하였으나 함부르크보다 늦은 2009년이다.",
+      "relatedConcept": "해상운송 국제규범과 운송인 책임체계 심화",
+      "examTip": "항해과실면책 폐지 순서: 함부르크(1978)가 최초 폐지, 로테르담(2009)도 폐지. 헤이그·비스비는 인정!"
+    },
+    {
+      "id": "q3-02-27",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "로테르담규칙",
+      "question": "로테르담규칙에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 2009년 채택되었다",
+        "B. 전자운송서류(eBL)를 인정한다",
+        "C. 해상구간과 육상구간을 포괄한다",
+        "D. 현재 발효 중이며 한국도 비준하였다",
+        "E. 볼륨계약을 인정한다"
+      ],
+      "answer": "D",
+      "explanation": "로테르담규칙은 2009년 채택되었으나 아직 미발효 상태이다. 한국은 비준하지 않았으며, 상법에 헤이그-비스비규칙을 수용하고 있다. 전자운송서류(eBL) 인정, 해상+육상 구간 포괄, 볼륨계약 인정 등은 모두 옳은 설명이다.",
+      "relatedConcept": "해상운송 국제규범과 운송인 책임체계 심화",
+      "examTip": "로테르담규칙은 '미발효'! 시험에서 '현재 적용 중' 또는 '한국이 비준'이라고 나오면 무조건 오답"
+    },
+    {
+      "id": "q3-02-28",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "몬트리올 협약",
+      "question": "몬트리올 협약(1999)에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 바르샤바체제를 대체하는 통일조약이다",
+        "B. 화물 책임한도는 kg당 22SDR이다",
+        "C. 전자항공운송장(e-AWB)의 법적 근거를 마련하였다",
+        "D. AWB는 유통증권으로서 배서·양도가 가능하다",
+        "E. 2003년에 발효되었다"
+      ],
+      "answer": "D",
+      "explanation": "AWB(항공화물운송장)는 비유통증권(Non-negotiable)이다. 배서·양도가 불가능하다. 유통증권은 B/L(선하증권)의 특성이다. 나머지 보기는 모두 몬트리올 협약에 대한 올바른 설명이다.",
+      "relatedConcept": "국제항공운송 책임체계와 몬트리올 협약 심화",
+      "examTip": "AWB=비유통증권, B/L=유통증권. AWB를 유통증권이라고 하면 무조건 오답. 거의 매년 출제되는 핵심 포인트!"
     }
   ]
 }

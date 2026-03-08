@@ -180,7 +180,10 @@
       "difficulty": 1,
       "topic": "EOQ 모형의 가정",
       "question": "EOQ(경제적 주문량) 모형의 기본 가정에서는 수량할인(대량 주문 시 단가 인하)이 존재한다. (O/X)",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "EOQ 기본 모형의 가정에서는 수량할인이 없고 단위당 구입가격이 일정하다고 가정한다. 수량할인이 존재하는 경우에는 기본 EOQ 공식을 그대로 적용할 수 없으며, 별도의 수량할인 모형(Quantity Discount Model)으로 풀어야 한다.",
       "relatedConcept": "4-3: 정량발주방식(Q시스템) - EOQ 가정조건",
@@ -288,7 +291,10 @@
       "difficulty": 1,
       "topic": "EOQ 최적점 특성",
       "question": "EOQ(경제적 주문량)에서의 최적점에서는 연간 총주문비와 연간 총보관유지비가 같다. (O/X)",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "O",
       "explanation": "EOQ 최적점에서 TC(총재고비용)가 최소가 되며, 이때 연간 주문비 (D/Q*)×S = 연간 보관유지비 (Q*/2)×H가 성립한다. 이것은 EOQ 공식을 유도하는 과정에서 TC를 Q로 미분하여 0으로 놓았을 때 자연스럽게 도출되는 결과이다.",
       "relatedConcept": "4-3: 정량발주방식(Q시스템) - EOQ 최적점",
@@ -369,6 +375,231 @@
       "explanation": "X 50개 → A 총소요량 = 50 × 3 = 150개. A 순소요량 = 150 - 40(보유) = 110개(실제 생산량). 이 문제에서는 B의 총소요량을 구할 때 A의 총소요량(150개) 기준으로 계산한다: B 총소요량 = 150 × 2 = 300개. B 순소요량 = 300 - 100(보유) = 200개. ※ MRP에서 BOM 전개 시 상위 품목의 총소요량 기준으로 하위 품목 소요량을 계산하는 것이 기본이다. 다만 실무에서는 순소요량(110개) 기준으로 전개하는 경우도 있으므로 문제의 전개 방식을 확인해야 한다.",
       "relatedConcept": "4-5: MRP와 JIT - BOM과 순소요량 계산",
       "examTip": "BOM 다단계 계산에서는 상위 품목의 총소요량을 기준으로 하위 소요량을 곱하는 방식과, 순소요량(실제 생산량)을 기준으로 곱하는 방식이 있다. 문제의 조건(재고 차감 시점)을 정확히 파악해야 한다."
+    },
+    {
+      "id": "q4-04-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "EOQ 계산",
+      "question": "연간 수요 10,000개, 1회 주문비 5,000원, 상품가격 2,000원, 재고유지비율 25%일 때 EOQ는?",
+      "options": [
+        "A. 200개",
+        "B. 316개",
+        "C. 447개",
+        "D. 500개",
+        "E. 632개"
+      ],
+      "answer": "C",
+      "explanation": "Ch = 2,000 × 0.25 = 500원. EOQ = √(2×5,000×10,000/500) = √200,000 ≒ 447개",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "Ch 계산 주의: Ch = 상품가격 × 재고유지비율(%)"
+    },
+    {
+      "id": "q4-04-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "채찍효과",
+      "question": "채찍효과의 경감방안에 해당하지 않는 것은?",
+      "options": [
+        "A. 항시저가정책(EDLP)",
+        "B. 크로스도킹",
+        "C. 대량 일괄주문",
+        "D. 리드타임 단축",
+        "E. 정보의 실시간 공유"
+      ],
+      "answer": "C",
+      "explanation": "대량 일괄주문은 채찍효과의 '발생원인'이다. 경감방안은 EDLP, 크로스도킹, 정보공유, 리드타임 단축 등이다.",
+      "relatedConcept": "채찍효과·CRP·집중구매와 수요예측",
+      "examTip": "일괄·대량주문은 원인! 경감방안 아님"
+    },
+    {
+      "id": "q4-04-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "VMI와 CMI",
+      "question": "CRP(지속보충시스템)에서 제조업자가 수요예측 결과를 유통업체와 공유하고, 유통업체가 최종 발주를 확정하는 방식은?",
+      "options": [
+        "A. VMI",
+        "B. CMI",
+        "C. CPFR",
+        "D. ECR",
+        "E. QR"
+      ],
+      "answer": "B",
+      "explanation": "CMI(Co-Managed Inventory)는 제조업자가 결과를 유통업체와 공유하고 유통업체가 최종 발주를 확정한다. VMI는 공급자가 단독으로 재고보충한다.",
+      "relatedConcept": "채찍효과·CRP·집중구매와 수요예측",
+      "examTip": "VMI=공급자 단독, CMI=유통업체 최종확정"
+    },
+    {
+      "id": "q4-04-24",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "EPQ",
+      "question": "경제적 생산량(EPQ)에서 생산능력(P)이 무한대이면 EPQ와 EOQ는 동일하다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "O",
+      "explanation": "EPQ 공식에서 P가 무한대이면 P/(P-D) → 1이 되어 EPQ = EOQ가 된다.",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "P 무한대 → EPQ = EOQ"
+    },
+    {
+      "id": "q4-04-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "ROP 계산",
+      "question": "조달기간이 4주에서 16주로 변경될 경우 안전재고량의 변화는?",
+      "options": [
+        "A. 변화 없음",
+        "B. 2배 증가",
+        "C. 4배 증가",
+        "D. 2배 감소",
+        "E. 8배 증가"
+      ],
+      "answer": "B",
+      "explanation": "안전재고 = 안전계수 × 표준편차 × √조달기간. √4=2에서 √16=4로 변화하므로 안전재고는 4/2=2배 증가한다.",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "안전재고에서 조달기간은 √(루트) 적용. 4배→2배"
+    },
+    {
+      "id": "q4-04-26",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "EOQ 계산",
+      "question": "연간 수요량 10,000개, 1회 주문비용 25,000원, 단위당 연간 재고유지비 500원일 때, 경제적 주문량(EOQ)은?",
+      "options": [
+        "A. 500개",
+        "B. 800개",
+        "C. 1,000개",
+        "D. 1,200개",
+        "E. 1,500개"
+      ],
+      "answer": "C",
+      "explanation": "EOQ = √(2DS/H) = √(2 × 10,000 × 25,000 / 500) = √(1,000,000) = 1,000개.",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "EOQ = √(2DS/H) 공식을 정확히 암기. 루트 안의 값이 깔끔하게 떨어지도록 출제되므로 분자(2×D×S)를 먼저 계산하고 H로 나눈 뒤 루트를 씌우라."
+    },
+    {
+      "id": "q4-04-27",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "EOQ 연간 주문횟수",
+      "question": "연간 수요량 10,000개, EOQ가 1,000개일 때, 연간 주문횟수와 주문주기(영업일 250일 기준)는?",
+      "options": [
+        "A. 8회, 25일",
+        "B. 10회, 25일",
+        "C. 10회, 30일",
+        "D. 12회, 20일",
+        "E. 15회, 17일"
+      ],
+      "answer": "B",
+      "explanation": "연간 주문횟수 = D/EOQ = 10,000/1,000 = 10회. 주문주기 = 250일/10회 = 25일.",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "연간 주문횟수 = D/Q, 주문주기 = 영업일수/주문횟수. EOQ 관련 파생 계산(주문횟수, 주문주기, 연간 총비용)을 함께 물어보는 복합문제에 대비하라."
+    },
+    {
+      "id": "q4-04-28",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "ROP 계산",
+      "question": "일평균 수요 40개, 조달리드타임 5일, 안전재고 60개일 때, 재주문점(ROP)은?",
+      "options": [
+        "A. 200개",
+        "B. 220개",
+        "C. 240개",
+        "D. 260개",
+        "E. 280개"
+      ],
+      "answer": "D",
+      "explanation": "ROP = d × LT + SS = 40 × 5 + 60 = 200 + 60 = 260개.",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "ROP = d × LT + SS. 안전재고(SS)를 빼먹거나 리드타임 기간 수요(d×LT)만 답하는 실수에 주의. 안전재고가 주어지면 반드시 더해야 한다."
+    },
+    {
+      "id": "q4-04-29",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "안전재고 계산",
+      "question": "일평균 수요의 표준편차 10개, 조달리드타임 4일, 서비스수준 95%(Z=1.65)일 때 안전재고는?",
+      "options": [
+        "A. 22개",
+        "B. 28개",
+        "C. 33개",
+        "D. 40개",
+        "E. 66개"
+      ],
+      "answer": "C",
+      "explanation": "SS = Z × σd × √LT = 1.65 × 10 × √4 = 1.65 × 10 × 2 = 33개.",
+      "relatedConcept": "EOQ·EPQ 계산과 재주문점(ROP)",
+      "examTip": "SS = Z × σd × √LT 공식 암기. 서비스수준별 Z값(90%=1.28, 95%=1.65, 99%=2.33)도 함께 암기하라. √LT를 빠뜨리는 실수가 잦다."
+    },
+    {
+      "id": "q4-04-30",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "단순이동평균법",
+      "question": "최근 4개월 실제 수요가 100, 120, 110, 130개일 때, 3개월 단순이동평균법으로 예측한 다음 달 수요는?",
+      "options": [
+        "A. 110개",
+        "B. 115개",
+        "C. 120개",
+        "D. 125개",
+        "E. 130개"
+      ],
+      "answer": "C",
+      "explanation": "3개월 이동평균 = (120 + 110 + 130) ÷ 3 = 360 ÷ 3 = 120개. 가장 최근 3개월 데이터만 사용한다.",
+      "relatedConcept": "채찍효과·CRP·집중구매와 수요예측",
+      "examTip": "n개월 이동평균은 가장 최근 n개월만 사용. 4개월 데이터 중 가장 오래된 100개는 제외하고 최근 3개(120, 110, 130)만 평균하는 것이 핵심."
+    },
+    {
+      "id": "q4-04-31",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "지수평활법",
+      "question": "전기 예측값 200개, 전기 실제 수요 220개, 평활계수 α=0.3일 때, 지수평활법으로 예측한 금기 수요는?",
+      "options": [
+        "A. 200개",
+        "B. 204개",
+        "C. 206개",
+        "D. 210개",
+        "E. 214개"
+      ],
+      "answer": "C",
+      "explanation": "Ft = Ft-1 + α(At-1 - Ft-1) = 200 + 0.3 × (220 - 200) = 200 + 0.3 × 20 = 200 + 6 = 206개.",
+      "relatedConcept": "채찍효과·CRP·집중구매와 수요예측",
+      "examTip": "지수평활법 공식: Ft = Ft-1 + α(At-1 - Ft-1) 또는 Ft = α×At-1 + (1-α)×Ft-1. 두 공식은 동일한 결과를 낸다. α를 실제수요에 곱하는지 예측치에 곱하는지 혼동하지 말 것."
+    },
+    {
+      "id": "q4-04-32",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "재고회전율",
+      "question": "연간 매출원가 12억원, 평균재고금액 2억원일 때, 재고회전율과 재고일수(365일 기준)는?",
+      "options": [
+        "A. 4회, 91일",
+        "B. 5회, 73일",
+        "C. 6회, 61일",
+        "D. 8회, 46일",
+        "E. 10회, 37일"
+      ],
+      "answer": "C",
+      "explanation": "재고회전율 = 매출원가 ÷ 평균재고 = 12 ÷ 2 = 6회. 재고일수 = 365 ÷ 6 ≈ 61일.",
+      "relatedConcept": "재고관리 기초 - 재고효율 지표",
+      "examTip": "재고회전율 = 매출원가(또는 매출액) ÷ 평균재고. 재고일수 = 365 ÷ 재고회전율. 회전율이 높을수록 재고관리가 효율적이라는 의미. 매출원가 vs 매출액 중 어느 것을 사용하는지 문제 조건을 확인하라."
     }
   ]
 }

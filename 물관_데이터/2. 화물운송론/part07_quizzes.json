@@ -274,6 +274,190 @@
       "explanation": "해상 컨테이너의 외부 치수(ISO 668), 강도·시험방법(ISO 1496), 코딩·식별(ISO 6346) 등의 국제표준은 ISO(International Organization for Standardization)에서 제정한다.",
       "relatedConcept": "컨테이너(Container)의 종류와 규격",
       "examTip": "해상 컨테이너=ISO 규격, 항공 ULD=IATA 규격. 표준화 기관 구분 필수"
+    },
+    {
+      "id": "q2-07-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "PPS 종류",
+      "question": "팔레트풀시스템(PPS) 중 유럽 국영철도에서 사용하며, 화주가 개별적으로 팔레트를 보유하는 방식은?",
+      "options": [
+        "A. 리스방식",
+        "B. 렌탈방식",
+        "C. 즉시교환방식",
+        "D. 공유방식",
+        "E. 위탁방식"
+      ],
+      "answer": "C",
+      "explanation": "즉시교환방식은 유럽 국영철도에서 사용하는 방식으로, 화주가 개별적으로 팔레트를 보유하고 즉시 교환하여 분실을 방지한다.",
+      "relatedConcept": "팔레트풀시스템(PPS)의 종류",
+      "examTip": "즉시교환=유럽 철도+화주 보유+분실방지, 리스렌탈=회사 임대+품질유지"
+    },
+    {
+      "id": "q2-07-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ITI 협약",
+      "question": "육·해·공 모든 운송수단을 대상으로 하는 국제운송에 관한 통관조약은?",
+      "options": [
+        "A. ITI 협약",
+        "B. TIR 협약",
+        "C. ICSC 협약",
+        "D. CSI",
+        "E. ISPS Code"
+      ],
+      "answer": "A",
+      "explanation": "ITI 협약(국제통과화물에 관한 통관협약)은 육·해·공 모든 운송수단을 대상으로 한다. TIR은 도로운송, ICSC는 컨테이너안전 관련이다.",
+      "relatedConcept": "컨테이너 관련 국제협약과 터미널 시설",
+      "examTip": "ITI=전 운송수단(육해공), TIR=도로 전용, ICSC=안전 전용"
+    },
+    {
+      "id": "q2-07-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "마샬링 야드",
+      "question": "컨테이너 터미널에서 선적예정 컨테이너를 적치계획에 따라 순서대로 쌓아두는 장소는?",
+      "options": [
+        "A. 에이프런",
+        "B. CFS",
+        "C. CY",
+        "D. 마샬링 야드",
+        "E. 게이트"
+      ],
+      "answer": "D",
+      "explanation": "마샬링 야드(Marshalling Yard)는 본선 입항 전에 선내 적치계획에 따라 선적예정 컨테이너를 순서대로 쌓아두는 곳으로, 터미널 운영의 중심이 된다.",
+      "relatedConcept": "컨테이너 관련 국제협약과 터미널 시설",
+      "examTip": "마샬링 야드=선적순서 배열+터미널 중심. 에이프런=안벽 접한 크레인 통과구간"
+    },
+    {
+      "id": "q2-07-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Consolidation",
+      "question": "CY(FCL)에서 출발하여 CFS(LCL)로 도착하는 컨테이너화물 운송형태는?",
+      "options": [
+        "A. Buyer's Consolidation",
+        "B. Forwarder's Consolidation",
+        "C. Shipper's Consolidation",
+        "D. Door/Door",
+        "E. Carrier's Consolidation"
+      ],
+      "answer": "C",
+      "explanation": "CY(FCL)→CFS(LCL)은 Shipper's Consolidation이다. 송화인이 FCL로 적입하여 보내면 도착지 CFS에서 개별 화주에게 분류된다.",
+      "relatedConcept": "컨테이너화물 운송형태(Consolidation)",
+      "examTip": "CY→CFS=Shipper's, CFS→CY=Buyer's, CFS→CFS=Forwarder's"
+    },
+    {
+      "id": "q2-07-20",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "개별포장",
+      "question": "컨테이너가 포장용기의 역할을 하므로 컨테이너 내부 화물의 개별포장은 불필요하다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "컨테이너가 포장용기의 역할을 하지만, 개별포장이 불필요한 것은 아니다. 컨테이너 내부에서의 화물 보호를 위해 개별포장은 여전히 필요하다.",
+      "relatedConcept": "컨테이너 관련 국제협약과 터미널 시설",
+      "examTip": "컨테이너=외부포장 역할, 개별포장=여전히 필요. '불필요'라고 하면 오답"
+    },
+    {
+      "id": "q2-07-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "스트래들 캐리어",
+      "question": "컨테이너를 양각(다리) 사이에 들어올려 주행하는 야드 내 이동장비는?",
+      "options": [
+        "A. 갠트리 크레인",
+        "B. 리치 스태커",
+        "C. 스트래들 캐리어",
+        "D. RTGC",
+        "E. 야드 트랙터"
+      ],
+      "answer": "C",
+      "explanation": "스트래들 캐리어(Straddle Carrier)는 컨테이너를 양각(다리) 사이에 들어올려 주행하는 야드 내 이동장비이다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "스트래들 캐리어=양각 사이에 끼워서 이동. 트랜스테이너=쌓고 내리기+야드 면적 가장 큼"
+    },
+    {
+      "id": "q2-07-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "트랜스테이너",
+      "question": "컨테이너 터미널에서 야드의 필요면적이 가장 크고 많은 자본이 필요한 하역방식은?",
+      "options": [
+        "A. 갠트리 크레인 방식",
+        "B. 스트래들 캐리어 방식",
+        "C. 트랜스테이너 방식",
+        "D. 리치 스태커 방식",
+        "E. 섀시 방식"
+      ],
+      "answer": "C",
+      "explanation": "트랜스테이너 방식은 컨테이너를 쌓거나 내리는 작업, 섀시나 트레일러에 싣고 내리는 작업을 수행하며, 야드의 필요면적이 가장 크고 많은 자본이 필요하다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "트랜스테이너=야드면적 가장 큼+자본 많이 필요. 면적/자본 관련 문제 출제 빈출"
+    },
+    {
+      "id": "q2-07-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "윈치크레인",
+      "question": "크레인 자체를 회전시키면서 컨테이너를 양·적하하는 장비는?",
+      "options": [
+        "A. 갠트리 크레인",
+        "B. 윈치크레인",
+        "C. RTGC",
+        "D. RMGC",
+        "E. 리치 스태커"
+      ],
+      "answer": "B",
+      "explanation": "윈치크레인은 크레인 자체를 회전시키면서 컨테이너를 양·적하하는 장비이다. 갠트리 크레인은 안벽에서 수직 양·적하를 수행한다.",
+      "relatedConcept": "컨테이너 터미널 운영",
+      "examTip": "윈치크레인=회전+양적하. 갠트리=안벽 수직, RTGC/RMGC=야드 내"
+    },
+    {
+      "id": "q2-07-24",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "유로팔레트",
+      "question": "유럽에서 널리 사용되는 유로팔레트(EUR 팔레트)의 규격은?",
+      "options": [
+        "A. 1,100mm × 1,100mm",
+        "B. 1,200mm × 1,000mm",
+        "C. 1,200mm × 800mm",
+        "D. 1,067mm × 1,067mm",
+        "E. 1,219mm × 1,016mm"
+      ],
+      "answer": "C",
+      "explanation": "유로팔레트는 1,200mm × 800mm 규격이다. 한국 T-11형은 1,100×1,100mm, 유럽형(ISO)은 1,200×1,000mm, 미국 GMA는 1,219×1,016mm이다.",
+      "relatedConcept": "팔레트(Pallet)",
+      "examTip": "유로=1,200×800, T-11(한국)=1,100×1,100, 유럽ISO=1,200×1,000"
+    },
+    {
+      "id": "q2-07-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공 ULD",
+      "question": "항공기 ULD(Unit Load Device)에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 항공형 컨테이너, 파렛트, 이글루 등이 포함된다",
+        "B. 항공기 기종 간 호환성이 높다",
+        "C. IATA 규정에 의해 외면표기가 의무화되어 있다",
+        "D. 적재 위치별로 내부공간이 다르다",
+        "E. 견인차에 연결된 돌리로 이동된다"
+      ],
+      "answer": "B",
+      "explanation": "항공기 ULD는 기종별로 규격이 표준화되어 있지 않아 기종 간 호환성이 '낮은' 편이다. 호환성이 높다고 하면 오답이다.",
+      "relatedConcept": "컨테이너(Container)의 종류와 규격",
+      "examTip": "항공 ULD=기종 간 호환성 낮음. 해상 컨테이너=ISO 표준화(호환성 높음)"
     }
   ]
 }

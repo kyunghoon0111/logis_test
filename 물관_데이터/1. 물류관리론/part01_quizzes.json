@@ -9,7 +9,13 @@
       "difficulty": 1,
       "topic": "물류 6대 기능",
       "question": "물류의 6대 기능에 해당하지 않는 것은?",
-      "options": ["A. 운송", "B. 보관", "C. 생산가공", "D. 유통가공", "E. 하역"],
+      "options": [
+        "A. 운송",
+        "B. 보관",
+        "C. 생산가공",
+        "D. 유통가공",
+        "E. 하역"
+      ],
       "answer": "C",
       "explanation": "물류 6대 기능은 운송·보관·하역·포장·유통가공·정보이다. 생산가공은 제조활동으로 물류 기능이 아니다. 유통가공(절단·소분·라벨링)과 생산가공(본질적 형태 변환)을 구별해야 한다.",
       "relatedConcept": "물류의 6대 기능",
@@ -22,7 +28,13 @@
       "difficulty": 1,
       "topic": "물류 학자",
       "question": "물류를 '경제의 암흑대륙'이라 표현한 학자는?",
-      "options": ["A. 니시자와 슈", "B. 피터 드러커", "C. 마이클 포터", "D. 필립 코틀러", "E. 제임스 헤스켓"],
+      "options": [
+        "A. 니시자와 슈",
+        "B. 피터 드러커",
+        "C. 마이클 포터",
+        "D. 필립 코틀러",
+        "E. 제임스 헤스켓"
+      ],
       "answer": "B",
       "explanation": "피터 드러커가 '경제의 암흑대륙(Dark Continent of Economy)'이라 표현했다. 니시자와 슈는 '제3의 이윤원'을 주장한 학자이다.",
       "relatedConcept": "물류의 정의",
@@ -35,7 +47,13 @@
       "difficulty": 2,
       "topic": "이윤원 순서",
       "question": "제1, 제2, 제3의 이윤원을 순서대로 올바르게 나열한 것은?",
-      "options": ["A. 매출증대→원가절감→물류비절감", "B. 원가절감→매출증대→물류비절감", "C. 물류비절감→매출증대→원가절감", "D. 매출증대→물류비절감→원가절감", "E. 원가절감→물류비절감→매출증대"],
+      "options": [
+        "A. 매출증대→원가절감→물류비절감",
+        "B. 원가절감→매출증대→물류비절감",
+        "C. 물류비절감→매출증대→원가절감",
+        "D. 매출증대→물류비절감→원가절감",
+        "E. 원가절감→물류비절감→매출증대"
+      ],
       "answer": "A",
       "explanation": "제1이윤원=매출증대(판매), 제2=원가절감(생산), 제3=물류비절감(물류합리화). '매원물' 순서로 암기한다.",
       "relatedConcept": "물류의 중요성",
@@ -48,7 +66,13 @@
       "difficulty": 1,
       "topic": "물류 영역",
       "question": "'사내물류'에 해당하는 것은?",
-      "options": ["A. 조달물류", "B. 생산물류", "C. 판매물류", "D. 회수물류", "E. 폐기물류"],
+      "options": [
+        "A. 조달물류",
+        "B. 생산물류",
+        "C. 판매물류",
+        "D. 회수물류",
+        "E. 폐기물류"
+      ],
       "answer": "B",
       "explanation": "사내물류는 공장 내부의 물류활동으로 생산물류만 해당. 조달·판매·회수·폐기물류는 모두 사외물류이다.",
       "relatedConcept": "물류의 영역",
@@ -61,7 +85,13 @@
       "difficulty": 2,
       "topic": "PD vs Logistics",
       "question": "PD(Physical Distribution)와 Logistics에 대한 설명으로 가장 옳지 않은 것은?",
-      "options": ["A. PD는 주로 판매물류 중심이다", "B. Logistics는 조달·생산·판매·회수물류를 포괄한다", "C. PD에서 Logistics로의 발전은 범위 확대를 의미한다", "D. PD와 Logistics는 동일한 개념으로 혼용 가능하다", "E. Logistics는 1980년대 이후 PD를 대체하는 용어로 사용되었다"],
+      "options": [
+        "A. PD는 주로 판매물류 중심이다",
+        "B. Logistics는 조달·생산·판매·회수물류를 포괄한다",
+        "C. PD에서 Logistics로의 발전은 범위 확대를 의미한다",
+        "D. PD와 Logistics는 동일한 개념으로 혼용 가능하다",
+        "E. Logistics는 1980년대 이후 PD를 대체하는 용어로 사용되었다"
+      ],
       "answer": "D",
       "explanation": "PD와 Logistics는 동일 개념이 아니다. PD ⊂ Logistics (PD는 판매물류 부분에 해당). 혼용 불가.",
       "relatedConcept": "물류 용어 발전",
@@ -74,7 +104,13 @@
       "difficulty": 2,
       "topic": "물류합리화",
       "question": "물류합리화의 3S1L에 해당하지 않는 것은?",
-      "options": ["A. Standardization", "B. Simplification", "C. Specialization", "D. Systematization", "E. Large-scale"],
+      "options": [
+        "A. Standardization",
+        "B. Simplification",
+        "C. Specialization",
+        "D. Systematization",
+        "E. Large-scale"
+      ],
       "answer": "D",
       "explanation": "3S1L = 표준화(Standardization)·단순화(Simplification)·전문화(Specialization) + 대량화(Large-scale). Systematization(체계화)은 포함되지 않는다.",
       "relatedConcept": "물류의 원칙",
@@ -87,7 +123,13 @@
       "difficulty": 2,
       "topic": "Trade-off",
       "question": "물류 Trade-off에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. 물류센터 수↑ → 배송비↓, 재고비↑", "B. 항공→해상 전환 → 운송비↓, 리드타임↑", "C. 포장 강화 → 포장비↑, 파손비↓", "D. 운송 빈도↑ → 운송비↓, 재고비↓", "E. 대량구매 → 구매단가↓, 보관비↑"],
+      "options": [
+        "A. 물류센터 수↑ → 배송비↓, 재고비↑",
+        "B. 항공→해상 전환 → 운송비↓, 리드타임↑",
+        "C. 포장 강화 → 포장비↑, 파손비↓",
+        "D. 운송 빈도↑ → 운송비↓, 재고비↓",
+        "E. 대량구매 → 구매단가↓, 보관비↑"
+      ],
       "answer": "D",
       "explanation": "운송 빈도를 높이면(다빈도 소량배송) 재고비는 감소하지만 운송비는 증가한다. 두 비용이 동시에 감소하는 것은 Trade-off에 반한다.",
       "relatedConcept": "Trade-off",
@@ -100,7 +142,13 @@
       "difficulty": 3,
       "topic": "물류비 레버리지",
       "question": "영업이익률 8%인 기업이 물류비를 2,000만원 절감했을 때, 동등한 이익 효과의 매출 증가액은?",
-      "options": ["A. 1억 6,000만원", "B. 2억원", "C. 2억 5,000만원", "D. 1억원", "E. 3억원"],
+      "options": [
+        "A. 1억 6,000만원",
+        "B. 2억원",
+        "C. 2억 5,000만원",
+        "D. 1억원",
+        "E. 3억원"
+      ],
       "answer": "C",
       "explanation": "동등 매출증가액 = 물류비 절감액 ÷ 영업이익률 = 2,000만원 ÷ 0.08 = 2억5,000만원.",
       "relatedConcept": "물류비 레버리지",
@@ -113,7 +161,13 @@
       "difficulty": 2,
       "topic": "물류 효용",
       "question": "물류가 창출하는 효용으로 옳은 것을 모두 고른 것은?\nㄱ.시간적 효용 ㄴ.공간적 효용 ㄷ.소유적 효용 ㄹ.형태적 효용",
-      "options": ["A. ㄱ,ㄴ", "B. ㄱ,ㄴ,ㄹ", "C. ㄱ,ㄴ,ㄷ", "D. ㄱ,ㄴ,ㄷ,ㄹ", "E. ㄴ,ㄹ"],
+      "options": [
+        "A. ㄱ,ㄴ",
+        "B. ㄱ,ㄴ,ㄹ",
+        "C. ㄱ,ㄴ,ㄷ",
+        "D. ㄱ,ㄴ,ㄷ,ㄹ",
+        "E. ㄴ,ㄹ"
+      ],
       "answer": "B",
       "explanation": "물류의 3대 효용: 시간적(보관)·공간적(운송)·형태적(유통가공). 소유적 효용은 판매활동(마케팅)이 창출한다.",
       "relatedConcept": "물류의 효용",
@@ -126,7 +180,13 @@
       "difficulty": 2,
       "topic": "채찍효과",
       "question": "채찍효과(Bullwhip Effect)에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. 수요정보가 공급사슬 상류로 갈수록 왜곡 증폭", "B. Forrester Effect라고도 한다", "C. EDI·POS 정보공유로 완화 가능", "D. 소비자에 가까울수록 수요 변동폭이 더 크다", "E. VMI는 채찍효과 대응 방안이다"],
+      "options": [
+        "A. 수요정보가 공급사슬 상류로 갈수록 왜곡 증폭",
+        "B. Forrester Effect라고도 한다",
+        "C. EDI·POS 정보공유로 완화 가능",
+        "D. 소비자에 가까울수록 수요 변동폭이 더 크다",
+        "E. VMI는 채찍효과 대응 방안이다"
+      ],
       "answer": "D",
       "explanation": "채찍효과는 소비자(하류)→공급자(상류)로 갈수록 변동폭이 커진다. 소비자에 가까울수록 변동폭은 작다. D는 방향이 반대.",
       "relatedConcept": "채찍효과",
@@ -139,7 +199,10 @@
       "difficulty": 1,
       "topic": "물류비 비중",
       "question": "물류비에서 가장 큰 비중을 차지하는 것은 보관비이다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "가장 큰 비중은 운송비(약 55~60%). 보관비는 두 번째.",
       "relatedConcept": "물류 6대 기능",
@@ -152,7 +215,10 @@
       "difficulty": 1,
       "topic": "물류 목표",
       "question": "물류관리의 궁극적 목표는 총물류비를 최소화하는 것이다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "총물류비 최소화'만'이 아니라, '총물류비 최소화 + 고객서비스 수준 유지·향상'의 균형이 목표이다.",
       "relatedConcept": "물류의 원칙과 목표",
@@ -165,7 +231,10 @@
       "difficulty": 2,
       "topic": "역물류",
       "question": "역물류(Reverse Logistics)는 반품 처리만을 의미한다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "역물류는 반품뿐 아니라 리콜·재활용·재제조·수리·폐기물회수 등 역방향 물류 전체를 포괄한다.",
       "relatedConcept": "물류의 영역",
@@ -178,7 +247,13 @@
       "difficulty": 1,
       "topic": "물류 발전 순서",
       "question": "물류 용어 발전 순서가 올바른 것은?",
-      "options": ["A. Logistics→PD→SCM", "B. PD→SCM→Logistics", "C. PD→Logistics→SCM", "D. SCM→PD→Logistics", "E. PD→e-Logistics→SCM"],
+      "options": [
+        "A. Logistics→PD→SCM",
+        "B. PD→SCM→Logistics",
+        "C. PD→Logistics→SCM",
+        "D. SCM→PD→Logistics",
+        "E. PD→e-Logistics→SCM"
+      ],
       "answer": "C",
       "explanation": "PD(1950~60s)→Logistics(1970~80s)→SCM(1990s)→e-Logistics(2000s~).",
       "relatedConcept": "물류 발전 과정",
@@ -191,7 +266,13 @@
       "difficulty": 2,
       "topic": "물류 6R",
       "question": "물류의 6R에 해당하지 않는 것은?",
-      "options": ["A. Right Product", "B. Right Time", "C. Right Method", "D. Right Place", "E. Right Condition"],
+      "options": [
+        "A. Right Product",
+        "B. Right Time",
+        "C. Right Method",
+        "D. Right Place",
+        "E. Right Condition"
+      ],
       "answer": "C",
       "explanation": "6R: Right Product·Time·Place·Quantity·Price·Condition. Right Method는 포함되지 않는다.",
       "relatedConcept": "물류의 6R",
@@ -204,7 +285,13 @@
       "difficulty": 2,
       "topic": "소비재 vs 생산재",
       "question": "소비재물류와 생산재물류에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. 소비재물류는 다품종·소량이 특징이다", "B. 생산재물류는 B2B 거래가 주이다", "C. 소비재물류는 유통경로가 단순하다", "D. 생산재물류는 수요가 비교적 규칙적이다", "E. 소비재물류는 택배·소포 배송이 많다"],
+      "options": [
+        "A. 소비재물류는 다품종·소량이 특징이다",
+        "B. 생산재물류는 B2B 거래가 주이다",
+        "C. 소비재물류는 유통경로가 단순하다",
+        "D. 생산재물류는 수요가 비교적 규칙적이다",
+        "E. 소비재물류는 택배·소포 배송이 많다"
+      ],
       "answer": "C",
       "explanation": "소비재물류는 제조→도매→소매→소비자로 유통경로가 복잡하다. 생산재물류가 유통경로 단순(직거래). C는 특성이 뒤바뀌어 있다.",
       "relatedConcept": "물류 분류",
@@ -217,7 +304,13 @@
       "difficulty": 3,
       "topic": "물류 종합",
       "question": "물류에 대한 설명으로 옳은 것을 모두 고른 것은?\nㄱ.물류수요는 파생수요이다 ㄴ.하역은 가장 빈번한 활동이다 ㄷ.총비용접근법은 개별 물류비 최소화를 추구한다 ㄹ.SCM은 기업 간 정보공유를 강조한다",
-      "options": ["A. ㄱ,ㄴ,ㄹ", "B. ㄱ,ㄷ,ㄹ", "C. ㄱ,ㄴ,ㄷ", "D. ㄴ,ㄷ,ㄹ", "E. ㄱ,ㄴ,ㄷ,ㄹ"],
+      "options": [
+        "A. ㄱ,ㄴ,ㄹ",
+        "B. ㄱ,ㄷ,ㄹ",
+        "C. ㄱ,ㄴ,ㄷ",
+        "D. ㄴ,ㄷ,ㄹ",
+        "E. ㄱ,ㄴ,ㄷ,ㄹ"
+      ],
       "answer": "A",
       "explanation": "ㄱ(O) 파생수요 맞음. ㄴ(O) 하역은 가장 빈번. ㄷ(X) 총비용접근법은 '총'물류비 최소화(개별X). ㄹ(O) SCM 핵심=정보공유+협력.",
       "relatedConcept": "물류 종합",
@@ -230,7 +323,13 @@
       "difficulty": 2,
       "topic": "포장",
       "question": "공업포장(수송포장)에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. 제품 보호가 주요 목적이다", "B. 외장포장과 내장포장으로 구분된다", "C. 소비자의 구매의욕을 자극하는 것이 목적이다", "D. 파렛트, 컨테이너 단위의 대형 포장이다", "E. 물류 효율화와 관련이 깊다"],
+      "options": [
+        "A. 제품 보호가 주요 목적이다",
+        "B. 외장포장과 내장포장으로 구분된다",
+        "C. 소비자의 구매의욕을 자극하는 것이 목적이다",
+        "D. 파렛트, 컨테이너 단위의 대형 포장이다",
+        "E. 물류 효율화와 관련이 깊다"
+      ],
       "answer": "C",
       "explanation": "소비자 구매의욕 자극은 '상업포장(판매포장)'의 목적이다. 공업포장은 수송·보관 중 제품 보호가 목적.",
       "relatedConcept": "물류 6대 기능 - 포장",
@@ -243,7 +342,13 @@
       "difficulty": 2,
       "topic": "CLM/CSCMP",
       "question": "CSCMP에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. CLM에서 명칭이 변경되었다", "B. 2005년에 명칭이 변경되었다", "C. Logistics의 국제적 정의를 제시하였다", "D. Council of Supply Chain Management Professionals의 약자이다", "E. 일본의 물류관리 전문기관이다"],
+      "options": [
+        "A. CLM에서 명칭이 변경되었다",
+        "B. 2005년에 명칭이 변경되었다",
+        "C. Logistics의 국제적 정의를 제시하였다",
+        "D. Council of Supply Chain Management Professionals의 약자이다",
+        "E. 일본의 물류관리 전문기관이다"
+      ],
       "answer": "E",
       "explanation": "CSCMP는 미국의 공급사슬관리 전문기관이다. 일본의 물류 관련 기관은 JILS(일본물류시스템협회)이다.",
       "relatedConcept": "물류 관련 기관",
@@ -256,11 +361,112 @@
       "difficulty": 1,
       "topic": "물류 발전",
       "question": "SCM(Supply Chain Management)에 대한 설명으로 가장 적절한 것은?",
-      "options": ["A. 단일 기업 내 물류기능 통합 관리", "B. 판매물류에 한정된 비용 절감 활동", "C. 공급사슬 전체의 기업 간 협력과 정보 공유를 통한 최적화", "D. 운송수단 선택에 관한 의사결정", "E. 창고 내 재고관리 시스템"],
+      "options": [
+        "A. 단일 기업 내 물류기능 통합 관리",
+        "B. 판매물류에 한정된 비용 절감 활동",
+        "C. 공급사슬 전체의 기업 간 협력과 정보 공유를 통한 최적화",
+        "D. 운송수단 선택에 관한 의사결정",
+        "E. 창고 내 재고관리 시스템"
+      ],
       "answer": "C",
       "explanation": "SCM은 공급자의 공급자~고객의 고객까지 공급사슬 전체를 대상으로, 기업 간 협력과 정보 공유를 통해 전체 최적화를 추구한다. A는 Logistics에 해당.",
       "relatedConcept": "SCM",
       "examTip": "SCM vs Logistics 구별: Logistics=기업 내, SCM=기업 간(공급사슬 전체)."
+    },
+    {
+      "id": "q1-01-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "상물분리",
+      "question": "상물분리에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 상적유통과 물적유통의 경로를 분리한다",
+        "B. 물류합리화의 전제조건 중 하나이다",
+        "C. 적재율 향상 효과가 있다",
+        "D. 상류와 물류를 통합하여 하나의 경로로 관리한다",
+        "E. 물류전문화를 촉진한다"
+      ],
+      "answer": "D",
+      "explanation": "상물분리는 상적유통과 물적유통을 '분리'하는 것이지 '통합'하는 것이 아니다. 분리를 통해 각각 전문화하여 효율성을 높이는 것이 핵심이다.",
+      "relatedConcept": "상물분리",
+      "examTip": "상물분리='분리'가 핵심. '통합'은 오답!"
+    },
+    {
+      "id": "q1-01-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "물류합리화 상충관계",
+      "question": "물류합리화에서 창고 수를 늘리면 어떤 비용이 감소하는가?",
+      "options": [
+        "A. 보관비용",
+        "B. 운송비용",
+        "C. 포장비용",
+        "D. 하역비용",
+        "E. 물류정보비용"
+      ],
+      "answer": "B",
+      "explanation": "창고 수를 늘리면 고객과의 거리가 가까워져 배송 운송비용은 감소하지만, 보관(창고유지) 비용은 증가한다. 이것이 대표적인 물류비 상충관계이다.",
+      "relatedConcept": "물류합리화 상충관계",
+      "examTip": "창고 수↑→운송비↓(but 창고비↑). 상충관계의 대표 사례!"
+    },
+    {
+      "id": "q1-01-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "3S1L 원칙",
+      "question": "물류관리의 3S1L 원칙에 해당하지 않는 것은?",
+      "options": [
+        "A. Speedy(신속)",
+        "B. Surely(확실)",
+        "C. Safely(안전)",
+        "D. Simple(단순)",
+        "E. Low cost(저비용)"
+      ],
+      "answer": "D",
+      "explanation": "3S1L 원칙: Speedy(신속), Surely(확실), Safely(안전), Low cost(저비용). Simple은 포함되지 않는다.",
+      "relatedConcept": "물류관리 원칙",
+      "examTip": "3S=Speedy·Surely·Safely, 1L=Low cost. 'Simple'이나 'Standard'는 함정!"
+    },
+    {
+      "id": "q1-01-24",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "물류환경 변화",
+      "question": "최근 물류환경 변화에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 유통채널 주도권이 유통업체에서 제조업체로 이전되고 있다",
+        "B. 제3자·제4자 물류의 활용이 증가하고 있다",
+        "C. 전자상거래 성장으로 신속 배송 경쟁이 심화되고 있다",
+        "D. 그린물류에 대한 관심이 높아지고 있다",
+        "E. 다품종 소량생산·다빈도 배송이 중요시되고 있다"
+      ],
+      "answer": "A",
+      "explanation": "유통채널 주도권은 '제조업체→유통업체'로 이전되고 있다. 유통시장 개방 및 유통의 대형화로 유통업체의 영향력이 강해지는 추세이다.",
+      "relatedConcept": "최근 물류환경 변화",
+      "examTip": "주도권 이전: 제조업체→유통업체. 방향을 뒤바꾸는 함정 주의!"
+    },
+    {
+      "id": "q1-01-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "물류관리 7원칙",
+      "question": "물류관리의 원칙 중 '필요한 수량만큼 필요한 시기에 공급하여 재고비용을 최소화하는 원칙'은?",
+      "options": [
+        "A. 신뢰성 원칙",
+        "B. 경제성 원칙",
+        "C. 적시성 원칙",
+        "D. 균형성 원칙",
+        "E. 간편성 원칙"
+      ],
+      "answer": "C",
+      "explanation": "적시성 원칙은 필요한 수량만큼 필요한 시기에 공급하여 고객 만족도를 향상시키고 재고비용을 최소화하는 원칙이다. 경제성 원칙은 최소 자원으로 최대 효과를 추구하는 것이다.",
+      "relatedConcept": "물류관리 원칙",
+      "examTip": "적시성='필요한 시기에 필요한 수량', 경제성='최소자원 최대효과', 신뢰성='원하는 시기·장소에 공급 보장'"
     }
   ]
 }

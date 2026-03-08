@@ -294,7 +294,10 @@
       "difficulty": 1,
       "topic": "시트파레트",
       "question": "시트파레트(Sheet Pallet)는 일반 지게차로 하역이 가능하며, 보관 공간을 많이 차지하는 단점이 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "시트파레트(Slip Sheet)는 얇은 시트 형태이므로 보관 공간을 거의 차지하지 않는 것이 장점이다. 단, 전용 하역기기인 Push-Pull Attachment가 장착된 지게차가 필요하며, 일반 지게차로는 하역이 불가능하다. 두 가지 모두 틀린 설명이다.",
       "relatedConcept": "7-3",
@@ -307,7 +310,10 @@
       "difficulty": 1,
       "topic": "40ft HC 컨테이너",
       "question": "40피트 HC(High Cube) 컨테이너는 일반 40피트 컨테이너보다 길이가 길어 더 많은 화물을 적재할 수 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "40ft HC(High Cube) 컨테이너는 '높이'가 높은 것이지 '길이'가 긴 것이 아니다. 높이가 일반 2,591mm에서 2,896mm로 약 305mm 높아진 것이며, 길이(12,192mm)와 폭(2,438mm)은 일반 40ft와 동일하다.",
       "relatedConcept": "7-4",
@@ -369,6 +375,98 @@
       "explanation": "한국의 포장모듈치수는 T-11형 표준파레트(1,100×1,100mm)를 기준으로 설계된다. 유럽형 파레트(1,200×800mm)는 유럽의 기준이며, 한국 물류관리사 시험에서는 T-11형(1,100mm)이 기준이다. 친환경포장은 ESG경영과 연계하여 최근 출제가 증가하는 트렌드이다.",
       "relatedConcept": "7-5",
       "examTip": "한국 포장모듈치수 기준 = T-11형(1,100mm). '1,200mm 기준'은 유럽형이므로 함정. 친환경포장 트렌드는 최근 시험 반영"
+    },
+    {
+      "id": "q4-07-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "파렛트 적재",
+      "question": "정방형(정사각형) 파렛트에만 적용할 수 있는 적재방법은?",
+      "options": [
+        "A. 교대배열적재",
+        "B. 벽돌적재",
+        "C. 핀휠적재",
+        "D. 블록적재",
+        "E. 스플릿적재"
+      ],
+      "answer": "C",
+      "explanation": "핀휠적재는 중간 공간을 중심으로 풍차 모양으로 적재하며, T-11형과 같은 정방형 파렛트에만 적용할 수 있다.",
+      "relatedConcept": "파렛트 적재방법과 분할·배수계열치수",
+      "examTip": "핀휠 = 풍차 = 정방형(정사각형)만 가능"
+    },
+    {
+      "id": "q4-07-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "컨테이너 속박",
+      "question": "컨테이너 내 화물을 전후벽면 한쪽으로 밀어넣어 고정하는 작업은?",
+      "options": [
+        "A. Shoring",
+        "B. Chocking",
+        "C. Lashing",
+        "D. Dunnage",
+        "E. Vanning"
+      ],
+      "answer": "B",
+      "explanation": "Chocking은 전후벽면 한쪽으로 화물을 밀어넣어 고정하는 작업이다. Shoring은 좌우벽면 한쪽으로 수평 고정한다.",
+      "relatedConcept": "컨테이너 속박작업과 파렛트풀시스템 비교",
+      "examTip": "Shoring=좌우(수평), Chocking=전후(밀어넣기)"
+    },
+    {
+      "id": "q4-07-23",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "Vanning/Devanning",
+      "question": "Devanning이란 컨테이너에 화물을 적입하는 작업을 의미한다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "X",
+      "explanation": "Devanning은 화물을 컨테이너에서 반출(꺼내는)하는 작업이다. 적입(넣는) 작업은 Vanning이다.",
+      "relatedConcept": "컨테이너 속박작업과 파렛트풀시스템 비교",
+      "examTip": "Vanning=넣기, Devanning=꺼내기 (De=반대)"
+    },
+    {
+      "id": "q4-07-24",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "파렛트풀시스템",
+      "question": "한국에서 채택하고 있는 파렛트풀시스템(PPS) 방식은?",
+      "options": [
+        "A. 즉시교환 방식",
+        "B. 리스·렌탈 방식",
+        "C. 대차결제 방식",
+        "D. 교환·리스 병용 방식",
+        "E. 보증금 방식"
+      ],
+      "answer": "B",
+      "explanation": "한국과 호주는 리스·렌탈 방식을 채택하고 있다. 즉시교환은 유럽, 교환·리스 병용은 영국(실패한 제도)이다.",
+      "relatedConcept": "컨테이너 속박작업과 파렛트풀시스템 비교",
+      "examTip": "한국=리스렌탈, 유럽=즉시교환, 영국=병용(실패)"
+    },
+    {
+      "id": "q4-07-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "파렛트 적재",
+      "question": "각 단의 쌓아올리는 모양과 방향이 모두 같은 적재방법은?",
+      "options": [
+        "A. 교대배열적재",
+        "B. 벽돌적재",
+        "C. 핀휠적재",
+        "D. 블록적재",
+        "E. 스플릿적재"
+      ],
+      "answer": "D",
+      "explanation": "블록적재(Block Pattern)는 각 단의 모양과 방향이 모두 같은 방식으로, 일렬적재 또는 막대기적재라고도 한다.",
+      "relatedConcept": "파렛트 적재방법과 분할·배수계열치수",
+      "examTip": "블록적재 = 일렬 = 막대기 = 모든 단 동일"
     }
   ]
 }

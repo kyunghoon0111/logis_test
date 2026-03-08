@@ -357,6 +357,98 @@
       "explanation": "1단계: 용적중량 = 150×100×80 ÷ 6,000 = 1,200,000 ÷ 6,000 = 200kg. 실제중량 180kg < 용적중량 200kg → 적용중량 = 200kg.\n2단계 As If 비교: 방법1: 200kg × $7 = $1,400(100kg구간), 방법2: 300kg × $5.5 = $1,650(300kg구간). 방법1이 저렴하므로 최종 운임 = $1,400.",
       "relatedConcept": "Chargeable Weight + As If 원칙 종합",
       "examTip": "용적중량 산출 → 적용중량 결정 → As If 비교 → 최저운임 선택. 이 4단계를 순서대로!"
+    },
+    {
+      "id": "q3-03-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "ULD",
+      "question": "항공화물 단위탑재용기(ULD)에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 항공기 동체에 맞게 제작되어 호환성이 높다",
+        "B. 조업시간 단축 및 화물취급이 용이하다",
+        "C. 자체 중량으로 인해 화물 탑재량이 감소할 수 있다",
+        "D. 이글루(Igloo)는 파렛트 위 화물을 덮는 특수 덮개이다",
+        "E. GOH는 의류를 행거에 걸어 적재하는 특수 ULD이다"
+      ],
+      "answer": "A",
+      "explanation": "ULD는 항공기 동체 구조에 맞게 제작되어 호환성이 '낮다'. 항공사마다, 항공기 기종마다 동체 형태가 달라 ULD 규격이 표준화되지 않아 호환이 어렵다. 나머지는 모두 올바른 설명이다.",
+      "relatedConcept": "ULD와 항공운송 중개인",
+      "examTip": "ULD 단점 3가지: 호환성 낮음 + 고가 투자비 + 자체중량으로 탑재량 감소"
+    },
+    {
+      "id": "q3-03-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공운송 중개인",
+      "question": "항공운송주선인(Forwarder)에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. 항공사의 운임요율(Tariff)을 그대로 적용한다",
+        "B. 항공사의 MAWB를 발행한다",
+        "C. 운송책임은 항공사가 부담한다",
+        "D. 자체 약관과 자체 Tariff를 사용하며 HAWB를 발행한다",
+        "E. 항공사의 판매대리인으로서 활동한다"
+      ],
+      "answer": "D",
+      "explanation": "항공운송주선인(Forwarder)은 자체 약관, 자체 Tariff를 사용하며 HAWB(House AWB)를 발행하고, 운송책임을 본인이 부담한다. 항공사 약관·Tariff·MAWB를 사용하는 것은 항공운송대리점(Agent)이다.",
+      "relatedConcept": "ULD와 항공운송 중개인",
+      "examTip": "대리점=항공사 것 사용(MAWB), 주선인=자기 것 사용(HAWB). 운송책임: 대리점→항공사, 주선인→본인"
+    },
+    {
+      "id": "q3-03-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "항공화물 사고",
+      "question": "항공화물운송 사고에서 적하목록에는 기재되어 있으나 실제 화물이 도착하지 않은 경우의 사고유형은?",
+      "options": [
+        "A. SSPD(Short-Shipped)",
+        "B. OFLD(Off-Load)",
+        "C. OVCD(Over-Carried)",
+        "D. STLD(Short-Landed)",
+        "E. MSCN(Miss-Connected)"
+      ],
+      "answer": "D",
+      "explanation": "STLD(Short-Landed)는 적하목록에는 기재되어 있으나 실제 화물이 도착하지 않은 경우이다. SSPD는 적하목록에 있으나 '탑재되지 않은' 경우(출발지 문제), STLD는 탑재는 되었으나 '도착하지 않은' 경우(경유지/도착지 문제)이다.",
+      "relatedConcept": "항공화물운송 사고유형과 클레임",
+      "examTip": "SSPD=미탑재(출발), STLD=미도착(도착). 둘 다 적하목록O지만 문제 발생 시점이 다름"
+    },
+    {
+      "id": "q3-03-24",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "항공적하보험",
+      "question": "항공화물화주보험(SII)에서 항공운송인이 발행한 항공화물운송장(AWB)은 보험인수증을 대신한다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "O",
+      "explanation": "항공화물화주보험(SII)은 항공운송인이 미리 보험자와 체결한 포괄보험계약에 AWB으로 가입하는 방식이다. 화주가 AWB에 필요사항을 기재하고 보험료를 지급하면 자동으로 부보되며, AWB이 보험인수증을 대신한다.",
+      "relatedConcept": "항공적하보험",
+      "examTip": "SII = Shipper's Interest Insurance = Air Waybill Cover. AWB = 보험인수증 역할"
+    },
+    {
+      "id": "q3-03-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항공 클레임 기한",
+      "question": "항공화물운송에서 화물의 전부 분실에 대한 클레임 제기기한은?",
+      "options": [
+        "A. 화물 인수일로부터 14일 이내",
+        "B. 화물 인수일로부터 21일 이내",
+        "C. AWB 발행일로부터 120일 이내",
+        "D. 항공기 도착일로부터 1년 이내",
+        "E. 항공기 도착일로부터 2년 이내"
+      ],
+      "answer": "C",
+      "explanation": "화물의 전부 분실(인도불능)에 대한 클레임 제기기한은 AWB 발행일로부터 120일 이내이다. 14일은 손상·일부분실, 21일은 지연에 해당한다. 2년은 제소기한(모든 사고 공통)이다.",
+      "relatedConcept": "항공화물운송 사고유형과 클레임",
+      "examTip": "클레임 기한: 손상14일-지연21일-분실120일. 제소기한은 2년(모든 사고). 숫자 혼동 주의"
     }
   ]
 }

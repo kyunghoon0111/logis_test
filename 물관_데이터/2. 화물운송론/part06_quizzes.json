@@ -268,6 +268,190 @@
       "explanation": "함부르크규칙은 ①해상운송 조약 ②과실추정주의(운송인이 무과실 입증해야 면책) ③배상한도 835SDR/포장 또는 2.5SDR/kg ④책임기간을 수취~인도까지로 확대(헤이그규칙은 선적~양하). 모두 옳은 설명이다.",
       "relatedConcept": "복합운송인의 책임체계와 국제조약",
       "examTip": "함부르크규칙 특징: 과실추정+835/2.5+수취~인도. 헤이그비스비와 비교하여 정리"
+    },
+    {
+      "id": "q2-06-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "FF 업무",
+      "question": "국제복합운송업자(프레이트 포워더)의 업무에 해당하지 않는 것은?",
+      "options": [
+        "A. 화물의 집화·분배·혼재업무",
+        "B. 선복의 예약",
+        "C. 선박의 배선·스케줄링",
+        "D. 통관대행업무",
+        "E. 복합운송증권 발행"
+      ],
+      "answer": "C",
+      "explanation": "선박의 배선·스케줄링은 선사의 업무이지 프레이트 포워더의 업무가 아니다. FF는 집화·혼재, 선복예약, 통관대행, 복합운송증권 발행 등을 수행한다.",
+      "relatedConcept": "국제복합운송업자(프레이트 포워더)",
+      "examTip": "FF 업무에서 '배선·스케줄링'은 반드시 제외. 대표적 함정 보기"
+    },
+    {
+      "id": "q2-06-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "FF 등록",
+      "question": "국제복합운송업자는 누구에게 등록해야 하는가?",
+      "options": [
+        "A. 국토교통부장관",
+        "B. 산업통상자원부장관",
+        "C. 시·도지사",
+        "D. 해양수산부장관",
+        "E. 관세청장"
+      ],
+      "answer": "C",
+      "explanation": "국제복합운송업자는 시·도지사에게 등록해야 한다. 국토교통부장관에게 등록하는 것은 복합물류터미널이다.",
+      "relatedConcept": "국제복합운송업자(프레이트 포워더)",
+      "examTip": "FF=시·도지사, 복합물류터미널=국토교통부장관. 등록 대상 구분"
+    },
+    {
+      "id": "q2-06-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "헤이그 vs 함부르크",
+      "question": "헤이그규칙과 함부르크규칙의 비교로 옳지 않은 것은?",
+      "options": [
+        "A. 헤이그규칙은 과실책임주의를 채택하였다",
+        "B. 함부르크규칙은 과실추정주의를 채택하였다",
+        "C. 함부르크규칙의 배상한도가 헤이그규칙보다 높다",
+        "D. 함부르크규칙의 책임기간은 선적~양하이다",
+        "E. 두 규칙 모두 해상운송에 적용된다"
+      ],
+      "answer": "D",
+      "explanation": "함부르크규칙의 책임기간은 '수취~인도'까지로 확대되었다. '선적~양하'는 헤이그규칙의 책임기간이다.",
+      "relatedConcept": "이종책임체계와 관련 국제조약",
+      "examTip": "헤이그=선적~양하(좁음), 함부르크=수취~인도(넓음). 책임기간 범위 차이"
+    },
+    {
+      "id": "q2-06-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "B/L 기재사항",
+      "question": "선하증권(B/L)의 법정기재사항에 해당하지 않는 것은?",
+      "options": [
+        "A. 선박의 명칭·톤수",
+        "B. 화물의 종류와 중량",
+        "C. 선적항·양륙항",
+        "D. 항해번호",
+        "E. 운임"
+      ],
+      "answer": "D",
+      "explanation": "항해번호는 임의기재사항이다. 법정기재사항은 선박 명칭·톤수, 선장 성명, 화물종류·중량·포장, 송화인·수화인, 선적항·양륙항, 작성일자, 발행부수, 운임이다.",
+      "relatedConcept": "선하증권의 발행절차와 기재사항",
+      "examTip": "임의기재: 항해번호, 통지처, 운임지불여부·환율, 면책약관"
+    },
+    {
+      "id": "q2-06-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "CLB",
+      "question": "캐나다를 횡단하여 밴쿠버 또는 시애틀에서 몬트리올까지 연결하는 랜드브리지 경로는?",
+      "options": [
+        "A. ALB",
+        "B. CLB",
+        "C. MLB",
+        "D. IPI",
+        "E. SLB"
+      ],
+      "answer": "B",
+      "explanation": "CLB(Canadian Land Bridge)는 밴쿠버 또는 시애틀에서 캐나다를 횡단하여 몬트리올까지 연결하는 경로이다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "CLB=Canadian(캐나다). ALB=American(미국 통과→유럽), MLB=Mini(미국 동해안)"
+    },
+    {
+      "id": "q2-06-21",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "이종책임체계",
+      "question": "이종책임체계(Network Liability System)에서 해상구간 손해에는 헤이그규칙, 항공구간 손해에는 바르샤바협정이 적용된다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "이종책임체계는 손해 발생 구간에 따라 해당 구간의 법규를 적용하는 방식이다. 해상=헤이그규칙, 항공=바르샤바협정, 도로=CMR, 철도=CIM이 적용된다.",
+      "relatedConcept": "이종책임체계와 관련 국제조약",
+      "examTip": "해상=헤이그, 항공=바르샤바, 도로=CMR, 철도=CIM. 구간별 조약 매칭"
+    },
+    {
+      "id": "q2-06-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "배상한도 비교",
+      "question": "다음 중 1포장당 배상한도가 가장 높은 조약은?",
+      "options": [
+        "A. 헤이그규칙(100영국파운드)",
+        "B. 헤이그-비스비규칙(666.67SDR)",
+        "C. 함부르크규칙(835SDR)",
+        "D. MT조약(920SDR)",
+        "E. UNCTAD/ICC 규칙(666.67SDR)"
+      ],
+      "answer": "D",
+      "explanation": "배상한도 크기순: MT(920SDR) > 함부르크(835SDR) > 헤이그-비스비/UNCTAD·ICC(666.67SDR) > 헤이그(100영국파운드).",
+      "relatedConcept": "복합운송인의 책임체계와 국제조약",
+      "examTip": "MT(920) > 함부르크(835) > 헤이그비스비(666.67). 크기순 암기"
+    },
+    {
+      "id": "q2-06-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "RIPI",
+      "question": "IPI(Interior Point Intermodal)의 역방향 운송, 즉 미국 내륙에서 출발하여 서해안을 거쳐 극동으로 운송하는 경로는?",
+      "options": [
+        "A. ALB",
+        "B. MLB",
+        "C. RIPI",
+        "D. CLB",
+        "E. SLB"
+      ],
+      "answer": "C",
+      "explanation": "RIPI(Reverse IPI)는 IPI의 역방향 운송으로, 미국 내륙도시에서 출발하여 미국 서해안을 거쳐 극동까지 운송하는 경로이다.",
+      "relatedConcept": "국제복합운송 경로",
+      "examTip": "RIPI=Reverse IPI(역방향). IPI는 극동→미국내륙, RIPI는 미국내륙→극동"
+    },
+    {
+      "id": "q2-06-24",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "용선계약 성격",
+      "question": "용선계약의 성질로 옳지 않은 것은?",
+      "options": [
+        "A. 당사자 합의에 따른 합의계약",
+        "B. 쌍무계약",
+        "C. 구두에 의한 계약도 가능한 불요식 계약",
+        "D. 반드시 문서상 기명날인이 필요한 요식 계약",
+        "E. 부정기선에 사용되는 운송계약"
+      ],
+      "answer": "D",
+      "explanation": "용선계약은 합의계약, 쌍무계약, 불요식 계약의 성질을 가진다. 구두에 의한 계약도 가능하므로 문서상 기명날인이 반드시 필요한 것은 아니다.",
+      "relatedConcept": "복합운송의 운영형태와 운임",
+      "examTip": "용선계약=불요식(구두 가능). '요식'이라고 하면 오답"
+    },
+    {
+      "id": "q2-06-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "FCT",
+      "question": "FIATA에서 발행하는 서류 중 FBL과 함께 유통가능(Negotiable)한 복합운송증권은?",
+      "options": [
+        "A. FCR",
+        "B. FCT",
+        "C. FWR",
+        "D. FWB",
+        "E. SDT"
+      ],
+      "answer": "B",
+      "explanation": "FIATA 서류 중 유통가능한 것은 FBL(Combined Transport B/L)과 FCT(Forwarder's Certificate of Transport)이다. FCR, FWR, FWB는 비유통증권이다.",
+      "relatedConcept": "복합운송증권(CT B/L)과 운송서류",
+      "examTip": "FIATA 유통가능: FBL, FCT. 비유통: FCR, FWR, FWB. 'B/L, CT'에 유통성 있음"
     }
   ]
 }

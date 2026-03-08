@@ -369,6 +369,95 @@
       "explanation": "LCL은 CFS에서의 혼적·분류 작업 비용이 추가되므로, 일반적으로 FCL보다 톤당 운임이 비싸다. FCL이 톤당 운임 측면에서 더 경제적이다.",
       "relatedConcept": "해운 관련 주요 용어와 실무",
       "examTip": "FCL=CY to CY(경제적, 대량), LCL=CFS to CFS(비쌈, 소량). 톤당 운임: FCL < LCL. '저렴'과 '비쌈'을 바꿔 출제"
+    },
+    {
+      "id": "q2-04-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "선박 톤수",
+      "question": "선박의 톤수 중 영업상 가장 중요시되며, 선복량·용선료·선박매매거래의 기준이 되는 것은?",
+      "options": [
+        "A. 총톤수(GT)",
+        "B. 순톤수(NT)",
+        "C. 배수톤수",
+        "D. 재화중량톤수(DWT)",
+        "E. 재화용적톤수"
+      ],
+      "answer": "D",
+      "explanation": "재화중량톤수(DWT)는 선박이 적재할 수 있는 화물의 최대 중량으로, 영업상 가장 중요한 톤수이다. 총톤수는 세금·수수료 기준, 순톤수는 항만세·사용료 기준이다.",
+      "relatedConcept": "선박의 톤수와 편의치적",
+      "examTip": "DWT=영업상 가장 중요+매매기준, GT=세금기준, NT=항만세기준"
+    },
+    {
+      "id": "q2-04-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "체선료·조출료",
+      "question": "부정기선 용어 중 약정 정박기간 이전에 하역을 완료한 경우 선주가 용선자에게 지급하는 보수는?",
+      "options": [
+        "A. 체선료(Demurrage)",
+        "B. 조출료(Despatch Money)",
+        "C. 체화료",
+        "D. 지체료(Detention)",
+        "E. CQD"
+      ],
+      "answer": "B",
+      "explanation": "조출료(Despatch Money)는 약정 정박기간 이전에 하역을 완료한 경우 선주가 용선자에게 지급하는 보수로, 체선료의 1/2이다.",
+      "relatedConcept": "정기선·부정기선 선적절차와 부정기선 용어",
+      "examTip": "조출료=선주→용선자(조기완료시, 체선료의 1/2), 체선료=용선자→선주(초과시)"
+    },
+    {
+      "id": "q2-04-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "LASH선",
+      "question": "부선에 화물을 적재하여 크레인으로 본선에 싣는 방식의 특수선박으로, 안벽을 사용하지 않는 것은?",
+      "options": [
+        "A. LO-LO선",
+        "B. RO-RO선",
+        "C. LASH선",
+        "D. 페리선",
+        "E. 벌크선"
+      ],
+      "answer": "C",
+      "explanation": "LASH(Lighter Aboard Ship)선은 화물이 적재된 부선(Lighter)을 본선에 적입하는 특수선박이다. 안벽을 사용하지 않아 하역시간이 단축된다.",
+      "relatedConcept": "선박의 종류와 제원",
+      "examTip": "LASH=부선+안벽 ×+하역시간 단축. LO-LO는 갠트리크레인(안벽 사용)"
+    },
+    {
+      "id": "q2-04-24",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "건현과 흘수",
+      "question": "선박의 건현(Free Board)은 수중에 잠기는 부분의 깊이를 의미한다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "건현(Free Board)은 물이 닿지 않는 수면상 현측부분이다. 수중에 잠기는 깊이는 흘수(Load Draft)이다. 건현과 흘수는 반대 개념이다.",
+      "relatedConcept": "선박의 종류와 제원",
+      "examTip": "건현=수면 위(Free=자유로운→물 닿지 않음), 흘수=수면 아래(잠기는 깊이)"
+    },
+    {
+      "id": "q2-04-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "선적절차",
+      "question": "컨테이너 FCL 화물의 해상 선적절차를 올바른 순서로 나열한 것은?",
+      "options": [
+        "A. S/R → CFS → D/R → S/O → B/L",
+        "B. S/R → CY → D/R → S/O → 본선적재 → B/L",
+        "C. S/O → S/R → CY → D/R → B/L",
+        "D. D/R → S/R → S/O → CY → B/L",
+        "E. S/R → S/O → CY → M/R → B/L"
+      ],
+      "answer": "B",
+      "explanation": "FCL 화물 선적절차: S/R(선적요청서) → CY → D/R(부두수취증) → S/O(선적지시서) → 본선적재 → B/L 발급. LCL은 CFS를 먼저 거친다.",
+      "relatedConcept": "정기선·부정기선 선적절차와 부정기선 용어",
+      "examTip": "FCL=CY 경유, LCL=CFS→CY 경유. S/R이 항상 첫 번째"
     }
   ]
 }

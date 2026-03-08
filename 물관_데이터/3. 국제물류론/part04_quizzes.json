@@ -357,6 +357,98 @@
       "explanation": "WCO SAFE Framework(2005)는 Pillar 1(관세당국 간 협력: Customs to Customs)과 Pillar 2(관세-민간 협력: Customs to Business)로 구성된다. Pillar 2가 AEO 제도의 근간이 된다. Pillar 1과 2의 순서를 바꿔 출제하는 함정에 주의.",
       "relatedConcept": "국제물류보안 최신 동향 및 종합 비교",
       "examTip": "Pillar 1=C to C(관세간), Pillar 2=C to B(관세-민간). 순서 바꿈 함정 주의."
+    },
+    {
+      "id": "q3-04-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "랜드브릿지",
+      "question": "극동지역에서 미국 서부로 해상운송 후 철도를 이용하여 미국 동부 해안까지 운송하는 복합운송 방식은?",
+      "options": [
+        "A. ALB(America Land Bridge)",
+        "B. MLB(Mini Land Bridge)",
+        "C. IPI(Interior Point Intermodal)",
+        "D. RIPI(Reverse IPI)",
+        "E. CLB(Canada Land Bridge)"
+      ],
+      "answer": "B",
+      "explanation": "MLB(Mini Land Bridge)는 극동→미 서부 해안(해상)→미 동부 해안(철도)의 경로이다. ALB는 미 대륙 횡단 후 유럽까지, IPI는 미 내륙까지, RIPI는 파나마 경유→미 동부→내륙, CLB는 캐나다 경유이다.",
+      "relatedConcept": "랜드브릿지 시스템",
+      "examTip": "ALB=유럽까지, MLB=미 동해안까지, IPI=미 내륙까지. 도달 범위가 핵심 차이"
+    },
+    {
+      "id": "q3-04-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "대륙횡단철도",
+      "question": "극동지역에서 러시아 보스토치니항까지 해상운송 후, 시베리아 대륙횡단철도를 이용하여 유럽까지 운송하는 경로는?",
+      "options": [
+        "A. TCR(Trans China Railway)",
+        "B. TMR(Trans Manchuria Railway)",
+        "C. TSR(Trans Siberian Railway)",
+        "D. TMGR(Trans Mongolia Railway)",
+        "E. TKR(Trans Korea Railway)"
+      ],
+      "answer": "C",
+      "explanation": "TSR(Trans Siberian Railway)은 극동→보스토치니항(해상)→시베리아 횡단철도→유럽의 Sea & Rail 복합운송 방식이며, SLB(Siberia Land Bridge)라고도 한다. TCR은 중국 연운항, TMR은 만주, TMGR은 몽골 출발이다.",
+      "relatedConcept": "랜드브릿지 시스템",
+      "examTip": "TSR=보스토치니항+시베리아=SLB. TCR=연운항+중국. 출발항/출발지로 구분"
+    },
+    {
+      "id": "q3-04-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "컨테이너 국제조약",
+      "question": "컨테이너 관련 국제조약에 관한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. CCC는 컨테이너 자체의 수출입에 대한 관세법상 특례를 규정한다",
+        "B. TIR은 도로운송으로 봉인·운송되는 컨테이너 화물의 경유지 세관검사를 면제한다",
+        "C. ITI는 육·해·공 모든 수송수단으로 운송되는 컨테이너 화물에 적용된다",
+        "D. CSC는 컨테이너 내 화물의 품질 기준을 국제적으로 통일하기 위한 협약이다",
+        "E. TIR은 1959년, CSC는 1972년에 채택되었다"
+      ],
+      "answer": "D",
+      "explanation": "CSC(International Convention for Safe Container)는 컨테이너의 '구조상 안전요건'을 국제적으로 통일하기 위한 협약이지, 컨테이너 내 화물의 품질 기준과는 무관하다. 합격한 컨테이너에는 안전승인판을 부착한다.",
+      "relatedConcept": "컨테이너·복합운송 관련 국제조약",
+      "examTip": "CSC=컨테이너 '구조' 안전 ≠ 화물 품질. CCC=컨테이너 자체, TIR=도로만, ITI=전체"
+    },
+    {
+      "id": "q3-04-24",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "랜드브릿지",
+      "question": "IPI(Interior Point Intermodal)는 극동에서 파나마 운하를 경유하여 미국 동부로 해상운송 후 내륙으로 운송하는 방식이다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "X",
+      "explanation": "파나마 운하를 경유하여 미국 동부로 해상운송 후 내륙으로 운송하는 방식은 RIPI(Reverse IPI)이다. IPI는 극동→미국 서부(해상)→미 내륙(철도/트럭)으로 파나마 운하를 경유하지 않는다.",
+      "relatedConcept": "랜드브릿지 시스템",
+      "examTip": "IPI=서부 도착→내륙, RIPI=파나마 경유→동부 도착→내륙. 'Reverse'는 반대 방향"
+    },
+    {
+      "id": "q3-04-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "Sea & Air",
+      "question": "Sea & Air 복합운송에 관한 설명으로 옳은 것은?",
+      "options": [
+        "A. 항공운송의 경제성과 해상운송의 신속성을 결합한 방식이다",
+        "B. 해상운송의 경제성과 항공운송의 신속성을 결합한 방식이다",
+        "C. 두 가지 이상의 해상운송 수단을 결합한 방식이다",
+        "D. 육상운송을 교량처럼 이용하는 운송방식이다",
+        "E. 철도와 트럭을 결합한 내륙 운송방식이다"
+      ],
+      "answer": "B",
+      "explanation": "Sea & Air는 해상운송의 '경제성'과 항공운송의 '신속성'을 결합한 복합운송 방식이다. 두바이, 싱가포르 등 중간 환적지를 활용하여 전구간 항공보다 저렴하고 전구간 해상보다 빠른 운송이 가능하다.",
+      "relatedConcept": "랜드브릿지 시스템",
+      "examTip": "Sea & Air = 해상(경제성) + 항공(신속성). '항공의 경제성'이라고 하면 오답"
     }
   ]
 }

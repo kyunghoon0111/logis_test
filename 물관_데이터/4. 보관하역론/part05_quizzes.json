@@ -123,7 +123,10 @@
       "difficulty": 1,
       "topic": "부하역 원칙",
       "question": "부하역(不荷役) 원칙이란 불량한 하역을 하지 않는 원칙을 말한다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "부하역(不荷役) 원칙은 '불량 하역을 안 하는 것'이 아니라, '하역 자체를 하지 않는 것(하역 횟수를 최소화하는 것)'이 최선이라는 원칙이다. 不荷役 = 하역하지 않음. 유닛로드화, 일관파렛트화, 직송 등을 통해 하역 횟수를 줄이는 것이 핵심이다.",
       "relatedConcept": "5-2 하역의 원칙 - 부하역 원칙",
@@ -193,7 +196,10 @@
       "difficulty": 1,
       "topic": "일관파렛트화",
       "question": "일관파렛트화란 출발지에서 도착지까지 동일한 파렛트로 일관되게 수송·하역하여 환적을 최소화하는 방식이다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "O",
       "explanation": "일관파렛트화는 출발지부터 도착지까지 동일 파렛트를 유지하여 중간에 화물을 다른 파렛트로 옮겨 싣는 환적 작업을 최소화하는 방식이다. 이를 통해 하역 횟수(하역계수)를 줄이고 물류 효율을 높일 수 있다.",
       "relatedConcept": "5-3 하역의 합리화 - 유닛로드화",
@@ -320,7 +326,10 @@
       "difficulty": 1,
       "topic": "중력이용 원칙",
       "question": "하역 5대 원칙 중 '중력이용 원칙'이란 가능한 한 중력(자연낙하, 경사면)을 이용하여 하역 에너지를 절감하는 원칙이다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "O",
       "explanation": "중력이용 원칙은 하역 5대 원칙 중 하나로, 자연적인 중력(경사면, 자유 낙하 등)을 활용하여 별도의 동력 없이 화물을 이동시킴으로써 에너지와 비용을 절감하는 원칙이다. 예) 경사 슈트, 그래비티 컨베이어 등",
       "relatedConcept": "5-2 하역의 원칙 - 5대 원칙",
@@ -363,6 +372,98 @@
       "explanation": "하역 시스템 설계 절차: 물동량 분석 → 화물 분류 → 레이아웃 설계 → 장비 선정 → 운영 시뮬레이션 → 투자 분석 → 시스템 구축. 물동량 분석이 가장 먼저 수행되어야 하며, 이를 기반으로 이후 단계가 결정된다.",
       "relatedConcept": "5-6 하역 시스템의 설계와 최신 동향",
       "examTip": "설계 순서: '물화레장운투시'. 물동량 분석이 항상 첫 번째. 장비 선정을 먼저 한다는 보기는 오답"
+    },
+    {
+      "id": "q4-05-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 1,
+      "topic": "운반관리",
+      "question": "운반관리의 4요소에 해당하지 않는 것은?",
+      "options": [
+        "A. 동작(Motion)",
+        "B. 시간(Time)",
+        "C. 품질(Quality)",
+        "D. 수량(Quantity)",
+        "E. 장소(Space)"
+      ],
+      "answer": "C",
+      "explanation": "운반관리 4요소는 동작(Motion), 시간(Time), 수량(Quantity), 장소(Space)이다. 품질(Quality)은 포함되지 않는다.",
+      "relatedConcept": "운반관리 4요소와 작업순서 결정",
+      "examTip": "운반관리 = MTQS (Quality 아님!)"
+    },
+    {
+      "id": "q4-05-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운반활성도",
+      "question": "운반활성도 지수가 가장 높은 상태는?",
+      "options": [
+        "A. 바닥에 낱개 상태",
+        "B. 컨테이너에 정리",
+        "C. 파렛트 위에 적재",
+        "D. 대차 위에 컨테이너",
+        "E. 컨베이어 위에 컨테이너"
+      ],
+      "answer": "E",
+      "explanation": "컨베이어 위에 컨테이너가 올려진 상태가 활성도 4로 가장 높다. 지표와의 접점이 가장 작다.",
+      "relatedConcept": "운반관리 4요소와 작업순서 결정",
+      "examTip": "활성도 0~4: 바닥→컨테이너→파렛트→대차→컨베이어"
+    },
+    {
+      "id": "q4-05-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "제약이론",
+      "question": "제약이론(TOC)의 DBR에서 병목공정이 쉬지 않도록 병목 전 공정에서 형성하는 것은?",
+      "options": [
+        "A. Drum",
+        "B. Buffer",
+        "C. Rope",
+        "D. Bottleneck",
+        "E. Kanban"
+      ],
+      "answer": "B",
+      "explanation": "Buffer는 병목 전 공정이 병목이 쉬지 않도록 형성하는 것이다. Drum은 병목이 전체 흐름속도를 결정, Rope는 병목 이후 공정의 속도를 맞추는 것이다.",
+      "relatedConcept": "제약이론(TOC)과 도크수·지게차수 계산",
+      "examTip": "Drum=속도결정, Buffer=병목전 대기, Rope=병목후 속도맞춤"
+    },
+    {
+      "id": "q4-05-24",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "작업순서",
+      "question": "SPT(Shortest Processing Time) 규칙은 납기일자가 급한 것부터 처리하는 방식이다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "X",
+      "explanation": "SPT는 작업소요시간이 짧은 순서대로 처리하는 규칙이다. 납기일자 기준은 EDD(Earliest Due Date)이다.",
+      "relatedConcept": "운반관리 4요소와 작업순서 결정",
+      "examTip": "FCFS=도착순, EDD=납기순, SPT=작업시간순"
+    },
+    {
+      "id": "q4-05-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "도크수 계산",
+      "question": "월간 트럭 출입 1,500대, 월 작업일 25일, 1일 작업 10시간, 대당 작업시간 5시간, 안전계수 0.1일 때 필요 도크수는?",
+      "options": [
+        "A. 25개",
+        "B. 30개",
+        "C. 33개",
+        "D. 36개",
+        "E. 40개"
+      ],
+      "answer": "C",
+      "explanation": "필요 도크수 = (1,500×5×1.1)/(25×10) = 8,250/250 = 33개",
+      "relatedConcept": "제약이론(TOC)과 도크수·지게차수 계산",
+      "examTip": "안전계수 0.1 → ×1.1로 곱함"
     }
   ]
 }

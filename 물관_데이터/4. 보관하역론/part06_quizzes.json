@@ -104,7 +104,10 @@
       "difficulty": 1,
       "topic": "호이스트 vs 크레인",
       "question": "호이스트(Hoist)는 단독으로 화물을 수평 이동시킬 수 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "호이스트는 화물을 수직(상하)으로만 들어올리는 단순 권양장치로, 단독으로는 수평 이동이 불가능하다. 수평 이동을 위해서는 크레인의 거더·트롤리 등 이동 메커니즘에 부착되어야 한다. 크레인 = 호이스트(수직 권양) + 이동 메커니즘(수평 이동).",
       "relatedConcept": "6-4 호이스트 vs 크레인 차이",
@@ -174,7 +177,10 @@
       "difficulty": 1,
       "topic": "핸드파레트트럭",
       "question": "핸드파레트트럭(핸드리프트)은 팔레트 화물을 랙 상단(2m 이상)에 적재할 수 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "핸드파레트트럭의 양정(들어올리는 높이)은 매우 낮아 바닥에서 약 10~20cm 정도만 부양 가능하다. 랙 적재(2m 이상)는 불가능하며, 단거리 수평 이동 전용이다. 랙 적재가 가능한 것은 전동워키(Walkie Stacker, 양정 2~5m) 이상의 장비이다.",
       "relatedConcept": "6-4 핸드파레트트럭 vs 전동워키",
@@ -225,7 +231,10 @@
       "difficulty": 1,
       "topic": "독셸터 vs 독실",
       "question": "독실(Dock Seal)은 독셸터(Dock Shelter)보다 다양한 크기의 차량에 유연하게 대응할 수 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "독실(Dock Seal)은 패드(스폰지/폼)를 차량 적재함에 밀착·압축하는 방식이므로 밀폐도는 높지만, 차량 규격이 다양할 경우 대응이 제한적이다. 반면 독셸터(Dock Shelter)는 프레임/커튼으로 감싸는 방식이므로 다양한 차량 크기에 더 유연하게 대응할 수 있다.",
       "relatedConcept": "6-3 독셸터 vs 독실",
@@ -314,7 +323,10 @@
       "difficulty": 2,
       "topic": "GTP(Goods-to-Person)",
       "question": "GTP(Goods-to-Person) 방식은 작업자가 직접 랙으로 이동하여 피킹하는 방식으로, 작업자의 보행 거리가 증가하는 단점이 있다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "X",
       "explanation": "GTP(Goods-to-Person)는 AMR·컨베이어 등이 화물을 '작업자에게 가져다주는' 방식이다. 작업자가 랙으로 이동하는 것이 아니라, 화물이 작업자에게 오므로 작업자 이동이 최소화되고 피킹 생산성이 대폭 향상된다. 작업자가 랙으로 이동하는 것은 전통적인 PTP(Person-to-Goods) 방식이다.",
       "relatedConcept": "6-5 물류자동화 장비와 로봇",
@@ -357,6 +369,98 @@
       "explanation": "(가) X자형 지지대로 수직 승강 = 시저리프트(Scissor Lift). (나) 안전 펜스 없이 사람과 협업 + 접촉 시 정지 = 협동로봇(Cobot). (다) SLAM·유도선 불필요·자율주행·장애물 자동 회피 = AMR(자율이동로봇). AGV는 유도선 필요, 산업용 로봇은 안전 펜스 격리 운영, 테이블리프트는 작업대 높이 조절용이다.",
       "relatedConcept": "6-4 리프트 유형 / 6-5 물류자동화 장비와 로봇",
       "examTip": "종합 매칭 문제: 각 장비의 핵심 키워드를 빠르게 매칭하는 연습 필요. 시저리프트 = X자형, Cobot = 안전 펜스 불필요, AMR = SLAM·자율주행"
+    },
+    {
+      "id": "q4-06-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "항만 하역기기",
+      "question": "붐(비스듬한 구조물)에 스프레더를 장착하여 높이를 조절할 수 있는 컨테이너 상하역기기는?",
+      "options": [
+        "A. 톱핸들러",
+        "B. 리치 스태커",
+        "C. 스트래들 캐리어",
+        "D. 갠트리 크레인",
+        "E. 트랜스퍼 크레인"
+      ],
+      "answer": "B",
+      "explanation": "리치 스태커는 스프레더와 붐(비스듬한 구조물)으로 높이를 조절할 수 있는 컨테이너 상하역기기이다. 톱핸들러는 마스트(수직구조물)를 사용한다.",
+      "relatedConcept": "항만 운반·하역기기 상세",
+      "examTip": "리치스태커=붐(비스듬), 톱핸들러=마스트(수직)"
+    },
+    {
+      "id": "q4-06-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "언로더",
+      "question": "언로더(Unloader)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 컨테이너 전용터미널에서 사용한다",
+        "B. 적재와 양륙 모두 수행한다",
+        "C. 벌크화물 양륙 전용 크레인이다",
+        "D. ㄷ자 형태로 컨테이너를 이동한다",
+        "E. 안벽에 교형으로 설치된다"
+      ],
+      "answer": "C",
+      "explanation": "언로더는 벌크화물을 위한 양륙 전용 크레인으로, 컨테이너 전용터미널에는 없다.",
+      "relatedConcept": "항만 운반·하역기기 상세",
+      "examTip": "언로더 = 벌크 전용 + 양륙 전용 + 컨테이너터미널에 없음"
+    },
+    {
+      "id": "q4-06-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "지게차 부속품",
+      "question": "포크만 상하 방향으로 기울일 수 있고 백레스트는 이동하지 않는 지게차 부속품은?",
+      "options": [
+        "A. 램",
+        "B. 힌지드 포크",
+        "C. 덤핑 포크",
+        "D. 리치 포크",
+        "E. 클램프"
+      ],
+      "answer": "B",
+      "explanation": "힌지드 포크는 포크만 상하로 기울이고 백레스트는 이동하지 않는다. 덤핑 포크는 포크와 백레스트가 함께 기울어진다.",
+      "relatedConcept": "지게차 부속품(어태치먼트) 상세",
+      "examTip": "힌지드=포크만, 덤핑=포크+백레스트 함께 기울어짐"
+    },
+    {
+      "id": "q4-06-24",
+      "type": "exam",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "스트래들 캐리어",
+      "question": "스트래들 캐리어는 컨테이너를 5단 6열로 정리 적재할 수 있다.",
+      "options": [
+        "O",
+        "X"
+      ],
+      "answer": "X",
+      "explanation": "스트래들 캐리어는 3단 1열의 제한된 적재능력을 가진다. 5단 6열 정도로 정리 적재하는 것은 트랜스퍼 크레인이다.",
+      "relatedConcept": "항만 운반·하역기기 상세",
+      "examTip": "스트래들캐리어=3단1열, 트랜스퍼크레인=5단6열"
+    },
+    {
+      "id": "q4-06-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "트랜스퍼 크레인",
+      "question": "CY에 설치되어 타이어로 주행하는 형태의 트랜스퍼 크레인은?",
+      "options": [
+        "A. RTGC",
+        "B. RMGC",
+        "C. OHBC",
+        "D. STS",
+        "E. QC"
+      ],
+      "answer": "A",
+      "explanation": "RTGC(Rubber Tired Gantry Crane)는 타이어가 달린 형태의 트랜스퍼 크레인이다. RMGC(Rail Mounted Gantry Crane)는 레일 위를 이동한다.",
+      "relatedConcept": "항만 운반·하역기기 상세",
+      "examTip": "RTGC=타이어(Rubber Tired), RMGC=레일(Rail Mounted)"
     }
   ]
 }

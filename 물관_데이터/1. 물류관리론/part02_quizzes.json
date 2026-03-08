@@ -9,7 +9,13 @@
       "difficulty": 1,
       "topic": "물류계획 단계",
       "question": "물류센터 입지 선정은 어떤 수준의 물류계획에 해당하는가?",
-      "options": ["A. 전략적 계획", "B. 전술적 계획", "C. 운영적 계획", "D. 실행적 계획", "E. 기능적 계획"],
+      "options": [
+        "A. 전략적 계획",
+        "B. 전술적 계획",
+        "C. 운영적 계획",
+        "D. 실행적 계획",
+        "E. 기능적 계획"
+      ],
       "answer": "A",
       "explanation": "물류센터 입지 선정은 장기적이고 대규모 투자가 수반되는 의사결정으로 전략적 계획(Strategic Planning)에 해당한다.",
       "relatedConcept": "물류계획",
@@ -22,7 +28,13 @@
       "difficulty": 2,
       "topic": "SWOT",
       "question": "SWOT 분석에서 기업의 '강점'을 활용하여 외부 '위협'에 대응하는 전략은?",
-      "options": ["A. SO전략", "B. ST전략", "C. WO전략", "D. WT전략", "E. SW전략"],
+      "options": [
+        "A. SO전략",
+        "B. ST전략",
+        "C. WO전략",
+        "D. WT전략",
+        "E. SW전략"
+      ],
       "answer": "B",
       "explanation": "ST전략은 강점(S)으로 위협(T)에 대응하는 전략(다각화 전략). SO=공격적, WO=방향전환, WT=방어적.",
       "relatedConcept": "SWOT 분석",
@@ -35,7 +47,13 @@
       "difficulty": 2,
       "topic": "가치사슬",
       "question": "포터의 가치사슬에서 '입고물류'와 '출고물류'가 속하는 활동 유형은?",
-      "options": ["A. 지원 활동", "B. 본원적 활동", "C. 핵심 역량", "D. 전략적 활동", "E. 관리 활동"],
+      "options": [
+        "A. 지원 활동",
+        "B. 본원적 활동",
+        "C. 핵심 역량",
+        "D. 전략적 활동",
+        "E. 관리 활동"
+      ],
       "answer": "B",
       "explanation": "입고물류(Inbound)와 출고물류(Outbound)는 가치사슬의 본원적 활동(Primary Activities)에 해당한다. 지원 활동은 기업 인프라·인적자원·기술개발·조달이다.",
       "relatedConcept": "가치사슬",
@@ -48,7 +66,13 @@
       "difficulty": 2,
       "topic": "QR vs ECR",
       "question": "ECR(Efficient Consumer Response)이 기원한 업종은?",
-      "options": ["A. 의류업계", "B. 식품/일용품업계", "C. 자동차업계", "D. 전자업계", "E. 건설업계"],
+      "options": [
+        "A. 의류업계",
+        "B. 식품/일용품업계",
+        "C. 자동차업계",
+        "D. 전자업계",
+        "E. 건설업계"
+      ],
       "answer": "B",
       "explanation": "ECR은 식품/일용품업계에서 기원한 효율적 소비자 대응 전략이다. 의류업계 기원은 QR(Quick Response)이다.",
       "relatedConcept": "QR vs ECR",
@@ -61,7 +85,13 @@
       "difficulty": 2,
       "topic": "ECR 4대 전략",
       "question": "ECR의 4대 전략에 해당하지 않는 것은?",
-      "options": ["A. 효율적 매장배치", "B. 효율적 보충", "C. 효율적 판촉", "D. 효율적 운송", "E. 효율적 신상품 도입"],
+      "options": [
+        "A. 효율적 매장배치",
+        "B. 효율적 보충",
+        "C. 효율적 판촉",
+        "D. 효율적 운송",
+        "E. 효율적 신상품 도입"
+      ],
       "answer": "D",
       "explanation": "ECR 4대 전략: 효율적 매장배치(Store Assortment)·보충(Replenishment)·판촉(Promotion)·신상품도입(Product Introduction). '효율적 운송'은 포함되지 않는다.",
       "relatedConcept": "ECR",
@@ -74,7 +104,13 @@
       "difficulty": 2,
       "topic": "유통경로",
       "question": "VMS(수직적 마케팅 시스템)에서 프랜차이즈가 해당하는 유형은?",
-      "options": ["A. 기업형 VMS", "B. 계약형 VMS", "C. 관리형 VMS", "D. 수평적 VMS", "E. 복합형 VMS"],
+      "options": [
+        "A. 기업형 VMS",
+        "B. 계약형 VMS",
+        "C. 관리형 VMS",
+        "D. 수평적 VMS",
+        "E. 복합형 VMS"
+      ],
       "answer": "B",
       "explanation": "프랜차이즈는 계약에 의해 통합되므로 계약형 VMS에 해당한다. 기업형은 소유 통합(직영), 관리형은 힘(영향력)에 의한 조정.",
       "relatedConcept": "VMS",
@@ -87,7 +123,13 @@
       "difficulty": 2,
       "topic": "고객서비스",
       "question": "물류 고객서비스에서 '주문충족률(Fill Rate)'이 속하는 서비스 단계는?",
-      "options": ["A. 거래 전 서비스", "B. 거래 중 서비스", "C. 거래 후 서비스", "D. 사전 서비스", "E. 보조 서비스"],
+      "options": [
+        "A. 거래 전 서비스",
+        "B. 거래 중 서비스",
+        "C. 거래 후 서비스",
+        "D. 사전 서비스",
+        "E. 보조 서비스"
+      ],
       "answer": "B",
       "explanation": "주문충족률은 주문 처리 과정에서의 재고 가용성 지표로 '거래 중 서비스'에 해당한다. 거래 전=정책 수립, 거래 후=반품·A/S.",
       "relatedConcept": "물류 고객서비스",
@@ -100,7 +142,13 @@
       "difficulty": 3,
       "topic": "지수평활법",
       "question": "지수평활법에서 평활상수(α)=0.3, 전기 실제수요 D(t)=150, 전기 예측치 F(t)=130일 때, 다음 기의 예측치 F(t+1)은?",
-      "options": ["A. 130", "B. 136", "C. 140", "D. 145", "E. 150"],
+      "options": [
+        "A. 130",
+        "B. 136",
+        "C. 140",
+        "D. 145",
+        "E. 150"
+      ],
       "answer": "B",
       "explanation": "F(t+1) = α·D(t) + (1-α)·F(t) = 0.3×150 + 0.7×130 = 45 + 91 = 136.",
       "relatedConcept": "지수평활법",
@@ -113,7 +161,13 @@
       "difficulty": 2,
       "topic": "수요예측",
       "question": "델파이법에 대한 설명으로 옳지 않은 것은?",
-      "options": ["A. 전문가 의견을 활용한 정성적 기법이다", "B. 익명으로 반복적 설문을 실시한다", "C. 전문가들의 대면 토론을 통해 합의를 도출한다", "D. 장기 수요예측에 적합하다", "E. 정량적 데이터가 부족할 때 유용하다"],
+      "options": [
+        "A. 전문가 의견을 활용한 정성적 기법이다",
+        "B. 익명으로 반복적 설문을 실시한다",
+        "C. 전문가들의 대면 토론을 통해 합의를 도출한다",
+        "D. 장기 수요예측에 적합하다",
+        "E. 정량적 데이터가 부족할 때 유용하다"
+      ],
       "answer": "C",
       "explanation": "델파이법은 '익명'으로 반복 설문을 실시하여 의견을 수렴한다. 대면 토론이 아님! 대면 토론은 브레인스토밍이나 패널 토의에 해당.",
       "relatedConcept": "수요예측 기법",
@@ -126,7 +180,13 @@
       "difficulty": 2,
       "topic": "포터의 경쟁전략",
       "question": "마이클 포터의 3대 경쟁전략에 해당하지 않는 것은?",
-      "options": ["A. 원가우위 전략", "B. 차별화 전략", "C. 집중화 전략", "D. 혁신 전략", "E. 원가집중 전략은 집중화의 하위 유형이다"],
+      "options": [
+        "A. 원가우위 전략",
+        "B. 차별화 전략",
+        "C. 집중화 전략",
+        "D. 혁신 전략",
+        "E. 원가집중 전략은 집중화의 하위 유형이다"
+      ],
       "answer": "D",
       "explanation": "포터의 3대 경쟁전략: 원가우위·차별화·집중화. '혁신 전략'은 포터의 본원적 전략에 포함되지 않는다. 집중화는 원가집중/차별화집중으로 세분화된다.",
       "relatedConcept": "경쟁전략",
@@ -139,7 +199,10 @@
       "difficulty": 2,
       "topic": "서비스 수준과 비용",
       "question": "물류 서비스 수준을 90%에서 95%로 올리는 비용보다 95%에서 99%로 올리는 비용이 더 크다.",
-      "options": ["O", "X"],
+      "options": [
+        "O",
+        "X"
+      ],
       "answer": "O",
       "explanation": "물류 서비스 수준과 비용은 '수확체감' 관계이다. 서비스 수준이 높아질수록 추가 1% 향상에 드는 비용이 급격히 증가한다.",
       "relatedConcept": "물류 고객서비스",
@@ -152,7 +215,13 @@
       "difficulty": 2,
       "topic": "유통 커버리지",
       "question": "명품 브랜드에 가장 적합한 유통 커버리지 전략은?",
-      "options": ["A. 개방적 유통", "B. 선택적 유통", "C. 전속적(독점) 유통", "D. 집중적 유통", "E. 복합적 유통"],
+      "options": [
+        "A. 개방적 유통",
+        "B. 선택적 유통",
+        "C. 전속적(독점) 유통",
+        "D. 집중적 유통",
+        "E. 복합적 유통"
+      ],
       "answer": "C",
       "explanation": "명품·고급 브랜드는 극소수 점포에서만 독점 판매하는 전속적(독점) 유통이 적합하다. 개방적=편의품(대중), 선택적=선매품(중급).",
       "relatedConcept": "유통 커버리지",
@@ -165,7 +234,13 @@
       "difficulty": 3,
       "topic": "이동평균법",
       "question": "3기간 단순이동평균법 사용 시, 최근 3기 수요가 80, 100, 120일 때 다음 기 예측치는?",
-      "options": ["A. 80", "B. 90", "C. 100", "D. 110", "E. 120"],
+      "options": [
+        "A. 80",
+        "B. 90",
+        "C. 100",
+        "D. 110",
+        "E. 120"
+      ],
       "answer": "C",
       "explanation": "3기간 단순이동평균: F = (80+100+120)/3 = 300/3 = 100.",
       "relatedConcept": "이동평균법",
@@ -178,7 +253,13 @@
       "difficulty": 2,
       "topic": "VMI",
       "question": "VMI(Vendor Managed Inventory)에 대한 설명으로 옳은 것은?",
-      "options": ["A. 소매업체가 공급자의 재고를 관리한다", "B. 공급자가 소매업체의 재고를 직접 관리한다", "C. 물류센터가 모든 재고를 관리한다", "D. 소비자가 자신의 재고를 관리한다", "E. 정부가 재고 수준을 통제한다"],
+      "options": [
+        "A. 소매업체가 공급자의 재고를 관리한다",
+        "B. 공급자가 소매업체의 재고를 직접 관리한다",
+        "C. 물류센터가 모든 재고를 관리한다",
+        "D. 소비자가 자신의 재고를 관리한다",
+        "E. 정부가 재고 수준을 통제한다"
+      ],
       "answer": "B",
       "explanation": "VMI는 Vendor(공급자)가 소매업체의 재고를 직접 관리·보충하는 방식이다. POS 데이터를 공유받아 공급자가 주도적으로 재고 의사결정을 한다.",
       "relatedConcept": "VMI",
@@ -191,11 +272,207 @@
       "difficulty": 2,
       "topic": "마케팅 4P",
       "question": "마케팅 4P 중 물류와 가장 직접적으로 관련된 요소는?",
-      "options": ["A. Product(제품)", "B. Price(가격)", "C. Place(유통)", "D. Promotion(촉진)", "E. People(사람)"],
+      "options": [
+        "A. Product(제품)",
+        "B. Price(가격)",
+        "C. Place(유통)",
+        "D. Promotion(촉진)",
+        "E. People(사람)"
+      ],
       "answer": "C",
       "explanation": "Place(유통)는 유통경로·배송·물류센터 등을 포함하므로 물류와 가장 직접적으로 관련된다. People은 4P가 아닌 7P의 요소.",
       "relatedConcept": "마케팅과 물류",
       "examTip": "4P=Product·Price·Place·Promotion. People은 확장형 7P!"
+    },
+    {
+      "id": "q1-02-16",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "물류조직",
+      "question": "다국적기업에서 많이 볼 수 있는 물류조직으로, 모회사와 자회사 간 이중지배구조(Two Boss System)를 가지는 조직은?",
+      "options": [
+        "A. 직능형 조직",
+        "B. 사업부제 조직",
+        "C. 그리드형 조직",
+        "D. 매트릭스 조직",
+        "E. 프로젝트형 조직"
+      ],
+      "answer": "C",
+      "explanation": "그리드형(격자형) 조직은 다국적기업에서 모회사의 스태프 부문이 자회사의 물류부문을 관리·지원하는 이중지배구조를 가진다. 매트릭스도 이중직제이지만 기능식+프로젝트 결합이다.",
+      "relatedConcept": "물류조직 유형",
+      "examTip": "그리드형=다국적+이중지배(모회사-자회사), 매트릭스=이중직제(기능+프로젝트). 둘 다 이중구조이지만 맥락이 다름!"
+    },
+    {
+      "id": "q1-02-17",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "제품수명주기",
+      "question": "제품수명주기(PLC)에서 '한계이익 최대'가 달성되는 단계는?",
+      "options": [
+        "A. 도입기",
+        "B. 성장기",
+        "C. 성숙기",
+        "D. 쇠퇴기",
+        "E. 포화기"
+      ],
+      "answer": "B",
+      "explanation": "한계이익(추가 1단위 판매 시 이익)이 최대인 단계는 성장기이다. 성숙기는 '총이익 최대'이며 한계이익은 감소하기 시작한다. 도입기는 적자 또는 극소 이익이다.",
+      "relatedConcept": "제품수명주기",
+      "examTip": "한계이익 최대=성장기, 총이익 최대=성숙기! 시험에서 가장 빈출되는 PLC 함정."
+    },
+    {
+      "id": "q1-02-18",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "주문주기시간",
+      "question": "주문주기시간(Order Cycle Time)의 구성 순서로 올바른 것은?",
+      "options": [
+        "A. 주문처리→주문전달→주문조립→인도→재고가용성",
+        "B. 주문전달→주문처리→주문조립→재고가용성→인도",
+        "C. 주문조립→주문전달→주문처리→인도→재고가용성",
+        "D. 주문전달→재고가용성→주문처리→주문조립→인도",
+        "E. 주문처리→주문조립→주문전달→재고가용성→인도"
+      ],
+      "answer": "B",
+      "explanation": "주문주기시간 구성: 주문전달(Order transmittal)→주문처리(Order processing)→주문조립(Order assembly, 발송준비: 포장+혼재)→재고가용성(Stock availability)→인도시간(Delivery time).",
+      "relatedConcept": "주문주기시간",
+      "examTip": "순서: 전달→처리→조립→가용성→인도. '주문조립'은 발송준비(포장+혼재) 단계!"
+    },
+    {
+      "id": "q1-02-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "TOC",
+      "question": "TOC(제약이론)에서 최대 성과를 위해 가장 우선적으로 추구해야 할 것은?",
+      "options": [
+        "A. 운영비용 감소",
+        "B. 재고투자 감소",
+        "C. 스루풋(throughput) 증대",
+        "D. 품질 향상",
+        "E. 인건비 절감"
+      ],
+      "answer": "C",
+      "explanation": "TOC는 스루풋(산출물) 증대를 최우선으로 두고, 그 다음에 재고와 운영비용의 감소를 추구할 것을 강조한다. TOC의 3가지 요소는 스루풋, 재고투자, 운영비용이다.",
+      "relatedConcept": "TOC",
+      "examTip": "TOC 우선순위: 스루풋 증대 > 재고 감소 > 운영비용 감소. '비용 절감'이 최우선이 아님!"
+    },
+    {
+      "id": "q1-02-20",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "집중구매 vs 분산구매",
+      "question": "본사 집중구매의 장점으로 옳지 않은 것은?",
+      "options": [
+        "A. 가격·거래조건이 유리하다",
+        "B. 시장조사가 용이하다",
+        "C. 긴급조달이 용이하다",
+        "D. 구매효과 측정이 용이하다",
+        "E. 절차가 복잡한 구매에 유리하다"
+      ],
+      "answer": "C",
+      "explanation": "집중구매는 본사에서 일괄 구매하므로 규모의 경제, 가격유리 등의 장점이 있으나, 긴급조달이 어려운 것이 단점이다. 긴급조달이 용이한 것은 분산구매의 장점이다.",
+      "relatedConcept": "집중구매 vs 분산구매",
+      "examTip": "집중구매 단점: 긴급조달 어려움, 수속 복잡, 사업장별 재고파악 곤란. 이것을 '장점'으로 제시하는 함정!"
+    },
+    {
+      "id": "q1-02-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "BSC",
+      "question": "균형성과표(BSC)의 4가지 관점에 해당하지 않는 것은?",
+      "options": [
+        "A. 재무적 측면",
+        "B. 고객 측면",
+        "C. 내부 프로세스 측면",
+        "D. 학습과 성장 측면",
+        "E. 공급자 측면"
+      ],
+      "answer": "E",
+      "explanation": "BSC의 4관점: 재무적·고객·내부 프로세스·학습과 성장. '공급자 측면'은 포함되지 않는다. BSC는 캐플란과 노튼이 제시하였다.",
+      "relatedConcept": "BSC",
+      "examTip": "BSC 4관점: '재고내학' = 재무·고객·내부프로세스·학습성장. 공급자는 없음!"
+    },
+    {
+      "id": "q1-02-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "매트릭스 조직",
+      "question": "매트릭스 조직의 특징으로 옳지 않은 것은?",
+      "options": [
+        "A. 기능식 조직과 프로젝트 조직의 장점을 결합한다",
+        "B. 이중직제구조를 가진다",
+        "C. 명령계통 혼선이 유발될 수 있다",
+        "D. 단순한 업무에 가장 효과적이다",
+        "E. 항공우주산업 등 대규모 사업에 활용된다"
+      ],
+      "answer": "D",
+      "explanation": "매트릭스 조직은 고도로 복잡한 임무를 수행하는 산업에 효과적이다. '단순한 업무'에 적합한 것은 직능형 조직이다.",
+      "relatedConcept": "물류조직 유형",
+      "examTip": "매트릭스=복잡한 첨단기술 산업에 효과적. '단순'은 직능형!"
+    },
+    {
+      "id": "q1-02-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "대량고객화",
+      "question": "대량고객화(Mass Customization)에 대한 설명으로 옳은 것은?",
+      "options": [
+        "A. 소품종 대량생산을 추구한다",
+        "B. 비용 효율성을 포기하고 개별화를 추구한다",
+        "C. 대량생산의 비용 절감과 차별화의 장점을 결합한 다품종 대량생산이다",
+        "D. 소량 주문생산만 가능하다",
+        "E. 표준화된 단일 제품만 생산한다"
+      ],
+      "answer": "C",
+      "explanation": "대량고객화는 대량생산의 장점인 비용 절감과 차별화 전략의 장점을 합친 기법으로, 비용·효율성을 희생시키지 않고 개별 고객 욕구를 충족시키는 다품종 대량생산 전략이다.",
+      "relatedConcept": "대량고객화",
+      "examTip": "대량고객화=대량생산(비용↓)+차별화(개별충족)=다품종 '대량'생산. '소량'이 아님!"
+    },
+    {
+      "id": "q1-02-24",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "경로파워",
+      "question": "프렌치와 라벤이 제시한 유통구성원 간의 경로파워 5가지에 해당하지 않는 것은?",
+      "options": [
+        "A. 보상적 파워",
+        "B. 강압적 파워",
+        "C. 전문적 파워",
+        "D. 기술적 파워",
+        "E. 합법적 파워"
+      ],
+      "answer": "D",
+      "explanation": "경로파워 5가지: 보상적·강압적·전문적·준거적·합법적 파워. '기술적 파워'는 포함되지 않는다. 준거적 파워는 존경·동경에 의한 영향력이다.",
+      "relatedConcept": "경로파워",
+      "examTip": "5가지 파워: '보강전준합'. '기술적'은 없고 '준거적'이 있음!"
+    },
+    {
+      "id": "q1-02-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "STP 전략",
+      "question": "마케팅 STP 전략의 구성 순서로 올바른 것은?",
+      "options": [
+        "A. Targeting→Segmentation→Positioning",
+        "B. Segmentation→Targeting→Positioning",
+        "C. Positioning→Segmentation→Targeting",
+        "D. Targeting→Positioning→Segmentation",
+        "E. Segmentation→Positioning→Targeting"
+      ],
+      "answer": "B",
+      "explanation": "STP 전략: Segmentation(시장세분화)→Targeting(표적시장 선정)→Positioning(포지셔닝) 순서이다.",
+      "relatedConcept": "마케팅 전략",
+      "examTip": "STP=S→T→P 순서. 약자 순서 그대로!"
     }
   ]
 }

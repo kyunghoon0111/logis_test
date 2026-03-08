@@ -357,6 +357,95 @@
       "explanation": "AWB 원본은 3통으로 구성된다. 제1원본은 녹색(항공사 보관용), 제2원본은 분홍색(수하인용, 화물과 함께 이동), 제3원본은 청색(송하인 보관용)이다. 이외에 부본(Copy)이 여러 통 발행된다.",
       "relatedConcept": "항공화물운송장(AWB)",
       "examTip": "AWB 원본 3통의 색상: 녹(항공사)-분(수하인)-청(송하인). '녹분청' 암기!"
+    },
+    {
+      "id": "q2-05-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "SSPD",
+      "question": "항공화물 사고유형 중 적하목록에는 기재되어 있으나 항공기에 탑재되지 않은 경우를 의미하는 것은?",
+      "options": [
+        "A. OFLD(Off-Loaded)",
+        "B. SSPD(Short-Shipped)",
+        "C. STLD(Short-Landed)",
+        "D. OVCD(Over-Carried)",
+        "E. MSCN(Miss-Connected)"
+      ],
+      "answer": "B",
+      "explanation": "SSPD(Short-Shipped)는 적하목록에는 기재되어 있으나 화물이 항공기에 탑재되지 않은 경우이다. STLD는 적재가 적게 된 경우, OFLD는 스페이스 부족으로 하역한 경우이다.",
+      "relatedConcept": "항공화물 사고유형",
+      "examTip": "SSPD=적하목록O+탑재×, STLD=적재 적음, OFLD=스페이스부족 하역"
+    },
+    {
+      "id": "q2-05-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "대리점vs주선업",
+      "question": "항공화물운송대리점과 항공운송주선업의 비교로 옳지 않은 것은?",
+      "options": [
+        "A. 대리점은 MAWB, 주선업은 HAWB를 사용한다",
+        "B. 대리점은 항공사 운임률표를 사용한다",
+        "C. 주선업은 자체 책임을 진다",
+        "D. 대리점은 소화물(LCL)을 주로 취급한다",
+        "E. 주선업은 자체 약관을 사용한다"
+      ],
+      "answer": "D",
+      "explanation": "항공화물운송대리점은 만재화물(FCL)을 주로 취급하고, 소화물(LCL)은 항공운송주선업(혼재업자)이 취급한다.",
+      "relatedConcept": "항공화물운송대리점과 항공운송주선업 비교",
+      "examTip": "대리점=FCL(만재), 주선업=LCL(소화물). 해상의 FCL/LCL 개념과 동일"
+    },
+    {
+      "id": "q2-05-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "용적운임 계산",
+      "question": "항공화물의 크기가 가로 120cm × 세로 80cm × 높이 50cm이고 실제중량이 60kg일 때, 운임 부과 기준이 되는 중량은?",
+      "options": [
+        "A. 60kg",
+        "B. 72kg",
+        "C. 80kg",
+        "D. 96kg",
+        "E. 120kg"
+      ],
+      "answer": "C",
+      "explanation": "용적중량 = (120 × 80 × 50) / 6,000 = 480,000 / 6,000 = 80kg. 실제중량 60kg보다 용적중량 80kg이 크므로, 운임 부과 기준은 80kg이다.",
+      "relatedConcept": "항공운임 체계(TACT)",
+      "examTip": "용적중량 = 가로×세로×높이 ÷ 6,000. 실제중량과 비교하여 큰 쪽이 운임기준"
+    },
+    {
+      "id": "q2-05-24",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "OVCD",
+      "question": "OVCD(Over-Carried)란 예정된 목적지를 지나쳐 다른 곳으로 운송된 화물을 의미한다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "OVCD(Over-Carried)는 예정된 목적지나 경유지가 아닌 곳으로 수송되었거나, 발송준비가 되지 않은 상태에서 실수로 발송된 경우를 의미한다.",
+      "relatedConcept": "항공화물 사고유형",
+      "examTip": "OVCD=Over(지나치다)+Carried(운송). 하역지점을 지나쳐 운송된 화물"
+    },
+    {
+      "id": "q2-05-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "바르샤바조약 이의신청",
+      "question": "바르샤바조약에 따른 항공화물의 손상 시 이의신청 기한과 지연 시 이의신청 기한은?",
+      "options": [
+        "A. 손상 3일, 지연 7일",
+        "B. 손상 7일, 지연 14일",
+        "C. 손상 14일, 지연 21일",
+        "D. 손상 7일, 지연 21일",
+        "E. 손상 14일, 지연 30일"
+      ],
+      "answer": "B",
+      "explanation": "바르샤바조약에 따르면 화물 손상 시 7일 이내, 지연 시 14일 이내에 이의신청을 해야 한다.",
+      "relatedConcept": "항공운송 관련 국제조약과 책임제도",
+      "examTip": "바르샤바 이의신청: 손상 7일, 지연 14일. '7-14' 암기"
     }
   ]
 }

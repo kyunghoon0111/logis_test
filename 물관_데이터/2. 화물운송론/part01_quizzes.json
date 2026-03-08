@@ -9,7 +9,13 @@
       "difficulty": 1,
       "topic": "운송의 개념",
       "question": "운송이 창출하는 주된 효용으로 가장 적절한 것은?",
-      "options": ["A. 형태적 효용(form utility)", "B. 장소적 효용(place utility)", "C. 시간적 효용(time utility)", "D. 소유적 효용(possession utility)", "E. 정보적 효용(information utility)"],
+      "options": [
+        "A. 형태적 효용(form utility)",
+        "B. 장소적 효용(place utility)",
+        "C. 시간적 효용(time utility)",
+        "D. 소유적 효용(possession utility)",
+        "E. 정보적 효용(information utility)"
+      ],
       "answer": "B",
       "explanation": "운송은 화물을 한 장소에서 다른 장소로 이동시키는 활동이므로 장소적 효용(place utility)을 주로 창출한다. 시간적 효용은 보관·재고관리의 주기능이며, 형태적 효용은 생산(가공)의 기능이다.",
       "relatedConcept": "운송의 개념과 기능",
@@ -98,7 +104,13 @@
       "difficulty": 3,
       "topic": "손익분기 계산",
       "question": "공로운송의 비용함수가 C₁ = 100 + 8Q, 철도운송의 비용함수가 C₂ = 400 + 3Q일 때(Q: 운송량, 단위: 톤), 철도운송이 공로운송보다 유리해지는 최소 운송량은?",
-      "options": ["A. 40톤", "B. 50톤", "C. 60톤", "D. 80톤", "E. 100톤"],
+      "options": [
+        "A. 40톤",
+        "B. 50톤",
+        "C. 60톤",
+        "D. 80톤",
+        "E. 100톤"
+      ],
       "answer": "C",
       "explanation": "손익분기점: 100 + 8Q = 400 + 3Q → 5Q = 300 → Q = 60톤. Q > 60톤이면 철도가 유리. 즉 60톤 초과 시 철도가 경제적이며, 정확히 60톤일 때 비용이 같다.",
       "relatedConcept": "운송비의 구조와 결정요인",
@@ -296,11 +308,138 @@
       "difficulty": 3,
       "topic": "비용구조 분석",
       "question": "A운송회사의 총 운행거리가 월 10,000km이고, 월 고정비 200만원, km당 변동비 500원일 때, 총 운행비용 중 변동비의 비율은?",
-      "options": ["A. 약 50%", "B. 약 55%", "C. 약 60%", "D. 약 71%", "E. 약 75%"],
+      "options": [
+        "A. 약 50%",
+        "B. 약 55%",
+        "C. 약 60%",
+        "D. 약 71%",
+        "E. 약 75%"
+      ],
       "answer": "D",
       "explanation": "변동비 = 500원 × 10,000km = 500만원. 총비용 = 고정비 200만원 + 변동비 500만원 = 700만원. 변동비 비율 = 500/700 × 100 ≈ 71.4%",
       "relatedConcept": "운송비의 구조와 결정요인",
       "examTip": "비용비율 계산은 단순하지만 실수하기 쉬움. 단위 통일(만원 vs 원)에 주의하고, 변동비율 = 변동비/총비용 × 100임을 기억"
+    },
+    {
+      "id": "q2-01-19",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운송보안",
+      "question": "미국의 컨테이너 보안 프로그램으로, 선적 24시간 전까지 미국세관에 적하목록을 제출해야 하는 제도는?",
+      "options": [
+        "A. C-TPAT",
+        "B. CSI",
+        "C. AEO",
+        "D. ISO 28000",
+        "E. ISPS Code"
+      ],
+      "answer": "B",
+      "explanation": "CSI(Container Security Initiative)는 선적 24시간 전까지 미국세관에 적하목록을 제출하도록 의무화한 컨테이너 보안 프로그램이다. C-TPAT는 반테러 민관 파트너십 제도, AEO는 수출입 안전관리 우수업체 공인제도이다.",
+      "relatedConcept": "운송보안과 물류보안",
+      "examTip": "CSI=24시간 전+적하목록, C-TPAT=민관 파트너십, AEO=세관 인증. 키워드로 구분"
+    },
+    {
+      "id": "q2-01-20",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 1,
+      "topic": "운송수요 특성",
+      "question": "운송수요는 본원적 수요(primary demand)의 성격을 가진다.",
+      "options": [],
+      "answer": "X",
+      "explanation": "운송수요는 재화와 서비스에 대한 파생적 수요(derived demand)의 성격을 가진다. 본원적 수요는 재화 자체에 대한 직접적인 수요를 의미하며, 운송은 재화의 이동을 위해 발생하는 간접적 수요이다.",
+      "relatedConcept": "운송의 개념과 기능",
+      "examTip": "운송수요=파생적 수요. '본원적 수요'라고 하면 반드시 오답"
+    },
+    {
+      "id": "q2-01-21",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "채트반 공식",
+      "question": "채트반 공식에서 화물자동차의 경제적 운송한계거리(L)를 구하는 공식으로 올바른 것은? (D: 톤당 추가비용, T: 트럭 tonkm당 운송비, R: 철도 tonkm당 운송비)",
+      "options": [
+        "A. L = D × (T - R)",
+        "B. L = D / (T - R)",
+        "C. L = (T - R) / D",
+        "D. L = D / (T + R)",
+        "E. L = D × (T + R)"
+      ],
+      "answer": "B",
+      "explanation": "채트반 공식: L(km) = D / (T - R). 여기서 D는 톤당 추가비용(상하차비, 포장비, 소운송비 등), T는 화물자동차 tonkm당 운송비, R은 철도 tonkm당 운송비이다. 전제조건은 T > R이다.",
+      "relatedConcept": "운송의 원칙",
+      "examTip": "채트반 공식: L = D/(T-R). 분자=추가비용, 분모=운임차이. 전제: T > R(트럭이 더 비쌈)"
+    },
+    {
+      "id": "q2-01-22",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "topic": "채트반 계산",
+      "question": "화물자동차 운송비가 톤·km당 500원, 철도 운송비가 톤·km당 200원이고, 철도 이용 시 톤당 추가비용(상하차비·포장비 등)이 90,000원일 때, 채트반 공식에 의한 분기점 거리는?",
+      "options": [
+        "A. 200km",
+        "B. 250km",
+        "C. 300km",
+        "D. 350km",
+        "E. 450km"
+      ],
+      "answer": "C",
+      "explanation": "채트반 공식 L = D/(T-R) = 90,000/(500-200) = 90,000/300 = 300km. 따라서 300km 미만은 화물자동차가, 300km 이상은 철도가 경제적이다.",
+      "relatedConcept": "운송의 원칙",
+      "examTip": "채트반 계산은 단순 나눗셈. 분모(T-R)의 단위와 분자(D)의 단위를 맞춰야 함"
+    },
+    {
+      "id": "q2-01-23",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운송시장 환경변화",
+      "question": "운송시장의 환경변화에 대한 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 다품종 소량화, 다빈도 수배송이 증가하고 있다",
+        "B. JIT 수배송으로의 전환이 이루어지고 있다",
+        "C. 모달시프트는 철도·해운에서 공로로의 전환을 의미한다",
+        "D. 친환경 규제가 강화되고 있다",
+        "E. 물류 아웃소싱(3PL)이 활성화되고 있다"
+      ],
+      "answer": "C",
+      "explanation": "모달시프트(Modal Shift)는 공로운송에서 철도·해운 등 대량운송수단으로의 전환을 의미한다. 환경오염 감소와 물류비 절감이 목적이다. C의 설명은 방향이 반대이므로 오답이다.",
+      "relatedConcept": "운송시장의 환경변화와 대응",
+      "examTip": "모달시프트 방향: 공로→철도/해운(친환경). 반대 방향으로 출제하면 무조건 오답"
+    },
+    {
+      "id": "q2-01-24",
+      "type": "concept",
+      "format": "ox",
+      "difficulty": 2,
+      "topic": "C-TPAT",
+      "question": "C-TPAT(Customs-Trade Partnership Against Terrorism)는 반테러 민관 파트너십 제도로, 참여기업에게 통관 편의를 제공한다.",
+      "options": [],
+      "answer": "O",
+      "explanation": "C-TPAT는 미국 세관이 운영하는 반테러 민관 협력 프로그램으로, 보안기준을 충족하는 참여기업에 통관절차 간소화, 검사 우선순위 하향 등의 편의를 제공한다.",
+      "relatedConcept": "운송보안과 물류보안",
+      "examTip": "C-TPAT=민관 파트너십+통관편의. CSI와 구분: CSI=적하목록 제출 의무"
+    },
+    {
+      "id": "q2-01-25",
+      "type": "exam",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "topic": "운송 용어 심화",
+      "question": "다음 중 운송 용어의 설명으로 옳지 않은 것은?",
+      "options": [
+        "A. 수송: 물류거점 간 장거리 운송, 대형차량 이용",
+        "B. 배송: 물류거점에서 최종목적지까지, 소형차량 이용",
+        "C. 복화운송: 귀로 시에도 화물을 적재하여 운송",
+        "D. 영차율: 총운송량 ÷ 평균적재량",
+        "E. 적재율: 실제적재량 ÷ 차량의 적재적량"
+      ],
+      "answer": "D",
+      "explanation": "영차율 = 영차운행거리 ÷ 총운행거리이다. D의 '총운송량 ÷ 평균적재량'은 회전율의 공식이다. 영차율과 회전율의 공식을 혼동하지 않도록 주의해야 한다.",
+      "relatedConcept": "운송의 개념과 기능",
+      "examTip": "영차율=영차거리/총거리, 회전율=총운송량/평균적재량. 두 공식 혼동 주의"
     }
   ]
 }
