@@ -1,0 +1,18 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="40" fill="url(#paint0_linear)"/>
+  
+  <g opacity="1.0">
+    <ellipse cx="96" cy="48" rx="48" ry="18" stroke="#F6D65C" stroke-width="3"/>
+    <path d="M48 48V144C48 153.941 69.4903 162 96 162C122.51 162 144 153.941 144 144V48" stroke="#F6D65C" stroke-width="3"/>
+    <path d="M48 114C48 123.941 69.4903 132 96 132C122.51 132 144 123.941 144 114" stroke="#F6D65C" stroke-width="3"/>
+  </g>
+  
+  <text x="96" y="115" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">SQLD</text>
+  
+  <defs>
+    <linearGradient id="paint0_linear" x1="96" y1="0" x2="96" y2="192" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEB3B"/>
+      <stop offset="1" stop-color="#FFC107"/>
+    </linearGradient>
+  </defs>
+</svg>
