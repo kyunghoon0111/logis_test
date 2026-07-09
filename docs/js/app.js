@@ -45,6 +45,81 @@ function toast(msg) {
   clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 1800);
 }
 
+/* ---------- 지문 블록(표 · 박스) ---------- */
+function tableHTML(t) {
+  let h = '<div class="qtable-wrap"><table class="qtable">';
+  t.rows.forEach((row, ri) => {
+    h += '<tr>';
+    row.forEach((c) => {
+      const tag = ri === 0 ? 'th' : 'td';
+      const span = `${c.cs ? ` colspan="${c.cs}"` : ''}${c.rs ? ` rowspan="${c.rs}"` : ''}`;
+      h += `<${tag}${span}>${esc(c.t)}</${tag}>`;
+    });
+    h += '</tr>';
+  });
+  return `${h}</table></div>`;
+}
+
+function boxHTML(b) {
+  return `<div class="qbox">${b.lines.map((l) => `<span>${esc(l)}</span>`).join('')}</div>`;
+}
+
+function blocksHTML(q) {
+  return (q.blocks || []).map((b) => (b.type === 'table' ? tableHTML(b) : boxHTML(b))).join('');
+}
+
+/* 선지. reveal이면 정답/오답을 칠하고, interactive면 클릭 가능한 버튼으로 만든다. */
+function optionsHTML(q, { picked = null, reveal = false, interactive = false } = {}) {
+  const acc = acceptOf(q);
+  const tag = interactive ? 'button' : 'div';
+  const cells = q.optionCells;
+  let html = cells && q.optionHeader
+    ? `<div class="opt-head"><span class="lbl"></span>${q.optionHeader.map((h) => `<span>${esc(h)}</span>`).join('')}</div>`
+    : '';
+  q.options.forEach((opt, i) => {
+    const n = i + 1;
+    let cls = '';
+    if (reveal) {
+      if (acc.includes(n)) cls = 'correct';
+      else if (picked === n) cls = 'wrong';
+    } else if (picked === n) cls = 'selected';
+    const body = cells
+      ? cells[i].map((c) => `<span class="oc">${esc(c)}</span>`).join('')
+      : `<span>${esc(opt)}</span>`;
+    html += `<${tag} class="option ${cls}${cells ? ' cells' : ''}"${interactive ? ` data-opt="${n}"` : ''}>`
+      + `<span class="lbl">${CIRCLED[i]}</span>${body}</${tag}>`;
+  });
+  return html;
+}
+
+/* 해설 카드 */
+function explainHTML(q) {
+  if (!q.explanation) {
+    const acc = acceptOf(q).map((n) => CIRCLED[n - 1]).join(', ');
+    return `<div class="explain empty">이 문제의 해설은 준비 중입니다. (정답: ${acc})</div>`;
+  }
+  return `<div class="explain">
+      <div class="hd">📘 해설</div>
+      <p>${esc(q.explanation)}</p>
+      ${q.examTip ? `<div class="tip">💡 ${esc(q.examTip)}</div>` : ''}
+      ${q.relatedTopic ? `<div class="rel">관련 주제: <b>${esc(q.relatedTopic)}</b></div>` : ''}
+    </div>`;
+}
+
+/* 연습 모드에서 답을 고른 직후 보여주는 정오답 + 해설 */
+function feedbackHTML(q, picked) {
+  const ok = isCorrect(q, picked);
+  const acc = acceptOf(q).map((n) => CIRCLED[n - 1]).join(', ');
+  return `<div class="feedback ${ok ? 'ok' : 'no'}">
+      <div class="verdict-row">
+        <span class="mark">${ok ? '✓' : '✗'}</span>
+        <b>${ok ? '정답입니다' : '오답입니다'}</b>
+        <span class="ans">정답 ${acc}${ok ? '' : ` · 내 답 ${CIRCLED[picked - 1]}`}</span>
+      </div>
+      ${explainHTML(q)}
+    </div>`;
+}
+
 function exam(round) { return App.data.exams.find((e) => e.round === round); }
 
 // 시험 세트 구성: 문제 배열 flatten
@@ -128,7 +203,7 @@ function renderHome(app) {
 
   let html = `
     <div class="hero">
-      <h1>물류관리사 5개년 기출</h1>
+      <h1>물류관리사 ${App.data.exams.length}개년 기출</h1>
       <p>실제 시험처럼 풀고 · 채점받고 · 해설로 복습하세요</p>
       <div class="stat-row">
         <div class="stat"><b>${App.data.exams.length}</b><span>회차</span></div>
@@ -181,6 +256,7 @@ function renderConfig(app) {
   App.view.params.mode = App.view.params.mode || 'full';
   App.view.params.si = App.view.params.si ?? 0;
   App.view.params.timer = App.view.params.timer ?? false;
+  App.view.params.practice = App.view.params.practice ?? true;
   const p = App.view.params;
 
   app.appendChild(topbar('', { back: true, backLabel: '홈' }));
@@ -211,6 +287,21 @@ function renderConfig(app) {
     html += `</div>`;
   }
 
+  const grades = [
+    ['practice', '연습 모드', '답을 고르면 바로 정답과 해설', '<path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>'],
+    ['exam', '실전 모드', '다 풀고 제출해야 채점', '<circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/>'],
+  ];
+  html += `<div class="section-label">채점 방식</div><div class="mode-list">`;
+  grades.forEach(([id, t, d, icon]) => {
+    const on = (id === 'practice') === !!p.practice;
+    html += `
+      <button class="mode-opt ${on ? 'active' : ''}" data-grade="${id}">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${icon}</svg></span>
+        <span class="t"><b>${t}</b><span>${d}</span></span>
+      </button>`;
+  });
+  html += `</div>`;
+
   html += `
     <div class="card" style="margin-top:20px;display:flex;align-items:center;justify-content:space-between">
       <div><b>시험 타이머</b><div style="font-size:13px;color:var(--text-dim)">경과 시간 표시</div></div>
@@ -222,10 +313,10 @@ function renderConfig(app) {
 }
 
 /* ---------- 시험 시작 ---------- */
-function startExam(round, mode, si, timer) {
+function startExam(round, mode, si, timer, practice) {
   const qs = buildQuestions(round, mode, si);
   App.state.session = {
-    round, mode, si, timer: !!timer,
+    round, mode, si, timer: !!timer, practice: !!practice,
     order: qs.map((q) => ({ round: q.round, si: q.si, no: q.no })),
     answers: new Array(qs.length).fill(null),
     flags: new Array(qs.length).fill(false),
@@ -273,16 +364,13 @@ function renderQuiz(app) {
   const body = document.createElement('div');
   body.className = 'quiz-body fade-in';
   const sel = ss.answers[idx];
-  let opts = '';
-  q.options.forEach((opt, i) => {
-    const n = i + 1;
-    opts += `<button class="option ${sel === n ? 'selected' : ''}" data-opt="${n}">
-      <span class="lbl">${CIRCLED[i]}</span><span>${esc(opt)}</span></button>`;
-  });
+  const reveal = !!ss.practice && sel != null;   // 연습 모드: 답을 고르면 바로 채점
   body.innerHTML = `
     <div class="q-num">문제 ${q.no}</div>
     <div class="q-text">${esc(q.q)}</div>
-    <div class="options">${opts}</div>`;
+    ${blocksHTML(q)}
+    <div class="options">${optionsHTML(q, { picked: sel, reveal, interactive: !reveal })}</div>
+    ${reveal ? feedbackHTML(q, sel) : ''}`;
   app.appendChild(body);
 
   const nav = document.createElement('div');
@@ -388,7 +476,7 @@ function submitExam() {
   App.state.wrong = App.state.wrong.filter((w) => !correctKeys.has(keyOf(w.round, w.si, w.no)));
 
   const record = {
-    round: ss.round, mode: ss.mode, si: ss.si,
+    round: ss.round, mode: ss.mode, si: ss.si, practice: !!ss.practice,
     scores, avg, pass, isFull, totalCorrect, total: ss.order.length,
     elapsed: el, date: Date.now(),
     // 리뷰용 스냅샷
@@ -497,15 +585,7 @@ function renderReview(app) {
   items.forEach((it) => {
     const { q, picked } = it;
     const bm = App.state.bookmarks.some((b) => keyOf(b.round, b.si, b.no) === keyOf(it.round, it.si, q.no));
-    const acc = acceptOf(q);
-    let opts = '';
-    q.options.forEach((opt, i) => {
-      const n = i + 1;
-      let cls = '';
-      if (acc.includes(n)) cls = 'correct';
-      else if (picked === n) cls = 'wrong';
-      opts += `<div class="option ${cls}"><span class="lbl">${CIRCLED[i]}</span><span>${esc(opt)}</span></div>`;
-    });
+    const opts = optionsHTML(q, { picked, reveal: true });
     const ok = isCorrect(q, picked);
     const correctTxt = picked == null ? '' : (ok ? '✓ 정답' : `✗ 내 답: ${CIRCLED[picked - 1] || '-'}`);
     body += `
@@ -520,15 +600,9 @@ function renderReview(app) {
           </span>
         </div>
         <div class="q-text" style="font-size:17px;margin-bottom:16px">${esc(q.q)}</div>
+        ${blocksHTML(q)}
         <div class="options">${opts}</div>
-        ${q.explanation
-          ? `<div class="explain">
-              <div class="hd">📘 해설</div>
-              <p>${esc(q.explanation)}</p>
-              ${q.examTip ? `<div class="tip">💡 ${esc(q.examTip)}</div>` : ''}
-              ${q.relatedTopic ? `<div class="rel">관련 주제: <b>${esc(q.relatedTopic)}</b></div>` : ''}
-            </div>`
-          : `<div class="explain empty">이 문제의 해설은 준비 중입니다. (정답: ${acc.map((n) => CIRCLED[n - 1]).join(', ')})</div>`}
+        ${explainHTML(q)}
       </div>`;
   });
   if (!items.length) body = `<div class="empty-state">표시할 문제가 없습니다.</div>`;
@@ -611,7 +685,7 @@ function startWrongExam() {
   const list = App.state.wrong.slice();
   if (!list.length) return toast('오답이 없습니다');
   App.state.session = {
-    round: list[0].round, mode: 'wrong', si: 0, timer: false,
+    round: list[0].round, mode: 'wrong', si: 0, timer: false, practice: true,
     order: list.map((w) => ({ round: w.round, si: w.si, no: w.no })),
     answers: new Array(list.length).fill(null),
     flags: new Array(list.length).fill(false),
@@ -651,10 +725,12 @@ document.addEventListener('click', (e) => {
   if (v.name === 'config') {
     const md = t.closest('[data-mode]')?.dataset.mode;
     if (md) { v.params.mode = md; render(); return; }
+    const gd = t.closest('[data-grade]')?.dataset.grade;
+    if (gd) { v.params.practice = gd === 'practice'; render(); return; }
     const si = t.closest('[data-si]')?.dataset.si;
     if (si != null) { v.params.si = +si; render(); return; }
     if (act === 'toggle-timer') { v.params.timer = !v.params.timer; render(); return; }
-    if (act === 'start') { startExam(v.params.round, v.params.mode, v.params.si, v.params.timer); return; }
+    if (act === 'start') { startExam(v.params.round, v.params.mode, v.params.si, v.params.timer, v.params.practice); return; }
   }
 
   // quiz
@@ -662,9 +738,10 @@ document.addEventListener('click', (e) => {
     const ss = App.state.session;
     const opt = t.closest('[data-opt]');
     if (opt) {
+      if (ss.practice && ss.answers[ss.index] != null) return;  // 채점 후에는 답을 못 바꾼다
       ss.answers[ss.index] = +opt.dataset.opt; saveState();
-      // 자동 다음 (마지막 아니면)
-      if (ss.index < ss.order.length - 1) { setTimeout(() => { ss.index++; render(); }, 180); }
+      // 연습 모드는 해설을 읽어야 하므로 자동으로 넘기지 않는다
+      if (!ss.practice && ss.index < ss.order.length - 1) { setTimeout(() => { ss.index++; render(); }, 180); }
       else render();
       return;
     }
@@ -686,7 +763,7 @@ document.addEventListener('click', (e) => {
   if (v.name === 'result') {
     const rec = v.params.rec || App.state.history[0];
     if (act === 'review') { go('review', { rec, title: `제${rec.round}회 해설` }); return; }
-    if (act === 'retry') { rec.mode === 'wrong' ? startWrongExam() : startExam(rec.round, rec.mode, rec.si, false); return; }
+    if (act === 'retry') { rec.mode === 'wrong' ? startWrongExam() : startExam(rec.round, rec.mode, rec.si, false, rec.practice); return; }
     if (act === 'home') { go('home'); return; }
   }
 

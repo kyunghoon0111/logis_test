@@ -184,6 +184,45 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .option.wrong { border-color: var(--danger); background: var(--danger-bg); }
 .option.wrong .lbl { background: var(--danger); color: #fff; }
 
+/* 지문 속 표 · 박스 (실제 시험지 양식) */
+.qbox {
+  border: 1.5px solid var(--text-mute); border-radius: 6px;
+  padding: 14px 16px; margin: 0 0 20px; background: var(--surface);
+  display: flex; flex-direction: column; gap: 5px;
+  font-size: 15.5px; line-height: 1.62; word-break: keep-all;
+}
+.qtable-wrap { margin: 0 0 20px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.qtable {
+  border-collapse: collapse; width: 100%; min-width: max-content;
+  font-size: 14.5px; line-height: 1.5; background: var(--surface);
+}
+.qtable th, .qtable td {
+  border: 1px solid var(--text-mute); padding: 8px 10px;
+  text-align: center; vertical-align: middle; word-break: keep-all;
+}
+.qtable th { background: var(--surface-2); font-weight: 700; }
+
+/* 선지 자체가 표인 문제 */
+.opt-head {
+  display: grid; grid-template-columns: 28px 1fr 1.6fr; gap: 13px;
+  padding: 0 16px 6px; font-size: 13px; font-weight: 700; color: var(--text-dim);
+}
+.opt-head span { text-align: center; }
+.option.cells { display: grid; grid-template-columns: 28px 1fr 1.6fr; gap: 13px; align-items: center; }
+.option.cells .oc { font-size: 15px; line-height: 1.5; }
+.option.cells .oc:first-of-type { font-weight: 700; }
+
+/* 연습 모드: 답을 고른 직후의 정오답 표시 */
+.feedback { margin-top: 18px; }
+.feedback .verdict-row {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  padding: 12px 14px; border-radius: 12px; font-size: 15px;
+}
+.feedback.ok .verdict-row { background: var(--success-bg); color: var(--success); }
+.feedback.no .verdict-row { background: var(--danger-bg); color: var(--danger); }
+.feedback .mark { font-size: 19px; font-weight: 800; }
+.feedback .ans { margin-left: auto; font-size: 13.5px; font-weight: 700; color: var(--text-dim); }
+
 /* 리뷰용 해설 박스 */
 .explain {
   margin-top: 16px; background: var(--surface-2); border-radius: 14px; padding: 16px 17px;
