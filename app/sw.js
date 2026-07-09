@@ -1,5 +1,5 @@
 /* 물류관리사 기출 앱 서비스워커 */
-const CACHE = 'mlq-v4';
+const CACHE = 'mlq-v5';
 const ASSETS = [
   './',
   './index.html',
